@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d5d166d.css",
+    "main.js": "/static/js/main.cdde09e2.js",
+    "static/js/787.db030c7e.chunk.js": "/static/js/787.db030c7e.chunk.js",
+    "static/media/service2.jpg": "/static/media/service2.7059c176ecfd79d13083.jpg",
+    "static/media/about1.jpg": "/static/media/about1.995bf075949a1d0333b0.jpg",
+    "static/media/service1.jpg": "/static/media/service1.a642444346c62235c520.jpg",
+    "static/media/s5.jpg": "/static/media/s5.f786d1dc776049b6390e.jpg",
+    "static/media/s6.jpg": "/static/media/s6.79996e4b3c751844d495.jpg",
+    "static/media/s8.png": "/static/media/s8.f027e0f54d6734df8b4d.png",
+    "static/media/s3.jpg": "/static/media/s3.78d2581d4966aaa686cc.jpg",
+    "static/media/s1.png": "/static/media/s1.e4348ebf5a883020f1a3.png",
+    "static/media/s7.png": "/static/media/s7.40a08add0abd60bc9183.png",
+    "static/media/s4.jpg": "/static/media/s4.ade5eab147da61916923.jpg",
+    "static/media/service3.jpg": "/static/media/service3.d44578c287bc250778f9.jpg",
+    "static/media/culture.jpg": "/static/media/culture.19e7e3f37a40f1e498c2.jpg",
+    "static/media/s9.png": "/static/media/s9.597350f3c048c139f73f.png",
+    "static/media/s2.jpg": "/static/media/s2.9ed1622c1f0996be43cc.jpg",
+    "static/media/1.jpg": "/static/media/1.22a59cac382b7bd52a03.jpg",
+    "static/media/logo3.png": "/static/media/logo3.e3ca26c67815b4c1d298.png",
+    "static/media/t1.png": "/static/media/t1.bf1a8d902e22c5e66351.png",
+    "static/media/logo1.png": "/static/media/logo1.49e6c76a5c39ede0c178.png",
+    "static/media/t2.jpg": "/static/media/t2.0df1a004f7de74a18cd8.jpg",
+    "static/media/t3.jpg": "/static/media/t3.2dfb688a225765102a3c.jpg",
+    "index.html": "/index.html",
+    "main.6d5d166d.css.map": "/static/css/main.6d5d166d.css.map",
+    "main.cdde09e2.js.map": "/static/js/main.cdde09e2.js.map",
+    "787.db030c7e.chunk.js.map": "/static/js/787.db030c7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d5d166d.css",
+    "static/js/main.cdde09e2.js"
+  ]
+}
