@@ -40,9 +40,6 @@ const Works = [
         detail:'It is an online accessories shopping website.',
         Image:require('../images/fashionphile.png'),
     },
-   
-   
-  
     {
         name:'glamsquad',
         language:'Next js',
@@ -69,13 +66,6 @@ const Works = [
         detail:'It is the premier virtual destination for greyhound racing in metaverse.',
         Image:require('../images/alphaDog.png'),
     },
-   
-    
-    
-   
-   
-   
-
-]
+ ]
 
 export default Works
