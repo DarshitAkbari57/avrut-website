@@ -21,7 +21,7 @@ function    Service() {
                             </div>
                             <div className="flex-grow">
                                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">Designing</h2>
-                                <p className="leading-relaxed text-base dark:text-white">Avrut technology is being the choice of many now as they provide a complete package and also affordable price with well designed, responsive, interactive, customized and mobile friendly website.</p>
+                                <p className="leading-relaxed text-base dark:text-white">Avrut Solutions is being the choice of many now as we provide a complete package and also affordable price with well designed, responsive, interactive, customized and user friendly website.</p>
                             </div>
                         </div>
                         <div className="p-4 md:w-1/3 flex flex-col  text-center items-center animation" data-aos="flip-down">
@@ -30,7 +30,7 @@ function    Service() {
                             </div>
                             <div className="flex-grow">
                                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white">Development</h2>
-                                <p className="leading-relaxed text-base dark:text-white">Avrut technology is being the choice of many now as they provide a complete package and also affordable price with well designed, responsive, interactive, customized and mobile friendly website.</p>
+                                <p className="leading-relaxed text-base dark:text-white">With the escalation of smartphones the best deal would be to bring your business online on smartphones and for this Avrut Solutions help you to create user friendly, accessible and secure Website and/or Mobile Apps.</p>
                             </div>
                         </div>
                         <div className="p-4 md:w-1/3 flex flex-col  text-center items-center animation" data-aos="flip-down">
@@ -39,7 +39,7 @@ function    Service() {
                             </div>
                             <div className="flex-grow">
                                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white ">Branding</h2>
-                                <p className="leading-relaxed text-base dark:text-white">Avrut technology brings a fresh perspective that helps to grow business by branding which is a way of identifying your business.In today's time where everyone is going with digital for promoting or branding.we don't just create strategies but also measure the performance as well..</p>
+                                <p className="leading-relaxed text-base dark:text-white">Avrut technology brings a fresh perspective that helps you to grow business by branding which is a way of identifying your business.In today's time where everyone is going with digital for promoting or branding. we don't just create strategies but also measure the performance as well.</p>
 
                             </div>
                         </div>

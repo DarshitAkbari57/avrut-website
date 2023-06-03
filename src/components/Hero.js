@@ -20,7 +20,7 @@ function Hero() {
                 <div className="px-5 sm:px-5 md:px-10 lg:px-10 xl:px-10 2xl:px-10 animation" data-aos="fade-up">
                     <div className="flex flex-col lg:text-start text-center w-full mt-10 sm:mt-20 lg:ml-3 ">
                         <h2 className="text-xl font-semibold text-black tracking-widest title-font mb-1 lg:ml-1 dark:text-white">ABOUT</h2>
-                        <h1 className="text-lg     mb-4 text-black dark:text-white">We Are Bunch Of Creative Professional Nerds We We've Been Helping Companies Make Or Save Money With Their Products By Providing Visions Technical Solution With Innovative Design And Devlopment</h1>
+                        <h1 className="text-lg     mb-4 text-black dark:text-white">We Are Bunch Of Creative Professional Nerds. We've Been Helping Companies Make Or Save Money With Their Products By Providing Visions And Technical Solution With Innovative Design And Devlopment.</h1>
                     </div>
                 </div>
 
@@ -63,8 +63,8 @@ function Hero() {
                     <h2 className="text-2xl font-semibold py-4 text-black dark:text-white">Tech specialization</h2>
                     <p className="text-lg  mb-4 text-gray-900 dark:text-white">
                         We Will Be The Next Moonshot Of Your Project Or We Are Building Next Generation
-                        Products Platform & Experience  In The Below Technologies And Frameworks & Platform
-                        React, Node, Amazon web Services ...</p>
+                        Products With Below Platform & Experience.  In The Below Technologies And Frameworks & Platform
+                        React, Node, Amazon Web Services ...</p>
                 </div>
             </div>
         </>

@@ -2,8 +2,6 @@ import React from 'react'
 
 function Client() {
 
-    console.log("test");
-
     return (
         <div>
             <section className="text-black body-font  overflow-x-hidden">
