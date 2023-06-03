@@ -23,7 +23,7 @@ function Culture() {
                     <div className='lg:text-7xl text-base font-bold  leading-tight'>Approach <br />
                         The Unknown</div>
                     <p className='lg:mt-20  sm:text-base'>
-                        Avrut technology is one of the reckoned Web & Software  <br /> Development Company in Surat. Rapidly changing <br /> business state of affairs and latest technologies being <br />  introduced day by day,always raises the requirement for <br /> change in development which suits the client requirement <br /> and also alter the existing software’s to match the latest <br /> technology by not changing the methodologies defined for <br /> good software.
+                        Avrut solution is one of the reckoned Web & Software  <br /> Development Company in Surat. Rapidly changing <br /> business state of affairs and latest technologies being <br />  introduced day by day,always raises the requirement for <br /> change in development which suits the client requirement <br /> and also alter the existing software’s to match the latest <br /> technology by not changing the methodologies defined for <br /> good software.
                     </p>
                     <div className=''>
                             <button onClick={handelclick} className='p-2 px-4 mt-5 rounded-full bg-transparent border-2 border-black dark:border-white dark:text-white text-black hover:bg-black hover:text-white'>About Us

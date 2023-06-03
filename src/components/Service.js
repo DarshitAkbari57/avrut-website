@@ -39,7 +39,7 @@ function    Service() {
                             </div>
                             <div className="flex-grow">
                                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3 dark:text-white ">Branding</h2>
-                                <p className="leading-relaxed text-base dark:text-white">Avrut technology brings a fresh perspective that helps you to grow business by branding which is a way of identifying your business.In today's time where everyone is going with digital for promoting or branding. we don't just create strategies but also measure the performance as well.</p>
+                                <p className="leading-relaxed text-base dark:text-white">Avrut solution brings a fresh perspective that helps you to grow business by branding which is a way of identifying your business.In today's time where everyone is going with digital for promoting or branding. we don't just create strategies but also measure the performance as well.</p>
 
                             </div>
                         </div>

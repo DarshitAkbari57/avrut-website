@@ -104,7 +104,7 @@ function Service1() {
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-feather size-md str-width-md text-accent"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>
                             </div>
                             <h1 class="text-3xl title-font font-medium my-4">Branding</h1>
-                            <p class="leading-relaxed">Avrut technology brings a fresh perspective that helps you to grow business by branding which is a way of identifying your business.In today's time where everyone is going with digital for promoting or branding. we don't just create strategies but also measure the performance as well.</p>
+                            <p class="leading-relaxed">Avrut solution brings a fresh perspective that helps you to grow business by branding which is a way of identifying your business.In today's time where everyone is going with digital for promoting or branding. we don't just create strategies but also measure the performance as well.</p>
                             <div className='mt-5 flex'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check size-2xs str-width-lg text-accent mr-3"><polyline points="20 6 9 17 4 12"></polyline></svg>
                                 <h3>Social Media Posts</h3>

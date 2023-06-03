@@ -95,7 +95,7 @@ function Footer() {
                     <div className="container  py-6 mx-auto flex items-center sm:flex-row flex-col" >
 
                         <p className="text-sm text-gray-500 mt-4 dark:text-white">© 2023 —
-                            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1 dark:text-white" target="_blank">@Avrut technology</a>
+                            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1 dark:text-white" target="_blank">@Avrut solution</a>
                         </p>
 
                     </div>
