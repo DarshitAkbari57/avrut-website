@@ -35,7 +35,7 @@ function Slider() {
 
 
                 <SwiperSlide>
-                    <div className="lg:flex items-center dark:bg-black animation top-0" data-aos="fade-up">
+                    <div className="flex items-center dark:bg-black animation top-0" data-aos="fade-up">
                         <div className=' dark:text-white animation z-10 flex items-center  animate__animated animate__fadeInUp  animate_delay-4s absolute left-[0%] lg:left-[15%] xl:left-[10%] 2xl:left-[20%] 2xl:text-start xl:text-start justify-self-center lg:text-start  md:text-center sm:text-center text-center w-[100%] sm:w-[100%] md:w-[100%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%]' data-aos="fade-up">
                             <div className=''>
                                 <div className='lg:text-7xl text-2xl font-semibold leading-tight '>Grow Your Products Through Innovation And Creativity.</div>
