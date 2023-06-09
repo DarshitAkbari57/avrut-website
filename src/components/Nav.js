@@ -43,7 +43,7 @@ function Nav() {
     return (
         <>
             {/* Page Container */}
-            <div id="page-container" className="flex flex-colsticky top-0 z-10 w-full  bg-black">
+            <div id="page-container" className="flex flex-col fixed top-0 z-10 w-full ">
                 {/* Page Header */}
                 <header id="page-header" className="flex flex-none items-center z-20  w-full h-20 ">
                     <div className="w-full px-2 sm:px-5 md:px-10 lg:px-10 xl:px-10 2xl:px-10" >
@@ -52,7 +52,7 @@ function Nav() {
                             <div className="flex items-center justify-between">
                                 {/* Logo */}
                                 <Link to='/'>
-                                    <a href="#" className="group inline-flex items-center font-bold text-lg tracking-wide text-gray-700 active:text-gray-700 no-underline " onClick={hswitch}>
+                                    <a  className="group inline-flex items-center font-bold text-lg tracking-wide text-gray-700 active:text-gray-700 no-underline " onClick={hswitch}>
                                         <span>
                                             {logo ?
                                                 <img src={require('../images/logo3.png')} alt="" width='90px' className='mx-3' />
@@ -69,13 +69,13 @@ function Nav() {
                             <div className="flex items-center space-x-1 lg:space-x-5">
 
                                 {/* Toggle Mobile Navigation */}
-                                <div className="dark:text-white text-black">
+                                <div className="dark:text-white text-black  ">
                                     <button
                                         type="button"
-                                        className="inline-flex justify-center items-center space-x-2 font-semibold focus:outline-none px-3 py-2 leading-6 rounded"
+                                        className="inline-flex justify-center bg-black items-center space-x-2 font-semibold focus:outline-none px-2 py-1 leading-6 rounded"
                                         onClick={() => setMobileNavOpen(!mobileNavOpen)}
                                     >
-                                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" className="hi-solid hi-menu inline-block w-7  h-7 text-black dark:text-white"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" /></svg>
+                                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" className="hi-solid hi-menu inline-block w-7  h-7 text-black mix-blend-difference dark:text-white"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" /></svg>
                                     </button>
                                     {/* <button className='text-3xl  text-black dark:text-white' onClick={hswitch}>
                                         {icon ? <MdLightMode  /> : <MdDarkMode />}
@@ -116,32 +116,32 @@ function Nav() {
                                     <h1 className='mb-5 font-bold text-2xl'>Site map</h1>
 
                                         <Link to='/'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
+                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
                                                 <span>Home</span>
                                             </a>
                                         </Link>
                                         <Link to='/about'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>About</span>
                                             </a>
                                         </Link>
                                         <Link to='/service'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>Services</span>
                                             </a>
                                         </Link>
                                         <Link to='/portfolio'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
+                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
                                                 <span>Portfolio</span>
                                             </a>
                                         </Link>
                                         <Link to='/careear'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
+                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
                                                 <span>Career</span>
                                             </a>
                                         </Link>
                                         <Link to='/getintouch'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>Get in touch</span>
                                             </a>
                                         </Link>
@@ -151,38 +151,26 @@ function Nav() {
 
                                         <h1 className='mb-5 font-bold text-2xl'>Our Services</h1>
 
-                                        <Link to='/service'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>Web Development</span>
-                                            </a>
-                                        </Link>
+                                            </div>
 
-                                        <Link to='/'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
+                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
                                                 <span>Android App Development</span>
-                                            </a>
-                                        </Link>
-                                        <Link to='/about'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            </div>
+                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>Ios App Development</span>
-                                            </a>
-                                        </Link>
+                                            </div>
 
-                                        <Link to='/portfolio'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
+                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
                                                 <span>Unity Game Development</span>
-                                            </a>
-                                        </Link>
-                                        <Link to='/careear'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
+                                            </div>
+                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
                                                 <span>UI/UX Design</span>
-                                            </a>
-                                        </Link>
-                                        <Link to='/getintouch'>
-                                            <a href="#" onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            </div>
+                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>SEO / ASO</span>
-                                            </a>
-                                        </Link>
+                                            </div>
                                     </div>
 
 

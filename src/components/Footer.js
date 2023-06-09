@@ -92,10 +92,9 @@ function Footer() {
 
 
                 <div className="bg-gray-100 dark:text-white dark:bg-black">
-                    <div className="container  py-6 mx-auto flex items-center sm:flex-row flex-col" >
-
+                    <div className="container justify-center py-6 mx-auto flex items-center sm:flex-row flex-col" >
                         <p className="text-sm text-gray-500 mt-4 dark:text-white">© 2023 —
-                            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1 dark:text-white" target="_blank">@Avrut solution</a>
+                            <a className="text-center text-white" target="_blank">@Avrut solution</a>
                         </p>
 
                     </div>

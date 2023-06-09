@@ -49,13 +49,13 @@ function Sample() {
                                 return (
                                     <>
                                         <div className="p-4  sm:mb-0 mb-6 animation" >
-                                            <a href="#" className="h-72   ease-in-out duration-300 block group relative mx-2 overflow-hidden shadow-lg rounded-lg">
+                                            <a  className="h-72   ease-in-out duration-300 block group relative mx-2 overflow-hidden shadow-lg rounded-lg">
                                                 <img src={e.Image} className="absolute z-0  w-full h-full" />
                                                 <div className="absolute gradient transition duration-300 group-hover:bg-black group-hover:opacity-70 w-full h-72 md:h-96 z-100"></div>
                                                 <div className="absolute  right-96 bottom-0 top-0 p-6 z-30  transition duration-300 h-full group-hover:translate-y-0 group-hover:left-0 delay-200">
                                                     <div className="h-1/2 w-80">
                                                         <h2 className="font-bold text-white  transition capitalize duration-300 text-xl">{e.name}</h2>
-                                                        <p className="text-white pb-4 opacity-0 transition duration-300 group-hover:opacity-100 capitalize">{e.detail}</p>
+                                                        <p className="text-white pb-4 opacity-0 transition duration-300 group-hover:opacity-100 capitalize w-[90%]">{e.detail}</p>
                                                         {/* <h4 className='text-md font-semibold'>{e.language}</h4> */}
                                                     </div>
                                                 </div>

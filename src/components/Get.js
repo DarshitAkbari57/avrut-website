@@ -4,7 +4,7 @@ function Get() {
     return (
         <>
 
-            <div className='px-5 sm:px-5 md:px-10 lg:px-10 xl:px-10 2xl:px-10  py-3 text-black dark:text-white mt-3'>
+            <div className='px-5 sm:px-5 md:px-10 lg:px-10 xl:px-20 2xl:px-10  py-3 text-black dark:text-white mt-20'>
 
                 <h3 className='text-start'>HIRE US</h3>
                 <h1 className='lg:text-6xl text-4xl   text-start'>Got a project to discuss? Get in touch.</h1>
