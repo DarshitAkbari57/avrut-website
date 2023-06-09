@@ -149,19 +149,16 @@ function Nav() {
 
                                     <div className='mt-10 justify-self-center lg:justify-self-start xl:justify-self-start 2xl:justify-self-start '> 
 
-                                        <h1 className='mb-5 font-bold text-2xl'>Our Services</h1>
-
-                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                        <h1 className='mb-5 font-bold text-2xl'>Our Services</h1>             
+00                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>Web Development</span>
                                             </div>
-
                                             <div  className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
                                                 <span>Android App Development</span>
                                             </div>
                                             <div  className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>Ios App Development</span>
                                             </div>
-
                                             <div  className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
                                                 <span>Unity Game Development</span>
                                             </div>
@@ -172,8 +169,6 @@ function Nav() {
                                                 <span>SEO / ASO</span>
                                             </div>
                                     </div>
-
-
 
                                     <div className='mt-10  justify-self-center lg:justify-self-start xl:justify-self-start 2xl:justify-self-start text-black dark:text-white'>
                                         <h3 className='font-semibold text-2xl'>Address</h3>
@@ -186,16 +181,13 @@ function Nav() {
                                             <BsDribbble className='text-white lg:mx-3 mx-2' />
                                         </div>
                                     </div>
-
                                 </div>
-
                             </nav>
                         </div>
                         {/* END Mobile Navigation */}
                     </div>
                 </header>
             </div>
-
         </>
     )
 }
