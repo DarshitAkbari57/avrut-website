@@ -29,8 +29,8 @@ function Get() {
                     <h3 className='font-semibold text-2xl'>Drop us a line</h3>
                     <div className='leading-10'>Use the form below or send us an email.</div>
                 </div>
-                <div class="flex items-center justify-center">
-                    <div class="mx-auto w-full">
+                <div class="flex items-center">
+                    <div class="w-full  lg:w-[50%] xl:w-[50%] 2xl:w-[50%]">
                         <form action="https://formbold.com/s/FORM_ID" method="POST">
                             <div class="mb-5">
                                 <label

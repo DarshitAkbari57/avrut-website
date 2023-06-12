@@ -52,7 +52,7 @@ function Nav() {
                             <div className="flex items-center justify-between">
                                 {/* Logo */}
                                 <Link to='/'>
-                                    <a  className="group inline-flex items-center font-bold text-lg tracking-wide text-gray-700 active:text-gray-700 no-underline " onClick={hswitch}>
+                                    <a className="group inline-flex items-center font-bold text-lg tracking-wide text-gray-700 active:text-gray-700 no-underline " onClick={hswitch}>
                                         <span>
                                             {logo ?
                                                 <img src={require('../images/logo3.png')} alt="" width='90px' className='mx-3' />
@@ -113,61 +113,61 @@ function Nav() {
 
                                     <div className='mt-10 justify-self-center lg:justify-self-start xl:justify-self-start 2xl:justify-self-start '>
 
-                                    <h1 className='mb-5 font-bold text-2xl'>Site map</h1>
+                                        <h1 className='mb-5 font-bold text-2xl'>Site map</h1>
 
                                         <Link to='/'>
-                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
+                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
                                                 <span>Home</span>
                                             </a>
                                         </Link>
                                         <Link to='/about'>
-                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>About</span>
                                             </a>
                                         </Link>
                                         <Link to='/service'>
-                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>Services</span>
                                             </a>
                                         </Link>
                                         <Link to='/portfolio'>
-                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
+                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
                                                 <span>Portfolio</span>
                                             </a>
                                         </Link>
                                         <Link to='/careear'>
-                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
+                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
                                                 <span>Career</span>
                                             </a>
                                         </Link>
                                         <Link to='/getintouch'>
-                                            <a  onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
                                                 <span>Get in touch</span>
                                             </a>
                                         </Link>
                                     </div>
 
-                                    <div className='mt-10 justify-self-center lg:justify-self-start xl:justify-self-start 2xl:justify-self-start '> 
+                                    <div className='mt-10 justify-self-center lg:justify-self-start xl:justify-self-start 2xl:justify-self-start '>
 
-                                        <h1 className='mb-5 font-bold text-2xl'>Our Services</h1>             
-00                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
-                                                <span>Web Development</span>
-                                            </div>
-                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
-                                                <span>Android App Development</span>
-                                            </div>
-                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
-                                                <span>Ios App Development</span>
-                                            </div>
-                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
-                                                <span>Unity Game Development</span>
-                                            </div>
-                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
-                                                <span>UI/UX Design</span>
-                                            </div>
-                                            <div  className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
-                                                <span>SEO / ASO</span>
-                                            </div>
+                                        <h1 className='mb-5 font-bold text-2xl'>Our Services</h1>
+                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            <span>Web Development</span>
+                                        </div>
+                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
+                                            <span>Android App Development</span>
+                                        </div>
+                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            <span>Ios App Development</span>
+                                        </div>
+                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
+                                            <span>Unity Game Development</span>
+                                        </div>
+                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
+                                            <span>UI/UX Design</span>
+                                        </div>
+                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
+                                            <span>SEO / ASO</span>
+                                        </div>
                                     </div>
 
                                     <div className='mt-10  justify-self-center lg:justify-self-start xl:justify-self-start 2xl:justify-self-start text-black dark:text-white'>
