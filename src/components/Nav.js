@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { MdClear, MdDarkMode, MdLightMode } from "react-icons/md";
-import { BsBehance, BsDribbble, BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsBehance, BsDribbble, BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 
 
 function Nav() {
@@ -109,79 +109,93 @@ function Nav() {
 
                                 </div>
 
-                                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 justify-items-center text-white bg-black md:px-10 lg:px-10 xl:px-10 2xl:px-10">
+                                <div className="container mx-auto">
+                                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 gap-10 px-10  lg:px-28 xl:px-10 2xl:px-20 py-10 justify-items-center">
 
-                                    <div className='mt-10 px-10 lg:px-0 justify-self-start lg:justify-self-start xl:justify-self-start 2xl:justify-self-start '>
 
-                                        <h1 className='mb-5 font-bold text-2xl'>Site map</h1>
+                                        {/* div-3*/}
 
-                                        <Link to='/'>
-                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
-                                                <span>Home</span>
-                                            </a>
-                                        </Link>
-                                        <Link to='/about'>
-                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
-                                                <span>About</span>
-                                            </a>
-                                        </Link>
-                                        <Link to='/service'>
-                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
-                                                <span>Services</span>
-                                            </a>
-                                        </Link>
-                                        <Link to='/portfolio'>
-                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
-                                                <span>Portfolio</span>
-                                            </a>
-                                        </Link>
-                                        <Link to='/careear'>
-                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
-                                                <span>Career</span>
-                                            </a>
-                                        </Link>
-                                        <Link to='/getintouch'>
-                                            <a onClick={handleClick} className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
-                                                <span>Get in touch</span>
-                                            </a>
-                                        </Link>
-                                    </div>
+                                        <div className="w-full flex flex-col lg:justify-start md:justify-start  justify-center">
+                                            <h2 className="title-font font-medium tracking-widest text-lg">Contact Us</h2>
+                                            <div className='flex  justify-center mt-2'>
+                                                <div className='text-md'>
+                                                    <span className='font-semibold'>Location : </span>
+                                                    309, Amby valley arcade, VIP Circle, Uttaran, SURAT-394105
+                                                </div>
+                                            </div>
+                                            <div className='flex gap-3 mt-2'>
+                                                <div className=' text-md font-semibold '>
+                                                    Tel :
+                                                </div>
+                                                <div className='text-left'>
+                                                    +91 9712697297
+                                                </div>
+                                            </div>
+                                            <div className='flex gap-3 mt-2'>
+                                                <div className=' text-md font-semibold '>
+                                                    E-mail :
+                                                </div>
+                                                <div className='text-left'>
+                                                    info@avrut.com
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                    <div className='mt-10 px-10 lg:px-0 justify-self-start lg:justify-self-start xl:justify-self-start 2xl:justify-self-start '>
+                                        {/* div-2*/}
 
-                                        <h1 className='mb-5 font-bold text-2xl'>Our Services</h1>
-                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
-                                            <span>Web Development</span>
-                                        </div>
-                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline py-2 rounded ">
-                                            <span>Android App Development</span>
-                                        </div>
-                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
-                                            <span>Ios App Development</span>
-                                        </div>
-                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
-                                            <span>Unity Game Development</span>
-                                        </div>
-                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center  no-underline lg:py-4 py-2 rounded ">
-                                            <span>UI/UX Design</span>
-                                        </div>
-                                        <div className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
-                                            <span>SEO / ASO</span>
-                                        </div>
-                                    </div>
+                                        <div className="w-full">
+                                            <h2 className="title-font font-medium tracking-widest text-lg">Our Services</h2>
+                                            <div className=" mb-10 flex flex-col lg:justify-start md:justify-start  justify-center">
+                                                <Link className='mt-2' >Android App Development</Link>
+                                                <Link className='mt-2' >Ios App Development</Link>
+                                                <Link className='mt-2'>Web Development</Link>
+                                                <Link className='mt-2' >Unity Game Development</Link>
+                                                <Link className='mt-2' >UI/UX Design</Link>
+                                                <Link className='mt-2' >SEO / ASO</Link>
 
-                                    <div className='mt-10  justify-self-center lg:justify-self-start xl:justify-self-start 2xl:justify-self-start text-black dark:text-white'>
-                                        <h3 className='font-semibold text-2xl'>Address</h3>
-                                        <div className='leading-10'>India (Head Office)</div>
-                                        <p className='leading-10'>309  Amby valley arcade , Surat, Gujarat, India 395006</p>
-                                        <div className='dark:text-white text-3xl flex  mt-7 justify-start'>
-                                            <BsInstagram className='text-white lg:mr-3  mx-2' />
-                                            <BsFacebook className='text-white lg:mx-3 mx-2' />
-                                            <BsBehance className='text-white lg:mx-3 mx-2' />
-                                            <BsDribbble className='text-white lg:mx-3 mx-2' />
+                                            </div>
+                                        </div>
+
+
+                                        {/* div-1 */}
+
+                                        <div className="w-full">
+                                            <h2 className="title-font font-medium tracking-widest text-lg">Site Map</h2>
+                                            <div className="w-[90%] flex flex-row flex-wrap gap-3 px-2 lg:px-0  lg:justify-start md:justify-start  justify-start">
+                                                <Link to='/' className='mt-2' onClick={handleClick}>Home</Link>
+                                                <Link to='/about' className='mt-2' onClick={handleClick}>About</Link>
+                                                <Link to='/service' className='mt-2' onClick={handleClick}>Service</Link>
+                                                <Link to='/getintouch' className='mt-2' onClick={handleClick}>Contact</Link>
+                                                <Link to='/careear' className='mt-2 lg:mt-0 px-0 lg:px-0 ' onClick={handleClick}>Career</Link>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        {/* div-4*/}
+
+                                        <div className=" w-full flex flex-col lg:justify-start md:justify-start  justify-start">
+                                            <h2 className="title-font font-medium tracking-widest text-lg">Follow Us</h2>
+                                            <div className='flex  gap-5 py-3 '>
+                                                {/* <div >
+                                    <BsFacebook className='text-xl' />
+                                </div> */}
+                                                {/* <div >
+                                    <BsInstagram className='text-xl' />
+                                </div> */}
+                                                <Link to='https://www.linkedin.com/company/avrut-solutions/' target='_blank'>
+                                                    <BsLinkedin className='text-xl' />
+                                                </Link>
+                                                {/* <div>
+                                    <BsTwitter className='text-xl' />
+                                </div> */}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </nav>
                         </div>
                         {/* END Mobile Navigation */}

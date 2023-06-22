@@ -6,12 +6,12 @@ function Get() {
 
             <div className='px-5 sm:px-5 md:px-10 lg:px-10 xl:px-20 2xl:px-10  py-3 text-black dark:text-white mt-20'>
 
-                <h3 className='text-start'>HIRE US</h3>
-                <h1 className='lg:text-3xl text-2xl   text-start'>Got a project to discuss? Get in touch.</h1>
+                <h3 className='text-center'>HIRE US</h3>
+                <h1 className='lg:text-3xl text-2xl   text-center'>Got a project to discuss? Get in touch.</h1>
 
 
 
-               <div className='grid lg:grid-cols-2 lg:justify-items-start grid-cols-1 justify-items-center '>
+               {/* <div className='grid lg:grid-cols-2 lg:justify-items-start grid-cols-1 justify-items-center container mx-auto'>
                <div className='pt-20 lg:text-start  text-center'>
                     <h3 className='font-semibold text-2xl'>Address</h3>
                     <div className='leading-10'>India (Head Office)</div>
@@ -22,7 +22,7 @@ function Get() {
                     <div className='leading-10'>info@avrut.com</div>
                     <p className='leading-10'>309 Amby Valley arcade , Surat, Gujarat, India 395006</p>
                 </div>
-               </div>
+               </div> */}
 
 
                 <div className='pt-20  text-center'>
@@ -31,7 +31,7 @@ function Get() {
                 </div>
                 <div class="flex items-center">
                     <div class="w-full m-auto  lg:w-[50%] xl:w-[50%] 2xl:w-[50%]">
-                        <form action="https://formbold.com/s/FORM_ID" method="POST">
+                        <form  method="POST">
                             <div class="mb-5">
                                 <label
                                     for="name"

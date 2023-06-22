@@ -6,12 +6,13 @@ function    Service() {
    
     return (
         <>
-            <section className="text-gray-600 body-font animate__animated animate__fadeInup">
+            <section className="text-gray-600 body-font animate__animated animate__fadeInup container mx-auto">
                 <div className="px-5 sm:px-5 md:px-10 lg:px-10 xl:px-10 2xl:px-10 py-5">
                     <div className="container mx-auto overflow-x-hidden">
                         <div className="flex flex-col lg:text-center text-center w-full mt-5 mb-10 sm:mt-20 lg:ml-3 ">
-                            <h2 className="lg:text-xl text-black tracking-widest font-medium title-font mb-1 lg:ml-1 dark:text-white animation" data-aos="fade-right">SERVICES</h2>
-                            <h1 className="lg:text-4xl  text-2xl   font-medium title-font mb-4 text-gray-900 dark:text-white animation"data-aos="fade-left">A Wide Range of <br /> Services</h1>
+                            <h2 className="lg:text-xl text-black tracking-widest font-medium title-font  lg:ml-1 dark:text-white animation" data-aos="fade-right">SERVICES</h2>
+                            <h1 className="text-base mt-5 mb-4 text-gray-900 dark:text-white animation"data-aos="fade-left">A Wide Range of Services</h1>
+                            
                         </div>
                     </div>
                     <div className="flex flex-wrap  overflow-x-hidden">

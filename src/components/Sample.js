@@ -26,7 +26,7 @@ function Sample() {
     return (
         <>
             <div className='animation' data-aos="zoom-in">
-                <section className="text-gray-600 dark:text-white body-font">
+                <section className="text-gray-600 dark:text-white body-font container mx-auto">
                     <div className="px-5 sm:px-5 md:px-10 lg:px-10 xl:px-10 2xl:px-10 py-7">
                         <div className="flex justify-center mb-4 ">
                             <div className=' bg-black border-2 border-white rounded-full'>

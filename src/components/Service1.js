@@ -17,7 +17,7 @@ function Service1() {
 
             {/* design */}
 
-            <section class="text-black dark:text-white body-font ">
+            <section class="text-black dark:text-white body-font container mx-auto mt-0 lg:mt-20">
                 <div class="px-5 md:px-10 lg:px-20 xl:px-20 2xl:px-20 py-10 overflow-x-hidden">
                     <div class="justify-items-center flex flex-col-reverse sm:flex-col-reverse md:flex-col lg:flex-row xl:flex-row 2xl:flex-row  px-2       ">
                     <img alt="ecommerce" class="w-full  md:w-[50%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] lg:h-[500px] lg:px-2 px-3 h-64 object-cover object-center rounded animation" data-aos="fade-left"   src={require('../images/service1.jpg')} />
@@ -58,7 +58,7 @@ function Service1() {
 
             {/* devlop */}
 
-            <section class="text-black dark:text-white body-font ">
+            <section class="text-black dark:text-white body-font container mx-auto">
                 <div class="px-5 md:px-10 lg:px-20 xl:px-20 2xl:px-20 py-10 overflow-x-hidden">
                     <div class="justify-items-center flex flex-col-reverse sm:flex-col-reverse md:flex-col lg:flex-row xl:flex-row 2xl:flex-row  px-2">
                         <div class="w-full  md:w-[50%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] lg:justify-self-end lg:mr-20  lg:px-2 px-3  mt-6 lg:mt-0 animation" data-aos="fade-right">
@@ -95,7 +95,7 @@ function Service1() {
 
             {/* branding */}
 
-            <section class="text-black dark:text-white body-font overflow-hidden">
+            <section class="text-black dark:text-white body-font overflow-hidden container mx-auto">
                 <div class="px-5 md:px-10 lg:px-20 xl:px-20 2xl:px-20 py-10 overflow-x-hidden">
                     <div class="justify-items-center flex flex-col sm:flex-col-reverse md:flex-col lg:flex-row xl:flex-row 2xl:flex-row px-2">
                         <img alt="ecommerce" class=" w-full  md:w-[50%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] lg:h-[500px] lg:px-2 px-3 h-64 object-cover object-center rounded animation" data-aos="fade-right"   src={require('../images/service3.jpg')} />
