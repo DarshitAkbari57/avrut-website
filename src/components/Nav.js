@@ -111,7 +111,7 @@ function Nav() {
 
                                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 justify-items-center text-white bg-black md:px-10 lg:px-10 xl:px-10 2xl:px-10">
 
-                                    <div className='mt-10 justify-self-center lg:justify-self-start xl:justify-self-start 2xl:justify-self-start '>
+                                    <div className='mt-10 px-10 lg:px-0 justify-self-start lg:justify-self-start xl:justify-self-start 2xl:justify-self-start '>
 
                                         <h1 className='mb-5 font-bold text-2xl'>Site map</h1>
 
@@ -147,7 +147,7 @@ function Nav() {
                                         </Link>
                                     </div>
 
-                                    <div className='mt-10 justify-self-center lg:justify-self-start xl:justify-self-start 2xl:justify-self-start '>
+                                    <div className='mt-10 px-10 lg:px-0 justify-self-start lg:justify-self-start xl:justify-self-start 2xl:justify-self-start '>
 
                                         <h1 className='mb-5 font-bold text-2xl'>Our Services</h1>
                                         <div className="lg:text-lg sm:text-lg font-medium flex items-center no-underline lg:py-4 py-2 rounded ">
@@ -173,7 +173,7 @@ function Nav() {
                                     <div className='mt-10  justify-self-center lg:justify-self-start xl:justify-self-start 2xl:justify-self-start text-black dark:text-white'>
                                         <h3 className='font-semibold text-2xl'>Address</h3>
                                         <div className='leading-10'>India (Head Office)</div>
-                                        <p className='leading-10'>309 Ambevally arcade , Surat, Gujarat, India 395006</p>
+                                        <p className='leading-10'>309  Amby valley arcade , Surat, Gujarat, India 395006</p>
                                         <div className='dark:text-white text-3xl flex  mt-7 justify-start'>
                                             <BsInstagram className='text-white lg:mr-3  mx-2' />
                                             <BsFacebook className='text-white lg:mx-3 mx-2' />

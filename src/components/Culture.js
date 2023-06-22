@@ -16,7 +16,7 @@ function Culture() {
 
             <div className="px-5 sm:px-5 md:px-10 lg:px-10 xl:px-10 2xl:px-10 grid lg:grid-cols-2   sm:grid-cols-1 mt-10  place-items-center overflow-x-hidden w-full">
                 <div className="animation " data-aos="fade-right">
-                    <img src={require('../images/culture.jpg')} className='2xl:[1500px] w-[650px] object-cover' alt="" />
+                    <img src={require('../images/culture.jpg')} className='2xl:[1500px] w-[650px] h-[500px] object-cover' alt="" />
                 </div>
                 <div className='mt-5 animation sm:px-5' data-aos="fade-left">
                     <div className='lg:mb-10'>CULTURE</div>

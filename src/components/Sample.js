@@ -28,21 +28,23 @@ function Sample() {
             <div className='animation' data-aos="zoom-in">
                 <section className="text-gray-600 dark:text-white body-font">
                     <div className="px-5 sm:px-5 md:px-10 lg:px-10 xl:px-10 2xl:px-10 py-7">
-                        <div className="flex justify-center mb-4">
+                        <div className="flex justify-center mb-4 ">
+                            <div className=' bg-black border-2 border-white rounded-full'>
                             <button
-                                className={`px-4 py-2 rounded-tl-lg focus:outline-none ${activeTab === 1 ? 'bg-slate-400 text-black font-semibold' : 'bg-white text-black font-semibold'
+                                className={`px-4 py-1 rounded-full focus:outline-none ${activeTab === 1 ? 'bg-white text-black font-semibold' : 'bg-balck text-white font-semibold'
                                     }`}
                                 onClick={() => changeTab(1)}
                             >
                                 Web
                             </button>
                             <button
-                                className={`px-4 py-2 rounded-tr-lg  focus:outline-none ${activeTab === 2 ? 'bg-slate-400 text-black font-semibold' : 'bg-white text-black font-semibold'
+                                className={`px-4 py-1 rounded-full  focus:outline-none ${activeTab === 2 ? 'bg-white text-black font-semibold' : 'bg-black text-white font-semibold'
                                     }`}
                                 onClick={() => changeTab(2)}
                             >
                                 App
                             </button>
+                            </div>
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
                             {data.map((e) => {
@@ -73,8 +75,8 @@ function Sample() {
 
                     <div className='text-center' >
                         <button onClick={()=>{setMore(!more)}} className='bg-white text-black px-3 py-1 rounded-full'>
-                            {more? <span>View Less</span>:                        
-                            <span>View More</span>
+                            {more? <span>View less</span>:                        
+                            <span>View more</span>
                             }
                         </button>
                     </div>

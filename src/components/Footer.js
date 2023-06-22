@@ -52,7 +52,7 @@ function Footer() {
                             <div className='flex  justify-center mt-2'> 
                                 <div className='text-md'>
                                     <span className='font-semibold'>Location : </span>
-                                    309, Amby valley Arcade, VIP Circle, Uttaran, SURAT-394105
+                                    309, Amby valley arcade, VIP Circle, Uttaran, SURAT-394105
                                 </div>
                             </div>
                             <div className='flex gap-3 mt-2'> 
@@ -94,7 +94,7 @@ function Footer() {
                 <div className="bg-gray-100 dark:text-white dark:bg-black">
                     <div className="container justify-center py-6 mx-auto flex items-center sm:flex-row flex-col" >
                         <p className="text-sm text-gray-500 mt-4 dark:text-white">© 2023 —
-                            <a className="text-center text-white" target="_blank">@Avrut solution</a>
+                            <a className="text-center text-white" target="_blank"> @Avrut solution</a>
                         </p>
 
                     </div>

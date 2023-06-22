@@ -44,9 +44,9 @@ function Slider() {
                                     <button onClick={handelclick} className='p-3 px-4 mt-5  rounded-full bg-black text-white dark:bg-white  dark:text-black'>Get in Touch</button>
                             </div>
                         </div>
-                        <div className='ml-auto md:w-full lg:w-3/5 relative top-0'>
-                            <img src={require('../images/1.jpg')} className=' object-cover  h-[700px] sm:h-[700px] md:h-[700px]
-                            lg:h-[700px] xl:h-[1040px] 2xl:h-[1050px] w-full' alt="" />
+                        <div className='lg:ml-auto md:w-full lg:w-3/5 relative top-0'>
+                            <img src={require('../images/1.jpg')} className=' object-cover  h-screen sm:h-[700px] md:h-screen
+                            lg:h-screen xl:h-screen 2xl:h-screen w-full' alt="" />
                         </div>
                     </div>
                 </SwiperSlide>

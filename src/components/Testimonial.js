@@ -19,9 +19,9 @@ function Testimonial() {
                     delay: 2000,
                     disableOnInteraction: false
                 }}
+                speed={4000}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)} >
-
 
                 {/* items */}
 
