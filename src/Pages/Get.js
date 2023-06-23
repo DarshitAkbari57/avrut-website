@@ -1,8 +1,10 @@
 import React from 'react'
+import Nav from '../components/Nav'
 
 function Get() {
     return (
         <>
+        <Nav/>
 
             <div className='px-5 sm:px-5 md:px-10 lg:px-10 xl:px-20 2xl:px-10  py-3 text-black dark:text-white mt-20'>
 

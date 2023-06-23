@@ -1,6 +1,8 @@
 import Aos from 'aos';
 import React from 'react';
 import { useEffect } from 'react';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 function Career() {
 
@@ -10,8 +12,9 @@ function Career() {
 
     return (
         <>
-            <h1 className='text-center text-6xl font-semibold  animate__animated animate__fadeInUp'>Career</h1>
-            <div className=' px-5 sm:px-5 md:px-10 lg:px-10 xl:px-10 2xl:px-10  py-10 animate__animated animate__fadeInUp'>
+        <Nav/>
+            <h1 className='text-center text-2xl font-semibold  py-14 animate__animated animate__fadeInUp'>Career</h1>
+            <div className=' px-5 sm:px-5 md:px-10 lg:px-10 xl:px-10 2xl:px-10  animate__animated animate__fadeInUp container mx-auto'>
 
                 {/* 1 */}
                 <div className='grid lg:grid-cols-2 gap-10 grid-cols-1 justify-items-center animation   animate__animated animate__flipinX' >
@@ -95,6 +98,7 @@ function Career() {
                     </div>
                 </div>
             </div>
+        <Footer/>
         </>
     )
 }
