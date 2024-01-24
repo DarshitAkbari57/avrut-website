@@ -8,13 +8,6 @@ const Works = [
     type: "web",
   },
   {
-    name: "Haat",
-    language: "React js , React-Native , Node js",
-    detail: "It is a food-delivery Application For israel.",
-    Image: require("../images/haat.png"),
-    type: "app",
-  },
-  {
     name: "Vida",
     language: "Next.js , Aws-serverless , GraphQL",
     detail:
