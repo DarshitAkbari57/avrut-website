@@ -48,6 +48,12 @@ function index() {
                             We Are
                         </h1>
 
+
+
+
+
+
+
                         <p className="text-sm md:text-base text-black mb-4">Avrut Solutions is a family of tech pioneers with in-depth knowledge and experience in transforming business ideas into reality. We deliver the most feasible custom software solutions to enterprises worldwide. Our experts don’t just initiate your project, we put ourselves into your shoes and analyze every inch of your business landscape to build the most meaningful digital product. The agile teams of developers immerse themselves fully in your project and work in tandem with your strategic goals.
                             Security, reliability, user-friendliness, and scalability define our custom solutions and services. Our consultants work with diverse businesses. Avrut Solutions offers world-class services, relying on an exceptionally talented pool of engineers. Our pursuit for excellence enables us to deliver rapid and fool-proof solutions every single time.</p>
                         <a href="#"
