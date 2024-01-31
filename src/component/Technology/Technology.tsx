@@ -97,7 +97,6 @@ function Technology() {
 
     const data = mobile?.find((e) => e?.id === index)
 
-    console.log('data', data)
 
     return (
         <>

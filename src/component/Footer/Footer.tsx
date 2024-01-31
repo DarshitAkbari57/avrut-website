@@ -104,15 +104,15 @@ function Footer() {
                         </div>
                         <div className="w-full px-10 py-6 md:w-1/2 lg:w-3/12">
                             <div className="h-full">
-                                <h3 className="tracking-px mb-4 text-[16px] text-xs font-semibold text-gray-500">
-                                    Address
+                                <h3 className="tracking-px mb-4 text-[16px] font-semibold text-gray-500">
+                                    Contact info
                                 </h3>
 
                                 <div className='text-sm'>
                                     309, Amby valley arcade, VIP Circle, Uttaran, Surat-394105
                                 </div>
 
-                                <div className='text-sm'>
+                                <div className='text-sm pt-2'>
                                     Mobile: +91 1234 567 890
                                 </div>
                             </div>

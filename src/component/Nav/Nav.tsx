@@ -6,6 +6,10 @@ import Link from 'next/link';
 
 function Nav() {
 
+    const [isMenuOpen, setIsMenuOpen] = React.useState(false)
+    const [menuActive, setmenuActive] = React.useState("")
+    const router = useRouter()
+
     const menuItems = [
         {
             name: 'Technologies',
@@ -13,7 +17,7 @@ function Nav() {
         },
         {
             name: 'Services',
-            path1: ''
+            path1: '/services'
         },
         {
             name: 'Industries',
@@ -30,15 +34,9 @@ function Nav() {
         },
     ]
 
-
-    const [isMenuOpen, setIsMenuOpen] = React.useState(false)
-    const [menuActive, setmenuActive] = React.useState("")
-
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen)
     }
-
-    const router = useRouter()
 
 
     return (
@@ -85,21 +83,21 @@ function Nav() {
                                                                     <h1 className='font-semibold'>Web devlopment technology</h1>
                                                                     <div className='flex gap-4 mt-2'>
                                                                         <ul className=''>
-                                                                            <li className='cursor-pointer text-[14px] pb-2  text-gray1' onClick={() => router.push('/technology/reactjs')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1  text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/reactjs')}>
                                                                                 • React js
                                                                             </li>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/nodejs')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/nodejs')}>
                                                                                 • Node js
                                                                             </li>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/typescript')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/typescript')}>
                                                                                 •  Typescript
                                                                             </li>
                                                                         </ul>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/anguler')} >
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/anguler')} >
                                                                                 • Angular
                                                                             </li>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/nextjs')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/nextjs')}>
                                                                                 •  Next js
                                                                             </li>
                                                                         </ul>
@@ -110,10 +108,10 @@ function Nav() {
                                                                     <h1 className='font-semibold'>Mobile devlopment technology</h1>
                                                                     <div className='flex gap-4 mt-2'>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/flutter')} >
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/flutter')} >
                                                                                 • Flutter
                                                                             </li>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/react-native')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/react-native')}>
                                                                                 •  React Native
                                                                             </li>
                                                                         </ul>
@@ -124,18 +122,18 @@ function Nav() {
                                                                     <h1 className='font-semibold'>DevOps devlopment</h1>
                                                                     <div className='flex gap-4 mt-2'>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/docker')} >
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/docker')} >
                                                                                 • Docker
                                                                             </li>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/jenkins')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/jenkins')}>
                                                                                 •  Jenkins
                                                                             </li>
                                                                         </ul>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/kubernets')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/kubernets')}>
                                                                                 • Kubernetes
                                                                             </li>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/aws')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/aws')}>
                                                                                 •  AWS
                                                                             </li>
                                                                         </ul>
@@ -146,18 +144,18 @@ function Nav() {
                                                                     <h1 className='font-semibold'>Database devlopment</h1>
                                                                     <div className='flex gap-4 mt-2'>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/postsql')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/postgresql')}>
                                                                                 • PostgreSQL
                                                                             </li>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/mysql')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/mysql')}>
                                                                                 •  MySQL
                                                                             </li>
                                                                         </ul>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/mongodb')} >
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/mongodb')} >
                                                                                 • MongoDB
                                                                             </li>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/dynamodb')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/dynamodb')}>
                                                                                 • DynamoDB
                                                                             </li>
                                                                         </ul>
@@ -168,12 +166,12 @@ function Nav() {
                                                                     <h1 className='font-semibold'>Design</h1>
                                                                     <div className='flex gap-4 mt-2'>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/adobexd')} >
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/adobexd')} >
                                                                                 • Adobe XD
                                                                             </li>
                                                                         </ul>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/figma')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/figma')}>
                                                                                 •  Figma
                                                                             </li>
                                                                         </ul>
@@ -233,7 +231,7 @@ function Nav() {
                                                                     <h1 className='font-semibold'>Mobile App Devlpoment</h1>
                                                                     <div className='flex gap-4 mt-2'>
                                                                         <ul className=''>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/postsql')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/postgresql')}>
                                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi quam doloremque
                                                                             </li>
 
@@ -303,7 +301,7 @@ function Nav() {
                                                                     <h1 className='font-semibold'>Digital Banking</h1>
                                                                     <div className='flex gap-4 mt-2'>
                                                                         <ul className=''>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/postsql')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/postgresql')}>
                                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi quam doloremque
                                                                             </li>
 

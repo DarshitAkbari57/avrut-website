@@ -2,8 +2,6 @@ import React from 'react'
 import { FaUserGroup } from "react-icons/fa6";
 
 function Choose() {
-
-
     const cards = [
         {
             icon: <FaUserGroup />,
@@ -41,7 +39,6 @@ function Choose() {
 
     return (
         <>
-
             <div className='max-h-max w-full bg-black p-10' style={{ backgroundImage: `url("https://www.braincuber.com/_next/static/media/why-choose-us-bg.2b08a4f6.webp")` }}>
                 <div className='container mx-auto text-center lg:px-56'>
                     <h1 className='text-center text-white pt-10 text-4xl font-semibold'>Why Choose Us</h1>
@@ -68,9 +65,6 @@ function Choose() {
                     </div>
                 </div>
             </div>
-
-
-
         </>
     )
 }

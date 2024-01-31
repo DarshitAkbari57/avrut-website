@@ -1,48 +1,50 @@
 import Faq from '@/component/FAQ'
 import First from '@/component/First/First'
+import ChooseTechnology from '@/component/Technology/ChooseTechnology/ChooseTechnology'
+import Process from '@/component/Technology/Process/Process'
+import TechnologyServices from '@/component/Technology/TechnologyServices/TechnologyServices'
+import WhyThisTechnology from '@/component/Technology/WhyThisTechnology/WhyThisTechnology'
 import React from 'react'
+import ImageTech from "../../../assets/technology/react.png"
+
 
 function Reactjs() {
 
 
     const services = [
-
         {
             numbers: "1",
-            main: "React.js development",
-            content: "Our company offers comprehensive React.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled React.js developers harness the power of this runtime environment to deliver efficient and reliable solutions."
+            main: "Custom ReactJS Development Services",
+            content: "We avail robust & dynamic services to clients thereby giving them a competitive edge in respective industry. Our experienced team of developers is well versed in customizing your current application and integrating it with any third-party framework."
         },
         {
             numbers: "2",
-            main: "Custom React.js solutions",
-            content: "Our Company specializes in providing custom React.js solutions tailored to your specific business requirements. With our expertise in React.js development, we create scalable, secure, and highly functional applications that cater to your unique needs, ensuring a seamless user experience and optimal performance."
+            main: "ReactJS Migration",
+            content: "We help businesses to migrate seamlessly to JavaScript framework with the help of our ReactJS Development services based on the current setup and requirements. Our team is thorough with the norms of migrating to a new UI framework and can easily define and execute reliable processes to help businesses with a smooth migration."
         },
         {
             numbers: "3",
-            main: "Maintenance & support",
-            content: "Our React.js Company offers comprehensive maintenance and support services to ensure the smooth operation of your applications. From regular updates and bug fixes to performance optimization and security enhancements, we provide ongoing assistance to keep your React.js applications up-to-date and running efficiently."
+            main: "ReactJS Web App Development",
+            content: "We avail businesses with SEO-friendly and high-performing web apps using reactjs. We ensure the security of the developed applications with an end-to-end encryption. Our team engages in conducting ReactJS code audits to deliver high-quality web applications."
         },
         {
             numbers: "4",
-            main: "React.js upgrade",
-            content: "Our company provides React.js upgrade solutions to ensure your applications stay up-to-date with the latest features and security enhancements. We handle the entire upgrade process, including migrating to newer versions, refactoring code, and integrating new functionalities, allowing you to leverage the full potential of React.js for your business. "
+            main: "Cross domain React JS Development",
+            content: "Our experienced team of ReactJS developers provides reactjs services to a gamut of industries such as eCommerce, finance, communication, healthcare, retail, education, etc."
         },
         {
             numbers: "5",
-            main: "React.js & advanced React.js development",
-            content: "Our company offers both React.js and advanced React.js development solutions to cater to diverse business needs. With React.js, we build scalable and efficient web applications, while our expertise in advanced React.js techniques enables us to implement complex functionalities, optimize performance, and integrate with various technologies, ensuring robust and cutting-edge solutions for our clients."
+            main: "React JS Integration",
+            content: "We help clients in integrating existing applications and systems to upscale their businesses. We as a offer integration for specified features that save time and energy in rewriting the remaining application code."
         },
         {
             numbers: "6",
-            main: "React.js design services",
-            content: "Our React.js development company offers comprehensive design services, leveraging industry best practices and creative expertise to deliver visually appealing and user-centric designs for React.js applications."
+            main: "ReactJS QA and Testing",
+            content: "We ace in QA & Testing as well. Our experts make use of advanced development methods along with appropriate tools for delivering visually appealing UI on time without any security breach."
         }
     ]
 
-
-
-    const why = [
-
+    const whyTechnoloy = [
         {
             numbers: "1",
             main: "Coding structure",
@@ -75,178 +77,73 @@ function Reactjs() {
         }
     ]
 
-
-
     const process = [
         {
             no: "01",
             main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            content: "At the initial stage, we meet & understand the client's requirements, goals, and objectives. Define the scope of the project and create a detailed project plan along with identifying key features, user stories, and technical specifications."
         },
         {
             no: "02",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "UI/UX Design",
+            content: "In the second stage, our team of designers design the user interface (UI) and user experience (UX) of the application. We then Create wireframes, mockups, and prototypes for client approval."
         },
         {
             no: "03",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Technology Stack & Architecture",
+            content: "At this stage, we choose required technology stack, including ReactJS for the front-end. Design the overall architecture of the application, considering factors like component structure, state management, and data flow."
         },
         {
             no: "04",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Front-End Development",
+            content: "Here, our team engages in developing the front-end of the application using ReactJS. They create reusable components and ensure a modular structure by using responsive design for various devices and screen sizes."
         },
         {
             no: "05",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Integration and Testing",
+            content: "In this stage, we integrate the front-end with the back-end, perform unit testing and integration testing to identify and fix bugs, Conduct usability testing to ensure the application meets user expectations."
         },
         {
             no: "06",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Deployment",
+            content: "In the deployment stage, our team prepares the application for deployment by creating production builds. Next, we set up hosting environments, such as web servers or cloud platforms like AWS, Heroku, or Netlify and Deploy the application to the chosen hosting environment."
         },
         {
             no: "07",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
-        },
-        {
-            no: "08",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Maintenance",
+            content: "Lastly, we monitor the application's performance and user experience in the production environment. Address any issues that arise and release updates as needed and provide ongoing maintenance and support to ensure the application remains functional and up to date."
         },
     ]
 
+    const accordionItems = [
+        { title: '01.  What is the cost to develop Reactjs web app?', content: 'This cost is subjective to various factors such as the development platform, App categories, Web Application complexity, country of operation and development, and several other features that you need in your app.' },
+        {
+            title: '02.  What is the time duration for Reactjs development?', content: 'The duration might differ, according to different factors such as the experience level of the developer, the development platform, the complexity of the design, features, functionality, testing, etc.'
+        },
+        {
+            title: '03.  What are the benefits of React?', content: 'It makes creating interactive UIs an effortless process. You can develop new features in React without rewriting existing code.'
+        },
+        {
+            title: '04.  What is React?', content: 'React is an open-source front-end JavaScript library for building user interfaces or UI components.'
+        },
+        {
+            title: '05.  Why choose Avrut Solutions for React App Development Company?', content: 'We are a leading web & mobile app development company with experience in creating unique apps. Besides this, we have certified React Native App developers, who deliver customer centric approach for your business requirements.'
+        },
+    ];
+
     return (
         <>
-
-
             <First title="React.js Development Company" subtitle="Avrut solutions is a leading React.js development company catering a wide gamut of business segments from startups to enterprises." />
 
+            <ChooseTechnology title="Why Choose Us For React.js" content="Our React.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications." />
 
+            <TechnologyServices title="React.js" titleSpan="Service We offer" content="From API development to robust backend systems, we harness the power of React.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of React.js." services={services} />
 
-            <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl  my-10 xl:max-w-6xl">
+            <WhyThisTechnology why="Why" title="React.js" content=" With a focus on real-time communication, microservices, and seamless integration, we ensure your projects leverage the full potential of React.js for unparalleled performance and innovation." technologies={whyTechnoloy} ImageTech={ImageTech.src} />
 
-                {/* <!-- Image Column --> */}
-                <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-                    <img className="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road" />
-                </div>
-                {/* <!-- Close Image Column --> */}
+            <Process process={process} />
 
-                {/* <!-- Text Column --> */}
-                <div
-                    className="max-w-lg bg-white lg:max-w-2xl md:z-10 md:shadow-lg lg:absolute md:top-0  lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 rounded-2xl">
-                    {/* <!-- Text Wrapper --> */}
-                    <div className="flex flex-col p-12 md:px-16">
-                        <h2 className="text-2xl font-medium uppercase text-primary lg:text-4xl">Why Choose Us For React.js</h2>
-                        <p className="mt-4">
-                            Our React.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications.
-                        </p>
-                        {/* <!-- Button Container --> */}
-                        <div className="mt-8">
-                            <a href="#"
-                                className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-primary border-solid b py-2 px-10  hover:shadow-md">Read
-                                More</a>
-                        </div>
-                    </div>
-                    {/* <!-- Close Text Wrapper --> */}
-                </div>
-                {/* <!-- Close Text Column --> */}
-
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 py-20 bg-purple px-5 md:px-20'>
-                <div>
-                    <p className='text-4xl font-bold text-primary'>React.js <span className='text-black'> Service We offer</span></p>
-                    <p>From API development to robust backend systems, we harness the power of React.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of React.js.</p>
-                </div>
-                <div>
-
-                    {services.map((e) => {
-                        return (
-                            <>
-                                <div className=' border rounded-2xl border-primary flex p-4 gap-3 bg-white mb-5'>
-                                    <div className='text-2xl text-primary font-bold'>0{e.numbers}.</div>
-                                    <div>
-                                        <h1 className='text-xl font-semibold'>React.js development</h1>
-
-                                        <p className='my-2'>Our company offers comprehensive React.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled React.js developers harness the power of this runtime environment to deliver efficient and reliable solutions.</p>
-                                    </div>
-                                </div>
-                            </>
-                        )
-                    })}
-
-                </div>
-            </div>
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    Why <span className='text-primary'>React.js</span>
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-            <p className='py-2 max-w-3xl m-auto text-center text-lg'>
-                With a focus on real-time communication, microservices, and seamless integration, we ensure your projects leverage the full potential of React.js for unparalleled performance and innovation.
-            </p>
-
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-items-center items-center px-10 py-10">
-                <div >
-                    <img src="https://www.braincuber.com/_next/static/media/why-react-js.94efd491.png" alt="" />
-                </div>
-                <div className='justify-items-center px-2'>
-                    {why.map((e) => {
-                        return (
-                            <>
-                                <div className='mb-5'>
-                                    <h1 className='text-xl font-bold'>• {e?.main}</h1>
-                                    <p className='mb-3'>
-                                        {e?.content}
-                                    </p>
-                                </div>
-                            </>
-                        )
-                    })
-
-                    }
-
-                </div>
-
-            </div>
-
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    The <span className='text-primary'>Process</span> we follow
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-2 md:px-14 gap-5  my-8'>
-                {process.map((e) => {
-                    return (
-                        <>
-                            <div className='text-center'>
-                                <h1 className='text-9xl font-bold text-[#f2f2f2]'>{e?.no}</h1>
-                                <div className='text-xl font-bold'>{e.main}</div>
-                                <p>{e?.content}</p>
-                            </div>
-                        </>
-                    )
-                })}
-            </div>
-
-            <Faq />
-
-
-
-
+            <Faq accordionItems={accordionItems} />
         </>
     )
 }

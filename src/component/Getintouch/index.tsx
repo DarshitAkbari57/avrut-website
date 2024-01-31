@@ -31,9 +31,8 @@ function Getintouch() {
                                 <BsPhone />
                                 <span className="text-sm">+91 1234 567 890</span>
                             </div>
-
                         </div>
-                        <form method="post" className=" p-3 md:p-5 ">
+                        <form method="post" className="p-3 md:p-5 " onSubmit={(e) => e.preventDefault()}>
                             <div className="flex flex-wrap -mx-3 mb-3">
                                 <div className="w-full px-3">
                                     <label className="block  tracking-wide text-gray-700 text-sm font-bold mb-2"
@@ -41,8 +40,9 @@ function Getintouch() {
                                         Name
                                     </label>
                                     <input
+                                        required
                                         className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-primary"
-                                        id="grid-email" type="email" placeholder="Name" />
+                                        id="grid-email" type="text" placeholder="Name" />
                                 </div>
                             </div>
                             <div className="flex flex-wrap -mx-3 mb-3">
@@ -52,6 +52,7 @@ function Getintouch() {
                                         Email Address
                                     </label>
                                     <input
+                                        required
                                         className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-primary"
                                         id="grid-email" type="email" placeholder="Email address" />
                                 </div>
@@ -64,7 +65,7 @@ function Getintouch() {
                                     </label>
                                     <input
                                         className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-primary"
-                                        id="grid-email" type="email" placeholder="Mobile number" />
+                                        id="grid-email" type="text" placeholder="Mobile number" />
                                 </div>
                             </div>
 
@@ -75,6 +76,7 @@ function Getintouch() {
                                         Your Message
                                     </label>
                                     <textarea rows={5}
+                                        required
                                         placeholder='Message'
                                         className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-primary"></textarea>
                                 </div>
@@ -92,12 +94,9 @@ function Getintouch() {
                                         type="submit">
                                         Send Message
                                     </button>
-
                                 </div>
                             </div>
-
                         </form>
-
                     </div>
                 </div >
             </div>

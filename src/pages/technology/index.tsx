@@ -145,9 +145,7 @@ function Technologies() {
                                         Web devlopment
                                     </h2>
                                     <p className="mt-4 text-lg text-[#1e1e1e]">
-                                        Gone are the days when traditional Medicare was used for treatment and a lot many ailments had no on track record for treatment & early diagnosis.
-                                        <br />
-                                        Today health industry has been acing at a great pace using multiple technologies & equipment for diagnosis and treatment. With an aim for improving patient care, streamlining administrative processes, and enhancing medical research, we utilize the power of technology to create customized software applications custom-made to the unique needs of healthcare providers and institutions.
+                                        Web development is the art and science of creating and maintaining websites or web applications. It encompasses a wide range of skills and technologies, including HTML, CSS, and JavaScript for front-end development, as well as server-side languages and databases for back-end functionality. Web developers work to design and build user-friendly, visually appealing, and responsive websites that meet the needs of businesses, organizations, or individuals. They are responsible for ensuring a seamless user experience, optimizing performance, and implementing security measures. With the continuous evolution of technology, web development is a dynamic field that requires staying updated on the latest trends and tools to deliver cutting-edge solutions in the digital landscape.
                                     </p>
                                     <div className="mt-6">
                                         <button onClick={() => router.push('/industries/healthcare')} className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ">
@@ -187,10 +185,7 @@ function Technologies() {
                                         technologies
                                     </h2>
                                     <p className="mt-4 text-lg text-[#1e1e1e]">
-                                        Gone are the days when traditional Medicare was used for treatment and a lot many ailments had no on track record for treatment & early diagnosis.
-                                        <br />
-                                        Today health industry has been acing at a great pace using multiple technologies & equipment for diagnosis and treatment. With an aim for improving patient care, streamlining administrative processes, and enhancing medical research, we utilize the power of technology to create customized software applications custom-made to the unique needs of healthcare providers and institutions.
-                                    </p>
+                                        Mobile development technologies refer to the tools, frameworks, and programming languages used to create applications for mobile devices, such as smartphones and tablets. Two major platforms dominate the mobile development landscape: Android, backed by Google, and iOS, developed by Apple. For Android app development, developers commonly use languages like Java or Kotlin, and for iOS, Swift and Objective-C are popular choices. Cross-platform frameworks such as React Native, Flutter, and Xamarin have gained prominence, enabling developers to write code once and deploy it on both Android and iOS platforms.                                    </p>
                                     <div className="mt-6">
                                         <button onClick={() => router.push('/industries/entertainment')} className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ">
                                             Learn More
@@ -227,10 +222,8 @@ function Technologies() {
                                         Backend
                                     </h2>
                                     <p className="mt-4 text-lg text-[#1e1e1e]">
-                                        Gone are the days when traditional Medicare was used for treatment and a lot many ailments had no on track record for treatment & early diagnosis.
-                                        <br />
-                                        Today health industry has been acing at a great pace using multiple technologies & equipment for diagnosis and treatment. With an aim for improving patient care, streamlining administrative processes, and enhancing medical research, we utilize the power of technology to create customized software applications custom-made to the unique needs of healthcare providers and institutions.
-                                    </p>
+
+                                        Backend technologies constitute the server-side components of a web or mobile application, responsible for managing data, business logic, and communication between the server and client. A variety of programming languages and frameworks are employed in backend development, depending on factors like project requirements, scalability, and developer preferences. Popular backend languages include Python, Java, Ruby, PHP, and Node.js. Frameworks such as Django (Python), Spring (Java), Ruby on Rails (Ruby), Laravel (PHP), and Express.js (Node.js) provide developers with pre-built structures and tools, expediting the development process.                                    </p>
                                     <div className="mt-6">
                                         <button onClick={() => router.push('/industries/healthcare')} className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ">
                                             Learn More
@@ -268,10 +261,7 @@ function Technologies() {
                                         Front-end
                                     </h2>
                                     <p className="mt-4 text-lg text-[#1e1e1e]">
-                                        Gone are the days when traditional Medicare was used for treatment and a lot many ailments had no on track record for treatment & early diagnosis.
-                                        <br />
-                                        Today health industry has been acing at a great pace using multiple technologies & equipment for diagnosis and treatment. With an aim for improving patient care, streamlining administrative processes, and enhancing medical research, we utilize the power of technology to create customized software applications custom-made to the unique needs of healthcare providers and institutions.
-                                    </p>
+                                        Front-end technologies pertain to the client-side of web or mobile applications, focusing on the user interface and user experience. The primary languages for front-end development are HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript. HTML structures the content of web pages, CSS styles the presentation, and JavaScript adds interactivity and dynamic behavior to the user interface.                                    </p>
                                     <div className="mt-6">
                                         <button onClick={() => router.push('/industries/entertainment')} className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ">
                                             Learn More
@@ -309,10 +299,7 @@ function Technologies() {
                                         DevOps
                                     </h2>
                                     <p className="mt-4 text-lg text-[#1e1e1e]">
-                                        Gone are the days when traditional Medicare was used for treatment and a lot many ailments had no on track record for treatment & early diagnosis.
-                                        <br />
-                                        Today health industry has been acing at a great pace using multiple technologies & equipment for diagnosis and treatment. With an aim for improving patient care, streamlining administrative processes, and enhancing medical research, we utilize the power of technology to create customized software applications custom-made to the unique needs of healthcare providers and institutions.
-                                    </p>
+                                        DevOps, short for Development and Operations, is a set of practices that aims to streamline and integrate the processes of software development and IT operations. DevOps technologies play a crucial role in automating workflows, enhancing collaboration, and fostering a culture of continuous integration and delivery.                                    </p>
                                     <div className="mt-6">
                                         <button onClick={() => router.push('/industries/healthcare')} className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ">
                                             Learn More
@@ -351,10 +338,7 @@ function Technologies() {
                                         Database
                                     </h2>
                                     <p className="mt-4 text-lg text-[#1e1e1e]">
-                                        Gone are the days when traditional Medicare was used for treatment and a lot many ailments had no on track record for treatment & early diagnosis.
-                                        <br />
-                                        Today health industry has been acing at a great pace using multiple technologies & equipment for diagnosis and treatment. With an aim for improving patient care, streamlining administrative processes, and enhancing medical research, we utilize the power of technology to create customized software applications custom-made to the unique needs of healthcare providers and institutions.
-                                    </p>
+                                        Databases are structured repositories that store, organize, and manage data for efficient retrieval and manipulation. They come in various types, including relational databases like MySQL and PostgreSQL, NoSQL databases like MongoDB, and specialized databases for time-series, graph, and in-memory data. Relational databases use tables and enforce data integrity through ACID properties, while NoSQL databases provide flexibility for handling diverse data types. Cloud-based databases, big data technologies, and blockchain databases are also integral components of the modern data landscape. Choosing the right database technology depends on factors such as data structure, scalability, and specific application requirements.                                    </p>
                                     <div className="mt-6">
                                         <button onClick={() => router.push('/industries/entertainment')} className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ">
                                             Learn More
@@ -391,10 +375,7 @@ function Technologies() {
                                         Design
                                     </h2>
                                     <p className="mt-4 text-lg text-[#1e1e1e]">
-                                        Gone are the days when traditional Medicare was used for treatment and a lot many ailments had no on track record for treatment & early diagnosis.
-                                        <br />
-                                        Today health industry has been acing at a great pace using multiple technologies & equipment for diagnosis and treatment. With an aim for improving patient care, streamlining administrative processes, and enhancing medical research, we utilize the power of technology to create customized software applications custom-made to the unique needs of healthcare providers and institutions.
-                                    </p>
+                                        In web and application design, the focus is on creating visually appealing and user-friendly interfaces. This involves the strategic arrangement of elements, intuitive navigation, and a harmonious blend of colors and typography. Responsive design ensures adaptability to various devices, enhancing accessibility. User experience (UX) design emphasizes the user's journey, aiming for efficiency and satisfaction.                                     </p>
                                     <div className="mt-6">
                                         <button onClick={() => router.push('/industries/healthcare')} className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ">
                                             Learn More
@@ -403,28 +384,11 @@ function Technologies() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
-
-
-
                 </div>
-
-
-
                 <div className="container mx-auto  my-5">
-
                 </div>
-
-
-
-
             </>
-
-
-
-
         </>
     )
 }

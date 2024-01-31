@@ -1,262 +1,160 @@
 import Faq from '@/component/FAQ'
+import First from '@/component/First/First'
+import ChooseTechnology from '@/component/Technology/ChooseTechnology/ChooseTechnology'
+import Process from '@/component/Technology/Process/Process'
+import TechnologyServices from '@/component/Technology/TechnologyServices/TechnologyServices'
+import WhyThisTechnology from '@/component/Technology/WhyThisTechnology/WhyThisTechnology'
 import React from 'react'
+import ImageTech from "../../../assets/technology/mysql.png"
+
 
 function Nodejs() {
 
 
     const services = [
-
         {
             numbers: "1",
-            main: "Node.js development",
-            content: "Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions."
+            main: "MySQL development",
+            content: "We provide comprehensive MySQL development services, encompassing custom database design, efficient query optimization, and seamless application integration, ensuring optimal performance for clients' projects."
         },
         {
             numbers: "2",
-            main: "Custom node.js solutions",
-            content: "Our Company specializes in providing custom Node.js solutions tailored to your specific business requirements. With our expertise in Node.js development, we create scalable, secure, and highly functional applications that cater to your unique needs, ensuring a seamless user experience and optimal performance."
+            main: "Custom MySQL solutions",
+            content: "Braincuber Technologies excels in custom MySQL development services, offering bespoke database solutions, optimized query design, and seamless integration, tailored to meet clients' specific project demands with precision."
         },
         {
             numbers: "3",
-            main: "Maintenance & support",
-            content: "Our Node.js Company offers comprehensive maintenance and support services to ensure the smooth operation of your applications. From regular updates and bug fixes to performance optimization and security enhancements, we provide ongoing assistance to keep your Node.js applications up-to-date and running efficiently."
+            main: "Maintenance and support",
+            content: "We ensure smooth operations, timely updates, and expert assistance to maximize database performance and resolve any issues promptly."
         },
         {
             numbers: "4",
-            main: "Node.js upgrade",
-            content: "Our company provides Node.js upgrade solutions to ensure your applications stay up-to-date with the latest features and security enhancements. We handle the entire upgrade process, including migrating to newer versions, refactoring code, and integrating new functionalities, allowing you to leverage the full potential of Node.js for your business. "
+            main: "MySQL upgrade",
+            content: "Our team provides expert MySQL upgrade services, handling version migration, data integrity checks, and rigorous testing to ensure a seamless and efficient transition to the latest MySQL release"
         },
         {
             numbers: "5",
-            main: "Node.js & advanced node.js development",
-            content: "Our company offers both Node.js and advanced Node.js development solutions to cater to diverse business needs. With Node.js, we build scalable and efficient web applications, while our expertise in advanced Node.js techniques enables us to implement complex functionalities, optimize performance, and integrate with various technologies, ensuring robust and cutting-edge solutions for our clients."
+            main: "Native & advanced MySQL",
+            content: "We offer both native and advanced MySQL services, catering to varied client needs with standard database solutions as well as customized features and optimizations for high-performance applications."
         },
         {
             numbers: "6",
-            main: "Node.js design services",
-            content: "Our Node.js development company offers comprehensive design services, leveraging industry best practices and creative expertise to deliver visually appealing and user-centric designs for Node.js applications."
+            main: "MySQL design service",
+            content: "We avail compelling MySQL design services, implementing effective data modelling and schema design techniques to develop optimized and scalable databases that matches to clients' unique business requirements."
         }
     ]
 
-
-
-    const why = [
-
+    const whyTechnoloy = [
         {
             numbers: "1",
             main: "Coding structure",
-            content: "The coding structure in Node.js emphasizes modularity, asynchronous programming, event-driven architecture, and the use of expressive APIs. This structure enables developers to build efficient, scalable, and maintainable applications with ease."
+            content: "MySQL coding structure is flexible and follows an intuitive approach, utilizing SQL queries and stored procedures to facilitate seamless data management and retrieval."
         },
         {
             numbers: "2",
             main: "Speedy programming",
-            content: "By combining non-blocking, event-driven architecture, asynchronous programming, the V8 engine, a rich ecosystem, and developer productivity, Node.js enables speedy programming, making it a popular choice for building scalable and high-performance applications."
+            content: "Due to its intelligent query optimizer and efficient indexing, ensuring rapid data processing and retrieval for enhanced performance, MySQL avails speedy programming."
         },
         {
             numbers: "3",
             main: "Custom widgets",
-            content: "By utilizing modular code organization, NPM packages, templating engines, and custom middleware, developers can create and use custom widgets in Node.js applications. These widgets promote code reusability, enhance development efficiency, and enable the creation of scalable and customizable applications."
+            content: "MySQL provides a set of custom widgets feature that allows developers to create and integrate customized graphical user interface components to enhance the functionality and user experience of applications."
         },
         {
             numbers: "4",
             main: "Fast & efficient testing",
-            content: "Node.js development offers fast and efficient testing capabilities, allowing developers to ensure the quality and reliability of their applications. By leveraging fast execution, testing frameworks, asynchronous testing capabilities, mocking and stubbing, and CI support, Node.js enables developers to perform efficient and effective testing."
+            content: "MySQL offers a fast and efficient testing feature that allows developers to conduct rigorous tests on database operations and queries, ensuring robustness and high performance."
         },
         {
             numbers: "5",
             main: "Seamless user experience",
-            content: "Whether it's a real-time chat application, a high-performance web app, or a single-page application, Node.js empowers developers to deliver a user-centric experience that meets modern expectations."
+            content: "MySQL offers a seamless user experience feature by providing intuitive interfaces, user-friendly tools, and streamlined interactions, making database management and querying straightforward for users of all levels."
         },
         {
             numbers: "6",
             main: "Framework",
-            content: "Node.js itself is not a framework but a runtime environment that executes JavaScript code on the server-side, allowing developers to build scalable and efficient web applications using various frameworks like Express, Koa, or Nest.js"
+            content: "MySQL offers a robust and versatile framework, allowing developers to build scalable applications and websites while benefiting from its rich ecosystem of extensions and plugins."
         }
     ]
-
-
 
     const process = [
         {
             no: "01",
             main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            content: "Our team collaborates closely with clients to gather comprehensive insights and define precise project goals, laying a solid foundation for a successful database solution tailored to the client's specific needs."
         },
         {
             no: "02",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Proposal & engagement",
+            content: "In this stage, our team formulates a detailed project proposal, encompassing cost estimates, project scope, and timelines, to establish a transparent and collaborative agreement with the client."
         },
         {
             no: "03",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Designs, wireframes & mockups",
+            content: "Our experts create visual representations of the database structure and user interface, enabling clients to visualize and provide feedback on the system's layout and functionality before implementation."
         },
         {
             no: "04",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Prototype demo",
+            content: "Presents a functional demonstration of the database solution to clients, enabling them to experience the system's capabilities first hand and provide valuable feedback for further refinement."
         },
         {
             no: "05",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Changes requests",
+            content: "During this stage, our team diligently assesses and implements client's modification requests, ensuring flexibility and adaptability to evolving project needs while maintaining code integrity and project timelines."
         },
         {
             no: "06",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Development",
+            content: "Our team dedicates itself to enhancing MySQL, diligently implementing optimizations and addressing user feedback to deliver a high-performance, scalable, and feature-rich database system."
         },
         {
             no: "07",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Deployment",
+            content: "Our team meticulously prepares and releases the MySQL database system, ensuring seamless integration and providing comprehensive documentation to facilitate a smooth user experience."
         },
         {
             no: "08",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Support & maintenance",
+            content: "During the Support & Maintenance stage, our team proactively addresses issues, releases timely patches, and provides continuous assistance to ensure MySQL users receive reliable performance and seamless operations."
+        },
+        {
+            no: "09",
+            main: "SEO",
+            content: "During the SEO stage, the team optimizes MySQL database configurations and implements SEO best practices to enhance search engine visibility and improve overall performance for web applications and websites."
         },
     ]
 
+    const accordionItems = [
+        { title: '01.  Does SQL Developer support MySQL?', content: 'Oracle SQL developer supports SQL developer by connecting with the third party JDBC Driver.' },
+        {
+            title: '02.  Is MySQL production ready software?', content: 'No, MySQL is not a production ready software. It requires additional tools to support its functionality like connection pooling, high availability software, monitoring, etc.'
+        },
+        {
+            title: '03.  When was MySQL developed?', content: 'MySQL was developed in 1986 by Michael Stonebraker, a computer science professor at Berkley. It was a follow up to INGRES and was originally called Postgres.'
+        },
+        {
+            title: '04. What is MySQL?', content: 'MySQL is an open-source and robust relational database management system that offers a high-performance and scalable database.'
+        },
+        {
+            title: '05. What is the difference between SQL and MySQL?', content: 'SQL is a database management system that offers data warehousing solutions and is typically used by eCommerce applications. MySQL is used for dataware housing and storage. It is an advanced version of SQL and is used for several web and mobile applications.'
+        },
+    ];
+
+
     return (
         <>
+            <First title="My SQL Development Company" subtitle="Braincuber Technologies is a leading MySQL development company, backed by a team of skilled developers proficient in optimizing MySQL databases for enhanced performance and seamless user experiences." />
 
+            <ChooseTechnology title="Why Choose Us For MySQL" content="Our development process incorporates testing, agile methodologies, and collaborative code reviews to ensure robust and efficient database solutions." />
 
-            <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen md:h-screen text-white overflow-hidden">
-                <div className="absolute inset-0">
-                    <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background Image" className="object-cover object-center w-full h-full" />
-                    <div className="absolute inset-0 bg-black opacity-50"></div>
-                </div>
+            <TechnologyServices title="MySQL Development" titleSpan="Service We offer" content="With a history of delivering innovative and reliable database solutions, we aim to dominate the segment with unmatched development output & reliability that garners trust & goodwill." services={services} />
 
-                <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-                    <a href="#" className="bg-white text-primary py-2 px-6 rounded-xl text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
-                    <h1 className="text-3xl px-3 md:text-5xl font-bold leading-tight mb-4">Welcome to Our Awesome Website</h1>
-                    <p className="text-lg text-gray-300 mb-8">Discover amazing features and services that await you.</p>
-                </div>
-            </div>
+            <WhyThisTechnology why="Why" title="MySQL" content="We are the best MySQL development company offering the best cutting-edge solutions with a touch of class, integrity, and client satisfaction" technologies={whyTechnoloy} ImageTech={ImageTech.src} />
 
+            <Process process={process} />
 
-
-            <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl  my-10 xl:max-w-6xl">
-
-                {/* <!-- Image Column --> */}
-                <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-                    <img className="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road" />
-                </div>
-                {/* <!-- Close Image Column --> */}
-
-                {/* <!-- Text Column --> */}
-                <div
-                    className="max-w-lg bg-white lg:max-w-2xl md:z-10 md:shadow-lg lg:absolute md:top-0  lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 rounded-2xl">
-                    {/* <!-- Text Wrapper --> */}
-                    <div className="flex flex-col p-12 md:px-16">
-                        <h2 className="text-2xl font-medium uppercase text-primary lg:text-4xl">Why Choose Us For Node.js</h2>
-                        <p className="mt-4">
-                            Our Node.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications.
-                        </p>
-                        {/* <!-- Button Container --> */}
-                        <div className="mt-8">
-                            <a href="#"
-                                className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-primary border-solid b py-2 px-10  hover:shadow-md">Read
-                                More</a>
-                        </div>
-                    </div>
-                    {/* <!-- Close Text Wrapper --> */}
-                </div>
-                {/* <!-- Close Text Column --> */}
-
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 py-20 bg-indigo-100 px-5 md:px-20'>
-                <div>
-                    <p className='text-4xl font-bold text-primary'>Node.js <span className='text-black'> Service We offer</span></p>
-                    <p>From API development to robust backend systems, we harness the power of Node.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of Node.js.</p>
-                </div>
-                <div>
-
-                    {services.map((e) => {
-                        return (
-                            <>
-                                <div className=' border rounded-2xl border-primary flex p-4 gap-3 bg-white mb-5'>
-                                    <div className='text-2xl text-primary font-bold'>0{e.numbers}.</div>
-                                    <div>
-                                        <h1 className='text-xl font-semibold'>Node.js development</h1>
-
-                                        <p className='my-2'>Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions.</p>
-                                    </div>
-                                </div>
-                            </>
-                        )
-                    })}
-
-                </div>
-            </div>
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    Why <span className='text-primary'>Node.js</span>
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-            <p className='py-2 max-w-3xl m-auto text-center text-lg'>
-                With a focus on real-time communication, microservices, and seamless integration, we ensure your projects leverage the full potential of Node.js for unparalleled performance and innovation.
-            </p>
-
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-items-center items-center px-10 py-10">
-                <div >
-                    <img src="/images/technology/node.png" alt="" />
-                </div>
-                <div className='justify-items-center px-2'>
-                    {why.map((e) => {
-                        return (
-                            <>
-                                <div className='mb-5'>
-                                    <h1 className='text-xl font-bold'>• {e?.main}</h1>
-                                    <p className='mb-3'>
-                                        {e?.content}
-                                    </p>
-                                </div>
-                            </>
-                        )
-                    })
-
-                    }
-
-                </div>
-
-            </div>
-
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    The <span className='text-primary'>Process</span> we follow
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-2 md:px-14 gap-5  my-8'>
-                {process.map((e) => {
-                    return (
-                        <>
-                            <div className='text-center'>
-                                <h1 className='text-9xl font-bold text-[#f2f2f2]'>{e?.no}</h1>
-                                <div className='text-xl font-bold'>{e.main}</div>
-                                <p>{e?.content}</p>
-                            </div>
-                        </>
-                    )
-                })}
-            </div>
-
-            <Faq />
-
-
-
-
+            <Faq accordionItems={accordionItems} />
         </>
     )
 }

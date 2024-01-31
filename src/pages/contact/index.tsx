@@ -63,10 +63,9 @@ function index() {
             <section className='container mx-auto py-4 lg:py-10'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-0 px-3 md:px-20'>
                     <div className="order-1 lg:order-1 flex flex-col w-full  justify-center items-start px-2 md:p-8">
-                        <h1 className="text-3xl md:text-5xl py-0 md:p-2 text-primary tracking-loose font-bold">Who
+                        <h1 className="text-3xl md:text-5xl py-0 md:pb-2 text-primary tracking-loose font-bold">Who
                             We Are
                         </h1>
-
                         <p className="text-sm md:text-base text-black mb-4">Avrut Solutions is a family of tech pioneers with in-depth knowledge and experience in transforming business ideas into reality. We deliver the most feasible custom software solutions to enterprises worldwide. Our experts don’t just initiate your project, we put ourselves into your shoes and analyze every inch of your business landscape to build the most meaningful digital product. The agile teams of developers immerse themselves fully in your project and work in tandem with your strategic goals.
                             Security, reliability, user-friendliness, and scalability define our custom solutions and services. Our consultants work with diverse businesses. Avrut Solutions offers world-class services, relying on an exceptionally talented pool of engineers. Our pursuit for excellence enables us to deliver rapid and fool-proof solutions every single time.</p>
                         <a href="#"
@@ -79,34 +78,35 @@ function index() {
                 </div>
             </section>
 
+            <div className='bg-purple'>
+                <div className=' container mx-auto md:p-10 '>
 
-            <div className='p-3 md:p-10 bg-purple'>
+                    <h1 className='text-xl md:text-4xl text-primary text-center py-4 font-bold'>
+                        What We
+                        Believe in
+                    </h1>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 border-primary'>
 
-                <h1 className='text-xl md:text-4xl text-primary text-center py-4 font-bold'>
-                    What We
-                    Believe in
-                </h1>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-4 border-primary'>
-
-                    {belive.map((e) => {
-                        return (
-                            <>
-                                <div className='border border-primary p-4 rounded-xl'>
-                                    <h1 className='text-2xl font-medium'>
-                                        <span className=''>{e?.id}.</span>   {e?.main}
-                                    </h1>
-                                    <p className='py-2'>
-                                        {e?.content}
-                                    </p>
-                                </div>
-                            </>
-                        )
-                    })}
+                        {belive.map((e) => {
+                            return (
+                                <>
+                                    <div className='border border-primary p-4 rounded-xl'>
+                                        <h1 className='text-2xl font-medium'>
+                                            <span className=''>{e?.id}.</span>   {e?.main}
+                                        </h1>
+                                        <p className='py-2'>
+                                            {e?.content}
+                                        </p>
+                                    </div>
+                                </>
+                            )
+                        })}
+                    </div>
                 </div>
             </div>
 
 
-            <div className='grid lg:grid-cols-3 gap-5 container mx-auto justify-items-center items-center py-5 px-2'>
+            <div className='grid lg:grid-cols-3 gap-5 container mx-auto justify-items-center items-center py-5 px-3 md:px-10 '>
                 <div className='w-full'>
                     <img className='mb-4 object-cover w-full' src="https://www.braincuber.com/_next/static/media/exploring1.46730b60.png" alt="" />
                     <img className='object-cover w-full' src="https://www.braincuber.com/_next/static/media/exploring2.5d3b6314.png" alt="" />

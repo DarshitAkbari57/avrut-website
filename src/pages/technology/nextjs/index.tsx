@@ -1,262 +1,163 @@
 import Faq from '@/component/FAQ'
+import First from '@/component/First/First'
+import ChooseTechnology from '@/component/Technology/ChooseTechnology/ChooseTechnology'
+import Process from '@/component/Technology/Process/Process'
+import TechnologyServices from '@/component/Technology/TechnologyServices/TechnologyServices'
+import WhyThisTechnology from '@/component/Technology/WhyThisTechnology/WhyThisTechnology'
 import React from 'react'
+import ImageTech from "../../../assets/technology/next.png"
+
 
 function Nodejs() {
 
 
     const services = [
-
         {
             numbers: "1",
-            main: "Node.js development",
-            content: "Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions."
+            main: "Next.js development",
+            content: "Our company offers comprehensive Next.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Next.js developers harness the power of this runtime environment to deliver efficient and reliable solutions."
         },
         {
             numbers: "2",
-            main: "Custom node.js solutions",
-            content: "Our Company specializes in providing custom Node.js solutions tailored to your specific business requirements. With our expertise in Node.js development, we create scalable, secure, and highly functional applications that cater to your unique needs, ensuring a seamless user experience and optimal performance."
+            main: "Custom Next.js solutions",
+            content: "We excel in delivering custom Next.js solutions adapting the flexibility and scalability of framework to build tailored web applications that allows us to resolve unique business challenges. With our expertise in Next.js, we aid clients to achieve their goals with highly customized and feature-rich applications."
         },
         {
             numbers: "3",
             main: "Maintenance & support",
-            content: "Our Node.js Company offers comprehensive maintenance and support services to ensure the smooth operation of your applications. From regular updates and bug fixes to performance optimization and security enhancements, we provide ongoing assistance to keep your Node.js applications up-to-date and running efficiently."
+            content: "We are prompt in availing maintenance and support services with regular updates, bug fixes, performance optimization, and proactive monitoring. We also offer reliable support to address any issues and ensure the long-term success of our clients' Next.js projects."
         },
         {
             numbers: "4",
-            main: "Node.js upgrade",
-            content: "Our company provides Node.js upgrade solutions to ensure your applications stay up-to-date with the latest features and security enhancements. We handle the entire upgrade process, including migrating to newer versions, refactoring code, and integrating new functionalities, allowing you to leverage the full potential of Node.js for your business. "
+            main: "Next.js upgrade",
+            content: "We offer Next.js upgrade services, aiding clients to stay up-to-date with the latest version of Next.js and leverage its enhanced features and performance improvements. We handle the upgrade process seamlessly, ensuring a smooth transition and optimizing Next.js applications for better functionality and future scalability."
         },
         {
             numbers: "5",
-            main: "Node.js & advanced node.js development",
-            content: "Our company offers both Node.js and advanced Node.js development solutions to cater to diverse business needs. With Node.js, we build scalable and efficient web applications, while our expertise in advanced Node.js techniques enables us to implement complex functionalities, optimize performance, and integrate with various technologies, ensuring robust and cutting-edge solutions for our clients."
+            main: "Next.js & advanced Next.js development",
+            content: "We are expert in providing both native and advanced Next.js services. We deliver unique web applications that leverage Next.js's native capabilities and advanced features. With our expertise, we create high-performing and cutting-edge Next.js solutions."
         },
         {
             numbers: "6",
-            main: "Node.js design services",
-            content: "Our Node.js development company offers comprehensive design services, leveraging industry best practices and creative expertise to deliver visually appealing and user-centric designs for Node.js applications."
+            main: "Next.js design services",
+            content: "By combining innovative design principles and Next.js's capabilities to create visually appealing and user-centric web interfaces, our designers indulge in crafting brand worthy designs. With a focus on UX/UI design, we deliver stunning designs that enhance the overall user experience of Next.js applications."
         }
     ]
 
 
-
-    const why = [
-
+    const whyTechnoloy = [
         {
             numbers: "1",
             main: "Coding structure",
-            content: "The coding structure in Node.js emphasizes modularity, asynchronous programming, event-driven architecture, and the use of expressive APIs. This structure enables developers to build efficient, scalable, and maintainable applications with ease."
+            content: "The coding structure in Next.js, facilitates code reusability, maintainability, and scalability, resulting in efficient and streamlined development processes."
         },
         {
             numbers: "2",
             main: "Speedy programming",
-            content: "By combining non-blocking, event-driven architecture, asynchronous programming, the V8 engine, a rich ecosystem, and developer productivity, Node.js enables speedy programming, making it a popular choice for building scalable and high-performance applications."
+            content: "With faster development cycles, quicker response times, and efficient performance, next.js allows developers to deliver robust web applications quicklys."
         },
         {
             numbers: "3",
             main: "Custom widgets",
-            content: "By utilizing modular code organization, NPM packages, templating engines, and custom middleware, developers can create and use custom widgets in Node.js applications. These widgets promote code reusability, enhance development efficiency, and enable the creation of scalable and customizable applications."
+            content: "Custom widgets are like magic wizards that enhances code modularity and flexibility, enabling developers to create highly customized and interactive user interfaces for web applications with ease."
         },
         {
             numbers: "4",
             main: "Fast & efficient testing",
-            content: "Node.js development offers fast and efficient testing capabilities, allowing developers to ensure the quality and reliability of their applications. By leveraging fast execution, testing frameworks, asynchronous testing capabilities, mocking and stubbing, and CI support, Node.js enables developers to perform efficient and effective testing."
+            content: "Through its built-in testing utilities and frameworks, Next.js facilitates fast and efficient testing enabling developers to write comprehensive unit tests, integration tests, and end-to-end tests, ensuring the reliability and quality of Next.js applications."
         },
         {
             numbers: "5",
             main: "Seamless user experience",
-            content: "Whether it's a real-time chat application, a high-performance web app, or a single-page application, Node.js empowers developers to deliver a user-centric experience that meets modern expectations."
+            content: "The seamless user experience in Next.js enhances user satisfaction, engagement, and conversion rates, resulting in improved customer retention and business success."
         },
         {
             numbers: "6",
             main: "Framework",
-            content: "Node.js itself is not a framework but a runtime environment that executes JavaScript code on the server-side, allowing developers to build scalable and efficient web applications using various frameworks like Express, Koa, or Nest.js"
+            content: "Next.js itself is a framework for building server-side rendered (SSR) React applications. It provides a robust and opinionated framework that simplifies the development process, offers built-in routing, server-side rendering capabilities, and other features that make it an efficient and powerful choice for building web applications."
         }
     ]
-
 
 
     const process = [
         {
             no: "01",
             main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            content: "This stage involves thoroughly understanding the client's needs, goals, and project requirements to define a clear roadmap and scope for the development project."
         },
         {
             no: "02",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Proposal & engagement",
+            content: "This stage involves presenting a detailed project proposal to the client, outlining the scope, timeline, deliverables, and terms of engagement, ensuring mutual understanding and agreement before starting the development project."
         },
         {
             no: "03",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Designs, wireframes & mockups",
+            content: "Here, our team creates visual representations of the application's user interface, ensuring a clear understanding of the design and layout before proceeding with the actual development."
         },
         {
             no: "04",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Prototype demo",
+            content: "In this stage, we present a working prototype of the application, showcasing its core features and functionality to stakeholders, and gathering feedback for further improvements and refinements."
         },
         {
             no: "05",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Changes requests",
+            content: "This stage involves addressing and implementing requested modifications or additions to the application, incorporating client feedback to refine and enhance user experience."
         },
         {
             no: "06",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Development",
+            content: "Writing code, implementing features, and building the application according to the defined requirements and design for efficient and scalable development is done in this stage."
         },
         {
             no: "07",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Deployment",
+            content: "The deployment stage involves preparing the application for production, setting up servers, configuring environments, and ensuring a smooth transition from development to a live environment"
         },
         {
             no: "08",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Support & maintenance",
+            content: "This stage checks for the ongoing stability, performance, and updates of the application, providing continuous support, bug fixes, and enhancements to keep the Next.js application running smoothly and up-to-date."
+        },
+        {
+            no: "09",
+            main: "SEO",
+            content: "Here we implement best practices, optimizing page performance, and enhancing website visibility to improve search engine rankings and drive organic traffic to Next.js applications."
         },
     ]
 
+    const accordionItems = [
+        {
+            title: '01.  What are the features of NextJs?', content: 'Hot Code Reloading, Automatic routing, Server Rendering, Ecosystem Compatible.'
+        },
+        {
+            title: '02.  What Is NextJs?', content: 'its a framework written in JavaScript. It can be used instead of Express. But it is not a replacement.'
+        },
+        {
+            title: '03. When will your business need NextJs development?', content: 'When the business needs reusable components that are first rendered on the server so that server pages are indexed by search engines.'
+        },
+        {
+            title: '04.  What is Next.Js used for?', content: 'It used for creating powerful dynamic or static sites and apps that are highly performant, scalable, and cost-effective for a variety of business verticals, such as eCommerce, education, social networking, lifestyle, healthcare, etc.'
+        },
+        {
+            title: '05. Is Next.Js good for SEO?', content: 'Yes. Next.Js is one of the leading frameworks for creating more indexable and SEO friendly websites and applications because of its features like server-side rendering.'
+        },
+    ];
+
     return (
         <>
+            <First title="Next.js Development Company" subtitle="Collaborate with us for High performing - SEO friendly websites built with Next.js" />
 
+            <ChooseTechnology title="Why Choose Us For Next.js" content="Our Next.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications." />
 
-            <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen md:h-screen text-white overflow-hidden">
-                <div className="absolute inset-0">
-                    <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background Image" className="object-cover object-center w-full h-full" />
-                    <div className="absolute inset-0 bg-black opacity-50"></div>
-                </div>
+            <TechnologyServices title="Next.js" titleSpan="Service We offer" content="From API development to robust backend systems, we harness the power of Next.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of Next.js." services={services} />
 
-                <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-                    <a href="#" className="bg-white text-primary py-2 px-6 rounded-xl text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
-                    <h1 className="text-3xl px-3 md:text-5xl font-bold leading-tight mb-4">Welcome to Our Awesome Website</h1>
-                    <p className="text-lg text-gray-300 mb-8">Discover amazing features and services that await you.</p>
-                </div>
-            </div>
+            <WhyThisTechnology why="Why" title="Next.js" content=" With our in-depth expertise, we craft speedy and SEO-friendly applications, providing a seamless user experience backed by a history of innovative and successful Next.js implementations." technologies={whyTechnoloy} ImageTech={ImageTech.src} />
 
+            <Process process={process} />
 
-
-            <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl  my-10 xl:max-w-6xl">
-
-                {/* <!-- Image Column --> */}
-                <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-                    <img className="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road" />
-                </div>
-                {/* <!-- Close Image Column --> */}
-
-                {/* <!-- Text Column --> */}
-                <div
-                    className="max-w-lg bg-white lg:max-w-2xl md:z-10 md:shadow-lg lg:absolute md:top-0  lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 rounded-2xl">
-                    {/* <!-- Text Wrapper --> */}
-                    <div className="flex flex-col p-12 md:px-16">
-                        <h2 className="text-2xl font-medium uppercase text-primary lg:text-4xl">Why Choose Us For Node.js</h2>
-                        <p className="mt-4">
-                            Our Node.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications.
-                        </p>
-                        {/* <!-- Button Container --> */}
-                        <div className="mt-8">
-                            <a href="#"
-                                className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-primary border-solid b py-2 px-10  hover:shadow-md">Read
-                                More</a>
-                        </div>
-                    </div>
-                    {/* <!-- Close Text Wrapper --> */}
-                </div>
-                {/* <!-- Close Text Column --> */}
-
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 py-20 bg-indigo-100 px-5 md:px-20'>
-                <div>
-                    <p className='text-4xl font-bold text-primary'>Node.js <span className='text-black'> Service We offer</span></p>
-                    <p>From API development to robust backend systems, we harness the power of Node.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of Node.js.</p>
-                </div>
-                <div>
-
-                    {services.map((e) => {
-                        return (
-                            <>
-                                <div className=' border rounded-2xl border-primary flex p-4 gap-3 bg-white mb-5'>
-                                    <div className='text-2xl text-primary font-bold'>0{e.numbers}.</div>
-                                    <div>
-                                        <h1 className='text-xl font-semibold'>Node.js development</h1>
-
-                                        <p className='my-2'>Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions.</p>
-                                    </div>
-                                </div>
-                            </>
-                        )
-                    })}
-
-                </div>
-            </div>
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    Why <span className='text-primary'>Node.js</span>
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-            <p className='py-2 max-w-3xl m-auto text-center text-lg'>
-                With a focus on real-time communication, microservices, and seamless integration, we ensure your projects leverage the full potential of Node.js for unparalleled performance and innovation.
-            </p>
-
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-items-center items-center px-10 py-10">
-                <div >
-                    <img src="/images/technology/node.png" alt="" />
-                </div>
-                <div className='justify-items-center px-2'>
-                    {why.map((e) => {
-                        return (
-                            <>
-                                <div className='mb-5'>
-                                    <h1 className='text-xl font-bold'>• {e?.main}</h1>
-                                    <p className='mb-3'>
-                                        {e?.content}
-                                    </p>
-                                </div>
-                            </>
-                        )
-                    })
-
-                    }
-
-                </div>
-
-            </div>
-
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    The <span className='text-primary'>Process</span> we follow
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-2 md:px-14 gap-5  my-8'>
-                {process.map((e) => {
-                    return (
-                        <>
-                            <div className='text-center'>
-                                <h1 className='text-9xl font-bold text-[#f2f2f2]'>{e?.no}</h1>
-                                <div className='text-xl font-bold'>{e.main}</div>
-                                <p>{e?.content}</p>
-                            </div>
-                        </>
-                    )
-                })}
-            </div>
-
-            <Faq />
-
-
-
-
+            <Faq accordionItems={accordionItems} />
         </>
     )
 }

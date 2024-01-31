@@ -1,265 +1,147 @@
 import Faq from '@/component/FAQ'
+import First from '@/component/First/First'
+import ChooseTechnology from '@/component/Technology/ChooseTechnology/ChooseTechnology'
+import Process from '@/component/Technology/Process/Process'
+import TechnologyServices from '@/component/Technology/TechnologyServices/TechnologyServices'
+import WhyThisTechnology from '@/component/Technology/WhyThisTechnology/WhyThisTechnology'
 import React from 'react'
+import ImageTech from "../../../assets/technology/mongodb.png"
 
-function Nodejs() {
-
+function MongoDB() {
 
     const services = [
-
         {
             numbers: "1",
-            main: "Node.js development",
-            content: "Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions."
+            main: "Custom MongoDB Development",
+            content: "We ace in Developing dynamic web and mobile applications with MongoDB as the data backend which is closely supervised by our MongoDB developers."
         },
         {
             numbers: "2",
-            main: "Custom node.js solutions",
-            content: "Our Company specializes in providing custom Node.js solutions tailored to your specific business requirements. With our expertise in Node.js development, we create scalable, secure, and highly functional applications that cater to your unique needs, ensuring a seamless user experience and optimal performance."
+            main: "MongoDB integration",
+            content: "Our database development experts help in optimizing MongoDB database integration for your business solution with various apps to deliver a seamless performance."
         },
         {
             numbers: "3",
-            main: "Maintenance & support",
-            content: "Our Node.js Company offers comprehensive maintenance and support services to ensure the smooth operation of your applications. From regular updates and bug fixes to performance optimization and security enhancements, we provide ongoing assistance to keep your Node.js applications up-to-date and running efficiently."
+            main: "Restful API development",
+            content: "Our team develops RESTful API frameworks, servers, and interfaces that allow languages like Ruby, Node.JS, AngularJS, HTML, and Python to communicate with, write data to, and read data from MongoDB."
         },
         {
             numbers: "4",
-            main: "Node.js upgrade",
-            content: "Our company provides Node.js upgrade solutions to ensure your applications stay up-to-date with the latest features and security enhancements. We handle the entire upgrade process, including migrating to newer versions, refactoring code, and integrating new functionalities, allowing you to leverage the full potential of Node.js for your business. "
+            main: "Upgrades and migration",
+            content: "Our team of talented developers offers a bug and risk-free cost-effective migration service based on our latest upgrade facilities."
         },
         {
             numbers: "5",
-            main: "Node.js & advanced node.js development",
-            content: "Our company offers both Node.js and advanced Node.js development solutions to cater to diverse business needs. With Node.js, we build scalable and efficient web applications, while our expertise in advanced Node.js techniques enables us to implement complex functionalities, optimize performance, and integrate with various technologies, ensuring robust and cutting-edge solutions for our clients."
+            main: "Support and maintenance",
+            content: "Our MongoDB developers, avails efficient support & maintenance facilities to monitor and resolve any deployment issues faster."
         },
-        {
-            numbers: "6",
-            main: "Node.js design services",
-            content: "Our Node.js development company offers comprehensive design services, leveraging industry best practices and creative expertise to deliver visually appealing and user-centric designs for Node.js applications."
-        }
     ]
 
-
-
-    const why = [
-
+    const whyTechnoloy = [
         {
             numbers: "1",
-            main: "Coding structure",
-            content: "The coding structure in Node.js emphasizes modularity, asynchronous programming, event-driven architecture, and the use of expressive APIs. This structure enables developers to build efficient, scalable, and maintainable applications with ease."
+            main: "Cost-effective",
+            content: "MongoDB offers multiple flexible approaches. When using the cloud-based MongoDB Atlas, you can choose an instance size that fits your current needs. You can also adjust your cluster to automatically scale when needed."
         },
         {
             numbers: "2",
-            main: "Speedy programming",
-            content: "By combining non-blocking, event-driven architecture, asynchronous programming, the V8 engine, a rich ecosystem, and developer productivity, Node.js enables speedy programming, making it a popular choice for building scalable and high-performance applications."
+            main: "Schemas",
+            content: "MongoDB supports creating explicit schemas and validating data. This flexibility is an incredible asset when handling real-world data and changes in requirements or environment."
         },
         {
             numbers: "3",
-            main: "Custom widgets",
-            content: "By utilizing modular code organization, NPM packages, templating engines, and custom middleware, developers can create and use custom widgets in Node.js applications. These widgets promote code reusability, enhance development efficiency, and enable the creation of scalable and customizable applications."
+            main: "Query & Analytics",
+            content: "The MongoDB Query API allows you to query deep into documents, and even perform complex analytics pipelines with just a few lines of declarative code."
         },
         {
             numbers: "4",
-            main: "Fast & efficient testing",
-            content: "Node.js development offers fast and efficient testing capabilities, allowing developers to ensure the quality and reliability of their applications. By leveraging fast execution, testing frameworks, asynchronous testing capabilities, mocking and stubbing, and CI support, Node.js enables developers to perform efficient and effective testing."
+            main: "Scalability",
+            content: "MongoDB avails horizontal scaling via sharding. It can spread data management across multiple machines, allowing for high-throughput processes with massive data volumes."
         },
         {
             numbers: "5",
-            main: "Seamless user experience",
-            content: "Whether it's a real-time chat application, a high-performance web app, or a single-page application, Node.js empowers developers to deliver a user-centric experience that meets modern expectations."
+            main: "High Performance",
+            content: "MongoDB can easily manage requirements for fast data processing and large data loads. It can run both regular and ad-hoc queries, which boosts system performance."
         },
-        {
-            numbers: "6",
-            main: "Framework",
-            content: "Node.js itself is not a framework but a runtime environment that executes JavaScript code on the server-side, allowing developers to build scalable and efficient web applications using various frameworks like Express, Koa, or Nest.js"
-        }
     ]
-
-
 
     const process = [
         {
             no: "01",
             main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            content: "In the first stage, our team meets the client and gathers the application's data requirements and use cases which help us determine the data structure, relationships, and any specific querying needs."
         },
         {
             no: "02",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Data Modeling",
+            content: "In the second stage, our development team designs the data model, including collections and documents while considering the application's data access patterns."
         },
         {
             no: "03",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Choosing the Right Data Model",
+            content: "In this stage, our development team selects the appropriate data model based on the application's needs, considering factors like read and write patterns, relationships, and data complexity."
         },
         {
             no: "04",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Development and Integration",
+            content: "In the development stage, our development team integrates MongoDB into the application. This involves using MongoDB drivers or libraries to connect to the database, insert, update, query, and delete documents."
         },
         {
             no: "05",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Query Design",
+            content: "Our development team designs queries that utilize indexes, aggregation pipelines, and other MongoDB-specific features to retrieve data in the most optimal way."
         },
         {
             no: "06",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Data Migration",
+            content: "To migrate from a different database solution to MongoDB, our development team plans and executes the data migration process, ensuring data consistency and integrity."
         },
         {
             no: "07",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Deployment",
+            content: "In this stage, the application is deployed to the production environment. Our development team configures MongoDB instances, ensuring proper resource allocation and connectivity."
         },
         {
             no: "08",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Monitoring and Maintenance",
+            content: "We avail ongoing monitoring and maintenance by setting up monitoring tools, logs, and alerts to proactively identify and address any issues."
         },
     ]
 
+    const accordionItems = [
+        { title: '01.  What is MongoDB?', content: 'MongoDB is a document-oriented NoSQL database aimed at storing high-volumes of data. MongoDB is a flexible database which allows you to store unstructured data and provides indexing and replication with rich APIs.' },
+        {
+            title: '02.  Which language is used in MongoDB?', content: 'MongoDB uses the MongoDB Query Language (MQL). For typical database operations, the documentation contrasts the syntax of MQL with SQL.'
+        },
+        {
+            title: '03.  When to use MongoDB?', content: 'Databases like MongoDB are of great use when your data is document-centric and doesn’t fit well into a relational database schema. It helps you accommodate massive scale, rapidly prototyping, and a few other use cases.'
+        },
+        {
+            title: '04. Why should I choose MongoDB development?', content: 'Choose MongoDB development for Hire highly skilled work personnel from a large batch of industry professionals Avoid the tedious process of recruiting full- time employees. Hire only the required number skilled workers whenever you need them It leads to project - centric approaches only suitable candidates with the required skill set are chosen. Saves costs without deterring quality.'
+        },
+        {
+            title: '05. What industries and applications is MongoDB typically used for?',
+            content: "MongoDB is generally known to design and develop CMS, ERP, CRM apps, and enterprise mobility apps. Along with that MongoDB can be used forHire highly skilled work personnel from a large batch of industry professionals Avoid the tedious process of recruiting full - time employees Hire only the required number skilled workers whenever you need them It leads to project - centric approaches only suitable candidates with the required skill set are chosen Saves costs without deterring quality Enhances overall performance and productivity."
+        },
+    ];
+
+
     return (
         <>
+            <First title="MongoDB database design" subtitle="Our MongoDB expert team understands your business needs and create appropriate data models tailored to your application." />
 
+            <ChooseTechnology title="Why Choose us as MongoDB Database" content="With a wide experience and ability to consistently deliver high-quality, robust, and feature-rich database solutions, the development process followed by our team meets client needs, ensuring stability, security, and optimal performance for mission-critical applications." />
 
-            <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen md:h-screen text-white overflow-hidden">
-                <div className="absolute inset-0">
-                    <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background Image" className="object-cover object-center w-full h-full" />
-                    <div className="absolute inset-0 bg-black opacity-50"></div>
-                </div>
+            <TechnologyServices title="MongoDB development" titleSpan="Service We offer" content="We help you build web and mobile applications using the powerful MongoDB database that is smarter, scalable, and lets you market your ideas faster." services={services} />
 
-                <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-                    <a href="#" className="bg-white text-primary py-2 px-6 rounded-xl text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
-                    <h1 className="text-3xl px-3 md:text-5xl font-bold leading-tight mb-4">Welcome to Our Awesome Website</h1>
-                    <p className="text-lg text-gray-300 mb-8">Discover amazing features and services that await you.</p>
-                </div>
-            </div>
+            <WhyThisTechnology why="Why" title="MongoDB" content="We are the best MongoDB development company offering the best cutting-edge solutions with a touch of class, integrity, and client satisfaction" technologies={whyTechnoloy} ImageTech={ImageTech.src} />
 
+            <Process process={process} />
 
-
-            <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl  my-10 xl:max-w-6xl">
-
-                {/* <!-- Image Column --> */}
-                <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-                    <img className="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road" />
-                </div>
-                {/* <!-- Close Image Column --> */}
-
-                {/* <!-- Text Column --> */}
-                <div
-                    className="max-w-lg bg-white lg:max-w-2xl md:z-10 md:shadow-lg lg:absolute md:top-0  lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 rounded-2xl">
-                    {/* <!-- Text Wrapper --> */}
-                    <div className="flex flex-col p-12 md:px-16">
-                        <h2 className="text-2xl font-medium uppercase text-primary lg:text-4xl">Why Choose Us For Node.js</h2>
-                        <p className="mt-4">
-                            Our Node.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications.
-                        </p>
-                        {/* <!-- Button Container --> */}
-                        <div className="mt-8">
-                            <a href="#"
-                                className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-primary border-solid b py-2 px-10  hover:shadow-md">Read
-                                More</a>
-                        </div>
-                    </div>
-                    {/* <!-- Close Text Wrapper --> */}
-                </div>
-                {/* <!-- Close Text Column --> */}
-
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 py-20 bg-indigo-100 px-5 md:px-20'>
-                <div>
-                    <p className='text-4xl font-bold text-primary'>Node.js <span className='text-black'> Service We offer</span></p>
-                    <p>From API development to robust backend systems, we harness the power of Node.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of Node.js.</p>
-                </div>
-                <div>
-
-                    {services.map((e) => {
-                        return (
-                            <>
-                                <div className=' border rounded-2xl border-primary flex p-4 gap-3 bg-white mb-5'>
-                                    <div className='text-2xl text-primary font-bold'>0{e.numbers}.</div>
-                                    <div>
-                                        <h1 className='text-xl font-semibold'>Node.js development</h1>
-
-                                        <p className='my-2'>Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions.</p>
-                                    </div>
-                                </div>
-                            </>
-                        )
-                    })}
-
-                </div>
-            </div>
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    Why <span className='text-primary'>Node.js</span>
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-            <p className='py-2 max-w-3xl m-auto text-center text-lg'>
-                With a focus on real-time communication, microservices, and seamless integration, we ensure your projects leverage the full potential of Node.js for unparalleled performance and innovation.
-            </p>
-
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-items-center items-center px-10 py-10">
-                <div >
-                    <img src="/images/technology/node.png" alt="" />
-                </div>
-                <div className='justify-items-center px-2'>
-                    {why.map((e) => {
-                        return (
-                            <>
-                                <div className='mb-5'>
-                                    <h1 className='text-xl font-bold'>• {e?.main}</h1>
-                                    <p className='mb-3'>
-                                        {e?.content}
-                                    </p>
-                                </div>
-                            </>
-                        )
-                    })
-
-                    }
-
-                </div>
-
-            </div>
-
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    The <span className='text-primary'>Process</span> we follow
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-2 md:px-14 gap-5  my-8'>
-                {process.map((e) => {
-                    return (
-                        <>
-                            <div className='text-center'>
-                                <h1 className='text-9xl font-bold text-[#f2f2f2]'>{e?.no}</h1>
-                                <div className='text-xl font-bold'>{e.main}</div>
-                                <p>{e?.content}</p>
-                            </div>
-                        </>
-                    )
-                })}
-            </div>
-
-            <Faq />
-
-
-
-
+            <Faq accordionItems={accordionItems} />
         </>
     )
 }
 
-export default Nodejs
+export default MongoDB
 

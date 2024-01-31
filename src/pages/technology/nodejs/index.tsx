@@ -1,12 +1,17 @@
 import Faq from '@/component/FAQ'
 import First from '@/component/First/First'
+import ChooseTechnology from '@/component/Technology/ChooseTechnology/ChooseTechnology'
+import Process from '@/component/Technology/Process/Process'
+import TechnologyServices from '@/component/Technology/TechnologyServices/TechnologyServices'
+import WhyThisTechnology from '@/component/Technology/WhyThisTechnology/WhyThisTechnology'
 import React from 'react'
+import ImageTech from "../../../assets/technology/node.png"
+
 
 function Nodejs() {
 
 
     const services = [
-
         {
             numbers: "1",
             main: "Node.js development",
@@ -25,7 +30,7 @@ function Nodejs() {
         {
             numbers: "4",
             main: "Node.js upgrade",
-            content: "Our company provides Node.js upgrade solutions to ensure your applications stay up-to-date with the latest features and security enhancements. We handle the entire upgrade process, including migrating to newer versions, refactoring code, and integrating new functionalities, allowing you to leverage the full potential of Node.js for your business. "
+            content: "Our company provides Node.js upgrade solutions to ensure your applications stay up-to-date with the latest features and security enhancements. We handle the entire upgrade process, including migrating to newer versions, refactoring code, and integrating new functionalities, allowing you to leverage the full potential of Node.js for your business."
         },
         {
             numbers: "5",
@@ -40,9 +45,7 @@ function Nodejs() {
     ]
 
 
-
-    const why = [
-
+    const whyTechnoloy = [
         {
             numbers: "1",
             main: "Coding structure",
@@ -76,7 +79,6 @@ function Nodejs() {
     ]
 
 
-
     const process = [
         {
             no: "01",
@@ -85,97 +87,75 @@ function Nodejs() {
         },
         {
             no: "02",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Proposal & engagement",
+            content: "The proposal stage in Node.js development involves preparing a comprehensive proposal that outlines the project details, objectives, scope, and estimated costs. is crucial for establishing a clear understanding between the client and the Node.js development team."
         },
         {
             no: "03",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Designs, wireframes & mockups",
+            content: "n this stage, the application's architecture and design are defined. This includes designing the database schema, planning the API structure, and creating a high-level system architecture. UI/UX design elements may also be considered."
         },
         {
             no: "04",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Prototype demo",
+            content: "This stage involves presenting the functional aspects of the backend logic, API functionality, and data processing, providing stakeholders with a tangible representation of the application's core features and user flows."
         },
         {
             no: "05",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Changes requests",
+            content: "The changes requests stage in Node.js development involves addressing and implementing requested modifications or additions to the application's functionality"
         },
         {
             no: "06",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Development",
+            content: "At this stage, our Developers start writing code, following the defined architecture and design. Node.js and appropriate frameworks and libraries are used to implement server-side logic, API endpoints, data persistence, and any necessary integration."
         },
         {
             no: "07",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Deployment",
+            content: "Once testing is complete, the application is deployed to a production environment. This may involve setting up servers, configuring databases, and ensuring proper security measures"
         },
         {
             no: "08",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Support & maintenance",
+            content: "Our team provides ongoing maintenance and support, including bug fixes, security updates, and feature enhancements. Monitor the application's performance, identify and resolve issues promptly, and provide regular updates as needed."
+        },
+        {
+            no: "09",
+            main: "SEO",
+            content: "The SEO stage in Node.js development involves optimizing the application for search engine visibility and improving its online presence."
         },
     ]
 
+    const accordionItems = [
+        { title: '01.  What type of applications can be developed by a Node.js development company?', content: 'Streaming apps, Social media apps, Smart city apps, Project management tools, Instant messaging apps, Real-time collaboration tools, Single page responsive apps, Real-time chat apps, Food ordering apps & more.' },
+        {
+            title: '02.  Which leading companies are using Node.js?', content: 'LinkedIn, NASA, Netflix, Twitter, eBay, Uber & many more.'
+        },
+        {
+            title: '03. Is Node.js a programming language?', content: 'No, Node.js is an open-source, runtime environment that helps a Node.js development company build feature-rich, highly scalable, and full-stack applications'
+        },
+        {
+            title: '04.  Which database do you use for Node.js app development?', content: 'MongoDB, MySQL, MS-SQL, Oracle, MariaDB, Firebase, PostgreSQL & more.'
+        },
+        {
+            title: '05. How much does it cost to build a Node.js application?', content: 'The cost of developing a Node.js application depends on Requirements of the project, Project complexity, Expertise and experience of the Node.js Development Company, Features or functionality of the application, Level of security required & Third-party services.'
+        },
+    ];
+
     return (
         <>
-
-
             <First title="Node.js Development Company" subtitle="Avrut solutions is a leading Node.js development company catering a wide gamut of business segments from startups to enterprises." />
 
-            <div className="relative flex flex-col-reverse   items-center mx-auto lg:flex-row-reverse lg:max-w-5xl  md:my-10 xl:max-w-6xl">
+            <ChooseTechnology title="Why Choose Us For Node.js" content="Our Node.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications." />
 
-                {/* <!-- Image Column --> */}
-                <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-                    <img className="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road" />
-                </div>
-                {/* <!-- Close Image Column --> */}
+            <TechnologyServices title="Node.js" titleSpan="Service We offer" content="From API development to robust backend systems, we harness the power of Node.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of Node.js." services={services} />
 
-                {/* <!-- Text Column --> */}
-                <div
-                    className="max-w-lg bg-white lg:max-w-2xl md:z-10 md:shadow-lg lg:absolute md:top-0  lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 rounded-2xl">
-                    {/* <!-- Text Wrapper --> */}
-                    <div className="flex flex-col p-4 md:p-8 md:px-16">
-                        <h2 className="text-2xl font-medium uppercase text-primary lg:text-4xl">Why Choose Us For Node.js</h2>
-                        <p className="mt-4">
-                            Our Node.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications.
-                        </p>
-                        {/* <!-- Button Container --> */}
-                        <div className="mt-8">
-                            <a href="#"
-                                className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-primary border-solid b py-2 px-10  hover:shadow-md">Read
-                                More</a>
-                        </div>
-                    </div>
-                    {/* <!-- Close Text Wrapper --> */}
-                </div>
-                {/* <!-- Close Text Column --> */}
+            <WhyThisTechnology why="Why" title="Node.js" content=" With a focus on real-time communication, microservices, and seamless integration, we ensure your projects leverage the full potential of Node.js for unparalleled performance and innovation." technologies={whyTechnoloy} ImageTech={ImageTech.src} />
 
-            </div>
+            <Process process={process} />
 
-
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-2 md:px-14 gap-5  my-8'>
-                {process.map((e) => {
-                    return (
-                        <>
-                            <div className='text-center'>
-                                <h1 className='text-9xl font-bold text-[#f2f2f2]'>{e?.no}</h1>
-                                <div className='text-xl font-bold'>{e.main}</div>
-                                <p>{e?.content}</p>
-                            </div>
-                        </>
-                    )
-                })}
-            </div>
-
-            <Faq />
-
-
-
-
+            <Faq accordionItems={accordionItems} />
         </>
     )
 }
