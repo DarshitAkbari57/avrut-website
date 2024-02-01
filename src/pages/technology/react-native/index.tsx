@@ -1,258 +1,163 @@
-import Faq from '@/component/FAQ'
 import React from 'react'
+import Faq from '@/component/FAQ'
+import First from '@/component/First/First'
+import ChooseTechnology from '@/component/Technology/ChooseTechnology/ChooseTechnology'
+import Process from '@/component/Technology/Process/Process'
+import TechnologyServices from '@/component/Technology/TechnologyServices/TechnologyServices'
+import WhyThisTechnology from '@/component/Technology/WhyThisTechnology/WhyThisTechnology'
+import ImageTech from "../../../assets/technology/react-native.png"
 
-function Nodejs() {
-
+function ReactNative() {
 
     const services = [
-
         {
             numbers: "1",
-            main: "Node.js development",
-            content: "Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions."
+            main: "React native development",
+            content: "We create highly functional and visually appealing cross-platform applications that work seamlessly on both iOS and Android devices. Our services galore include end-to-end solutions, including UI/UX design, coding, testing, and deployment, ensuring a smooth and hassle-free development process. Demands of a new app or migrating an existing one to React Native are fulfilled by us via reliable and cost-effective solutions to help you stay ahead in the mobile app market."
         },
         {
             numbers: "2",
-            main: "Custom node.js solutions",
-            content: "Our Company specializes in providing custom Node.js solutions tailored to your specific business requirements. With our expertise in Node.js development, we create scalable, secure, and highly functional applications that cater to your unique needs, ensuring a seamless user experience and optimal performance."
+            main: "Custom react native solutions",
+            content: "Owing an in-depth knowledge and experience in building highly customized mobile applications using React Native framework, our team work connects with our clients to understand their specific requirements and deliver tailored solutions that align with their brand identity and user expectations."
         },
         {
             numbers: "3",
             main: "Maintenance & support",
-            content: "Our Node.js Company offers comprehensive maintenance and support services to ensure the smooth operation of your applications. From regular updates and bug fixes to performance optimization and security enhancements, we provide ongoing assistance to keep your Node.js applications up-to-date and running efficiently."
+            content: "Our Maintenance and support team provides regular updates, bug fixes, and feature enhancements to ensure proper functionality of your app. Along with it, we also offer proactive monitoring, troubleshooting, and technical support to promptly address any issues that may arise."
         },
         {
             numbers: "4",
-            main: "Node.js upgrade",
-            content: "Our company provides Node.js upgrade solutions to ensure your applications stay up-to-date with the latest features and security enhancements. We handle the entire upgrade process, including migrating to newer versions, refactoring code, and integrating new functionalities, allowing you to leverage the full potential of Node.js for your business. "
+            main: "React native upgrade",
+            content: "Upgrades and optimizations are a requisite in competitive times. Our team conducts thorough assessments of your existing app & initiates upgrade process compatibility testing, code refactoring, and integration of new libraries or APIs."
         },
         {
             numbers: "5",
-            main: "Node.js & advanced node.js development",
-            content: "Our company offers both Node.js and advanced Node.js development solutions to cater to diverse business needs. With Node.js, we build scalable and efficient web applications, while our expertise in advanced Node.js techniques enables us to implement complex functionalities, optimize performance, and integrate with various technologies, ensuring robust and cutting-edge solutions for our clients."
+            main: "Native & advanced react native development",
+            content: "We offer both React Native and Advanced React Native services to cater to varied needs of the client. With React Native, we build cross-platform mobile apps that deliver a consistent user experience across iOS and Android platforms. For clients with demand of advanced solutions we avail services including integrating complex APIs, implementing native modules, and optimizing app performance."
         },
         {
             numbers: "6",
-            main: "Node.js design services",
-            content: "Our Node.js development company offers comprehensive design services, leveraging industry best practices and creative expertise to deliver visually appealing and user-centric designs for Node.js applications."
+            main: "React native design services",
+            content: "Crafting visually stunning designs imbibing latest color schemes and trends, we ensure that our React Native app delivers an exceptional user experience, enhancing user satisfaction and engagement."
         }
     ]
 
-
-
-    const why = [
-
+    const whyTechnoloy = [
         {
             numbers: "1",
             main: "Coding structure",
-            content: "The coding structure in Node.js emphasizes modularity, asynchronous programming, event-driven architecture, and the use of expressive APIs. This structure enables developers to build efficient, scalable, and maintainable applications with ease."
+            content: "React Native enables one to reuse a significant portion of your code across different platforms. This means one can share common logic and components, resulting in faster development, easier maintenance, and reduced development costs."
         },
         {
             numbers: "2",
             main: "Speedy programming",
-            content: "By combining non-blocking, event-driven architecture, asynchronous programming, the V8 engine, a rich ecosystem, and developer productivity, Node.js enables speedy programming, making it a popular choice for building scalable and high-performance applications."
+            content: "Developers can build applications more quickly using React native thereby making it an ideal choice for projects that have strict timelines without compromising on quality or performance."
         },
         {
             numbers: "3",
             main: "Custom widgets",
-            content: "By utilizing modular code organization, NPM packages, templating engines, and custom middleware, developers can create and use custom widgets in Node.js applications. These widgets promote code reusability, enhance development efficiency, and enable the creation of scalable and customizable applications."
+            content: "Custom widgets tailored to meet specific design and functionality requirements can be created using react native’s component-based architecture, JSX syntax, styling options, native integration capabilities, and community resources."
         },
         {
             numbers: "4",
             main: "Fast & efficient testing",
-            content: "Node.js development offers fast and efficient testing capabilities, allowing developers to ensure the quality and reliability of their applications. By leveraging fast execution, testing frameworks, asynchronous testing capabilities, mocking and stubbing, and CI support, Node.js enables developers to perform efficient and effective testing."
+            content: "React Native development offers fast and efficient testing capabilities with built-in features like hot-reloading, cross-platform testing, mocking, third-party testing libraries, and community support."
         },
         {
             numbers: "5",
             main: "Seamless user experience",
-            content: "Whether it's a real-time chat application, a high-performance web app, or a single-page application, Node.js empowers developers to deliver a user-centric experience that meets modern expectations."
+            content: "Developers can create mobile apps with seamless user experiences by leveraging native performance, smooth animations, consistent UI, responsive updates, and fast iterations."
         },
         {
             numbers: "6",
             main: "Framework",
-            content: "Node.js itself is not a framework but a runtime environment that executes JavaScript code on the server-side, allowing developers to build scalable and efficient web applications using various frameworks like Express, Koa, or Nest.js"
+            content: "React native’s framework handles the communication between JavaScript and the native platform, allowing developers to pay attention on writing code and delivering high-quality mobile applications."
         }
     ]
-
 
 
     const process = [
         {
             no: "01",
             main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            content: "This stage involves understanding the client's requirements, identifying project goals, and defining the scope of the application. Gathering all necessary details and specifications helps in creating a clear project plan."
         },
         {
             no: "02",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Proposal & engagement",
+            content: "The proposal and engagement stage ensures that both parties are aligned in terms of project expectations, scope, and contractual obligations, setting the stage for the subsequent stages of the React Native development process."
         },
         {
             no: "03",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Designs, wireframes & mockups",
+            content: "The design phase focuses on creating a visually appealing and intuitive user interface. It involves wire framing, prototyping, and creating UI designs that align with the client's branding and user experience goals."
         },
         {
             no: "04",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Prototype demo",
+            content: "During the prototype demo stage, our team showcases a functional demonstration of the app prototype. We present a visually appealing and interactive representation of the user interface, demonstrating key features and user flows."
         },
         {
             no: "05",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Changes requests",
+            content: "In the change requests stage, our React Native company actively engages with clients to accommodate any desired modifications or additions to the app's requirements."
         },
         {
             no: "06",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Development",
+            content: "In this stage, developers write the code to build the application. They utilize the React Native framework, JavaScript, and any necessary libraries or APIs to implement the desired functionalities."
         },
         {
             no: "07",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Deployment",
+            content: "Once the application has been thoroughly tested and meets the desired quality standards, it is prepared for deployment. The app is packaged and released on the respective app stores or any other distribution platforms as per the client's requirements."
         },
         {
             no: "08",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Support & maintenance",
+            content: "Once the application has been thoroughly tested and meets the desired quality standards, it is prepared for deployment. The app is packaged and released on the respective app stores or any other distribution platforms as per the client's requirements."
+        },
+        {
+            no: "09",
+            main: "SEO",
+            content: "In the SEO stage, our React Native company works closely with clients to optimize their mobile app for search engine visibility and discoverability. We conduct thorough keyword research and analysis to identify relevant search terms and incorporate them strategically into the app's content and metadata"
         },
     ]
+
+    const accordionItems = [
+        { title: '01.  What are the advantages of React Native App Development?', content: "React Native is easy to use and offers simplified UI development with cross-platform compatibility. Companies choose React Native considering the below factors-Code reusability Open-source framework A wide community Ease of hiring Hot Reloading High performance" },
+        {
+            title: '02.  Why React Native is popular for cross-platform app development?', content: 'With React Native, there is no need to hire different developers for iOS and Android platforms. It allows cross-platform app development that supports multiple platforms. It is widely used by companies worldwide to create web and mobile user interfaces.'
+        },
+        {
+            title: '03. What is the difference between React Native and React?', content: 'React Native uses React. React Native is the entire framework while React is a JavaScript library. React is used for responsive, high-performing, dynamic UI development. React Native is an ideal framework for developing cross-platform app development.'
+        },
+        {
+            title: '04. What apps are built with React Native?', content: 'React Native enables developers to accelerate the process of building apps across different platforms, thanks to the possibility of reusing most of the code between them. Taking into account all the pros and cons, it’s no wonder that many companies settle on React Native for their mobile app development. Among them, we can distinguish such brands as Facebook, Uber Eats, Delivery.com, Skype, Tesla, and Walmart.'
+        },
+        {
+            title: '05. What is React Native used for?',
+            content: "React Native is a framework for building cross-platform mobile apps using JavaScript. In a nutshell, the main idea behind RN is to create multiplatform UI components with JSX, which are then bridged to native code and converted to Android and iOS views. The logic is written entirely in JavaScript, so you don’t need to know Java, Kotlin, Objective-C, or Swift to write a mobile app that feels native."
+        },
+    ];
+
+
 
     return (
         <>
 
+            <First title="React Native Development Company" subtitle="Curating highly functional and visually appealing cross-platform applications with React native" />
 
-            <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen md:h-screen text-white overflow-hidden">
-                <div className="absolute inset-0">
-                    <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background Image" className="object-cover object-center w-full h-full" />
-                    <div className="absolute inset-0 bg-black opacity-50"></div>
-                </div>
+            <ChooseTechnology title="Why Choose us as React Native development?" content="Our team of Bitbucket specialists indulge in seamless integration of frontend and backend development, enabling the creation of cross-platform mobile applications with a powerful and efficient database backend." />
 
-                <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-                    <a href="#" className="bg-white text-primary py-2 px-6 rounded-xl text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
-                    <h1 className="text-3xl px-3 md:text-5xl font-bold leading-tight mb-4">Welcome to Our Awesome Website</h1>
-                    <p className="text-lg text-gray-300 mb-8">Discover amazing features and services that await you.</p>
-                </div>
-            </div>
+            <TechnologyServices title="React Native Development" titleSpan="Service We offer" content="From robust backend integration to intuitive UI/UX design, we specialize in providing comprehensive React Native services tailored to your unique project needs." services={services} />
+
+            <WhyThisTechnology why="Why" title="Native ?" content="With a proven track record of successful projects and a commitment to innovation, we ensure your app stands out in the competitive market." technologies={whyTechnoloy} ImageTech={ImageTech.src} />
+
+            <Process process={process} />
 
 
-
-            <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl  my-10 xl:max-w-6xl">
-
-                {/* <!-- Image Column --> */}
-                <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-                    <img className="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road" />
-                </div>
-                {/* <!-- Close Image Column --> */}
-
-                {/* <!-- Text Column --> */}
-                <div
-                    className="max-w-lg bg-white lg:max-w-2xl md:z-10 md:shadow-lg lg:absolute md:top-0  lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 rounded-2xl">
-                    {/* <!-- Text Wrapper --> */}
-                    <div className="flex flex-col p-12 md:px-16">
-                        <h2 className="text-2xl font-medium uppercase text-primary lg:text-4xl">Why Choose Us For Node.js</h2>
-                        <p className="mt-4">
-                            Our Node.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications.
-                        </p>
-                        {/* <!-- Button Container --> */}
-                        <div className="mt-8">
-                            <a href="#"
-                                className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-primary border-solid b py-2 px-10  hover:shadow-md">Read
-                                More</a>
-                        </div>
-                    </div>
-                    {/* <!-- Close Text Wrapper --> */}
-                </div>
-                {/* <!-- Close Text Column --> */}
-
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 py-20 bg-indigo-100 px-5 md:px-20'>
-                <div>
-                    <p className='text-4xl font-bold text-primary'>Node.js <span className='text-black'> Service We offer</span></p>
-                    <p>From API development to robust backend systems, we harness the power of Node.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of Node.js.</p>
-                </div>
-                <div>
-
-                    {services.map((e) => {
-                        return (
-                            <>
-                                <div className=' border rounded-2xl border-primary flex p-4 gap-3 bg-white mb-5'>
-                                    <div className='text-2xl text-primary font-bold'>0{e.numbers}.</div>
-                                    <div>
-                                        <h1 className='text-xl font-semibold'>Node.js development</h1>
-
-                                        <p className='my-2'>Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions.</p>
-                                    </div>
-                                </div>
-                            </>
-                        )
-                    })}
-
-                </div>
-            </div>
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    Why <span className='text-primary'>Node.js</span>
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-            <p className='py-2 max-w-3xl m-auto text-center text-lg'>
-                With a focus on real-time communication, microservices, and seamless integration, we ensure your projects leverage the full potential of Node.js for unparalleled performance and innovation.
-            </p>
-
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-items-center items-center px-10 py-10">
-                <div >
-                    <img src="/images/technology/node.png" alt="" />
-                </div>
-                <div className='justify-items-center px-2'>
-                    {why.map((e) => {
-                        return (
-                            <>
-                                <div className='mb-5'>
-                                    <h1 className='text-xl font-bold'>• {e?.main}</h1>
-                                    <p className='mb-3'>
-                                        {e?.content}
-                                    </p>
-                                </div>
-                            </>
-                        )
-                    })
-
-                    }
-
-                </div>
-
-            </div>
-
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    The <span className='text-primary'>Process</span> we follow
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-2 md:px-14 gap-5  my-8'>
-                {process.map((e) => {
-                    return (
-                        <>
-                            <div className='text-center'>
-                                <h1 className='text-9xl font-bold text-[#f2f2f2]'>{e?.no}</h1>
-                                <div className='text-xl font-bold'>{e.main}</div>
-                                <p>{e?.content}</p>
-                            </div>
-                        </>
-                    )
-                })}
-            </div>
-
-            <Faq />
+            <Faq accordionItems={accordionItems} />
 
 
 
@@ -261,5 +166,5 @@ function Nodejs() {
     )
 }
 
-export default Nodejs
+export default ReactNative
 

@@ -1,258 +1,164 @@
-import Faq from '@/component/FAQ'
 import React from 'react'
+import Faq from '@/component/FAQ'
+import First from '@/component/First/First'
+import ChooseTechnology from '@/component/Technology/ChooseTechnology/ChooseTechnology'
+import Process from '@/component/Technology/Process/Process'
+import TechnologyServices from '@/component/Technology/TechnologyServices/TechnologyServices'
+import WhyThisTechnology from '@/component/Technology/WhyThisTechnology/WhyThisTechnology'
+import ImageTech from "../../../assets/technology/flutter.png"
 
-function Nodejs() {
+function Flutter() {
 
 
     const services = [
-
         {
             numbers: "1",
-            main: "Node.js development",
-            content: "Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions."
+            main: "Flutter development",
+            content: "Transform your app ideas into reality with our expert Flutter development services, delivering cross-platform applications that combine stunning design, smooth performance, and seamless user experiences."
         },
         {
             numbers: "2",
-            main: "Custom node.js solutions",
-            content: "Our Company specializes in providing custom Node.js solutions tailored to your specific business requirements. With our expertise in Node.js development, we create scalable, secure, and highly functional applications that cater to your unique needs, ensuring a seamless user experience and optimal performance."
+            main: "Custom Flutter solutions",
+            content: "Experience tailor-made solutions for your unique needs with our custom Flutter development service, where we craft innovative and high-quality applications that set your business apart."
         },
         {
             numbers: "3",
             main: "Maintenance & support",
-            content: "Our Node.js Company offers comprehensive maintenance and support services to ensure the smooth operation of your applications. From regular updates and bug fixes to performance optimization and security enhancements, we provide ongoing assistance to keep your Node.js applications up-to-date and running efficiently."
+            content: "Our comprehensive maintenance and support for Flutter development service ensures your applications remain up-to-date, secure, and seamlessly operational, providing you with peace of mind and continuous user satisfaction."
         },
         {
             numbers: "4",
-            main: "Node.js upgrade",
-            content: "Our company provides Node.js upgrade solutions to ensure your applications stay up-to-date with the latest features and security enhancements. We handle the entire upgrade process, including migrating to newer versions, refactoring code, and integrating new functionalities, allowing you to leverage the full potential of Node.js for your business. "
+            main: "Flutter upgrade",
+            content: "Stay at the forefront of technology with our Flutter upgrade service, as we swiftly migrate your applications to the latest versions, unlocking new features and optimizing performance for a cutting-edge user experience."
         },
         {
             numbers: "5",
-            main: "Node.js & advanced node.js development",
-            content: "Our company offers both Node.js and advanced Node.js development solutions to cater to diverse business needs. With Node.js, we build scalable and efficient web applications, while our expertise in advanced Node.js techniques enables us to implement complex functionalities, optimize performance, and integrate with various technologies, ensuring robust and cutting-edge solutions for our clients."
+            main: "Native & advanced Flutter",
+            content: "Combining the power of native development with advanced Flutter capabilities, our services deliver high-performance and feature-rich applications that cater to diverse business needs, ensuring a competitive edge in the mobile landscape."
         },
         {
             numbers: "6",
-            main: "Node.js design services",
-            content: "Our Node.js development company offers comprehensive design services, leveraging industry best practices and creative expertise to deliver visually appealing and user-centric designs for Node.js applications."
+            main: "Flutter design service",
+            content: "Transforming ideas into delightful realities, our Flutter design service offers innovative and user-centric app interfaces, maximizing engagement and leaving a lasting impression on your audience."
         }
     ]
 
-
-
-    const why = [
-
+    const whyTechnoloy = [
         {
             numbers: "1",
             main: "Coding structure",
-            content: "The coding structure in Node.js emphasizes modularity, asynchronous programming, event-driven architecture, and the use of expressive APIs. This structure enables developers to build efficient, scalable, and maintainable applications with ease."
+            content: "The coding structure in Flutter development revolves around a declarative UI paradigm, where developers use Dart language and Flutter widgets to build flexible and visually engaging mobile applications."
         },
         {
             numbers: "2",
             main: "Speedy programming",
-            content: "By combining non-blocking, event-driven architecture, asynchronous programming, the V8 engine, a rich ecosystem, and developer productivity, Node.js enables speedy programming, making it a popular choice for building scalable and high-performance applications."
+            content: "With its hot reload feature and concise Dart language, Flutter development enables speedy programming, allowing developers to iterate quickly and efficiently during the app development process."
         },
         {
             numbers: "3",
             main: "Custom widgets",
-            content: "By utilizing modular code organization, NPM packages, templating engines, and custom middleware, developers can create and use custom widgets in Node.js applications. These widgets promote code reusability, enhance development efficiency, and enable the creation of scalable and customizable applications."
+            content: "The custom widgets feature in Flutter development allows for the creation of reusable, modular components, streamlining the development process and ensuring a consistent design language across the entire mobile application."
         },
         {
             numbers: "4",
             main: "Fast & efficient testing",
-            content: "Node.js development offers fast and efficient testing capabilities, allowing developers to ensure the quality and reliability of their applications. By leveraging fast execution, testing frameworks, asynchronous testing capabilities, mocking and stubbing, and CI support, Node.js enables developers to perform efficient and effective testing."
+            content: "The fast and efficient testing feature of Flutter development enables developers to conduct rapid and reliable testing, ensuring robust app performance and a seamless user experience."
         },
         {
             numbers: "5",
             main: "Seamless user experience",
-            content: "Whether it's a real-time chat application, a high-performance web app, or a single-page application, Node.js empowers developers to deliver a user-centric experience that meets modern expectations."
+            content: "The seamless user experience feature of Flutter development facilitates the creation of smooth and intuitive interfaces, enhancing user engagement and satisfaction with mobile applications."
         },
         {
             numbers: "6",
             main: "Framework",
-            content: "Node.js itself is not a framework but a runtime environment that executes JavaScript code on the server-side, allowing developers to build scalable and efficient web applications using various frameworks like Express, Koa, or Nest.js"
+            content: "Flutter development's robust framework, built on Dart language, empowers developers to create natively compiled, high-performance applications for mobile, web, and desktop platforms."
         }
     ]
-
 
 
     const process = [
         {
             no: "01",
             main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            content: "At the requirement gathering stage in our Flutter development process, we conduct in-depth consultations with clients to comprehend their needs and objectives, laying the foundation for a well-defined and successful app development strategy."
         },
         {
             no: "02",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Proposal & engagement",
+            content: "The proposal and engagement stage in our Flutter development process involves understanding client requirements, proposing tailored solutions, and establishing a collaborative partnership to ensure a successful and satisfying development journey."
         },
         {
             no: "03",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Designs, wireframes & mockups",
+            content: "At the design wireframe and mockups stage in our Flutter development process, we meticulously craft the app's visual blueprint, ensuring a seamless and captivating user experience before moving on to development."
         },
         {
             no: "04",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Prototype demo",
+            content: "At the design wireframe and mockups stage in our Flutter development process, we meticulously craft the app's visual blueprint, ensuring a seamless and captivating user experience before moving on to development."
         },
         {
             no: "05",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Changes requests",
+            content: "At the changes requests stage in our Flutter development process, we prioritize client satisfaction, efficiently incorporating feedback and modifications to ensure the final product meets and exceeds expectations."
         },
         {
             no: "06",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Development",
+            content: "The development stage in our Flutter development process involves our expert team utilizing the power of Flutter framework to create robust and feature-rich mobile applications that align perfectly with your business objectives."
         },
         {
             no: "07",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Deployment",
+            content: "During the deployment stage of the Flutter development process, we meticulously handle the release and distribution of your applications across various platforms, ensuring a smooth and hassle-free launch for a wider audience reach."
         },
         {
             no: "08",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Support & maintenance",
+            content: "At this stage, our team provides prompt and comprehensive assistance, offering timely updates, bug fixes, and technical support to ensure the continuous performance and longevity of your Flutter applications"
+        },
+        {
+            no: "09",
+            main: "SEO",
+            content: "Incorporating SEO best practices during the Flutter development process, we ensure your mobile applications are search engine optimized, helping you maximize visibility, organic traffic, and online presence."
         },
     ]
+
+    const accordionItems = [
+        { title: '01.  Can we use flutter for Web development?', content: "Flutter is a fantastic mobile and web development tool. Flutter is extremely compatible with today's web content, which is created using standards- based online technologies such as HTML, CSS, and JavaScript." },
+        {
+            title: '02.  What is the cost to develop a Flutter app?', content: 'The cost of Flutter app development depends on many factors such as the development platform, app categories, app complexity, the country of the developer, and the number of features you need in your app.'
+        },
+        {
+            title: '03. Will I get post-mobile app development support?', content: 'Yes. For the maintenance of the mobile app, we provide dedicated app support and maintenance service when required.'
+        },
+        {
+            title: '04. Is Flutter better than React Native?', content: 'Flutter and React Native both have their own pros and cons. However, Flutter is more popular with benefits like rich widgets, great performance, etc.'
+        },
+        {
+            title: '05. How do I track my Flutter app development progress?',
+            content: "Our Flutter app development team uses agile project management tools to keep track of the app development progress through that app, you can keep track of the progress of your Flutter app development."
+        },
+    ];
+
+
 
     return (
         <>
 
+            <First title="Flutter Development" subtitle="At Avrut Solutions, we specialize in leveraging the power of Flutter, Google's revolutionary cross-platform framework, to build stunning and high-performance mobile applications. Our experienced team of Flutter developers and designers are adept at creating seamless user experiences that run flawlessly on both Android and iOS platforms." />
 
-            <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen md:h-screen text-white overflow-hidden">
-                <div className="absolute inset-0">
-                    <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background Image" className="object-cover object-center w-full h-full" />
-                    <div className="absolute inset-0 bg-black opacity-50"></div>
-                </div>
+            <ChooseTechnology title="Why Choose us as Flutter development?" content="Our team comprises skilled and experienced designers who excel in utilizing Figma to its full potential, ensuring high-quality and innovative design solutions for your projects." />
 
-                <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-                    <a href="#" className="bg-white text-primary py-2 px-6 rounded-xl text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
-                    <h1 className="text-3xl px-3 md:text-5xl font-bold leading-tight mb-4">Welcome to Our Awesome Website</h1>
-                    <p className="text-lg text-gray-300 mb-8">Discover amazing features and services that await you.</p>
-                </div>
-            </div>
+            <TechnologyServices title="Flutter Development" titleSpan="Service We offer" content="Our expertise in Flutter's rich widget library and fast rendering ensures you deliver visually engaging, high-performance apps, reaching both iOS and Android users effectively while maximizing development efficiency." services={services} />
+
+            <WhyThisTechnology why="Why" title="Flutter ?" content="We guarantee that your app stands out in the crowded market because to our dedication to innovation and track record of successfully completed projects." technologies={whyTechnoloy} ImageTech={ImageTech.src} />
+
+            <Process process={process} />
 
 
-
-            <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl  my-10 xl:max-w-6xl">
-
-                {/* <!-- Image Column --> */}
-                <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-                    <img className="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road" />
-                </div>
-                {/* <!-- Close Image Column --> */}
-
-                {/* <!-- Text Column --> */}
-                <div
-                    className="max-w-lg bg-white lg:max-w-2xl md:z-10 md:shadow-lg lg:absolute md:top-0  lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 rounded-2xl">
-                    {/* <!-- Text Wrapper --> */}
-                    <div className="flex flex-col p-12 md:px-16">
-                        <h2 className="text-2xl font-medium uppercase text-primary lg:text-4xl">Why Choose Us For Node.js</h2>
-                        <p className="mt-4">
-                            Our Node.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications.
-                        </p>
-                        {/* <!-- Button Container --> */}
-                        <div className="mt-8">
-                            <a href="#"
-                                className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-primary border-solid b py-2 px-10  hover:shadow-md">Read
-                                More</a>
-                        </div>
-                    </div>
-                    {/* <!-- Close Text Wrapper --> */}
-                </div>
-                {/* <!-- Close Text Column --> */}
-
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 py-20 bg-indigo-100 px-5 md:px-20'>
-                <div>
-                    <p className='text-4xl font-bold text-primary'>Node.js <span className='text-black'> Service We offer</span></p>
-                    <p>From API development to robust backend systems, we harness the power of Node.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of Node.js.</p>
-                </div>
-                <div>
-
-                    {services.map((e) => {
-                        return (
-                            <>
-                                <div className=' border rounded-2xl border-primary flex p-4 gap-3 bg-white mb-5'>
-                                    <div className='text-2xl text-primary font-bold'>0{e.numbers}.</div>
-                                    <div>
-                                        <h1 className='text-xl font-semibold'>Node.js development</h1>
-
-                                        <p className='my-2'>Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions.</p>
-                                    </div>
-                                </div>
-                            </>
-                        )
-                    })}
-
-                </div>
-            </div>
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    Why <span className='text-primary'>Node.js</span>
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-            <p className='py-2 max-w-3xl m-auto text-center text-lg'>
-                With a focus on real-time communication, microservices, and seamless integration, we ensure your projects leverage the full potential of Node.js for unparalleled performance and innovation.
-            </p>
-
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-items-center items-center px-10 py-10">
-                <div >
-                    <img src="/images/technology/node.png" alt="" />
-                </div>
-                <div className='justify-items-center px-2'>
-                    {why.map((e) => {
-                        return (
-                            <>
-                                <div className='mb-5'>
-                                    <h1 className='text-xl font-bold'>• {e?.main}</h1>
-                                    <p className='mb-3'>
-                                        {e?.content}
-                                    </p>
-                                </div>
-                            </>
-                        )
-                    })
-
-                    }
-
-                </div>
-
-            </div>
-
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    The <span className='text-primary'>Process</span> we follow
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-2 md:px-14 gap-5  my-8'>
-                {process.map((e) => {
-                    return (
-                        <>
-                            <div className='text-center'>
-                                <h1 className='text-9xl font-bold text-[#f2f2f2]'>{e?.no}</h1>
-                                <div className='text-xl font-bold'>{e.main}</div>
-                                <p>{e?.content}</p>
-                            </div>
-                        </>
-                    )
-                })}
-            </div>
-
-            <Faq />
+            <Faq accordionItems={accordionItems} />
 
 
 
@@ -261,5 +167,5 @@ function Nodejs() {
     )
 }
 
-export default Nodejs
+export default Flutter
 

@@ -1,265 +1,173 @@
-import Faq from '@/component/FAQ'
 import React from 'react'
+import Faq from '@/component/FAQ'
+import First from '@/component/First/First'
+import ChooseTechnology from '@/component/Technology/ChooseTechnology/ChooseTechnology'
+import Process from '@/component/Technology/Process/Process'
+import TechnologyServices from '@/component/Technology/TechnologyServices/TechnologyServices'
+import WhyThisTechnology from '@/component/Technology/WhyThisTechnology/WhyThisTechnology'
+import ImageTech from "../../../assets/technology/figma.png"
 
-function Nodejs() {
+function Figma() {
 
 
     const services = [
-
         {
             numbers: "1",
-            main: "Node.js development",
-            content: "Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions."
+            main: "Creation of wireframes & prototypes",
+            content: "Our team excels in curating exceptional wireframes and prototypes using the powerful Figma design platform, providing clients with dynamic visualizations and interactive representations of their projects, ensuring optimal user experiences and streamlined product development."
         },
         {
             numbers: "2",
-            main: "Custom node.js solutions",
-            content: "Our Company specializes in providing custom Node.js solutions tailored to your specific business requirements. With our expertise in Node.js development, we create scalable, secure, and highly functional applications that cater to your unique needs, ensuring a seamless user experience and optimal performance."
+            main: "Unique & interactive design",
+            content: "We ace in rendering unique and interactive designs that matches client’s imagination. Utilizing the full potential of the Figma platform, we create captivating user interfaces and experiences that enthrall audiences."
         },
         {
             numbers: "3",
-            main: "Maintenance & support",
-            content: "Our Node.js Company offers comprehensive maintenance and support services to ensure the smooth operation of your applications. From regular updates and bug fixes to performance optimization and security enhancements, we provide ongoing assistance to keep your Node.js applications up-to-date and running efficiently."
+            main: "Typography & branding",
+            content: "We leverage Figma to skillfully integrate typography and branding into every project. Our expert designers curate custom font selections, harmonize color schemes, and create stunning visual elements, ensuring that our clients' brand identity is thoroughly represented."
         },
         {
             numbers: "4",
-            main: "Node.js upgrade",
-            content: "Our company provides Node.js upgrade solutions to ensure your applications stay up-to-date with the latest features and security enhancements. We handle the entire upgrade process, including migrating to newer versions, refactoring code, and integrating new functionalities, allowing you to leverage the full potential of Node.js for your business. "
+            main: "Style guidelines",
+            content: "From defining color palettes, typography choices, iconography, and spacing, to establishing UI component libraries, our style guidelines guarantee a seamless and unified user experience, elevating our clients' brands and products to new heights."
         },
         {
             numbers: "5",
-            main: "Node.js & advanced node.js development",
-            content: "Our company offers both Node.js and advanced Node.js development solutions to cater to diverse business needs. With Node.js, we build scalable and efficient web applications, while our expertise in advanced Node.js techniques enables us to implement complex functionalities, optimize performance, and integrate with various technologies, ensuring robust and cutting-edge solutions for our clients."
+            main: "User Research",
+            content: "Via thorough analysis and understanding of user needs and behaviours, we gather invaluable insights that shape our design decisions. Utilizing Figma's collaborative capabilities, we ideate, prototype, and test designs, ensuring that our clients' products are tailored to meet the expectations of their target audience"
         },
         {
             numbers: "6",
-            main: "Node.js design services",
-            content: "Our Node.js development company offers comprehensive design services, leveraging industry best practices and creative expertise to deliver visually appealing and user-centric designs for Node.js applications."
+            main: "Standard industry tools & practices",
+            content: "We follow industry-leading practices and use Figma's versatile toolkit to deliver exceptional results. Collaboratively, our expert teams utilize Figma's real-time collaboration features to streamline communication and feedback, ensuring efficient project management."
         }
     ]
 
-
-
-    const why = [
-
+    const whyTechnoloy = [
         {
             numbers: "1",
-            main: "Coding structure",
-            content: "The coding structure in Node.js emphasizes modularity, asynchronous programming, event-driven architecture, and the use of expressive APIs. This structure enables developers to build efficient, scalable, and maintainable applications with ease."
+            main: "Real-time collaboration",
+            content: "Figma allows multiple designers to work together in real-time on the same project, promoting seamless teamwork and eliminating version control issues."
         },
         {
             numbers: "2",
-            main: "Speedy programming",
-            content: "By combining non-blocking, event-driven architecture, asynchronous programming, the V8 engine, a rich ecosystem, and developer productivity, Node.js enables speedy programming, making it a popular choice for building scalable and high-performance applications."
+            main: "Cloud-based platform",
+            content: "Being cloud-based, Figma enables access to designs from any device with an internet connection, providing the flexibility to work on projects anytime, anywhere."
         },
         {
             numbers: "3",
-            main: "Custom widgets",
-            content: "By utilizing modular code organization, NPM packages, templating engines, and custom middleware, developers can create and use custom widgets in Node.js applications. These widgets promote code reusability, enhance development efficiency, and enable the creation of scalable and customizable applications."
+            main: "Live preview and prototyping",
+            content: "Designers can instantly see how their designs will look and function with Figma's live preview and prototyping features, facilitating rapid iteration and user testing."
         },
         {
             numbers: "4",
-            main: "Fast & efficient testing",
-            content: "Node.js development offers fast and efficient testing capabilities, allowing developers to ensure the quality and reliability of their applications. By leveraging fast execution, testing frameworks, asynchronous testing capabilities, mocking and stubbing, and CI support, Node.js enables developers to perform efficient and effective testing."
+            main: "Component-based design",
+            content: "Figma's component-based design system allows the creation and maintenance of design libraries, ensuring consistent styles and elements across multiple projects."
         },
         {
             numbers: "5",
-            main: "Seamless user experience",
-            content: "Whether it's a real-time chat application, a high-performance web app, or a single-page application, Node.js empowers developers to deliver a user-centric experience that meets modern expectations."
+            main: "Developer-friendly",
+            content: "Figma's design-to-code features enable developers to inspect designs, extract assets, and access design specs, streamlining the handoff process and reducing development time."
         },
         {
             numbers: "6",
-            main: "Framework",
-            content: "Node.js itself is not a framework but a runtime environment that executes JavaScript code on the server-side, allowing developers to build scalable and efficient web applications using various frameworks like Express, Koa, or Nest.js"
-        }
-    ]
+            main: "Versatility",
+            content: "Figma supports a wide range of design tasks, including UI/UX design, wireframing, prototyping, icon design, and more, making it a comprehensive solution for designers."
+        },
+        {
+            numbers: "7",
+            main: "Cost-effectiveness",
+            content: "Figma's subscription-based pricing model, along with its cloud-based nature, eliminates the need for expensive software licenses and hardware upgrades."
+        },
+        {
+            numbers: "8",
+            main: "Regular updates and community support",
+            content: "Figma consistently improves its platform with new features and enhancements, and its active community shares valuable resources and plugins, enriching the design experience."
+        },
 
+    ]
 
 
     const process = [
         {
             no: "01",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Discovery & Research",
+            content: "We begin by thoroughly understanding your project's goals, target audience, and unique requirements. Extensive research is conducted to gain insights into industry trends, user behaviors, and competitor analysis."
         },
         {
             no: "02",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Ideation & Wireframing",
+            content: "Our designers collaborate to brainstorm creative ideas, sketching rough wireframes on paper or digital platforms. Figma's powerful vector editing tools are then used to create detailed wireframes that outline the layout and structure of the design."
         },
         {
             no: "03",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Visual Design",
+            content: "Using Figma's robust design features, we craft stunning visual elements, select appropriate color schemes, typography, and create a cohesive user interface."
         },
         {
             no: "04",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Prototyping",
+            content: "Figma's prototyping capabilities come into play as we create interactive prototypes that simulate user interactions and demonstrate the flow of the design. This allows us to test the usability and refine the design further."
         },
         {
             no: "05",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Collaboration & Feedback",
+            content: "At this stage, we share the designs with clients for feedback, ensuring that everyone involved is on the same page throughout the process."
         },
         {
             no: "06",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "User Testing",
+            content: "Before finalizing the design, we conduct user testing to gather valuable feedback and insights. This helps us identify any usability issues and make necessary adjustments to enhance the user experience."
         },
         {
             no: "07",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Development Handoff",
+            content: "Figma's design-to-code features facilitate a smooth handoff to the development team. Developers can inspect design specifications, export assets, and access CSS code snippets, streamlining the development process."
         },
         {
             no: "08",
-            main: "Requirement gathering",
-            content: "This stage includes understanding the client's requirements and project goals. Collaborate with stakeholders to define the scope, features, and functionalities of the application."
+            main: "Delivery & Support",
+            content: "Once the design is complete, we deliver the assets and necessary files to the development team. We also provide ongoing support and assistance to ensure a seamless implementation of the design."
         },
     ]
+
+    const accordionItems = [
+        { title: '01.  What is Figma?', content: "Figma is a vector graphics editor and prototyping tool – the first interface design tool with real-time collaboration" },
+        {
+            title: '02.  Figma is available on which OS?', content: 'Figma is available for macOS, Windows, and Linux. Figma has been building up quite a following lately.'
+        },
+        {
+            title: '03. For whom is Figma useful?', content: 'Figma is a vector-based design tool that is gaining popularity in the design community, especially among those who design for web and mobile app interfaces.'
+        },
+        {
+            title: '04. Which Company use Figma?', content: 'Figma is used by designers at companies like Google, Facebook, Netflix, Airbnb, Uber, and more.'
+        },
+        {
+            title: '05. What Kind of Company Is Figma?',
+            content: "Figma is a collaborative online platform that offers vector editing, version control, and live collaboration for design teams. It was founded in 2012 by Dylan Field and Evan Wallace."
+        },
+    ];
+
 
     return (
         <>
 
+            <First title="Figma Design company" subtitle="As trailblazers in the digital landscape, Avrut Solutions is dedicated to crafting exceptional user experiences and stunning visual aesthetics that leave a remarkable footprint. We own a team of skilled designers and developers who smartly & efficiently utilizes Figma's collaborative power to create seamless, customer-centric designs that fit with client’s demand and enables them multiply their business forward.Join us on a journey of innovation and creativity, where Figma acts as our gateway to transforming your visions into reality." />
 
-            <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen md:h-screen text-white overflow-hidden">
-                <div className="absolute inset-0">
-                    <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background Image" className="object-cover object-center w-full h-full" />
-                    <div className="absolute inset-0 bg-black opacity-50"></div>
-                </div>
+            <ChooseTechnology title="Why choose us as Figma Design Company?" content="Our team comprises skilled and experienced designers who excel in utilizing Figma to its full potential, ensuring high-quality and innovative design solutions for your projects." />
 
-                <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-                    <a href="#" className="bg-white text-primary py-2 px-6 rounded-xl text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
-                    <h1 className="text-3xl px-3 md:text-5xl font-bold leading-tight mb-4">Welcome to Our Awesome Website</h1>
-                    <p className="text-lg text-gray-300 mb-8">Discover amazing features and services that await you.</p>
-                </div>
-            </div>
+            <TechnologyServices title="Figma Design" titleSpan="Service We offer" content="Our company offers Figma services that empower collaborative and efficient design workflows, enabling teams to create, iterate, and prototype user-centric interfaces seamlessly. With our expertise, you'll harness Figma's real-time collaboration and design versioning, ensuring visually stunning and functional digital products." services={services} />
 
+            <WhyThisTechnology why="Why" title="Figma ?" content="Figma revolutionizes collaborative design. Contact us for seamless teamwork, prototyping, and UI/UX design. Elevate your creative process with Figma today." technologies={whyTechnoloy} ImageTech={ImageTech.src} />
 
+            <Process process={process} />
 
-            <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl  my-10 xl:max-w-6xl">
-
-                {/* <!-- Image Column --> */}
-                <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-                    <img className="h-full w-full object-cover" src="https://picsum.photos/id/1018/2000" alt="Winding mountain road" />
-                </div>
-                {/* <!-- Close Image Column --> */}
-
-                {/* <!-- Text Column --> */}
-                <div
-                    className="max-w-lg bg-white lg:max-w-2xl md:z-10 md:shadow-lg lg:absolute md:top-0  lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 rounded-2xl">
-                    {/* <!-- Text Wrapper --> */}
-                    <div className="flex flex-col p-12 md:px-16">
-                        <h2 className="text-2xl font-medium uppercase text-primary lg:text-4xl">Why Choose Us For Node.js</h2>
-                        <p className="mt-4">
-                            Our Node.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications.
-                        </p>
-                        {/* <!-- Button Container --> */}
-                        <div className="mt-8">
-                            <a href="#"
-                                className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-primary border-solid b py-2 px-10  hover:shadow-md">Read
-                                More</a>
-                        </div>
-                    </div>
-                    {/* <!-- Close Text Wrapper --> */}
-                </div>
-                {/* <!-- Close Text Column --> */}
-
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 py-20 bg-indigo-100 px-5 md:px-20'>
-                <div>
-                    <p className='text-4xl font-bold text-primary'>Node.js <span className='text-black'> Service We offer</span></p>
-                    <p>From API development to robust backend systems, we harness the power of Node.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of Node.js.</p>
-                </div>
-                <div>
-
-                    {services.map((e) => {
-                        return (
-                            <>
-                                <div className=' border rounded-2xl border-primary flex p-4 gap-3 bg-white mb-5'>
-                                    <div className='text-2xl text-primary font-bold'>0{e.numbers}.</div>
-                                    <div>
-                                        <h1 className='text-xl font-semibold'>Node.js development</h1>
-
-                                        <p className='my-2'>Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions.</p>
-                                    </div>
-                                </div>
-                            </>
-                        )
-                    })}
-
-                </div>
-            </div>
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    Why <span className='text-primary'>Node.js</span>
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-            <p className='py-2 max-w-3xl m-auto text-center text-lg'>
-                With a focus on real-time communication, microservices, and seamless integration, we ensure your projects leverage the full potential of Node.js for unparalleled performance and innovation.
-            </p>
-
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-items-center items-center px-10 py-10">
-                <div >
-                    <img src="/images/technology/node.png" alt="" />
-                </div>
-                <div className='justify-items-center px-2'>
-                    {why.map((e) => {
-                        return (
-                            <>
-                                <div className='mb-5'>
-                                    <h1 className='text-xl font-bold'>• {e?.main}</h1>
-                                    <p className='mb-3'>
-                                        {e?.content}
-                                    </p>
-                                </div>
-                            </>
-                        )
-                    })
-
-                    }
-
-                </div>
-
-            </div>
-
-
-            <div className=' m-auto flex justify-center items-center gap-4 mt-10 '>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-                <div className='text-4xl font-bold  text-center'>
-                    The <span className='text-primary'>Process</span> we follow
-                </div>
-                <hr className='w-[100px] h-[4px] bg-primary' />
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-2 md:px-14 gap-5  my-8'>
-                {process.map((e) => {
-                    return (
-                        <>
-                            <div className='text-center'>
-                                <h1 className='text-9xl font-bold text-[#f2f2f2]'>{e?.no}</h1>
-                                <div className='text-xl font-bold'>{e.main}</div>
-                                <p>{e?.content}</p>
-                            </div>
-                        </>
-                    )
-                })}
-            </div>
-
-            <Faq />
-
-
+            <Faq accordionItems={accordionItems} />
 
 
         </>
     )
 }
 
-export default Nodejs
+export default Figma
 

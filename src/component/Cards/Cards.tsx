@@ -31,9 +31,9 @@ function Cards() {
                         {card.map((e) => {
                             return (
                                 <>
-                                    <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+                                    <div className="p-4 md:w-1/4 sm:w-1/2 w-full ">
                                         <div className="group px-4 rounded-lg transform transition duration-500 hover:scale-110 flex flex-col md:flex-row justify-center items-center">
-                                            <div className='w-max flex justify-center text-4xl mb-3 p-8 border border-primary text-primary rounded-full bg-purple '>{e?.icon}</div>
+                                            <div className='w-max flex justify-center text-4xl mb-3 p-8 border border-primary text-primary rounded-full bg-purple shadow-xl '>{e?.icon}</div>
                                             <h2 className="title-font font-medium text-xl md:text-2xl text-gray-900">{e?.title}</h2>
                                             {/* <p className="leading-relaxed">Downloads</p> */}
                                         </div>

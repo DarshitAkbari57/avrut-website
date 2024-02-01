@@ -20,7 +20,7 @@ function Nodejs() {
         {
             numbers: "2",
             main: "Custom MySQL solutions",
-            content: "Braincuber Technologies excels in custom MySQL development services, offering bespoke database solutions, optimized query design, and seamless integration, tailored to meet clients' specific project demands with precision."
+            content: "Avrut Solutions excels in custom MySQL development services, offering bespoke database solutions, optimized query design, and seamless integration, tailored to meet clients' specific project demands with precision."
         },
         {
             numbers: "3",
@@ -144,7 +144,7 @@ function Nodejs() {
 
     return (
         <>
-            <First title="My SQL Development Company" subtitle="Braincuber Technologies is a leading MySQL development company, backed by a team of skilled developers proficient in optimizing MySQL databases for enhanced performance and seamless user experiences." />
+            <First title="My SQL Development Company" subtitle="Avrut Solutions is a leading MySQL development company, backed by a team of skilled developers proficient in optimizing MySQL databases for enhanced performance and seamless user experiences." />
 
             <ChooseTechnology title="Why Choose Us For MySQL" content="Our development process incorporates testing, agile methodologies, and collaborative code reviews to ensure robust and efficient database solutions." />
 

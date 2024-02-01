@@ -13,8 +13,9 @@ function First({ title, subtitle }: any) {
 
                 <div className="relative z-10 flex flex-col justify-center items-center h-full text-center ">
                     <a href="#" className="bg-white text-primary py-2 px-6 rounded-xl text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Book now</a>
-                    <h1 className="text-3xl px-3 md:text-5xl font-bold leading-tight mb-4">{title}</h1>
-                    <p className="text-lg text-gray-300 mb-8">{subtitle}</p>
+                    <h1 className="text-3xl px-3 md:text-5xl font-bold leading-tight mb-5">{title}</h1>
+
+                    <p className="text-lg text-gray-300 mb-8 text-wrap w-4/5">{subtitle}</p>
                 </div>
             </div>
         </>

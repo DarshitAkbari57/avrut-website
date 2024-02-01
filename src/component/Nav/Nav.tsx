@@ -74,11 +74,11 @@ function Nav() {
                                                 menuActive === "Technologies" &&
                                                 <div className="h-full">
                                                     <div className='flex  h-full '>
-                                                        <div className='h-full border-r px-5'>
-                                                            <h1 className='text-2xl font-medium'>Our Technologies</h1>
+                                                        <div className='h-full border-r px-10'>
+                                                            <h1 className='text-2xl font-medium w-max'>Our Technologies</h1>
                                                         </div>
-                                                        <div className='h-full w-full px-10 '>
-                                                            <div className='grid grid-cols-3 '>
+                                                        <div className='h-full w-full px-16'>
+                                                            <div className='grid grid-cols-3'>
                                                                 <div className='flex pb-4 flex-col '>
                                                                     <h1 className='font-semibold'>Web devlopment technology</h1>
                                                                     <div className='flex gap-4 mt-2'>
@@ -155,7 +155,7 @@ function Nav() {
                                                                             <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/mongodb')} >
                                                                                 • MongoDB
                                                                             </li>
-                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/dynamodb')}>
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/aws-dynamodb')}>
                                                                                 • DynamoDB
                                                                             </li>
                                                                         </ul>
@@ -166,7 +166,7 @@ function Nav() {
                                                                     <h1 className='font-semibold'>Design</h1>
                                                                     <div className='flex gap-4 mt-2'>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/adobexd')} >
+                                                                            <li className='cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100' onClick={() => router.push('/technology/adobe-xd')} >
                                                                                 • Adobe XD
                                                                             </li>
                                                                         </ul>
@@ -187,11 +187,10 @@ function Nav() {
                                             }
                                             {
                                                 menuActive === "Services" &&
-
                                                 <div className="h-full">
                                                     <div className='flex  h-full justify-between'>
-                                                        <div className='h-full border-r px-5'>
-                                                            <h1 className='text-2xl font-medium'>Our Industries</h1>
+                                                        <div className='h-full border-r px-10'>
+                                                            <h1 className='text-2xl font-medium w-max'>Our Industries</h1>
                                                         </div>
                                                         <div className='h-full w-full px-10 '>
                                                             <div className='grid grid-cols-3 '>
@@ -242,7 +241,7 @@ function Nav() {
                                                                     <h1 className='font-semibold'>Staff Augmentation</h1>
                                                                     <div className='flex gap-4 mt-2'>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/adobexd')} >
+                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/adobe-xd')} >
                                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, repudiandae. Quisquam itaque quibusdam quam
                                                                             </li>
                                                                         </ul>
@@ -260,10 +259,10 @@ function Nav() {
 
                                                 <div className="h-full">
                                                     <div className='flex  h-full justify-between'>
-                                                        <div className='h-full border-r px-5'>
-                                                            <h1 className='text-2xl font-medium'>Our Industries</h1>
+                                                        <div className='h-full border-r px-10'>
+                                                            <h1 className='text-2xl font-medium w-max'>Our Industries</h1>
                                                         </div>
-                                                        <div className='h-full w-full px-10 '>
+                                                        <div className='h-full w-full px-16 '>
                                                             <div className='grid grid-cols-3 '>
                                                                 <div className='flex p-5 flex-col hover:bg-purple cursor-pointer' onClick={() => router.push('/industries/healthcare')}>
                                                                     <h1 className='font-semibold'>Healthcare</h1>
@@ -312,7 +311,7 @@ function Nav() {
                                                                     <h1 className='font-semibold'>Entertainment</h1>
                                                                     <div className='flex gap-4 mt-2'>
                                                                         <ul>
-                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/adobexd')} >
+                                                                            <li className='cursor-pointer text-[14px] pb-2 text-gray1' onClick={() => router.push('/technology/adobe-xd')} >
                                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, repudiandae. Quisquam itaque quibusdam quam
                                                                             </li>
                                                                         </ul>
@@ -375,9 +374,7 @@ function Nav() {
                                                     <span className="text-base font-medium text-gray-900 hover:text-primary">
                                                         {item.name}
                                                     </span>
-                                                    {/* <span>
-                                                        <ChevronRight className="ml-3 h-4 w-4" />
-                                                    </span> */}
+
                                                 </a>
                                             ))}
                                         </nav>

@@ -48,12 +48,6 @@ function index() {
                             We Are
                         </h1>
 
-
-
-
-
-
-
                         <p className="text-sm md:text-base text-black mb-4">Avrut Solutions is a family of tech pioneers with in-depth knowledge and experience in transforming business ideas into reality. We deliver the most feasible custom software solutions to enterprises worldwide. Our experts don’t just initiate your project, we put ourselves into your shoes and analyze every inch of your business landscape to build the most meaningful digital product. The agile teams of developers immerse themselves fully in your project and work in tandem with your strategic goals.
                             Security, reliability, user-friendliness, and scalability define our custom solutions and services. Our consultants work with diverse businesses. Avrut Solutions offers world-class services, relying on an exceptionally talented pool of engineers. Our pursuit for excellence enables us to deliver rapid and fool-proof solutions every single time.</p>
                         <a href="#"
@@ -96,11 +90,12 @@ function index() {
                         {belive.map((e) => {
                             return (
                                 <>
-                                    <div className='border border-primary p-4 rounded-xl'>
-                                        <h1 className='text-2xl font-medium'>
-                                            <span className=''>{e?.id}.</span>   {e?.main}
+                                    <div className='border border-primary shadow-lg p-4 rounded-xl '>
+                                        <h1 className='text-2xl font-medium flex items-center gap-3'>
+                                            <div className=' bg-primary px-2 rounded-[50%] w-[30px] h-[30px] leading-[30px] text-white text-center text-base shadow-md shadow-primary' >{e?.id}</div>
+                                            <div>{e?.main}</div>
                                         </h1>
-                                        <p className='py-2'>
+                                        <p className='py-2 px-6'>
                                             {e?.content}
                                         </p>
                                     </div>
