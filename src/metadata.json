@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Avrut Solutions | Software Development Company",
+    "description": "Welcome to our home page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "about-us": {
+    "title": "About - Avrut Solutions | Software Development Company",
+    "description": "Welcome to our about page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "services": {
+    "title": "Services - Avrut Solutions | Software Development Company",
+    "description": "Welcome to our about page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "industries": {
+    "title": "Industries - Avrut Solutions | Software Development Company",
+    "description": "Welcome to our about page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "careers": {
+    "title": "Career - Avrut Solutions | Software Development Company",
+    "description": "Welcome to our about page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "contact": {
+    "title": "Contact - Avrut Solutions | Software Development Company",
+    "description": "Welcome to our about page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology": {
+    "title": "Technologies - Avrut Solutions | Software Development Company",
+    "description": "Welcome to our about page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "portfolio": {
+    "title": "Our Work - Avrut Solutions | Software Development Company",
+    "description": "Welcome to our about page.",
+    "keywords": ["Next.js", "React", "Home"]
+  }
+}
