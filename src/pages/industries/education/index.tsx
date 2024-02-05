@@ -8,6 +8,12 @@ import First from "@/component/First/First";
 import AboutIndustries from "@/component/Industries/AboutIndustries/AboutIndustries";
 import IndustriesFeatures from "@/component/Industries/IndustriesFeatures/IndustriesFeatures";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
+import {
+  FaBookReader,
+  FaChalkboardTeacher,
+  FaGraduationCap,
+  FaLaptopCode,
+} from "react-icons/fa";
 
 function Education() {
   const services = [
@@ -45,28 +51,28 @@ function Education() {
 
   const card = [
     {
-      title: "Flexible Learning Opportunities",
+      title: "Experienced Educators",
       content:
-        "With the help of Digital solutions students can get access to educational resources and courses anytime and anywhere. This is highly beneficial for remote and distance learning, which allows students to study at their convenience with ease.",
-      icon: <MdHealthAndSafety />,
+        "Engage with experienced educators who bring expertise and passion to the learning environment, fostering a conducive atmosphere for knowledge acquisition and academic growth.",
+      icon: <FaChalkboardTeacher />,
     },
     {
-      title: "25+ Expert Professionals",
+      title: "Diverse Learning Resources",
       content:
-        "Modern made software with thorough research helps to automate administrative tasks, appointment scheduling, and billing processes, thereby reducing paperwork and saving up healthcare professionals' time for more valuable tasks.",
-      icon: <ImPower />,
+        "Access a wealth of diverse learning resources, including textbooks, online materials, and multimedia content, providing students with comprehensive and varied sources to enhance their understanding of subjects.",
+      icon: <FaBookReader />,
     },
     {
-      title: "25+ Expert Professionals",
+      title: "Graduation Pathways",
       content:
-        "The latest software embedded with various features aids in employing robust security measures to safeguard sensitive patient information, protecting against data breaches and ensuring compliance with privacy regulations.",
-      icon: <CiCloudOn />,
+        "Explore well-structured graduation pathways that guide students through their academic journey, helping them navigate course requirements, set academic goals, and achieve successful graduation outcomes.",
+      icon: <FaGraduationCap />,
     },
     {
-      title: "25+ Expert Professionals",
+      title: "Interactive Online Courses",
       content:
-        "Integrated software platforms enable healthcare providers to share patient data and collaborate across departments or even healthcare facilities, facilitating more effective care coordination. ",
-      icon: <TbUsersGroup />,
+        "Participate in interactive online courses facilitated by cutting-edge e-learning platforms. Utilize virtual classrooms, collaborative tools, and hands-on assignments for an engaging and effective online learning experience.",
+      icon: <FaLaptopCode />,
     },
   ];
 
@@ -136,11 +142,14 @@ function Education() {
 
       <div className="bg-purple px-2 py-10">
         <AboutIndustries
-          title="About Healthcare Industries"
-          content="The healthcare industry is a multifaceted ecosystem encompassing a diverse range of services, technologies, and entities committed to the well-being of individuals. Evolving towards patient-centric care, the sector undergoes a significant digital transformation with the integration of electronic health records, telemedicine, and wearable devices. Biomedical innovation remains pivotal, driving advancements in medical treatments and pharmaceuticals. Operating within a highly regulated environment, compliance with healthcare regulations is paramount. Addressing global health challenges, healthcare professionals collaborate across disciplines to combat diseases and enhance public health. Telehealth services and remote monitoring have gained prominence, providing remote access to medical consultations and monitoring. Healthcare analytics, fueled by vast datasets, plays a crucial role in identifying trends and improving overall healthcare delivery. Despite challenges like rising costs, the industry offers opportunities for innovation and efficiency improvements, fostering interdisciplinary collaboration among healthcare professionals. Understanding the intricacies of healthcare involves navigating a complex interplay of medical, technological, regulatory, and societal factors."
+          title="About Education Industries"
+          content="The Education industry is a multifaceted ecosystem encompassing a diverse range of services, technologies, and entities committed to the well-being of individuals. Evolving towards patient-centric care, the sector undergoes a significant digital transformation with the integration of electronic health records, telemedicine, and wearable devices. Biomedical innovation remains pivotal, driving advancements in medical treatments and pharmaceuticals. Operating within a highly regulated environment, compliance with healthcare regulations is paramount. Addressing global health challenges, healthcare professionals collaborate across disciplines to combat diseases and enhance public health. Telehealth services and remote monitoring have gained prominence, providing remote access to medical consultations and monitoring. Healthcare analytics, fueled by vast datasets, plays a crucial role in identifying trends and improving overall healthcare delivery. Despite challenges like rising costs, the industry offers opportunities for innovation and efficiency improvements, fostering interdisciplinary collaboration among healthcare professionals. Understanding the intricacies of healthcare involves navigating a complex interplay of medical, technological, regulatory, and societal factors."
         />
 
-        <IndustriesFeatures card={card} />
+        <IndustriesFeatures
+          title="The benefits of digital software to the education industry include"
+          card={card}
+        />
 
         <TechnologyServices
           title="Education industry"

@@ -6,6 +6,7 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import React from "react";
 import ImageTech from "../../../assets/technology/react.png";
+import MainBanner from "../../../assets/technology/reactbanner.png";
 
 function Reactjs() {
   const services = [
@@ -165,6 +166,7 @@ function Reactjs() {
       <First
         title="React.js Development Company"
         subtitle="Avrut solutions is a leading React.js development company catering a wide gamut of business segments from startups to enterprises."
+        MainBanner={MainBanner.src}
       />
 
       <ChooseTechnology

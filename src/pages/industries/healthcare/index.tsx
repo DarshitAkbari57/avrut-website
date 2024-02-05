@@ -8,6 +8,16 @@ import First from "@/component/First/First";
 import AboutIndustries from "@/component/Industries/AboutIndustries/AboutIndustries";
 import IndustriesFeatures from "@/component/Industries/IndustriesFeatures/IndustriesFeatures";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
+import {
+  FaChartLine,
+  FaCreditCard,
+  FaExchangeAlt,
+  FaLock,
+  FaMobileAlt,
+  FaRegCalendarAlt,
+  FaShieldAlt,
+  FaUserMd,
+} from "react-icons/fa";
 
 function Healthcare() {
   const services = [
@@ -45,31 +55,30 @@ function Healthcare() {
 
   const card = [
     {
-      title: "25+ Expert Professionals",
+      title: "Expert Medical Professionals",
       content:
-        "The modern-day software developed using latest technology enables better patient monitoring, personalized treatment plans, and faster access to medical records, which leads to better patient outcomes and overall care quality.",
-      icon: <MdHealthAndSafety />,
+        "Access a network of expert medical professionals dedicated to providing quality healthcare. Benefit from their experience and expertise in delivering personalized treatment plans and ensuring comprehensive patient care.",
+      icon: <FaUserMd />,
     },
     {
-      title: "25+ Expert Professionals",
+      title: "Streamlined Appointment Scheduling",
       content:
-        "Modern made software with thorough research helps to automate administrative tasks, appointment scheduling, and billing processes, thereby reducing paperwork and saving up healthcare professionals' time for more valuable tasks.",
-      icon: <ImPower />,
+        "Utilize streamlined appointment scheduling systems for efficient and convenient booking. Enhance patient accessibility to healthcare services and reduce wait times, optimizing the overall healthcare experience.",
+      icon: <FaRegCalendarAlt />,
     },
     {
-      title: "25+ Expert Professionals",
+      title: "Robust Security Measures",
       content:
-        "The latest software embedded with various features aids in employing robust security measures to safeguard sensitive patient information, protecting against data breaches and ensuring compliance with privacy regulations.",
-      icon: <CiCloudOn />,
+        "Implement the latest software with robust security measures to safeguard sensitive patient information. Ensure compliance with privacy regulations, protect against data breaches, and prioritize the confidentiality of healthcare data.",
+      icon: <FaShieldAlt />,
     },
     {
-      title: "25+ Expert Professionals",
+      title: "Interoperable Healthcare Platforms",
       content:
-        "Integrated software platforms enable healthcare providers to share patient data and collaborate across departments or even healthcare facilities, facilitating more effective care coordination. ",
-      icon: <TbUsersGroup />,
+        "Integrate software platforms that enable healthcare providers to share patient data and collaborate seamlessly. Enhance care coordination across departments or facilities, ensuring a cohesive and effective healthcare ecosystem.",
+      icon: <FaExchangeAlt />,
     },
   ];
-
   const why = [
     {
       numbers: "1",
@@ -141,7 +150,10 @@ function Healthcare() {
           content="The healthcare industry is a multifaceted ecosystem encompassing a diverse range of services, technologies, and entities committed to the well-being of individuals. Evolving towards patient-centric care, the sector undergoes a significant digital transformation with the integration of electronic health records, telemedicine, and wearable devices. Biomedical innovation remains pivotal, driving advancements in medical treatments and pharmaceuticals. Operating within a highly regulated environment, compliance with healthcare regulations is paramount. Addressing global health challenges, healthcare professionals collaborate across disciplines to combat diseases and enhance public health. Telehealth services and remote monitoring have gained prominence, providing remote access to medical consultations and monitoring. Healthcare analytics, fueled by vast datasets, plays a crucial role in identifying trends and improving overall healthcare delivery. Despite challenges like rising costs, the industry offers opportunities for innovation and efficiency improvements, fostering interdisciplinary collaboration among healthcare professionals. Understanding the intricacies of healthcare involves navigating a complex interplay of medical, technological, regulatory, and societal factors."
         />
 
-        <IndustriesFeatures card={card} />
+        <IndustriesFeatures
+          title="The benefits of digital software to the healthcare industry include"
+          card={card}
+        />
 
         <TechnologyServices
           title="Healthcare industry"

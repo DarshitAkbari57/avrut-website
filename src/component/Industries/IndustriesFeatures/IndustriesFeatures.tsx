@@ -1,16 +1,14 @@
 import React from "react";
 
-const IndustriesFeatures = ({ card }: any) => {
+const IndustriesFeatures = ({ title, card }: any) => {
   return (
     <div>
       <div id="features" className="mx-auto">
         <p className="text-center text-base font-semibold leading-7 text-primary">
           Features
         </p>
-        <h2 className="text-center font-display text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-          The benefits of digital software to the{" "}
-          <br className="hidden md:block" />
-          healthcare industry include
+        <h2 className="text-center mx-52 font-display text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          {title}
         </h2>
         <section className="text-gray-700 body-font">
           <div className="container py-10 md:py-10 mx-auto">

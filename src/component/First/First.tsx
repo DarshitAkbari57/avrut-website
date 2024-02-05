@@ -1,12 +1,17 @@
 import React from "react";
 
-function First({ title, subtitle }: any) {
+function First({ title, subtitle, MainBanner }: any) {
   return (
     <>
       <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen md:h-screen text-white overflow-hidden">
         <div className="absolute inset-0">
-          <img
+          {/* <img
             src="https://miro.medium.com/v2/resize:fit:1358/1*LpBTv_cXZ6MG3Gddb0f_Kg.png"
+            alt="Background Image"
+            className="object-cover object-center w-full h-full"
+          /> */}
+          <img
+            src={MainBanner}
             alt="Background Image"
             className="object-cover object-center w-full h-full"
           />

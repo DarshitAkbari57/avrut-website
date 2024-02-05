@@ -40,11 +40,11 @@ function Technology() {
       technologys: [
         {
           name: "React Native",
-          images: "/images/nodejs.svg",
+          images: "/images/reactjs.svg",
         },
         {
           name: "Flutter",
-          images: "/images/nodejs.svg",
+          images: "/images/flutter.svg",
         },
       ],
     },
@@ -56,11 +56,11 @@ function Technology() {
       technologys: [
         {
           name: "React Native",
-          images: "/images/nodejs.svg",
+          images: "/images/reactjs.svg",
         },
         {
           name: "Flutter",
-          images: "/images/nodejs.svg",
+          images: "/images/flutter.svg",
         },
       ],
     },
@@ -72,11 +72,11 @@ function Technology() {
       technologys: [
         {
           name: "React Native",
-          images: "/images/nodejs.svg",
+          images: "/images/reactjs.svg",
         },
         {
           name: "Flutter",
-          images: "/images/nodejs.svg",
+          images: "/images/flutter.svg",
         },
       ],
     },
@@ -88,11 +88,11 @@ function Technology() {
       technologys: [
         {
           name: "React Native",
-          images: "/images/nodejs.svg",
+          images: "/images/reactjs.svg",
         },
         {
           name: "Flutter",
-          images: "/images/nodejs.svg",
+          images: "/images/flutter.svg",
         },
       ],
     },

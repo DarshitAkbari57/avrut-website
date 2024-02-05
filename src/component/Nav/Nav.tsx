@@ -468,7 +468,7 @@ function Nav() {
                                       <li
                                         className="cursor-pointer text-[14px] pb-2 text-gray1"
                                         onClick={() =>
-                                          router.push("/technology/angular")
+                                          router.push("/industries/education")
                                         }
                                       >
                                         The education industry is a dynamic
@@ -490,12 +490,13 @@ function Nav() {
                                       <li
                                         className="cursor-pointer text-[14px] pb-2 text-gray1"
                                         onClick={() =>
-                                          router.push("/technology/docker")
+                                          router.push("/industries/e-commerce")
                                         }
                                       >
-                                        Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing elit. Doloremque
-                                        consequuntur mollitia sunt cum
+                                        E-commerce, short for electronic
+                                        commerce, refers to the buying and
+                                        selling of goods and services over the
+                                        internet.
                                       </li>
                                     </ul>
                                   </div>
@@ -514,12 +515,15 @@ function Nav() {
                                       <li
                                         className="cursor-pointer text-[14px] pb-2 text-gray1"
                                         onClick={() =>
-                                          router.push("/technology/postgresql")
+                                          router.push(
+                                            "/industries/digital-banking"
+                                          )
                                         }
                                       >
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Voluptatum animi quam
-                                        doloremque
+                                        Digital banking represents a
+                                        transformative shift in the financial
+                                        landscape, redefining how individuals
+                                        and businesses manage their finances.
                                       </li>
                                     </ul>
                                   </div>
@@ -538,12 +542,16 @@ function Nav() {
                                       <li
                                         className="cursor-pointer text-[14px] pb-2 text-gray1"
                                         onClick={() =>
-                                          router.push("/technology/adobe-xd")
+                                          router.push(
+                                            "/industries/entertainment"
+                                          )
                                         }
                                       >
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Esse, repudiandae.
-                                        Quisquam itaque quibusdam quam
+                                        The entertainment industry is a vast and
+                                        dynamic sector that encompasses a
+                                        diverse range of activities and forms of
+                                        content designed to captivate, amuse,
+                                        and engage audiences.
                                       </li>
                                     </ul>
                                   </div>

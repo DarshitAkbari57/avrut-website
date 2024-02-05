@@ -94,8 +94,18 @@
     "description": "Welcome to our AdobeXD Design page.",
     "keywords": ["Next.js", "React", "Home"]
   },
-  "technology/figma": {
-    "title": "Figma Design Services | Avrut Solutions",
+  "technology/docker": {
+    "title": "Docker Services | Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/kubernets": {
+    "title": "Kubernets Services | Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/aws": {
+    "title": "AWS Services | Avrut Solutions",
     "description": "Welcome to our Figma Design page.",
     "keywords": ["Next.js", "React", "Home"]
   }

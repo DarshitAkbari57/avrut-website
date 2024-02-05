@@ -6,6 +6,7 @@ import Process from "@/component/Technology/Process/Process";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/flutter.png";
+import MainBanner from "../../../assets/technology/flutterbanner.png";
 
 function Flutter() {
   const services = [
@@ -176,6 +177,7 @@ function Flutter() {
       <First
         title="Flutter Development"
         subtitle="At Avrut Solutions, we specialize in leveraging the power of Flutter, Google's revolutionary cross-platform framework, to build stunning and high-performance mobile applications. Our experienced team of Flutter developers and designers are adept at creating seamless user experiences that run flawlessly on both Android and iOS platforms."
+        MainBanner={MainBanner.src}
       />
 
       <ChooseTechnology

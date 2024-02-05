@@ -6,6 +6,7 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import React from "react";
 import ImageTech from "../../../assets/technology/anguler.png";
+import MainBanner from "../../../assets/technology/angularbanner.jpg";
 
 function Angularjs() {
   const services = [
@@ -177,6 +178,7 @@ function Angularjs() {
       <First
         title="Angular Development Company"
         subtitle="Transform the look, feel and performance of your web applications with angular development services"
+        MainBanner={MainBanner.src}
       />
 
       <ChooseTechnology
