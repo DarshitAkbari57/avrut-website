@@ -34,8 +34,8 @@ function Technologies() {
     {
       image:
         "https://www.braincuber.com/_next/static/media/angular-icon.4784d388.svg",
-      technologies: "anguler",
-      path: "/technology/anguler",
+      technologies: "angular",
+      path: "/technology/angular",
     },
     // {
     //     image: "https://www.braincuber.com/_next/static/media/laravel-icon.223d74b8.svg",
@@ -66,7 +66,7 @@ function Technologies() {
       image:
         "https://www.braincuber.com/_next/static/media/angular-icon1.c25a72ac.svg",
       technologies: "Next.js",
-      path: "/technology/anguler",
+      path: "/technology/angular",
     },
     // {
     //     image: "https://www.braincuber.com/_next/static/media/android-icon.fac5e849.svg",
@@ -92,7 +92,7 @@ function Technologies() {
       image:
         "https://www.braincuber.com/_next/static/media/angular-icon1.c25a72ac.svg",
       technologies: "Next.js",
-      path: "/technology/anguler",
+      path: "/technology/angular",
     },
     // {
     //     image: "https://www.braincuber.com/_next/static/media/android-icon.fac5e849.svg",

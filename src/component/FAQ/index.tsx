@@ -15,7 +15,7 @@ function Faq({ accordionItems }: any) {
           <div className="max-w-4xl m-auto flex justify-center items-center gap-4 py-3 md:py-5">
             <hr className="w-[100px] h-[4px] bg-primary" />
             <div className="text-4xl font-bold mx-3 max-w-min text-center">
-              FAQ'
+              FAQ&apos;
               <span className="text-primary">s</span>
             </div>
             <hr className="w-[100px] h-[4px] bg-primary" />

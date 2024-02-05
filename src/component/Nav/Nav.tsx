@@ -117,7 +117,7 @@ function Nav() {
                                       <li
                                         className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
                                         onClick={() =>
-                                          router.push("/technology/anguler")
+                                          router.push("/technology/angular")
                                         }
                                       >
                                         • Angular
@@ -302,8 +302,10 @@ function Nav() {
                                   <div className="flex gap-4 mt-2">
                                     <ul className="">
                                       <li className="cursor-pointer text-[14px] pb-2  text-gray1">
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing .
+                                        interfaces for digital products,
+                                        integrating research, usability testing,
+                                        and iterative design to enhance overall
+                                        user experience.
                                       </li>
                                     </ul>
                                   </div>
@@ -324,7 +326,7 @@ function Nav() {
                                       <li
                                         className="cursor-pointer text-[14px] pb-2 text-gray1"
                                         onClick={() =>
-                                          router.push("/technology/anguler")
+                                          router.push("/technology/angular")
                                         }
                                       >
                                         Architects create scalable software
@@ -337,7 +339,7 @@ function Nav() {
                                 <div
                                   className="flex p-5 flex-col hover:bg-purple cursor-pointer"
                                   onClick={() =>
-                                    router.push("/industries/e-commerce")
+                                    router.push("/services/engineering")
                                   }
                                 >
                                   <h1 className="font-semibold">
@@ -348,12 +350,14 @@ function Nav() {
                                       <li
                                         className="cursor-pointer text-[14px] pb-2 text-gray1"
                                         onClick={() =>
-                                          router.push("/technology/docker")
+                                          router.push("/services/engineering")
                                         }
                                       >
-                                        Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing elit. Doloremque
-                                        consequuntur mollitia sunt cum
+                                        Engineering and DevOps involve the
+                                        integration of development and
+                                        operations practices to streamline
+                                        software delivery and enhance
+                                        collaboration.
                                       </li>
                                     </ul>
                                   </div>
@@ -361,7 +365,9 @@ function Nav() {
                                 <div
                                   className="flex p-5 flex-col hover:bg-purple cursor-pointer"
                                   onClick={() =>
-                                    router.push("/industries/digital-banking")
+                                    router.push(
+                                      "/services/mobile-app-development"
+                                    )
                                   }
                                 >
                                   <h1 className="font-semibold">
@@ -372,12 +378,17 @@ function Nav() {
                                       <li
                                         className="cursor-pointer text-[14px] pb-2 text-gray1"
                                         onClick={() =>
-                                          router.push("/technology/postgresql")
+                                          router.push(
+                                            "/services/mobile-app-development"
+                                          )
                                         }
                                       >
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Voluptatum animi quam
-                                        doloremque
+                                        Mobile app development is the process of
+                                        creating software applications
+                                        specifically designed for smartphones
+                                        and tablets, encompassing stages like
+                                        planning, design, coding, testing, and
+                                        deployment.
                                       </li>
                                     </ul>
                                   </div>
@@ -385,7 +396,7 @@ function Nav() {
                                 <div
                                   className="flex p-5 flex-col hover:bg-purple cursor-pointer"
                                   onClick={() =>
-                                    router.push("/industries/entertainment")
+                                    router.push("/services/staff-augmentation")
                                   }
                                 >
                                   <h1 className="font-semibold">
@@ -396,12 +407,17 @@ function Nav() {
                                       <li
                                         className="cursor-pointer text-[14px] pb-2 text-gray1"
                                         onClick={() =>
-                                          router.push("/technology/adobe-xd")
+                                          router.push(
+                                            "/services/staff-augmentation"
+                                          )
                                         }
                                       >
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Esse, repudiandae.
-                                        Quisquam itaque quibusdam quam
+                                        Overall, staff augmentation offers
+                                        businesses a strategic and agile
+                                        approach to workforce management,
+                                        enabling them to adapt to changing
+                                        project requirements, reduce costs, and
+                                        access specialized skills as needed.
                                       </li>
                                     </ul>
                                   </div>
@@ -431,8 +447,11 @@ function Nav() {
                                   <div className="flex gap-4 mt-2">
                                     <ul className="">
                                       <li className="cursor-pointer text-[14px] pb-2  text-gray1">
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing .
+                                        The healthcare industry is a
+                                        multifaceted ecosystem encompassing a
+                                        diverse range of services, technologies,
+                                        and entities committed to the well-being
+                                        of individuals.
                                       </li>
                                     </ul>
                                   </div>
@@ -449,12 +468,12 @@ function Nav() {
                                       <li
                                         className="cursor-pointer text-[14px] pb-2 text-gray1"
                                         onClick={() =>
-                                          router.push("/technology/anguler")
+                                          router.push("/technology/angular")
                                         }
                                       >
-                                        Architects create scalable software
-                                        solution with modularity and core
-                                        strength
+                                        The education industry is a dynamic
+                                        sector focused on facilitating learning
+                                        and skill development.
                                       </li>
                                     </ul>
                                   </div>

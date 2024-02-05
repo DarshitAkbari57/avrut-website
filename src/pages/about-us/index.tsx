@@ -1,6 +1,5 @@
 import First from "@/component/First/First";
 import React from "react";
-import "animate.css";
 
 function index() {
   const belive = [

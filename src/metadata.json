@@ -38,5 +38,65 @@
     "title": "Our Work - Avrut Solutions | Software Development Company",
     "description": "Welcome to our about page.",
     "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/reactjs": {
+    "title": "Reactjs Development Services | Avrut Solutions",
+    "description": "Welcome to our Reactjs page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/angular": {
+    "title": "Angular Development Services | Avrut Solutions",
+    "description": "Welcome to our Angular page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/nodejs": {
+    "title": "Node.js Development Services | Avrut Solutions",
+    "description": "Welcome to our Nodejs page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/typescript": {
+    "title": "TypeScript Development Services | Avrut Solutions",
+    "description": "Welcome to our TypeScriptjs page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/postgresql": {
+    "title": "PostgreSQL Development Services | Avrut Solutions",
+    "description": "Welcome to our PostgreSQL page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/mysql": {
+    "title": "MySQL Development Services | Avrut Solutions",
+    "description": "Welcome to our PostgreSQL page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/mongodb": {
+    "title": "MongoDB Development Services | Avrut Solutions",
+    "description": "Welcome to our MongoDB page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/aws-dynamodb": {
+    "title": "DynamoDB Development Services | Avrut Solutions",
+    "description": "Welcome to our DynamoDB page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/flutter": {
+    "title": "Flutter Development | Avrut Solutions",
+    "description": "Welcome to our Flutter page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/react-native": {
+    "title": "ReactNative Development | Avrut Solutions",
+    "description": "Welcome to our ReactNative page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/adobe-xd": {
+    "title": "AdobeXD Design Services | Avrut Solutions",
+    "description": "Welcome to our AdobeXD Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "technology/figma": {
+    "title": "Figma Design Services | Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
   }
 }
