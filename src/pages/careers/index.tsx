@@ -1,5 +1,8 @@
 import Faq from "@/component/FAQ";
+import First from "@/component/First/First";
 import React from "react";
+import MainBanner from "../../assets/technology/careerbanner.png";
+import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 
 function Career() {
   const Culture = [
@@ -38,97 +41,109 @@ function Career() {
   const services = [
     {
       numbers: "1",
-      main: "Node.js development",
+      main: "Growth-Focused",
       content:
-        "Our company offers comprehensive Node.js development services to empower businesses with fast and scalable web applications. From API development and real-time applications to server-side scripting and microservices, our skilled Node.js developers harness the power of this runtime environment to deliver efficient and reliable solutions.",
+        "We keep employee growth in mind, with each development step and project we take up.",
     },
     {
       numbers: "2",
-      main: "Custom node.js solutions",
+      main: "Regular Outings",
       content:
-        "Our Company specializes in providing custom Node.js solutions tailored to your specific business requirements. With our expertise in Node.js development, we create scalable, secure, and highly functional applications that cater to your unique needs, ensuring a seamless user experience and optimal performance.",
+        "Outings like picnic, movie day, sports day and more are organized for mental and physical balance.",
     },
     {
       numbers: "3",
-      main: "Maintenance & support",
+      main: "Bonus & Compensations",
       content:
-        "Our Node.js Company offers comprehensive maintenance and support services to ensure the smooth operation of your applications. From regular updates and bug fixes to performance optimization and security enhancements, we provide ongoing assistance to keep your Node.js applications up-to-date and running efficiently.",
+        "Timely appraisals, bonus and compensations are made based on performance.",
     },
     {
       numbers: "4",
-      main: "Node.js upgrade",
+      main: "Periodic Upskilling Sessions",
       content:
-        "Our company provides Node.js upgrade solutions to ensure your applications stay up-to-date with the latest features and security enhancements. We handle the entire upgrade process, including migrating to newer versions, refactoring code, and integrating new functionalities, allowing you to leverage the full potential of Node.js for your business. ",
+        "We believe in constant learning and provide training sessions regularly to employees for their growth and development.",
     },
     {
       numbers: "5",
-      main: "Node.js & advanced node.js development",
+      main: "Competitive & Supportive Environment",
       content:
-        "Our company offers both Node.js and advanced Node.js development solutions to cater to diverse business needs. With Node.js, we build scalable and efficient web applications, while our expertise in advanced Node.js techniques enables us to implement complex functionalities, optimize performance, and integrate with various technologies, ensuring robust and cutting-edge solutions for our clients.",
+        "The atmosphere at Avrut Solutions challenges and nurtures you at the same time with a supportive team.",
     },
     {
       numbers: "6",
-      main: "Node.js design services",
+      main: "Flexible Working Hours",
       content:
-        "Our Node.js development company offers comprehensive design services, leveraging industry best practices and creative expertise to deliver visually appealing and user-centric designs for Node.js applications.",
+        "Flexible work timing increases productivity and does not include stress for the team members.",
     },
   ];
 
   const accordionItems = [
     {
-      title: "01.  What services does Avrut Solutions offer?",
+      title: "01. What industries does Avrut Solutions cater to?",
       content:
-        "Avrut Solutions is a leading software development company that designs and builds applications and other software parts for businesses. We offer a wide range of services, from UI/UX design, web, and mobile app development, custom API development, and DevOps, to project management and business analysis",
+        "Avrut Solutions has successfully delivered projects across diverse industries, including eCommerce, finance, manufacturing, wellness, travel, and more.",
     },
     {
-      title: "02.  Is Avrut Solutions the best for software development?",
+      title:
+        "02.  What technologies does Avrut Solutions specialize in for web development?",
       content:
-        "Avrut Solutions excels at creating digitally adaptable products that solve real-world problems. Our developers deliver cutting-edge apps on time, regardless of the complexity involved in the development process. We are easily one of the best in the field of software development.",
+        "Avrut Solutions excels in web development technologies such as React, Angular, and Node.js, ensuring dynamic and scalable solutions.",
     },
     {
-      title: "03.  How is Avrut Solutions better than others?",
+      title:
+        "03.  Which mobile development frameworks does Avrut Solutions use?",
       content:
-        "Avrut Solutions is better than others because we have a pool of highly skilled engineers with exceptional technical knowledge. Our software developers are experienced in using the latest software standards, tools, frameworks, and technologies. Moreover, we continuously invest in their training and education, so they can respond effectively to any new technology challenges and demands from our customers.",
+        "Avrut Solutions specializes in React Native and Flutter for mobile app development, offering cross-platform solutions with optimal performance.",
+    },
+    {
+      title:
+        "04.   How does Avrut Solutions ensure the quality of its software solutions?",
+      content:
+        "Avrut Solutions employs a comprehensive approach to testing, including manual and automated testing, along with rigorous quality assurance practices to ensure reliability and performance.",
+    },
+    {
+      title:
+        "05.  Can Avrut Solutions provide custom-tailored software solutions?",
+      content:
+        "Yes, Avrut Solutions specializes in crafting bespoke software solutions that precisely align with the unique requirements and objectives of each project.",
+    },
+    {
+      title: "06.  What design tools does Avrut Solutions use for UI/UX?",
+      content:
+        "Avrut Solutions utilizes industry-standard design tools such as Figma and Adobe XD to create visually appealing and user-centric interfaces.",
+    },
+    {
+      title:
+        "07.   How collaborative is the development process with Avrut Solutions?",
+      content:
+        "Avrut Solutions values open communication and collaboration. We work closely with clients, ensuring their input is considered throughout the development process for client satisfaction.",
+    },
+    {
+      title:
+        "08. What is the typical duration for completing a software development project with Avrut Solutions?",
+      content:
+        "Project durations vary based on complexity and requirements. Avrut Solutions provides timelines during the project planning phase and strives to meet agreed-upon deadlines.",
+    },
+    {
+      title:
+        "09.  Does Avrut Solutions offer ongoing support for deployed software?",
+      content:
+        "Yes, Avrut Solutions provides end-to-end services, including deployment assistance and ongoing support to ensure the smooth operation and evolution of software solutions.",
+    },
+    {
+      title: "10. How can I get started with Avrut Solutions for my project?",
+      content:
+        "To get started, you can contact us through our website or reach out to our team via email or phone. We'll be happy to discuss your project requirements and provide guidance on the next steps.",
     },
   ];
 
   return (
     <>
-      <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-max md:h-screen py-10 text-white overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080"
-            alt="Background Image"
-            className="object-cover object-center w-full h-full"
-          />
-          <div className="absolute inset-0 bg-black opacity-50"></div>
-        </div>
-
-        <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-5 md:max-w-4xl m-auto">
-          <a
-            href="#"
-            className="bg-white text-primary py-2 px-6 rounded-xl text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg my-2"
-          >
-            Book now
-          </a>
-          <h1 className="text-2xl  md:text-5xl font-bold leading-tight mb-4">
-            Kickstart a Rewarding Career Avrut Solutions
-          </h1>
-          <p className="text-lg text-gray-300 mb-8">
-            Avrut Solutions is a place where you shape new realities with
-            inspiring ideas and innovative technology. Here, you will be part of
-            a culture conducive to your personal and professional growth. If you
-            love to explore creative solutions and aren’t afraid of challenges,
-            we are excited to meet you. We welcome people passionate about
-            learning new skills and enhancing their capabilities and leadership
-            qualities. Avrut Solutions excels in solving challenges to complex
-            software development through our thought process and cutting-edge
-            technology solutions. We are a fast-growing and dynamic, fun-loving
-            company. Come, and be a part of our ever-growing family. For us,
-            your career growth is a priority.z
-          </p>
-        </div>
-      </div>
+      <First
+        title="Growth At Avrut Solutions"
+        subtitle="Are you a developer, game tester, or passionate about providing solutions? If yes, then Avrut Solutions is the right place for your career growth. We are welcoming talented professionals from across the globe to work with us."
+        MainBanner={MainBanner.src}
+      />
 
       <div className="bg-purple">
         <div className="text-xl lg:text-6xl text-center font-bold whitespace-normal px-10 py-3 lg:py-10">
@@ -155,35 +170,12 @@ function Career() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 py-4  px-2 md:px-20 mt-5 md:mt-10">
-          <div>
-            <p className="text-black font-medium text-2xl md:text-6xl">
-              <span className="text-primary">Benefits and Perks</span>{" "}
-              <br className="hidden md:block" />
-              of Working with <br className="hidden md:block" />
-              Braincuber
-              <br className="hidden md:block" />
-              Technologies
-            </p>
-          </div>
-          <div>
-            {services.map((e) => {
-              return (
-                <>
-                  <div className=" border rounded-2xl border-primary flex flex-col md:flex-row p-4 gap-3 bg-white mb-5">
-                    <div className="text-2xl text-primary font-bold">
-                      0{e.numbers}.
-                    </div>
-                    <div>
-                      <h1 className="text-xl font-semibold">{e?.main}</h1>
-                      <p className="my-2">{e?.content}</p>
-                    </div>
-                  </div>
-                </>
-              );
-            })}
-          </div>
-        </div>
+        <TechnologyServices
+          title="Benefits and Perks"
+          titleSpan="of Working with Avrut Solutions"
+          content="From API development to robust backend systems, we harness the power of React.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of React.js."
+          services={services}
+        />
       </div>
       <Faq accordionItems={accordionItems} />
     </>

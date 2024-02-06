@@ -116,7 +116,7 @@ function Getintouch() {
                                         </label>
                                     </div> */}
                   <button
-                    className="shadow bg-primary hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
+                    className="shadow bg-primary transition focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded duration-300"
                     type="submit"
                   >
                     Send Message

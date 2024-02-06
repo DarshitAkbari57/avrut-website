@@ -14,6 +14,8 @@ import {
   FaTag,
   FaTruckLoading,
 } from "react-icons/fa";
+import MainBanner from "../../../assets/technology/ecombanner.jpg";
+import AboutImage from "../../../assets/technology/ecom.jpg";
 
 function ECommerce() {
   const services = [
@@ -107,12 +109,16 @@ function ECommerce() {
 
   return (
     <>
-      <First title="Creating Innovative Customer Experiences for Your Digital Commerce Store" />
+      <First
+        title="Creating Innovative Customer Experiences for Your Digital Commerce Store"
+        MainBanner={MainBanner.src}
+      />
 
       <div className="bg-purple px-2 py-10">
         <AboutIndustries
           title="About E-Commerce Industries"
           content="E-commerce, short for electronic commerce, refers to the buying and selling of goods and services over the internet. This dynamic industry encompasses online retail platforms, digital marketplaces, and various electronic transactions, providing consumers and businesses with a convenient and efficient way to engage in commercial activities globally. E-commerce involves diverse models such as B2C (business-to-consumer) and B2B (business-to-business), driven by secure online transactions, digital marketing strategies, and seamless user experiences. Rapid advancements in technology continue to shape the e-commerce landscape, influencing consumer behaviors, supply chain dynamics, and the overall evolution of modern commerce."
+          AboutImage={AboutImage.src}
         />
 
         <IndustriesFeatures

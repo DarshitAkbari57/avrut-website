@@ -160,11 +160,6 @@ function Nodejs() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose Us For Typescript"
-        content="Our TypeScript Development Company follows a proven development process that combines industry best practices, agile methodologies, and a client-centric approach."
-      />
-
       <TechnologyServices
         title="Typescript"
         titleSpan="Service We offer"

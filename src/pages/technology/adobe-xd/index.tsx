@@ -186,11 +186,6 @@ function AdobeXD() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why choose us as Adobe XD for design service?"
-        content="We have a team of skilled and creative designers who excel in Adobe XD. Our designers are pro at crafting visually stunning and user-centric designs. With a strong focus on innovation, we instill unique perspectives to every project, ensuring your application stands out in competitive digital landscape."
-      />
-
       <TechnologyServices
         title="Adobe XD"
         titleSpan="Service We offer"

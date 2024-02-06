@@ -181,11 +181,6 @@ function ReactNative() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose us as React Native development?"
-        content="Our team of Bitbucket specialists indulge in seamless integration of frontend and backend development, enabling the creation of cross-platform mobile applications with a powerful and efficient database backend."
-      />
-
       <TechnologyServices
         title="React Native Development"
         titleSpan="Service We offer"

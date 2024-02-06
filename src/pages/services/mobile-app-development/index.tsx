@@ -7,7 +7,8 @@ import Portfolio from "@/component/Portfolio/Portfolio";
 import Architecture from "@/component/Services/Architecture/Architecture";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
-import ImageTech from "../../../../public/images/culture.png";
+import ImageTech from "../../../assets/technology/appdev.jpg";
+import MainBanner from "../../../assets/technology/mobilebanner.jpg";
 
 function MobileApp() {
   const services = [
@@ -102,12 +103,13 @@ function MobileApp() {
       <First
         title="Mobile App Development"
         subtitle="Mobile app development is the process of creating software applications specifically designed to run on mobile devices such as smartphones and tablets."
+        MainBanner={MainBanner.src}
       />
 
-      <Architecture
+      {/* <Architecture
         title="What About Mobile App Development"
         subtitle="It involves a combination of designing the user interface, developing the application's functionality, and ensuring optimal performance on various mobile platforms. Here are key aspects and phases associated with mobile app development."
-      />
+      /> */}
 
       <TechnologyServices
         title=" Mobile App Development"

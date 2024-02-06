@@ -7,7 +7,8 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import ImageTech from "../../../../public/images/culture.png";
+import ImageTech from "../../../assets/technology/digital3.jpg";
+import MainBanner from "../../../assets/technology/digitalbanner.jpg";
 
 function Digitalproductdesign() {
   const services = [
@@ -101,16 +102,17 @@ function Digitalproductdesign() {
       <First
         title="Digital Product design"
         subtitle="Digital product design is a multidisciplinary field that involves creating and designing user interfaces and experiences for digital products such as websites, mobile apps, software applications, and other interactive platforms"
+        MainBanner={MainBanner.src}
       />
 
-      <Architecture
+      {/* <Architecture
         title="What About Software Architecture"
         subtitle="Software architecture reveals the system's structure and how
               the components are connected and interact. The architecture design
               software procedure involves utilizing technical and operative
               conditions to develop high-performance, proven-tested, and
               scalable solutions."
-      />
+      /> */}
 
       <TechnologyServices
         title="Digital Product Design"

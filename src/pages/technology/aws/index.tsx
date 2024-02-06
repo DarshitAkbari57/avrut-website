@@ -5,7 +5,7 @@ import Process from "@/component/Technology/Process/Process";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import React from "react";
-import ImageTech from "../../../assets/technology/docker.jpg";
+import ImageTech from "../../../assets/technology/AWS.png";
 import MainBanner from "../../../assets/technology/awsbanner.png";
 
 function Aws() {
@@ -160,11 +160,6 @@ function Aws() {
         title="AWS Architect Company"
         subtitle="Amazon Web Services (AWS) is a comprehensive and widely adopted cloud computing platform provided by Amazon. "
         MainBanner={MainBanner.src}
-      />
-
-      <ChooseTechnology
-        title="Why Choose Us For AWS Architect"
-        content="Amazon Web Services (AWS) is a comprehensive and widely adopted cloud computing platform provided by Amazon. It offers a broad set of global cloud-based services, allowing businesses to build and deploy applications, store and analyze data, and scale and manage infrastructure dynamically."
       />
 
       <TechnologyServices

@@ -7,7 +7,8 @@ import Portfolio from "@/component/Portfolio/Portfolio";
 import Architecture from "@/component/Services/Architecture/Architecture";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
-import ImageTech from "../../../../public/images/culture.png";
+import ImageTech from "../../../assets/technology/staff2.jpg";
+import MainBanner from "../../../assets/technology/staffbanner.jpg";
 
 function StaffAugmentation() {
   const services = [
@@ -99,12 +100,13 @@ function StaffAugmentation() {
       <First
         title="Staff Augmentation"
         subtitle="Staff augmentation is a business strategy where an organization hires external professionals, often through a third-party service provider."
+        MainBanner={MainBanner.src}
       />
 
-      <Architecture
+      {/* <Architecture
         title="What About Staff Augmentation"
         subtitle="Staff augmentation offers flexibility, enabling companies to scale their teams up or down based on project requirements. This agility is particularly beneficial for short-term or dynamic projects."
-      />
+      /> */}
 
       <TechnologyServices
         title="Staff Augmentation"

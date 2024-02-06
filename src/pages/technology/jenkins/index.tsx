@@ -161,11 +161,6 @@ function Jenkins() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose Us For Jenkins"
-        content="It automates the continuous integration and continuous delivery (CI/CD) processes, allowing developers to integrate changes more frequently and detect errors early in the development cycle."
-      />
-
       <TechnologyServices
         title="Jenkins"
         titleSpan="Service We offer"

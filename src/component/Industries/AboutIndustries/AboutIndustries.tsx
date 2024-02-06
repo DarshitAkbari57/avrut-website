@@ -1,6 +1,7 @@
 import React from "react";
+import Image from "next/image";
 
-const AboutIndustries = ({ title, content }: any) => {
+const AboutIndustries = ({ title, content, AboutImage }: any) => {
   return (
     <div>
       <div className="container mx-auto  my-5">
@@ -14,7 +15,7 @@ const AboutIndustries = ({ title, content }: any) => {
                 <p className="mt-4 text-lg text-[#1e1e1e]">{content}</p>
                 <div className="mt-6">
                   <a
-                    className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
+                    className="inline-flex rounded bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                     href="/login"
                   >
                     Learn More
@@ -24,12 +25,13 @@ const AboutIndustries = ({ title, content }: any) => {
             </div>
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
-            <img
+            <Image
+              alt=""
               loading="lazy"
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 "
-              src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
+              src={AboutImage}
             />
           </div>
         </div>

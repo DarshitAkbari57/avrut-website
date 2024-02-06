@@ -162,11 +162,6 @@ function Docker() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose Us For Docker"
-        content="Docker is a platform and set of tools designed to simplify the creation, deployment, and management of applications using containerization. "
-      />
-
       <TechnologyServices
         title="Docker"
         titleSpan="Service We offer"

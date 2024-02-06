@@ -60,7 +60,7 @@ function Nav() {
                     <a
                       href={item?.path || item?.path1}
                       onMouseOver={() => setmenuActive(item.name)}
-                      className="inline-flex items-center text-sm font-semibold text-gray-800 hover:text-primary"
+                      className="inline-flex items-center text-sm font-semibold text-gray-800 hover:text-primary duration-300"
                     >
                       {item.name}
                       {item.path ? (
@@ -89,15 +89,15 @@ function Nav() {
                                   <div className="flex gap-4 mt-2">
                                     <ul className="">
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1  text-gray1 hover:bg-gray-100"
-                                        onClick={() =>
-                                          router.push("/technology/reactjs")
-                                        }
+                                        className="cursor-pointer text-[14px] pb-1  text-gray1 hover:text-primary duration-300"
+                                        onClick={() => {
+                                          router.push("/technology/reactjs");
+                                        }}
                                       >
                                         • React js
                                       </li>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/nodejs")
                                         }
@@ -105,7 +105,7 @@ function Nav() {
                                         • Node js
                                       </li>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/typescript")
                                         }
@@ -115,7 +115,7 @@ function Nav() {
                                     </ul>
                                     <ul>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/angular")
                                         }
@@ -123,7 +123,7 @@ function Nav() {
                                         • Angular
                                       </li>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/nextjs")
                                         }
@@ -140,7 +140,7 @@ function Nav() {
                                   <div className="flex gap-4 mt-2">
                                     <ul>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/flutter")
                                         }
@@ -148,7 +148,7 @@ function Nav() {
                                         • Flutter
                                       </li>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push(
                                             "/technology/react-native"
@@ -167,7 +167,7 @@ function Nav() {
                                   <div className="flex gap-4 mt-2">
                                     <ul>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/docker")
                                         }
@@ -175,7 +175,7 @@ function Nav() {
                                         • Docker
                                       </li>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/jenkins")
                                         }
@@ -185,7 +185,7 @@ function Nav() {
                                     </ul>
                                     <ul>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/kubernets")
                                         }
@@ -193,7 +193,7 @@ function Nav() {
                                         • Kubernetes
                                       </li>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/aws")
                                         }
@@ -210,7 +210,7 @@ function Nav() {
                                   <div className="flex gap-4 mt-2">
                                     <ul>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/postgresql")
                                         }
@@ -218,7 +218,7 @@ function Nav() {
                                         • PostgreSQL
                                       </li>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/mysql")
                                         }
@@ -228,7 +228,7 @@ function Nav() {
                                     </ul>
                                     <ul>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/mongodb")
                                         }
@@ -236,7 +236,7 @@ function Nav() {
                                         • MongoDB
                                       </li>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push(
                                             "/technology/aws-dynamodb"
@@ -253,7 +253,7 @@ function Nav() {
                                   <div className="flex gap-4 mt-2">
                                     <ul>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/adobe-xd")
                                         }
@@ -263,7 +263,7 @@ function Nav() {
                                     </ul>
                                     <ul>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:bg-gray-100"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
                                         onClick={() =>
                                           router.push("/technology/figma")
                                         }
@@ -570,7 +570,7 @@ function Nav() {
           <div className="hidden space-x-2 lg:block">
             <Link
               href="/contact"
-              className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              className="rounded border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
               Contact us
             </Link>

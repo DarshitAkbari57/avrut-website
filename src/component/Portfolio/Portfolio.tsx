@@ -25,7 +25,7 @@ function Portfolio() {
           Browse Our Digital Product Design Portfolio
         </h1>
 
-        <hr className="w-1/5 mx-auto  border-2 my-5" />
+        <hr className="w-1/5 mx-auto border-2 my-5" />
 
         <div className="container mx-auto">
           <div className="flex gap-3 justify-center my-5">

@@ -1,5 +1,6 @@
 import First from "@/component/First/First";
 import React from "react";
+import MainBanner from "../../assets/technology/about-us.jpg";
 
 function index() {
   const belive = [
@@ -39,6 +40,7 @@ function index() {
         built upon a relationship of trust. The sole mission of our company
         is to help our customers, whether global brands, mid-sized or
         small-scale businesses, succeed."
+        MainBanner={MainBanner.src}
       />
       {/* <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-max md:h-screen text-white overflow-hidden">
         <div className="absolute inset-0">
@@ -87,6 +89,8 @@ function index() {
               of your business landscape to build the most meaningful digital
               product. The agile teams of developers immerse themselves fully in
               your project and work in tandem with your strategic goals.
+              <br />
+              <br />
               Security, reliability, user-friendliness, and scalability define
               our custom solutions and services. Our consultants work with
               diverse businesses. Avrut Solutions offers world-class services,
@@ -96,14 +100,14 @@ function index() {
             </p>
             <a
               href="#"
-              className="bg-transparent hover:bg-primary text-primary hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-primary hover:border-transparent"
+              className="bg-transparent hover:bg-primary text-primary hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-primary hover:border-transparent duration-300"
             >
               Explore Now
             </a>
           </div>
           <div className="order-2 lg:order-1">
             <img
-              src="https://www.braincuber.com/_next/static/media/who-we-are.edf5be1e.webp"
+              src="https://braincuber.com/wp-content/uploads/2024/02/Mask-group-3.webp"
               alt=""
               className=""
             />
@@ -115,34 +119,34 @@ function index() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-0 px-3 md:px-20">
           <div className="order-1 lg:order-1 flex flex-col w-full  justify-center items-start px-2 md:p-8">
             <h1 className="text-3xl md:text-5xl py-0 md:pb-2 text-primary tracking-loose font-bold">
-              Who We Are
+              What We Do
             </h1>
             <p className="text-sm md:text-base text-black mb-4">
-              Avrut Solutions is a family of tech pioneers with in-depth
-              knowledge and experience in transforming business ideas into
-              reality. We deliver the most feasible custom software solutions to
-              enterprises worldwide. Our experts don’t just initiate your
-              project, we put ourselves into your shoes and analyze every inch
-              of your business landscape to build the most meaningful digital
-              product. The agile teams of developers immerse themselves fully in
-              your project and work in tandem with your strategic goals.
-              Security, reliability, user-friendliness, and scalability define
-              our custom solutions and services. Our consultants work with
-              diverse businesses. Avrut Solutions offers world-class services,
-              relying on an exceptionally talented pool of engineers. Our
-              pursuit for excellence enables us to deliver rapid and fool-proof
-              solutions every single time.
+              Avrut Solutions is a top IT company that helps businesses identify
+              and solve critical challenges with the best technology practices,
+              such as cloud engineering, DevOps, and software architecture
+              services. As one of the leading software development firms, we
+              execute highly technical projects within scope, on time, and in a
+              cost-effective way.
+              <br />
+              <br />
+              Our IT experts work on various projects ranging from basic
+              information systems and web applications to complex enterprise
+              architectures, desktops, and web apps. A love for challenges runs
+              in our bones. To this end, every tech expert here works zealously
+              to design cost-optimized services and solutions that help
+              businesses succeed
             </p>
             <a
               href="#"
-              className="bg-transparent hover:bg-primary text-primary hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-primary hover:border-transparent"
+              className="bg-transparent hover:bg-primary text-primary hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-primary hover:border-transparent duration-300"
             >
               Explore Now
             </a>
           </div>
           <div className="order-1 lg:order-2">
             <img
-              src="https://www.braincuber.com/_next/static/media/who-we-are.edf5be1e.webp"
+              src="https://braincuber.com/wp-content/uploads/2024/02/Mask-group-5.webp"
               alt=""
             />
           </div>

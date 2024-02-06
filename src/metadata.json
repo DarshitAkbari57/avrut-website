@@ -108,5 +108,55 @@
     "title": "AWS Services | Avrut Solutions",
     "description": "Welcome to our Figma Design page.",
     "keywords": ["Next.js", "React", "Home"]
+  },
+  "services/digital-product-design": {
+    "title": "Digital Product Design - Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "services/software-architecture": {
+    "title": "Software Architecture - Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "services/engineering": {
+    "title": "Engineering & DevOps - Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "services/mobile-app-development": {
+    "title": "Mobile App Development - Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "services/staff-augmentation": {
+    "title": "Staff Augmentation - Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "industries/healthcare": {
+    "title": "Healthcare Industries - Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "industries/education": {
+    "title": "Education Industries - Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "industries/e-commerce": {
+    "title": "E-Commerce Industries - Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "industries/digital-banking": {
+    "title": "Digital Banking - Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
+  },
+  "industries/entertainment": {
+    "title": "Entertainment Industries - Avrut Solutions",
+    "description": "Welcome to our Figma Design page.",
+    "keywords": ["Next.js", "React", "Home"]
   }
 }

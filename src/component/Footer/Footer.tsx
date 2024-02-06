@@ -29,20 +29,20 @@ function Footer() {
                     crafted,simple and functional web and mobile apps.
                   </p>
                   <div className="flex gap-3 mb-4">
-                    <a className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white transition">
+                    <a className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white duration-300">
                       <FaFacebookF />
                     </a>
                     <a
                       href="https://in.linkedin.com/company/avrut-solutions"
                       target="_blank"
-                      className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white transition"
+                      className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white duration-300"
                     >
                       <FaLinkedinIn />
                     </a>
-                    <a className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white transition">
+                    <a className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white duration-300">
                       <FaInstagram />
                     </a>
-                    <a className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white transition">
+                    <a className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white duration-300">
                       <FaXTwitter />
                     </a>
                   </div>
@@ -62,7 +62,7 @@ function Footer() {
                   <li className="mb-4">
                     <Link
                       href="/portfolio"
-                      className="text-sm font-medium hover:text-primary cursor-pointer"
+                      className="text-sm font-medium hover:text-primary cursor-pointer duration-300"
                     >
                       Portfolio
                     </Link>
@@ -70,7 +70,7 @@ function Footer() {
                   <li className="mb-4">
                     <Link
                       href="/technology"
-                      className="text-sm font-medium hover:text-primary cursor-pointer"
+                      className="text-sm font-medium hover:text-primary cursor-pointer duration-300"
                     >
                       Technologies
                     </Link>
@@ -78,14 +78,14 @@ function Footer() {
                   <li className="mb-4">
                     <Link
                       href="/services"
-                      className=" text-sm font-medium hover:text-primary cursor-pointer"
+                      className=" text-sm font-medium hover:text-primary cursor-pointer duration-300"
                     >
                       Services
                     </Link>
                   </li>
                   <li className="mb-4">
                     <Link
-                      className=" text-sm font-medium hover:text-primary cursor-pointer"
+                      className=" text-sm font-medium hover:text-primary cursor-pointer duration-300"
                       href="/industries"
                     >
                       Industries
@@ -110,7 +110,7 @@ function Footer() {
                   </li>
                   <li className="mb-4">
                     <Link
-                      className=" text-sm font-medium hover:text-primary cursor-pointer"
+                      className=" text-sm font-medium hover:text-primary cursor-pointer duration-300"
                       href="/careers"
                     >
                       Career
@@ -118,7 +118,7 @@ function Footer() {
                   </li>
                   <li className="mb-4">
                     <Link
-                      className="text-sm font-medium text-gray-900 hover:text-primary"
+                      className="text-sm font-medium text-gray-900 hover:text-primary duration-300"
                       href="/contact"
                     >
                       Contact Us
@@ -126,7 +126,7 @@ function Footer() {
                   </li>
                   <li>
                     <Link
-                      className="text-sm font-medium text-gray-900 hover:text-primary"
+                      className="text-sm font-medium text-gray-900 hover:text-primary duration-300"
                       href="/about-us"
                     >
                       About Us

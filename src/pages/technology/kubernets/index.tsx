@@ -155,11 +155,6 @@ function Kubernetes() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose Us For Kubernetes"
-        content="Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications."
-      />
-
       <TechnologyServices
         title="Kubernetes"
         titleSpan="Service We offer"

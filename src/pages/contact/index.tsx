@@ -1,5 +1,6 @@
 import First from "@/component/First/First";
 import React from "react";
+import MainBanner from "../../assets/technology/contact.png";
 
 function index() {
   const belive = [
@@ -33,7 +34,8 @@ function index() {
     <>
       <First
         title="Let’s Start Working Together Get In Touch With Us!"
-        subtitle="Get in touch to discuss your employee wellbeing needs today. Please give us a call, drop us an email."
+        subtitle="We are here to help you with any queries and questions you may have. Get familiar with us and kick-start with our services."
+        MainBanner={MainBanner.src}
       />
     </>
   );

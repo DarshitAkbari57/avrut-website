@@ -10,6 +10,8 @@ import IndustriesFeatures from "@/component/Industries/IndustriesFeatures/Indust
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import { BsBoundingBox } from "react-icons/bs";
 import { FaDesktop, FaGamepad, FaTwitter } from "react-icons/fa6";
+import MainBanner from "../../../assets/technology/entertainmentbanner.jpeg";
+import AboutImage from "../../../assets/technology/entertainment.jpeg";
 
 function Entertainment() {
   const services = [
@@ -106,12 +108,16 @@ function Entertainment() {
   ];
   return (
     <>
-      <First title="Reimagining Business Models To Address Media And Entertainment Industry Audience Demands." />
+      <First
+        title="Reimagining Business Models To Address Media And Entertainment Industry Audience Demands."
+        MainBanner={MainBanner.src}
+      />
 
       <div className="bg-purple px-2 py-10">
         <AboutIndustries
           title="About Entertainment Industries"
           content="The entertainment industry is a vast and dynamic sector that encompasses a diverse range of activities and forms of content designed to captivate, amuse, and engage audiences. From traditional mediums such as television, film, and music to emerging platforms like streaming services, video games, and virtual reality, entertainment continually evolves to meet the changing preferences and behaviors of consumers. This multifaceted industry incorporates various genres, including comedy, drama, music, sports, and more, catering to a broad spectrum of tastes and interests."
+          AboutImage={AboutImage.src}
         />
 
         <IndustriesFeatures

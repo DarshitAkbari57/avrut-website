@@ -18,6 +18,8 @@ import {
   FaShieldAlt,
   FaUserMd,
 } from "react-icons/fa";
+import MainBanner from "../../../assets/technology/healthbanner.jpg";
+import AboutImage from "../../../assets/technology/healthcare.jpg";
 
 function Healthcare() {
   const services = [
@@ -142,12 +144,14 @@ function Healthcare() {
       <First
         title="Healthcare Industries"
         subtitle="The healthcare industry is a multifaceted ecosystem encompassing a diverse range of services, technologies, and entities committed to the well-being of individuals. Evolving towards patient-centric care, the sector undergoes a significant digital transformation with the integration of electronic health records, telemedicine, and wearable devices."
+        MainBanner={MainBanner.src}
       />
 
       <div className="bg-purple px-2 py-10">
         <AboutIndustries
           title="About Healthcare Industries"
           content="The healthcare industry is a multifaceted ecosystem encompassing a diverse range of services, technologies, and entities committed to the well-being of individuals. Evolving towards patient-centric care, the sector undergoes a significant digital transformation with the integration of electronic health records, telemedicine, and wearable devices. Biomedical innovation remains pivotal, driving advancements in medical treatments and pharmaceuticals. Operating within a highly regulated environment, compliance with healthcare regulations is paramount. Addressing global health challenges, healthcare professionals collaborate across disciplines to combat diseases and enhance public health. Telehealth services and remote monitoring have gained prominence, providing remote access to medical consultations and monitoring. Healthcare analytics, fueled by vast datasets, plays a crucial role in identifying trends and improving overall healthcare delivery. Despite challenges like rising costs, the industry offers opportunities for innovation and efficiency improvements, fostering interdisciplinary collaboration among healthcare professionals. Understanding the intricacies of healthcare involves navigating a complex interplay of medical, technological, regulatory, and societal factors."
+          AboutImage={AboutImage.src}
         />
 
         <IndustriesFeatures

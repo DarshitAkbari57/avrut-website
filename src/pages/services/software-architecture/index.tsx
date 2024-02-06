@@ -7,7 +7,8 @@ import Portfolio from "@/component/Portfolio/Portfolio";
 import Architecture from "@/component/Services/Architecture/Architecture";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
-import ImageTech from "../../../../public/images/culture.png";
+import ImageTech from "../../../assets/technology/architecture.jpg";
+import MainBanner from "../../../assets/technology/sabanner.png";
 
 function SoftwareArchitecture() {
   const services = [
@@ -101,16 +102,17 @@ function SoftwareArchitecture() {
       <First
         title="Software Architecture"
         subtitle="Soft architecture involves designing flexible and adaptable systems, prioritizing resilience and ease of modification over rigid structures, fostering sustainability and responsiveness to evolving user needs in the digital landscape."
+        MainBanner={MainBanner.src}
       />
 
-      <Architecture
+      {/* <Architecture
         title="What About Software Architecture"
         subtitle="Software architecture reveals the system's structure and how
               the components are connected and interact. The architecture design
               software procedure involves utilizing technical and operative
               conditions to develop high-performance, proven-tested, and
               scalable solutions."
-      />
+      /> */}
 
       <TechnologyServices
         title="Software Architecture"

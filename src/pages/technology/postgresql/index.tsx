@@ -180,11 +180,6 @@ function Postgresql() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose Us For PostgreSQL"
-        content="With a wide experience and ability to consistently deliver high-quality, robust, and feature-rich database solutions, the development process followed by our team meets client needs, ensuring stability, security, and optimal performance for mission-critical applications."
-      />
-
       <TechnologyServices
         title="PostgreSQL"
         titleSpan="Service We offer"

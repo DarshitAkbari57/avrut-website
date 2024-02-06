@@ -9,6 +9,8 @@ import AboutIndustries from "@/component/Industries/AboutIndustries/AboutIndustr
 import IndustriesFeatures from "@/component/Industries/IndustriesFeatures/IndustriesFeatures";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import { FaChartLine, FaCreditCard, FaLock, FaMobileAlt } from "react-icons/fa";
+import MainBanner from "../../../assets/technology/bankbanner.jpeg";
+import AboutImage from "../../../assets/technology/digital2.jpg";
 
 function DigitalBanking() {
   const services = [
@@ -93,12 +95,16 @@ function DigitalBanking() {
 
   return (
     <>
-      <First title="Powering Financial Institutions Across The Globe With Industry-Leading Digital Banking Platforms And Integrated Solutions." />
+      <First
+        title="Powering Financial Institutions Across The Globe With Industry-Leading Digital Banking Platforms And Integrated Solutions."
+        MainBanner={MainBanner.src}
+      />
 
       <div className="bg-purple px-2 py-10">
         <AboutIndustries
           title="About Digital Banking"
           content="Digital banking represents a transformative shift in the financial landscape, redefining how individuals and businesses manage their finances. At its core, digital banking leverages cutting-edge technologies to deliver a comprehensive suite of financial services through online platforms and mobile applications, eliminating the constraints of traditional brick-and-mortar banking. This evolution is driven by the seamless integration of digital channels, empowering users with unprecedented access to banking functionalities anytime, anywhere."
+          AboutImage={AboutImage.src}
         />
 
         <IndustriesFeatures

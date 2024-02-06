@@ -181,11 +181,6 @@ function Angularjs() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose Us For Angular.js"
-        content="Our Anguler.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications."
-      />
-
       <TechnologyServices
         title="Anguler.js"
         titleSpan="Service We offer"

@@ -180,11 +180,6 @@ function Flutter() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose us as Flutter development?"
-        content="Our team comprises skilled and experienced designers who excel in utilizing Figma to its full potential, ensuring high-quality and innovative design solutions for your projects."
-      />
-
       <TechnologyServices
         title="Flutter Development"
         titleSpan="Service We offer"

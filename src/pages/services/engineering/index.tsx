@@ -7,7 +7,8 @@ import Portfolio from "@/component/Portfolio/Portfolio";
 import Architecture from "@/component/Services/Architecture/Architecture";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
-import ImageTech from "../../../../public/images/culture.png";
+import ImageTech from "../../../assets/technology/dev.jpg";
+import MainBanner from "../../../assets/technology/devopsbanner.jpg";
 
 function Engineering() {
   const services = [
@@ -101,12 +102,13 @@ function Engineering() {
       <First
         title="Engineering & DevOps"
         subtitle="Engineering and DevOps involve the integration of development and operations practices to streamline software delivery and enhance collaboration."
+        MainBanner={MainBanner.src}
       />
 
-      <Architecture
+      {/* <Architecture
         title="What About Engineering & DevOps"
         subtitle="Engineering and DevOps involve the integration of development and operations practices to streamline software delivery and enhance collaboration. This synergy optimizes efficiency, accelerates deployment cycles, and ensures continuous improvement in software development processes."
-      />
+      /> */}
 
       <TechnologyServices
         title="Engineering & DevOps"

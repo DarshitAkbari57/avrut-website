@@ -180,11 +180,6 @@ function Nodejs() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose Us For Node.js"
-        content="Our Node.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications."
-      />
-
       <TechnologyServices
         title="Node.js"
         titleSpan="Service We offer"

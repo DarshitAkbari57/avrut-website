@@ -1,11 +1,13 @@
+import Link from "next/link";
 import React from "react";
+import "animate.css";
 
 function About() {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center    px-4">
-          <div className="flex flex-col justify-center items-start w-full px-4">
+          <div className="animate__animated animate__fadeIn flex flex-col justify-center items-start w-full px-4">
             <div className="text-2xl md:text-4xl font-bold text-center md:text-start py-4 ">
               About <span className="text-primary ">Avrut Solutions</span>
             </div>
@@ -29,9 +31,12 @@ function About() {
             </p>
 
             <div className="w-full text-center lg:text-start my-4">
-              <button className="px-6 py-2 rounded-2xl bg-primary text-white">
-                Learn More
-              </button>
+              <Link
+                href="/about-us"
+                className="px-6 py-2 rounded bg-primary text-white"
+              >
+                Learn more
+              </Link>
             </div>
           </div>
           <div className="w-full flex ">

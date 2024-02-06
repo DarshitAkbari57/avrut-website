@@ -168,11 +168,6 @@ function dynamoDB() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose us as AWS DynamoDB development?"
-        content="DynamoDB handles large volumes of data and high traffic loads with consistent low latency, making it an excellent choice for applications that require fast, reliable access to data."
-      />
-
       <TechnologyServices
         title="AWS DynamoDB Development"
         titleSpan="Service We offer"

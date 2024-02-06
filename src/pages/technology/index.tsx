@@ -2,6 +2,7 @@ import First from "@/component/First/First";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
+import MainBanner from "../../assets/technology/techbanner.png";
 
 function Technologies() {
   const router = useRouter();
@@ -106,6 +107,7 @@ function Technologies() {
       <First
         title="Technologies We Use for Industry-Specific Solutions"
         subtitle="Avrut Solutions specializes in robust end-to-end delivery of custom technology solutions for enterprises, start-ups, and small businesses. We build your product using the latest technological advancements and breakthroughs. Whether desktop, mobile, or cross-platform software suite, we'll help you develop a comprehensive solution that perfectly serves your unique needs."
+        MainBanner={MainBanner.src}
       />
       <div className="container mx-auto  my-5">
         {/* web devlopment */}
@@ -149,8 +151,8 @@ function Technologies() {
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/healthcare")}
-                    className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
+                    onClick={() => router.push("/technology/reactjs")}
+                    className="inline-flex rounded bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
                   </button>
@@ -199,8 +201,8 @@ function Technologies() {
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/entertainment")}
-                    className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
+                    onClick={() => router.push("/technology/flutter")}
+                    className="inline-flex rounded bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
                   </button>
@@ -247,8 +249,8 @@ function Technologies() {
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/healthcare")}
-                    className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
+                    onClick={() => router.push("/technology/nodejs")}
+                    className="inline-flex rounded bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
                   </button>
@@ -292,8 +294,8 @@ function Technologies() {
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/entertainment")}
-                    className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
+                    onClick={() => router.push("/technology/reactjs")}
+                    className="inline-flex rounded bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
                   </button>
@@ -335,8 +337,8 @@ function Technologies() {
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/healthcare")}
-                    className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
+                    onClick={() => router.push("/technology/aws")}
+                    className="inline-flex rounded bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
                   </button>
@@ -386,8 +388,8 @@ function Technologies() {
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/entertainment")}
-                    className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
+                    onClick={() => router.push("/technology/postgresql")}
+                    className="inline-flex rounded bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
                   </button>
@@ -430,8 +432,8 @@ function Technologies() {
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/healthcare")}
-                    className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
+                    onClick={() => router.push("/technology/adobe-xd")}
+                    className="inline-flex rounded bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
                   </button>

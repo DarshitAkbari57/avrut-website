@@ -163,11 +163,6 @@ function MongoDB() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why Choose us as MongoDB Database"
-        content="With a wide experience and ability to consistently deliver high-quality, robust, and feature-rich database solutions, the development process followed by our team meets client needs, ensuring stability, security, and optimal performance for mission-critical applications."
-      />
-
       <TechnologyServices
         title="MongoDB development"
         titleSpan="Service We offer"

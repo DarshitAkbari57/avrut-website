@@ -80,6 +80,7 @@ function Home() {
       <Technology />
       <Choose />
       <Faq accordionItems={accordionItems} />
+
       {/* <Getintouch /> */}
     </>
   );

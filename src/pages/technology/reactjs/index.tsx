@@ -165,13 +165,8 @@ function Reactjs() {
     <>
       <First
         title="React.js Development Company"
-        subtitle="Avrut solutions is a leading React.js development company catering a wide gamut of business segments from startups to enterprises."
+        subtitle="Avrut Solutions is a leading React.js development company catering a wide amount of business segments from startups to enterprises."
         MainBanner={MainBanner.src}
-      />
-
-      <ChooseTechnology
-        title="Why Choose Us For React.js"
-        content="Our React.js development company follows a proven development process that combines industry best practices, agile methodologies, and a focus on client collaboration to deliver successful and high-quality applications."
       />
 
       <TechnologyServices

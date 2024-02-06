@@ -186,11 +186,6 @@ function Figma() {
         MainBanner={MainBanner.src}
       />
 
-      <ChooseTechnology
-        title="Why choose us as Figma Design Company?"
-        content="Our team comprises skilled and experienced designers who excel in utilizing Figma to its full potential, ensuring high-quality and innovative design solutions for your projects."
-      />
-
       <TechnologyServices
         title="Figma Design"
         titleSpan="Service We offer"
