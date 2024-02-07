@@ -9,98 +9,152 @@ function Technologies() {
 
   const web = [
     {
-      image:
-        "https://www.braincuber.com/_next/static/media/nodejs-icon.92c0a4f1.svg",
+      image: "/images/nodejs.svg",
       technologies: "Node.js",
       path: "/technology/nodejs",
     },
     {
       image:
-        "https://www.braincuber.com/_next/static/media/typescript-icon.da8de1b1.svg",
+        "/images/technology/ts.webp",
       technologies: "Typescript",
       path: "/technology/typescript",
     },
     {
       image:
-        "https://www.braincuber.com/_next/static/media/nextjs-icon.7078ea1b.svg",
+        "/images/reactjs.svg",
       technologies: "Typescript",
+      path: "/technology/reactjs",
+    },
+    {
+      image:
+        "/images/technology/Angular.png",
+      technologies: "angular",
+      path: "/technology/angular",
+    },
+    {
+      image:
+        "/images/technology/next.svg",
+      technologies: "Next.js",
+      path: "/technology/nextjs",
+    },
+
+  ];
+  const mobile = [
+    {
+      image:
+        "/images/reactjs.svg",
+      technologies: "Node.js",
+      path: "/technology/react-native",
+    },
+    {
+      image:
+        "/images/flutter.svg",
+      technologies: "Flutter",
+      path: "/technology/flutter",
+    },
+
+  ];
+  const Backend = [
+    {
+      image:
+        "/images/technology/node.png",
+      technologies: "Node.js",
       path: "/technology/nodejs",
     },
     {
       image:
-        "https://www.braincuber.com/_next/static/media/reactjs-icon.6a7513f7.svg",
-      technologies: "Typescript",
-      path: "/technology/nextjs",
+        "/images/java.svg",
+      technologies: "Java",
+      path: "/technology",
+    },
+  ];
+  const Database = [
+    {
+      image:
+        "/images/technology/mongodb.png",
+      technologies: "Mongodb",
+      path: "/technology/mongodb",
     },
     {
       image:
-        "https://www.braincuber.com/_next/static/media/angular-icon.4784d388.svg",
+        "/images/technology/mysql.png",
+      technologies: "Mysql",
+      path: "/technology/mysql",
+    },
+    {
+      image:
+        "/images/technology/postgresql.png",
+      technologies: "postsql",
+      path: "/technology/postgresql",
+    },
+    {
+      image:
+        "/images/technology/dynamodb.png",
+      technologies: "Dynamodb",
+      path: "/technology/aws-dynamodb",
+    },
+  ];
+  const Devops = [
+    {
+      image:
+        "/images/technology/Kubernates.png",
+      technologies: "Kubernates",
+      path: "/technology/kubernets",
+    },
+    {
+      image:
+        "/images/technology/jenkins.webp",
+      technologies: "jenkins",
+      path: "/technology/jenkins",
+    },
+    {
+      image:
+        "/images/technology/docker.png",
+      technologies: "docker",
+      path: "/technology/docker",
+    },
+    {
+      image:
+        "/images/technology/aws.png",
+      technologies: "Aws",
+      path: "/technology/aws",
+    },
+  ];
+  const Design = [
+    {
+      image:
+        "/images/technology/figma.png",
+      technologies: "Figma",
+      path: "/technology/figma",
+    },
+    {
+      image:
+        "/images/technology/adove-xd.png",
+      technologies: "Adobe-xd",
+      path: "/technology/adobe-xd",
+    },
+
+  ];
+  const frontend = [
+    {
+      image:
+        "/images/reactjs.svg",
+      technologies: "Typescript",
+      path: "/technology/reactjs",
+    },
+    {
+      image:
+        "/images/technology/Angular.png",
       technologies: "angular",
       path: "/technology/angular",
     },
-    // {
-    //     image: "https://www.braincuber.com/_next/static/media/laravel-icon.223d74b8.svg",
-    //     technologies: "Typescript",
-    //     path: "/technology/nodejs"
-    // },
-    // {
-    //     image: "https://www.braincuber.com/_next/static/media/svelte-icon.2755a238.svg",
-    //     technologies: "Typescript",
-    //     path: "/technology/nodejs"
-    // },
-  ];
-
-  const mobile = [
     {
       image:
-        "https://www.braincuber.com/_next/static/media/react-native-icon.c3721fcd.svg",
-      technologies: "Node.js",
-      path: "/technology/react-native",
-    },
-    {
-      image:
-        "https://www.braincuber.com/_next/static/media/flutter-icon.10b10518.svg",
-      technologies: "TypeScript",
-      path: "/technology/flutter",
-    },
-    {
-      image:
-        "https://www.braincuber.com/_next/static/media/angular-icon1.c25a72ac.svg",
+        "/images/technology/next.svg",
       technologies: "Next.js",
-      path: "/technology/angular",
+      path: "/technology/nextjs",
     },
-    // {
-    //     image: "https://www.braincuber.com/_next/static/media/android-icon.fac5e849.svg",
-    //     technologies: "React.js",
-    //     path: "/technology/"
-    // },
-  ];
-
-  const backned = [
-    {
-      image:
-        "https://www.braincuber.com/_next/static/media/graphql-icon.7d629d14.svg",
-      technologies: "Node.js",
-      path: "/technology/react-native",
-    },
-    {
-      image:
-        "https://www.braincuber.com/_next/static/media/firebase-icon.cec5de1c.svg",
-      technologies: "TypeScript",
-      path: "/technology/flutter",
-    },
-    {
-      image:
-        "https://www.braincuber.com/_next/static/media/angular-icon1.c25a72ac.svg",
-      technologies: "Next.js",
-      path: "/technology/angular",
-    },
-    // {
-    //     image: "https://www.braincuber.com/_next/static/media/android-icon.fac5e849.svg",
-    //     technologies: "React.js",
-    //     path: "/technology/"
-    // },
-  ];
+  ]
 
   return (
     <>
@@ -167,7 +221,7 @@ function Technologies() {
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
           <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
-              {backned?.map((e) => {
+              {mobile?.map((e) => {
                 return (
                   <>
                     <Link href={e.path}>
@@ -217,12 +271,14 @@ function Technologies() {
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
           <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
-              {web.map((e) => {
+              {Backend.map((e) => {
                 return (
                   <>
-                    <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex justify-center items-center">
-                      <img src={e.image} alt="" />
-                    </div>
+                    <Link href={e?.path}>
+                      <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex justify-center items-center">
+                        <img src={e.image} alt="" />
+                      </div>
+                    </Link>
                   </>
                 );
               })}
@@ -265,13 +321,15 @@ function Technologies() {
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
           <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
-              {mobile.map((e) => {
+              {frontend.map((e) => {
                 return (
                   <>
-                    <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex flex-col  justify-center items-center">
-                      <img src={e.image} alt="" />
-                      {/* <div className='my-2 font-medium'>{e?.technologies}</div> */}
-                    </div>
+                    <Link href={e?.path}>
+                      <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex flex-col  justify-center items-center">
+                        <img src={e.image} alt="" />
+                        {/* <div className='my-2 font-medium'>{e?.technologies}</div> */}
+                      </div>
+                    </Link>
                   </>
                 );
               })}
@@ -310,12 +368,14 @@ function Technologies() {
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
           <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
-              {web.map((e) => {
+              {Devops.map((e) => {
                 return (
                   <>
-                    <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex justify-center items-center">
-                      <img src={e.image} alt="" />
-                    </div>
+                    <Link href={e?.path}>
+                      <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex justify-center items-center">
+                        <img src={e.image} alt="" />
+                      </div>
+                    </Link>
                   </>
                 );
               })}
@@ -353,13 +413,15 @@ function Technologies() {
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
           <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
-              {mobile.map((e) => {
+              {Database.map((e) => {
                 return (
                   <>
-                    <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex flex-col  justify-center items-center">
-                      <img src={e.image} alt="" />
-                      {/* <div className='my-2 font-medium'>{e?.technologies}</div> */}
-                    </div>
+                    <Link href={e?.path}>
+                      <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex flex-col  justify-center items-center">
+                        <img src={e.image} alt="" />
+                        {/* <div className='my-2 font-medium'>{e?.technologies}</div> */}
+                      </div>
+                    </Link>
                   </>
                 );
               })}
@@ -404,12 +466,14 @@ function Technologies() {
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
           <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3  my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto">
-              {web.map((e) => {
+              {Design.map((e) => {
                 return (
                   <>
-                    <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex justify-center items-center">
-                      <img src={e.image} alt="" />
-                    </div>
+                    <Link href={e?.path}>
+                      <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex justify-center items-center">
+                        <img src={e.image} alt="" />
+                      </div>
+                    </Link>
                   </>
                 );
               })}

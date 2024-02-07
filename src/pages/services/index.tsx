@@ -15,7 +15,7 @@ function Industries() {
       />
 
       <div className="container mx-auto  my-5">
-        {/* healthcare */}
+        {/*Digital  Product  Design */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center lg:py-8">
           <div className="mt-12 sm:mt-16 lg:mt-0   lg:order-1">
@@ -24,31 +24,21 @@ function Industries() {
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl  "
-              src="https://www.braincuber.com/_next/static/media/healthcare-industries.8d83f607.png"
+              src="/images/industries/1.png"
             />
           </div>
           <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10 lg:px-3 order-">
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl md:text-5x1 font-bold tracking-tight text-black">
-                  Healthcare
+                  Digital Product Design
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">
-                  Gone are the days when traditional Medicare was used for
-                  treatment and a lot many ailments had no on track record for
-                  treatment & early diagnosis.
-                  <br />
-                  Today health industry has been acing at a great pace using
-                  multiple technologies & equipment for diagnosis and treatment.
-                  With an aim for improving patient care, streamlining
-                  administrative processes, and enhancing medical research, we
-                  utilize the power of technology to create customized software
-                  applications custom-made to the unique needs of healthcare
-                  providers and institutions.
+                  Digital product design is an iterative design process used to solve a functional problem with a formal solution.[1] A digital product designer identifies an existing problem, offers the best possible solution, and launches it to a market that demonstrates demand for the particular solution.[2] The field is considered a subset of product design. Some digital products have both digital and physical components (such as Nike+ and Fitbit), but the term is mainly used for products produced through software engineering. Since digital product design have become mainstream in the creative industry, a digital product designer oftentimes is simply referred to as a "product designer" in job posts.
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/healthcare")}
+                    onClick={() => router.push("/services/digital-product-design")}
                     className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
@@ -59,7 +49,7 @@ function Industries() {
           </div>
         </div>
 
-        {/* entertainment */}
+        {/* software architechture */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center lg:py-8">
           <div className="mt-12 sm:mt-16 lg:mt-0   lg:order-1">
@@ -68,31 +58,22 @@ function Industries() {
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl "
-              src="https://www.braincuber.com/_next/static/media/entertainment-industries.dcdbe247.png"
+              src="/images/industries/2.avif"
             />
           </div>
           <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10 lg:px-3 lg:order-2">
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl md:text-5x1 font-bold tracking-tight text-black">
-                  Entertainment
+                  Software Architecture
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">
-                  Gone are the days when traditional Medicare was used for
-                  treatment and a lot many ailments had no on track record for
-                  treatment & early diagnosis.
-                  <br />
-                  Today health industry has been acing at a great pace using
-                  multiple technologies & equipment for diagnosis and treatment.
-                  With an aim for improving patient care, streamlining
-                  administrative processes, and enhancing medical research, we
-                  utilize the power of technology to create customized software
-                  applications custom-made to the unique needs of healthcare
-                  providers and institutions.
+                  Software architecture is the set of structures needed to reason about a software system and the discipline of creating such structures and systems. Each structure comprises software elements, relations among them, and properties of both elements and relations.
+                  The architecture of a software system is a metaphor, analogous to the architecture of a building.
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/entertainment")}
+                    onClick={() => router.push("/services/software-architecture")}
                     className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
@@ -103,7 +84,7 @@ function Industries() {
           </div>
         </div>
 
-        {/*education */}
+        {/*Engineering & DevOps */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center lg:py-8">
           <div className="mt-12 sm:mt-16 lg:mt-0  order-1">
@@ -112,31 +93,21 @@ function Industries() {
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl "
-              src="https://www.braincuber.com/_next/static/media/education-industries.71e43b7f.png"
+              src="/images/industries/3.jpg"
             />
           </div>
           <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10  lg:px-3 order-">
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl md:text-5x1 font-bold tracking-tight text-black">
-                  Education
+                  Engineering & DevOps
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">
-                  Gone are the days when traditional Medicare was used for
-                  treatment and a lot many ailments had no on track record for
-                  treatment & early diagnosis.
-                  <br />
-                  Today health industry has been acing at a great pace using
-                  multiple technologies & equipment for diagnosis and treatment.
-                  With an aim for improving patient care, streamlining
-                  administrative processes, and enhancing medical research, we
-                  utilize the power of technology to create customized software
-                  applications custom-made to the unique needs of healthcare
-                  providers and institutions.
+                  A DevOps engineer is an IT generalist who should have a wide-ranging knowledge of both development and operations, including coding, infrastructure management, system administration, and DevOps toolchains. DevOps engineers should also possess interpersonal skills since they work across company silos to create a more collaborative environment.
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/education")}
+                    onClick={() => router.push("services/engineering")}
                     className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
@@ -156,31 +127,21 @@ function Industries() {
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl  "
-              src="https://www.braincuber.com/_next/static/media/e-commerce-industries.dc3900a4.png"
+              src="/images/industries/4.webp"
             />
           </div>
           <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10 lg:px-3 lg:order-2">
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl md:text-5x1 font-bold tracking-tight text-black">
-                  E-commerce
+                  Mobile App Devlopment
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">
-                  Gone are the days when traditional Medicare was used for
-                  treatment and a lot many ailments had no on track record for
-                  treatment & early diagnosis.
-                  <br />
-                  Today health industry has been acing at a great pace using
-                  multiple technologies & equipment for diagnosis and treatment.
-                  With an aim for improving patient care, streamlining
-                  administrative processes, and enhancing medical research, we
-                  utilize the power of technology to create customized software
-                  applications custom-made to the unique needs of healthcare
-                  providers and institutions.
+                  At Avrut solution, we specialize in cutting-edge mobile app development to bring your ideas to life in the palm of your users' hands. Our team of skilled developers combines creativity, innovation, and technical expertise to deliver custom mobile applications tailored to your unique business needs.
                 </p>
                 <div className="mt-6">
                   <button
-                    onClick={() => router.push("/industries/e-commerce")}
+                    onClick={() => router.push("/services/mobile-app-development")}
                     className="inline-flex rounded-lg bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
                   >
                     Learn More
@@ -200,27 +161,17 @@ function Industries() {
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl  "
-              src="https://www.braincuber.com/_next/static/media/education-industries.71e43b7f.png"
+              src="/images/industries/4.jpg"
             />
           </div>
           <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10 lg:px-3 order-">
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl md:text-5x1 font-bold tracking-tight text-black">
-                  Digital Banking
+                  Staff Augmentation
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">
-                  Gone are the days when traditional Medicare was used for
-                  treatment and a lot many ailments had no on track record for
-                  treatment & early diagnosis.
-                  <br />
-                  Today health industry has been acing at a great pace using
-                  multiple technologies & equipment for diagnosis and treatment.
-                  With an aim for improving patient care, streamlining
-                  administrative processes, and enhancing medical research, we
-                  utilize the power of technology to create customized software
-                  applications custom-made to the unique needs of healthcare
-                  providers and institutions.
+                  At Avrut solutions, we understand that maintaining a highly skilled and flexible workforce is crucial for meeting the demands of today's dynamic business landscape. Our staff augmentation services empower your organization by providing top-tier professionals to seamlessly integrate with your existing team, ensuring continuity, scalability, and success in your projects.
                 </p>
                 <div className="mt-6">
                   <button

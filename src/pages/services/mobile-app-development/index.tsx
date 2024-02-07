@@ -118,7 +118,7 @@ function MobileApp() {
         services={services}
       />
 
-      <Portfolio />
+      {/* <Portfolio /> */}
 
       <WhyThisTechnology
         why="Why We are a Top Choice for"

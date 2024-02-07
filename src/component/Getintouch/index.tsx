@@ -1,8 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsClock, BsHouse, BsPhone, BsWatch } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 
 function Getintouch() {
+
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    mobile: '',
+    message: ''
+  });
+
+  const [errors, setErrors] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleChange = (e: any) => {
+    setFormData({
+      ...formData,
+      [e.target.id]: e.target.value
+    });
+    setErrors({
+      ...errors,
+      [e.target.id]: '' // Clear error when the user starts typing
+    });
+  };
+
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+
+    // Simple validation
+    if (formData.name.trim() === '') {
+      setErrors({
+        ...errors,
+        name: 'Name is required'
+      });
+      return;
+    }
+
+    if (formData.email.trim() === '') {
+      setErrors({
+        ...errors,
+        email: 'Email is required'
+      });
+      return;
+    }
+
+    if (formData.message.trim() === '') {
+      setErrors({
+        ...errors,
+        message: 'Message is required'
+      });
+      return;
+    }
+
+    // Perform form submission logic here
+    console.log('Form submitted:', formData);
+  };
+
   return (
     <>
       <div id="contact">
@@ -37,65 +95,79 @@ function Getintouch() {
             </div>
             <form
               method="post"
-              className="p-3 md:p-5 "
-              onSubmit={(e) => e.preventDefault()}
+              className="p-3 md:p-5"
+              onSubmit={handleSubmit}
             >
               <div className="flex flex-wrap -mx-3 mb-3">
+                {/* Name input */}
                 <div className="w-full px-3">
                   <label
-                    className="block  tracking-wide text-gray-700 text-sm font-bold mb-2"
-                    htmlFor="grid-password"
+                    className="block tracking-wide text-gray-700 text-sm font-bold mb-2"
+                    htmlFor="name"
                   >
                     Name
                   </label>
                   <input
                     required
                     className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-primary"
-                    id="grid-email"
+                    id="name"
                     type="text"
                     placeholder="Name"
+                    value={formData.name}
+                    onChange={handleChange}
                   />
+                  {errors.name && <p className="text-red-500">{errors.name}</p>}
                 </div>
               </div>
+
+              {/* Email input */}
               <div className="flex flex-wrap -mx-3 mb-3">
                 <div className="w-full px-3">
                   <label
-                    className="block  tracking-wide text-gray-700 text-sm font-bold mb-2"
-                    htmlFor="grid-password"
+                    className="block tracking-wide text-gray-700 text-sm font-bold mb-2"
+                    htmlFor="email"
                   >
                     Email Address
                   </label>
                   <input
                     required
                     className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-primary"
-                    id="grid-email"
+                    id="email"
                     type="email"
                     placeholder="Email address"
+                    value={formData.email}
+                    onChange={handleChange}
                   />
+                  {errors.email && <p className="text-red-500">{errors.email}</p>}
                 </div>
               </div>
+
+              {/* Mobile input (optional) */}
               <div className="flex flex-wrap -mx-3 mb-3">
                 <div className="w-full px-3">
                   <label
-                    className="block  tracking-wide text-gray-700 text-sm font-bold mb-2"
-                    htmlFor="grid-password"
+                    className="block tracking-wide text-gray-700 text-sm font-bold mb-2"
+                    htmlFor="mobile"
                   >
                     Mobile number
                   </label>
                   <input
                     className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-primary"
-                    id="grid-email"
+                    id="mobile"
                     type="text"
                     placeholder="Mobile number"
+                    value={formData.mobile}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
 
+              {/* Message textarea */}
               <div className="flex flex-wrap -mx-3 mb-3">
                 <div className="w-full px-3">
                   <label
-                    className="block  tracking-wide text-gray-700 text-sm font-bold mb-2"
-                    htmlFor="grid-password"
+                    className="block tracking-wide text-gray-700 text-sm font-bold mb-2"
+                    htmlFor="message"
                   >
                     Your Message
                   </label>
@@ -104,24 +176,22 @@ function Getintouch() {
                     required
                     placeholder="Message"
                     className="appearance-none block w-full bg-gray-50 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-primary"
+                    id="message"
+                    value={formData.message}
+                    onChange={handleChange}
                   ></textarea>
+                  {errors.message && <p className="text-red-500">{errors.message}</p>}
                 </div>
-                <div className="flex justify-end w-full px-3">
-                  {/* <div className="md:flex md:items-center">
-                                        <label className="block text-gray-500 font-bold">
-                                            <input className="mr-2 leading-tight" type="checkbox" />
-                                            <span className="text-sm">
-                                                Send me your newsletter!
-                                            </span>
-                                        </label>
-                                    </div> */}
-                  <button
-                    className="shadow bg-primary transition focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded duration-300"
-                    type="submit"
-                  >
-                    Send Message
-                  </button>
-                </div>
+              </div>
+
+              {/* Submit button */}
+              <div className="flex justify-end w-full px-3">
+                <button
+                  className="shadow bg-primary transition focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded duration-300"
+                  type="submit"
+                >
+                  Send Message
+                </button>
               </div>
             </form>
           </div>

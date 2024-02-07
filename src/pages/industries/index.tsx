@@ -24,7 +24,7 @@ function Industries() {
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl  "
-              src="https://www.braincuber.com/_next/static/media/healthcare-industries.8d83f607.png"
+              src="/images/services/healthcare.avif"
             />
           </div>
           <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10 lg:px-3 order-">
@@ -68,7 +68,7 @@ function Industries() {
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl "
-              src="https://www.braincuber.com/_next/static/media/entertainment-industries.dcdbe247.png"
+              src="/images/services/entertainment.jpg"
             />
           </div>
           <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10 lg:px-3 lg:order-2">
@@ -112,7 +112,7 @@ function Industries() {
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl "
-              src="https://www.braincuber.com/_next/static/media/education-industries.71e43b7f.png"
+              src="/images/services/education.avif"
             />
           </div>
           <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10  lg:px-3 order-">
@@ -156,7 +156,7 @@ function Industries() {
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl  "
-              src="https://www.braincuber.com/_next/static/media/e-commerce-industries.dc3900a4.png"
+              src="/images/services/E-com.jpg"
             />
           </div>
           <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10 lg:px-3 lg:order-2">
@@ -200,7 +200,7 @@ function Industries() {
               width="647"
               height="486"
               className="w-full rounded-xl shadow-2xl  "
-              src="https://www.braincuber.com/_next/static/media/education-industries.71e43b7f.png"
+              src="/images/services/digital-banking.jpg"
             />
           </div>
           <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10 lg:px-3 order-">
@@ -235,8 +235,6 @@ function Industries() {
           </div>
         </div>
       </div>
-
-      <div className="container mx-auto  my-5"></div>
     </>
   );
 }

@@ -13,18 +13,23 @@ function Technology() {
         {
           name: "TypeScript",
           images: "/images/ts.svg",
+          path: "/technology/typescript",
         },
         {
           name: "Next.js",
           images: "/images/next.svg",
+          path: "/technology/nextjs",
         },
         {
           name: "React",
           images: "/images/reactjs.svg",
+          path: "/technology/reactjs",
+
         },
         {
           name: "Node.js",
           images: "/images/nodejs.svg",
+          path: "/technology/nodejs",
         },
         {
           name: "Java",
@@ -55,12 +60,16 @@ function Technology() {
         "Leveraging the power of Node.js and Express.js, Avrut Solutions ensures robust and efficient server-side development for seamless application functionality",
       technologys: [
         {
-          name: "React Native",
-          images: "/images/reactjs.svg",
+          name: "Nodejs",
+          images: "/images/technology/node-js.svg",
         },
         {
-          name: "Flutter",
-          images: "/images/flutter.svg",
+          name: "Php",
+          images: "/images/technology/php.svg",
+        },
+        {
+          name: "Python",
+          images: "/images/technology/python.svg",
         },
       ],
     },
@@ -71,12 +80,12 @@ function Technology() {
         "With a strong emphasis on UI/UX design and proficiency in tools like Figma and Adobe XD, Avrut Solutions creates visually appealing and user-centric interfaces.",
       technologys: [
         {
-          name: "React Native",
-          images: "/images/reactjs.svg",
+          name: "Photoshop",
+          images: "/images/technology/photoshop.png",
         },
         {
-          name: "Flutter",
-          images: "/images/flutter.svg",
+          name: "Figma",
+          images: "/images/technology/figma.png",
         },
       ],
     },
@@ -87,12 +96,12 @@ function Technology() {
         "Employing both manual and automated testing, along with rigorous quality assurance practices, Avrut Solutions guarantees the reliability and performance of its software solutions.",
       technologys: [
         {
-          name: "React Native",
-          images: "/images/reactjs.svg",
+          name: "Jest",
+          images: "/images/technology/jest.jpg",
         },
         {
-          name: "Flutter",
-          images: "/images/flutter.svg",
+          name: "Chai",
+          images: "/images/technology/chai.png",
         },
       ],
     },
@@ -122,9 +131,8 @@ function Technology() {
                 <>
                   <button
                     onClick={() => setIndex(e?.id)}
-                    className={`${
-                      e?.id === data?.id && "bg-primary text-white"
-                    } py-4  text-black hover:bg-primary duration-300 hover:font-bold font-semibold  text-start hover:text-white px-5 shadow  mt-2 rounded-xl border`}
+                    className={`${e?.id === data?.id && "bg-primary text-white"
+                      } py-4  text-black hover:bg-primary duration-300 hover:font-bold font-semibold  text-start hover:text-white px-5 shadow  mt-2 rounded-xl border`}
                   >
                     {e?.id + ". " + e?.name}
                   </button>
