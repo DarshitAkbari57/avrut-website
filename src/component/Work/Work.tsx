@@ -30,46 +30,22 @@ function Work() {
 
         <div className="container mx-auto">
           <div className="flex gap-3 justify-center my-5">
+
             <button
-              className={`px-8 py-4 rounded-2xl  ${
-                activeTab === 1 ? "bg-primary  text-white" : "bg-gray-200 "
-              }`}
+              className={`px-8 py-4 rounded-2xl ${activeTab === 2 ? "bg-primary  text-white" : "bg-gray-200 "
+                }`}
+              onClick={() => handleTabClick(2)}
+            >
+              All
+            </button>
+            <button
+              className={`px-8 py-4 rounded-2xl  ${activeTab === 1 ? "bg-primary  text-white" : "bg-gray-200 "
+                }`}
               onClick={() => handleTabClick(1)}
             >
               App Devlopment
             </button>
-            <button
-              className={`px-8 py-4 rounded-2xl ${
-                activeTab === 2 ? "bg-primary  text-white" : "bg-gray-200 "
-              }`}
-              onClick={() => handleTabClick(2)}
-            >
-              App Design
-            </button>
-            <button
-              className={`px-8 py-4 rounded-2xl ${
-                activeTab === 3 ? "bg-primary  text-white" : "bg-gray-200 "
-              }`}
-              onClick={() => handleTabClick(3)}
-            >
-              Show all
-            </button>
-            <button
-              className={`px-8 py-4 rounded-2xl ${
-                activeTab === 4 ? "bg-primary  text-white" : "bg-gray-200 "
-              }`}
-              onClick={() => handleTabClick(4)}
-            >
-              Web Design
-            </button>
-            <button
-              className={`px-8 py-4 rounded-2xl ${
-                activeTab === 5 ? "bg-primary  text-white" : "bg-gray-200 "
-              }`}
-              onClick={() => handleTabClick(5)}
-            >
-              Dashboard
-            </button>
+
           </div>
 
           {/* Content for each tab */}

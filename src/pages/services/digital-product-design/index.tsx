@@ -9,6 +9,8 @@ import { useRouter } from "next/router";
 import React from "react";
 import ImageTech from "../../../assets/technology/digital3.jpg";
 import MainBanner from "../../../assets/technology/digitalbanner.jpg";
+import dp from "../../../assets/about/digital.jpg";
+
 
 function Digitalproductdesign() {
   const services = [
@@ -119,6 +121,7 @@ function Digitalproductdesign() {
         titleSpan="Stages"
         content="Product design using a human-centered approach allows us to build tools that your customers will love to use. We follow a five-stage process to design and develop optimized software that drives engagement."
         services={services}
+        Image={dp.src}
       />
 
       {/* <Portfolio /> */}

@@ -7,6 +7,7 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/mysql.png";
 import MainBanner from "../../../assets/technology/mysqlbanner.jpg";
+import sql from "../../../assets/about/sql.jpg"
 
 function Nodejs() {
   const services = [
@@ -185,6 +186,7 @@ function Nodejs() {
         titleSpan="Service We offer"
         content="With a history of delivering innovative and reliable database solutions, we aim to dominate the segment with unmatched development output & reliability that garners trust & goodwill."
         services={services}
+        Image={sql.src}
       />
 
       <WhyThisTechnology

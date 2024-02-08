@@ -9,6 +9,8 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/dev.jpg";
 import MainBanner from "../../../assets/technology/devopsbanner.jpg";
+import devops from "../../../assets/about/devops.jpg";
+
 
 function Engineering() {
   const services = [
@@ -115,6 +117,7 @@ function Engineering() {
         titleSpan="Stages"
         content="Engineering and DevOps involve the seamless integration of software development and IT operations to streamline and automate the software delivery pipeline."
         services={services}
+        Image={devops.src}
       />
 
       {/* <Portfolio /> */}

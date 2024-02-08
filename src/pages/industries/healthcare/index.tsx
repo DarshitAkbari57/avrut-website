@@ -20,6 +20,8 @@ import {
 } from "react-icons/fa";
 import MainBanner from "../../../assets/technology/healthbanner.jpg";
 import AboutImage from "../../../assets/technology/healthcare.jpg";
+import health from "../../../assets/about/health.webp";
+
 
 function Healthcare() {
   const services = [
@@ -164,6 +166,7 @@ function Healthcare() {
           titleSpan=""
           content="The healthcare industry plays a crucial role in society, encompassing a broad range of services, technologies, and organizations dedicated to maintaining and improving the health and well-being of individuals."
           services={services}
+          Image={health.src}
         />
 
         <Faq accordionItems={accordionItems} />

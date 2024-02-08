@@ -7,6 +7,7 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/AWS.png";
 import MainBanner from "../../../assets/technology/awsbanner.png";
+import Awstech from "../../../assets/about/aws.jpg"
 
 function Aws() {
   const services = [
@@ -163,10 +164,11 @@ function Aws() {
       />
 
       <TechnologyServices
-        title="Jenkins"
+        title="Aws"
         titleSpan="Service We offer"
         content="AWS provides a range of compute services, including Amazon EC2 for scalable virtual servers, AWS Lambda for serverless computing, and Amazon ECS for container orchestration."
         services={services}
+        Image={Awstech.src}
       />
 
       <WhyThisTechnology

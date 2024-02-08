@@ -16,6 +16,8 @@ import {
 } from "react-icons/fa";
 import MainBanner from "../../../assets/technology/ecombanner.jpg";
 import AboutImage from "../../../assets/technology/ecom.jpg";
+import Ecom from "../../../assets/about/ecom.jpg"
+
 
 function ECommerce() {
   const services = [
@@ -130,6 +132,7 @@ function ECommerce() {
           titleSpan=""
           content="E-commerce involves diverse models such as B2C (business-to-consumer) and B2B (business-to-business), driven by secure online transactions, digital marketing strategies, and seamless user experiences. Rapid advancements in technology continue to shape the e-commerce landscape, influencing consumer behaviors, supply chain dynamics, and the overall evolution of modern commerce."
           services={services}
+          Image={Ecom.src}
         />
 
         <Faq accordionItems={accordionItems} />

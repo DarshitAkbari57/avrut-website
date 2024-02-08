@@ -7,6 +7,7 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/adobe-xd.png";
 import MainBanner from "../../../assets/technology/adobebanner.png";
+import Adobe from "../../../assets/about/adobe.jpg"
 
 function AdobeXD() {
   const services = [
@@ -191,6 +192,7 @@ function AdobeXD() {
         titleSpan="Service We offer"
         content="Adobe XD offers a range of design services, including prototyping, wireframing, and user experience (UX) design. Our team of experts can help bring your creative vision to life. Contact us today for innovative design solutions."
         services={services}
+        Image={Adobe.src}
       />
 
       <WhyThisTechnology

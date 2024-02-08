@@ -7,6 +7,7 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/mongodb.png";
 import MainBanner from "../../../assets/technology/mongodbbanner.jpg";
+import Mongodb from "../../../assets/about/mongodb.jpg"
 
 function MongoDB() {
   const services = [
@@ -168,6 +169,7 @@ function MongoDB() {
         titleSpan="Service We offer"
         content="We help you build web and mobile applications using the powerful MongoDB database that is smarter, scalable, and lets you market your ideas faster."
         services={services}
+        Image={Mongodb.src}
       />
 
       <WhyThisTechnology

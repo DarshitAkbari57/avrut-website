@@ -3,6 +3,7 @@ import First from "@/component/First/First";
 import React from "react";
 import MainBanner from "../../assets/technology/careerbanner.png";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
+import Careertech from "../../assets/about/career.webp"
 
 function Career() {
   const Culture = [
@@ -175,6 +176,7 @@ function Career() {
           titleSpan="of Working with Avrut Solutions"
           content="From API development to robust backend systems, we harness the power of React.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of React.js."
           services={services}
+          Image={Careertech.src}
         />
       </div>
       <Faq accordionItems={accordionItems} />

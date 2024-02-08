@@ -7,6 +7,8 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/docker.jpg";
 import MainBanner from "../../../assets/technology/kubernetsbanner.png";
+import Kubernates from "../../../assets/about/kubernetes.jpg"
+
 
 function Kubernetes() {
   const services = [
@@ -160,6 +162,7 @@ function Kubernetes() {
         titleSpan="Service We offer"
         content="Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. Originally developed by Google and later donated to the Cloud Native Computing Foundation (CNCF), Kubernetes has become a de facto standard for container orchestration in the cloud-native ecosystem."
         services={services}
+        Image={Kubernates.src}
       />
 
       <WhyThisTechnology

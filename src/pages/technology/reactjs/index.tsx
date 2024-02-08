@@ -7,6 +7,7 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/react.png";
 import MainBanner from "../../../assets/technology/reactbanner.png";
+import Reacttech from "../../../assets/about/Reacttech.jpg";
 
 function Reactjs() {
   const services = [
@@ -174,6 +175,7 @@ function Reactjs() {
         titleSpan="Service We offer"
         content="From API development to robust backend systems, we harness the power of React.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of React.js."
         services={services}
+        Image={Reacttech.src}
       />
 
       <WhyThisTechnology

@@ -16,6 +16,8 @@ import {
 } from "react-icons/fa";
 import MainBanner from "../../../assets/technology/educationbanner.jpg";
 import AboutImage from "../../../assets/technology/edu1.jpg";
+import Edutech from "../../../assets/about/Education.jpg";
+
 
 function Education() {
   const services = [
@@ -162,6 +164,7 @@ function Education() {
           titleSpan=""
           content="Biomedical innovation remains pivotal, driving advancements in medical treatments and pharmaceuticals. Operating within a highly regulated environment, compliance with healthcare regulations is paramount."
           services={services}
+          Image={Edutech.src}
         />
 
         <Faq accordionItems={accordionItems} />

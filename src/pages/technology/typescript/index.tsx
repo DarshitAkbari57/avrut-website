@@ -7,6 +7,8 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/typescript.png";
 import MainBanner from "../../../assets/technology/tsbanner.png";
+import ts from "../../../assets/about/ts.jpg";
+
 
 function Nodejs() {
   const services = [
@@ -165,6 +167,7 @@ function Nodejs() {
         titleSpan="Service We offer"
         content="Our development company offers tailored solutions, leveraging TypeScript's strong typing to enhance code quality, scalability, and overall project reliability."
         services={services}
+        Image={ts.src}
       />
 
       <WhyThisTechnology

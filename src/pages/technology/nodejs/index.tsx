@@ -7,6 +7,8 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/node.png";
 import MainBanner from "../../../assets/technology/nodebanner.jpg";
+import Node from "../../../assets/about/node.jpg"
+
 
 function Nodejs() {
   const services = [
@@ -185,6 +187,7 @@ function Nodejs() {
         titleSpan="Service We offer"
         content="From API development to robust backend systems, we harness the power of Node.js to drive innovation and efficiency in your digital projects. With proficiency in backend development and API integration, we enable businesses to create robust and high-performance solutions using the versatility of Node.js."
         services={services}
+        Image={Node.src}
       />
 
       <WhyThisTechnology

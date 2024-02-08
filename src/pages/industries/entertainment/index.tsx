@@ -12,6 +12,8 @@ import { BsBoundingBox } from "react-icons/bs";
 import { FaDesktop, FaGamepad, FaTwitter } from "react-icons/fa6";
 import MainBanner from "../../../assets/technology/entertainmentbanner.jpeg";
 import AboutImage from "../../../assets/technology/entertainment.jpeg";
+import Etech from "../../../assets/about/entertainment.jpg"
+
 
 function Entertainment() {
   const services = [
@@ -130,6 +132,7 @@ function Entertainment() {
           titleSpan="Industries"
           content="Entertainment experiences are increasingly immersive and interactive, with advancements in augmented reality (AR), virtual reality (VR), and artificial intelligence (AI) creating new possibilities for audience engagement. Social media platforms have become integral in shaping and amplifying entertainment trends, fostering fan communities, and enabling direct interactions between creators and their audiences."
           services={services}
+          Image={Etech.src}
         />
 
         <Faq accordionItems={accordionItems} />

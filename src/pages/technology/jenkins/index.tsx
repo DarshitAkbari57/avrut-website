@@ -7,6 +7,8 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/docker.jpg";
 import MainBanner from "../../../assets/technology/jenkinsbanner.png";
+import Jenkinstech from "../../../assets/about/jenkins.webp"
+
 
 function Jenkins() {
   const services = [
@@ -166,6 +168,8 @@ function Jenkins() {
         titleSpan="Service We offer"
         content="Jenkins is an open-source automation server that facilitates building, testing, and deploying code."
         services={services}
+        Image={Jenkinstech.src}
+
       />
 
       <WhyThisTechnology

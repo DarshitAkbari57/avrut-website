@@ -7,6 +7,9 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/flutter.png";
 import MainBanner from "../../../assets/technology/flutterbanner.png";
+import Fluttertech from "../../../assets/about/flutter.jpg"
+
+
 
 function Flutter() {
   const services = [
@@ -185,6 +188,7 @@ function Flutter() {
         titleSpan="Service We offer"
         content="Our expertise in Flutter's rich widget library and fast rendering ensures you deliver visually engaging, high-performance apps, reaching both iOS and Android users effectively while maximizing development efficiency."
         services={services}
+        Image={Fluttertech.src}
       />
 
       <WhyThisTechnology

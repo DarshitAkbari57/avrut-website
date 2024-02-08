@@ -7,6 +7,7 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/react-native.png";
 import MainBanner from "../../../assets/technology/reactbanner.png";
+import Reactnative from "../../../assets/about/react-native.jpg"
 
 function ReactNative() {
   const services = [
@@ -186,6 +187,7 @@ function ReactNative() {
         titleSpan="Service We offer"
         content="From robust backend integration to intuitive UI/UX design, we specialize in providing comprehensive React Native services tailored to your unique project needs."
         services={services}
+        Image={Reactnative.src}
       />
 
       <WhyThisTechnology

@@ -11,6 +11,8 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import { FaChartLine, FaCreditCard, FaLock, FaMobileAlt } from "react-icons/fa";
 import MainBanner from "../../../assets/technology/bankbanner.jpeg";
 import AboutImage from "../../../assets/technology/digital2.jpg";
+import banking from "../../../assets/about/digitalbanking.jpg"
+
 
 function DigitalBanking() {
   const services = [
@@ -117,6 +119,7 @@ function DigitalBanking() {
           titleSpan="Services"
           content="Digital banking platforms offer a diverse array of services, ranging from routine account management to sophisticated financial planning tools. Users can access real-time transaction information, set up automated savings plans, and receive personalized insights into their spending patterns. Mobile check deposits, contactless payments, and digital wallets further enhance the flexibility and efficiency of financial transactions."
           services={services}
+          Image={banking.src}
         />
 
         <Faq accordionItems={accordionItems} />

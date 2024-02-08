@@ -7,6 +7,7 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/docker.jpg";
 import MainBanner from "../../../assets/technology/dockerbanner.png";
+import Dockertech from "../../../assets/about/docker.jpg"
 
 function Docker() {
   const services = [
@@ -167,6 +168,7 @@ function Docker() {
         titleSpan="Service We offer"
         content="Docker containers encapsulate an application and its dependencies, including libraries, binaries, and runtime. Containers ensure consistency across different environments, making it easier to deploy and run applications consistently across various systems."
         services={services}
+        Image={Dockertech.src}
       />
 
       <WhyThisTechnology

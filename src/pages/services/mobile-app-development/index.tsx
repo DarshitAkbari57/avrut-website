@@ -9,6 +9,8 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/appdev.jpg";
 import MainBanner from "../../../assets/technology/mobilebanner.jpg";
+import App from "../../../assets/about/mobile.jpeg";
+
 
 function MobileApp() {
   const services = [
@@ -116,6 +118,7 @@ function MobileApp() {
         titleSpan="Services"
         content="Mobile app development is the process of creating software applications specifically designed to run on mobile devices such as smartphones and tablets."
         services={services}
+        Image={App.src}
       />
 
       {/* <Portfolio /> */}

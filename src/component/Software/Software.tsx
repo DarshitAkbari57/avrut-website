@@ -62,7 +62,7 @@ function Software() {
         {tech.map((e) => {
           return (
             <>
-              <div className="bg-gray-200 w-full h-[300px] flex justify-center items-center font-semibold rounded-xl text-xl  flex-col">
+              <div className="bg-gray-200 w-full h-[300px] flex justify-center items-center font-semibold rounded-xl text-xl  flex-col hover:scale-105  hover:p-1 hover:shadow-sm hover:shadow-primary hover: border-primary hover:border duration-200">
                 <div className="my-3 text-4xl md:text-6xl text-primary">
                   {e?.icon}
                 </div>

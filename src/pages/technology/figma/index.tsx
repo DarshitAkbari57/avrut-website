@@ -7,6 +7,7 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/figma.png";
 import MainBanner from "../../../assets/technology/figmabanner.png";
+import Figmatech from "../../../assets/about/figma.jpg"
 
 function Figma() {
   const services = [
@@ -191,6 +192,7 @@ function Figma() {
         titleSpan="Service We offer"
         content="Our company offers Figma services that empower collaborative and efficient design workflows, enabling teams to create, iterate, and prototype user-centric interfaces seamlessly. With our expertise, you'll harness Figma's real-time collaboration and design versioning, ensuring visually stunning and functional digital products."
         services={services}
+        Image={Figmatech.src}
       />
 
       <WhyThisTechnology

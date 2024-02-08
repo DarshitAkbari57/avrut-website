@@ -178,7 +178,7 @@ function index() {
         </div>
       </div>
 
-      <div className="grid lg:grid-cols-3 gap-5 container mx-auto justify-items-center items-center py-5 px-3 md:px-10 ">
+      {/* <div className="grid lg:grid-cols-3 gap-5 container mx-auto justify-items-center items-center py-5 px-3 md:px-10 ">
         <div className="w-full">
           <img
             className="mb-4 object-cover w-full"
@@ -210,7 +210,7 @@ function index() {
             alt=""
           />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

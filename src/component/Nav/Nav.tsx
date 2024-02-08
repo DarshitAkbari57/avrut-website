@@ -71,7 +71,7 @@ function Nav() {
                         </span>
                       )}
                     </a>
-                    <div className="hidden group-hover:block absolute top-[80px]  left-0 h-[300px] overflow-y-auto  bg-white z-20 border shadow-md   w-[100%] p-10 py-10">
+                    <div className="hidden group-hover:block absolute top-[80px]  left-0 h-max overflow-y-auto  bg-white z-20 border shadow-md   w-[100%] p-10 py-10">
                       {menuActive === "Technologies" && (
                         <div className="h-full">
                           <div className="flex  h-full ">
@@ -283,7 +283,7 @@ function Nav() {
                           <div className="flex  h-full justify-between">
                             <div className="h-full border-r px-10">
                               <h1 className="text-2xl font-medium w-max">
-                                Our Industries
+                                Our Services
                               </h1>
                             </div>
                             <div className="h-full w-full px-10 ">

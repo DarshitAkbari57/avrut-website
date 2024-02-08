@@ -7,6 +7,7 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/dynamodb.png";
 import MainBanner from "../../../assets/technology/dynamobanner.png";
+import Dynamo from "../../../assets/about/dynamo.jpg"
 
 function dynamoDB() {
   const services = [
@@ -173,6 +174,7 @@ function dynamoDB() {
         titleSpan="Service We offer"
         content="We develop faster, more flexible, and highly functional applications using the no-SQL database services of Amazon DynamoDB."
         services={services}
+        Image={Dynamo.src}
       />
 
       <WhyThisTechnology

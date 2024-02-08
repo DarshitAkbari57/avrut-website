@@ -9,6 +9,8 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/staff2.jpg";
 import MainBanner from "../../../assets/technology/staffbanner.jpg";
+import staff from "../../../assets/about/staff.webp";
+
 
 function StaffAugmentation() {
   const services = [
@@ -113,6 +115,7 @@ function StaffAugmentation() {
         titleSpan=""
         content="This approach allows companies to scale their teams quickly, access specialized skills, and meet project demands without the long-term commitment of hiring full-time employees."
         services={services}
+        Image={staff.src}
       />
 
       {/* <Portfolio /> */}

@@ -7,6 +7,8 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/postgresql.png";
 import MainBanner from "../../../assets/technology/postgresqlbanner.png";
+import Postsql from "../../../assets/about/postsql.jpg"
+
 
 function Postgresql() {
   const services = [
@@ -185,6 +187,7 @@ function Postgresql() {
         titleSpan="Service We offer"
         content="From schema design to performance tuning, we ensure seamless data management, scalability, and reliability for applications built on the foundation of PostgreSQL."
         services={services}
+        Image={Postsql.src}
       />
 
       <WhyThisTechnology
