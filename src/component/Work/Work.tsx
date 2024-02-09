@@ -42,9 +42,6 @@ function Work() {
       image: dmatade.src
     },
     {
-      image: haat.src
-    },
-    {
       image: glamsqad.src
     },
     {
