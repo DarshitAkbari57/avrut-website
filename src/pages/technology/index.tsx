@@ -166,7 +166,7 @@ function Technologies() {
       <div className="container mx-auto  my-5">
         {/* web devlopment */}
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center ">
-          <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3 ">
+          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3 ">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 lg:max-w-sm m-auto ">
               {web.map((e) => {
                 return (
@@ -219,7 +219,7 @@ function Technologies() {
         {/* mobile devlopment */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
+          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
               {mobile?.map((e) => {
                 return (
@@ -269,7 +269,7 @@ function Technologies() {
         {/*Backend */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3">
+          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
               {Backend.map((e) => {
                 return (
@@ -319,7 +319,7 @@ function Technologies() {
         {/*Front-end */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
+          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
               {frontend.map((e) => {
                 return (
@@ -366,7 +366,7 @@ function Technologies() {
         {/* devops */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3">
+          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
               {Devops.map((e) => {
                 return (
@@ -411,7 +411,7 @@ function Technologies() {
         {/* Database */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
+          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
               {Database.map((e) => {
                 return (
@@ -464,7 +464,7 @@ function Technologies() {
         {/*Design */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-indigo-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3  my-3">
+          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3  my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto">
               {Design.map((e) => {
                 return (

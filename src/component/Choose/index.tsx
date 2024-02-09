@@ -75,10 +75,10 @@ function Choose() {
         </div>
         <div className="container mx-auto text-center lg:px-28">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
-            {cards.map((e) => {
+            {cards.map((e, index) => {
               return (
                 <>
-                  <div className="relative group cursor-pointer group overflow-hidden  text-gray-50 rounded-2xl hover:duration-700 duration-700 h-72">
+                  <div key={index} className="relative group cursor-pointer group overflow-hidden  text-gray-50 rounded-2xl hover:duration-700 duration-700 h-72">
                     <div className="bg-[#202020] text-white h-72 w-full flex justify-center p-10 text-5xl md:text-9xl group-hover:text-3xl group-hover:mt-[-20px] md:group-hover:text-5xl  ease-in-out duration-500">
                       {e?.icon}
                     </div>
@@ -89,13 +89,13 @@ function Choose() {
                       </span>
                       <p className="text-neutral-800">{e?.main}</p>
                     </div>
-                  </div>
+                  </div >
                 </>
               );
             })}
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 }

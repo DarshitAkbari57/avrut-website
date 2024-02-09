@@ -32,10 +32,10 @@ function Software() {
       icon: <CiSettings />,
       name: "DevOps",
     },
-    {
-      icon: <MdOutlineUpload />,
-      name: "Maintenance and Upgrades",
-    },
+    // {
+    //   icon: <MdOutlineUpload />,
+    //   name: "Maintenance and Upgrades",
+    // },
     {
       icon: <BsAward />,
       name: "Quality assurance",

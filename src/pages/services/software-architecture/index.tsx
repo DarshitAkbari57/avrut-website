@@ -8,7 +8,7 @@ import Architecture from "@/component/Services/Architecture/Architecture";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/architecture.jpg";
-import MainBanner from "../../../assets/technology/sabanner.png";
+import MainBanner from "../../../assets/technology/3.jpg";
 import soft from "../../../assets/about/soft.jpg";
 
 
@@ -121,7 +121,7 @@ function SoftwareArchitecture() {
         titleSpan="Stages"
         content="Software architecture involves designing and structuring the fundamental components of a software system, defining their relationships and interactions to ensure scalability, maintainability, and optimal performance"
         services={services}
-        Image=""
+        Image={soft.src}
       />
 
       {/* <Portfolio /> */}

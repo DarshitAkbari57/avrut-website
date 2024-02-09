@@ -79,7 +79,7 @@ function Home() {
       <Software />
       <Technology />
       <Choose />
-      <Faq accordionItems={accordionItems} />
+      {/* <Faq accordionItems={accordionItems} /> */}
 
       {/* <Getintouch /> */}
     </>

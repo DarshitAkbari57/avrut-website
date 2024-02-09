@@ -24,12 +24,12 @@ function Nav() {
     },
     {
       name: "Career",
-      path: "/careers",
+      path: "/career",
     },
-    {
-      name: "Contact",
-      path: "/contact",
-    },
+    // {
+    //   name: "Contact",
+    //   path: "/contact",
+    // },
   ];
 
   const toggleMenu = () => {
@@ -289,7 +289,7 @@ function Nav() {
                             <div className="h-full w-full px-10 ">
                               <div className="grid grid-cols-3 ">
                                 <div
-                                  className="flex p-5 flex-col hover:bg-purple cursor-pointer"
+                                  className="flex p-5 flex-col hover:bg-navbg/10 cursor-pointer"
                                   onClick={() =>
                                     router.push(
                                       "/services/digital-product-design"
@@ -311,7 +311,7 @@ function Nav() {
                                   </div>
                                 </div>
                                 <div
-                                  className="flex p-5 flex-col hover:bg-purple cursor-pointer"
+                                  className="flex p-5 flex-col hover:bg-navbg/10 cursor-pointer"
                                   onClick={() =>
                                     router.push(
                                       "/services/software-architecture"
@@ -325,9 +325,7 @@ function Nav() {
                                     <ul>
                                       <li
                                         className="cursor-pointer text-[14px] pb-2 text-gray1"
-                                        onClick={() =>
-                                          router.push("/technology/angular")
-                                        }
+
                                       >
                                         Architects create scalable software
                                         solution with modularity and core
@@ -337,7 +335,7 @@ function Nav() {
                                   </div>
                                 </div>
                                 <div
-                                  className="flex p-5 flex-col hover:bg-purple cursor-pointer"
+                                  className="flex p-5 flex-col hover:bg-navbg/10 cursor-pointer"
                                   onClick={() =>
                                     router.push("/services/engineering")
                                   }
@@ -363,7 +361,7 @@ function Nav() {
                                   </div>
                                 </div>
                                 <div
-                                  className="flex p-5 flex-col hover:bg-purple cursor-pointer"
+                                  className="flex p-5 flex-col hover:bg-navbg/10 cursor-pointer"
                                   onClick={() =>
                                     router.push(
                                       "/services/mobile-app-development"
@@ -394,7 +392,7 @@ function Nav() {
                                   </div>
                                 </div>
                                 <div
-                                  className="flex p-5 flex-col hover:bg-purple cursor-pointer"
+                                  className="flex p-5 flex-col hover:bg-navbg/10 cursor-pointer"
                                   onClick={() =>
                                     router.push("/services/staff-augmentation")
                                   }
@@ -438,7 +436,7 @@ function Nav() {
                             <div className="h-full w-full px-16 ">
                               <div className="grid grid-cols-3 ">
                                 <div
-                                  className="flex p-5 flex-col hover:bg-purple cursor-pointer"
+                                  className="flex p-5 flex-col hover:bg-primary/10 cursor-pointer"
                                   onClick={() =>
                                     router.push("/industries/healthcare")
                                   }
@@ -457,7 +455,7 @@ function Nav() {
                                   </div>
                                 </div>
                                 <div
-                                  className="flex p-5 flex-col hover:bg-purple cursor-pointer"
+                                  className="flex p-5 flex-col hover:bg-navbg/10 cursor-pointer"
                                   onClick={() =>
                                     router.push("/industries/education")
                                   }
@@ -479,7 +477,7 @@ function Nav() {
                                   </div>
                                 </div>
                                 <div
-                                  className="flex p-5 flex-col hover:bg-purple cursor-pointer"
+                                  className="flex p-5 flex-col hover:bg-navbg/10 cursor-pointer"
                                   onClick={() =>
                                     router.push("/industries/e-commerce")
                                   }
@@ -502,7 +500,7 @@ function Nav() {
                                   </div>
                                 </div>
                                 <div
-                                  className="flex p-5 flex-col hover:bg-purple cursor-pointer"
+                                  className="flex p-5 flex-col hover:bg-navbg/10 cursor-pointer"
                                   onClick={() =>
                                     router.push("/industries/digital-banking")
                                   }
@@ -529,7 +527,7 @@ function Nav() {
                                   </div>
                                 </div>
                                 <div
-                                  className="flex p-5 flex-col hover:bg-purple cursor-pointer"
+                                  className="flex p-5 flex-col hover:bg-navbg/10 cursor-pointer"
                                   onClick={() =>
                                     router.push("/industries/entertainment")
                                   }

@@ -10,7 +10,7 @@ function Faq({ accordionItems }: any) {
 
   return (
     <>
-      <div className="bg-purple p-5 md:p-5">
+      {/* <div className="bg-purple p-5 md:p-5">
         <div className="container mx-auto 2xl:max-w-7xl">
           <div className="max-w-4xl m-auto flex justify-center items-center gap-4 py-3 md:py-5">
             <hr className="w-[100px] h-[4px] bg-primary" />
@@ -45,7 +45,7 @@ function Faq({ accordionItems }: any) {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

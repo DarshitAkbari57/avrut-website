@@ -1,10 +1,12 @@
 import React from "react";
 import "animate.css";
+import First from "../First/First";
+import MainBanner from "../../../public/images/slider1.webp"
 
 function Slider() {
   return (
     <>
-      <div className="w-auto lg:max-w-3xl m-auto my-5 lg:my-20 ">
+      {/* <div className="w-auto lg:max-w-3xl m-auto my-5 lg:my-20 ">
         <div className="animate__animated animate__fadeIn text-3xl lg:text-6xl text-center font-bold whitespace-normal">
           We Are Software <br /> Development Company
         </div>
@@ -30,7 +32,15 @@ function Slider() {
           src="/images/slider1.webp"
           alt=""
         />
-      </div>
+      </div> */}
+
+
+      <First
+        title="We Are Software Development Company"
+        subtitle="  Transform your business with adaptable and robust digital solutions
+        that satisfy the needs of modern customers."
+        MainBanner={MainBanner.src}
+      />
     </>
   );
 }

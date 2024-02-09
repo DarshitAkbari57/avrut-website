@@ -11,7 +11,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import dmatade from '../../assets/portfolio/dematade.png'
 import acheti from '../../assets/portfolio/acheti.png'
 import alphadog from '../../assets/portfolio/alphaDog.png'
-import haat from '../../assets/portfolio/haat.png'
 import glamsqad from '../../assets/portfolio/glamsquad.png'
 import proprtize from '../../assets/portfolio/propertize.png'
 import lybrate from '../../assets/portfolio/lybrate.png'
@@ -69,9 +68,7 @@ function Work() {
     {
       image: proprtize.src
     },
-    {
-      image: haat.src
-    },
+
   ]
 
   const webdev = [
