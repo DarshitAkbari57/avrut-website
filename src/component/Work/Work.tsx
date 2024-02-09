@@ -8,6 +8,20 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
 import { Swiper, SwiperSlide } from "swiper/react";
+import dmatade from '../../assets/portfolio/dematade.png'
+import acheti from '../../assets/portfolio/acheti.png'
+import alphadog from '../../assets/portfolio/alphaDog.png'
+import haat from '../../assets/portfolio/haat.png'
+import glamsqad from '../../assets/portfolio/glamsquad.png'
+import proprtize from '../../assets/portfolio/propertize.png'
+import lybrate from '../../assets/portfolio/lybrate.png'
+import fanguru from '../../assets/portfolio/fanguru.png'
+import fashionphile from '../../assets/portfolio/fashionphile.png'
+
+
+
+
+
 
 function Work() {
   const [activeTab, setActiveTab] = useState(1);
@@ -16,9 +30,71 @@ function Work() {
     setActiveTab(tabNumber);
   };
 
-  const placeholderImages = Array.from({ length: 9 }).fill(
-    "https://avrut.com/static/media/dematade.8b7b4793fac9b2305f79.png"
-  );
+
+
+  const all = [
+    {
+      image: acheti.src
+    },
+    {
+      image: proprtize.src
+    },
+    {
+      image: dmatade.src
+    },
+    {
+      image: haat.src
+    },
+    {
+      image: glamsqad.src
+    },
+    {
+      image: alphadog.src
+    },
+    {
+      image: lybrate.src
+    },
+    {
+      image: fanguru.src
+    },
+    {
+      image: fashionphile.src
+    }
+  ]
+
+  const appdev = [
+    {
+      image: acheti.src
+    },
+    {
+      image: proprtize.src
+    },
+    {
+      image: haat.src
+    },
+  ]
+
+  const webdev = [
+    {
+      image: dmatade.src
+    },
+
+    {
+      image: glamsqad.src
+    },
+    {
+      image: alphadog.src
+    },
+    {
+      image: lybrate.src
+    },
+    {
+      image: fanguru.src
+    },
+    {
+      image: fashionphile.src
+    }
+  ]
   return (
     <>
       <div className="bg-purple justify-items-center p-5 border-2">
@@ -32,98 +108,106 @@ function Work() {
           <div className="flex gap-3 justify-center my-5">
 
             <button
-              className={`px-8 py-4 rounded-2xl ${activeTab === 2 ? "bg-primary  text-white" : "bg-gray-200 "
+              className={`px-8 py-4 rounded-2xl ${activeTab === 1 ? "bg-primary  text-white" : "bg-gray-200 "
                 }`}
-              onClick={() => handleTabClick(2)}
+              onClick={() => handleTabClick(1)}
             >
               All
             </button>
             <button
-              className={`px-8 py-4 rounded-2xl  ${activeTab === 1 ? "bg-primary  text-white" : "bg-gray-200 "
+              className={`px-8 py-4 rounded-2xl  ${activeTab === 2 ? "bg-primary  text-white" : "bg-gray-200 "
                 }`}
-              onClick={() => handleTabClick(1)}
+              onClick={() => handleTabClick(2)}
             >
               App Devlopment
+            </button>
+            <button
+              className={`px-8 py-4 rounded-2xl  ${activeTab === 3 ? "bg-primary  text-white" : "bg-gray-300 "
+                }`}
+              onClick={() => handleTabClick(3)}
+            >
+              Web Devlopment
             </button>
 
           </div>
 
           {/* Content for each tab */}
-          <div>
+          <div className="max-w-5xl m-auto">
             {activeTab === 1 && (
               <>
                 <div className="grid grid-cols-3 gap-10">
-                  {placeholderImages.map((url: any, index) => (
-                    <div key={index}>
-                      <div className="rounded-lg h-[300px] shadow-md">
-                        <img
-                          className="object-cover h-full w-full rounded-2xl"
-                          src={url}
-                          alt={`Image ${index + 1}`}
-                        />
-                      </div>
-                    </div>
-                  ))}
+                  {all.map((e) => {
+                    return (
+                      <>
+                        <div >
+                          <div className="rounded-lg h-[300px] shadow-md">
+                            <img
+                              className="object-fill h-full w-full rounded-2xl"
+                              src={e.image}
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </>
+                    )
+                  })}
                 </div>
               </>
             )}
             {activeTab === 2 && (
               <>
-                <SwiperSlide>
-                  <div className=" h-[250px]  shadow-md">
-                    <img
-                      className="h-full w-full object-cover rounded-2xl"
-                      src="https://www.braincuber.com/_next/static/media/ourwork_imag8.36a0c688.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
+                <div className="grid grid-cols-3 gap-10">
+                  {/* <SwiperSlide> */}
+                  {appdev.map((e) => {
+                    return (
+                      <>
+                        <div >
+                          <div className="rounded-lg h-[300px] shadow-md">
+                            <img
+                              className="object-fill h-full w-full rounded-2xl"
+                              src={e.image}
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </>
+                    )
+                  })}
+                  {/* </SwiperSlide> */}
+                </div>
               </>
             )}
             {activeTab === 3 && (
               <>
-                <SwiperSlide>
-                  <div className="mx-5 mt-5   bg-white rounded-lg p-5 shadow-md">
-                    <img
-                      src="https://avrut.com/static/media/dematade.8b7b4793fac9b2305f79.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="mx-5 mt-5   bg-white rounded-lg p-5 shadow-md">
-                    <img
-                      src="https://avrut.com/static/media/dematade.8b7b4793fac9b2305f79.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="mx-5 mt-5   bg-white rounded-lg p-5 shadow-md">
-                    <img
-                      src="https://avrut.com/static/media/dematade.8b7b4793fac9b2305f79.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="mx-5 mt-5   bg-white rounded-lg p-5 shadow-md">
-                    <img
-                      src="https://avrut.com/static/media/dematade.8b7b4793fac9b2305f79.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
+                <div className="grid grid-cols-3 gap-10">
+                  {/* <SwiperSlide> */}
+                  {webdev.map((e) => {
+                    return (
+                      <>
+                        <div >
+                          <div className="rounded-lg h-[300px] shadow-md">
+                            <img
+                              className="object-fill h-full w-full rounded-2xl"
+                              src={e.image}
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </>
+                    )
+                  })}
+                  {/* </SwiperSlide> */}
+                </div>
               </>
             )}
           </div>
         </div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <button className="p-3 py-2 px-10 font-normal mt-5 border-2 rounded-xl  text-white bg-primary ">
             View all
           </button>
-        </div>
+        </div> */}
       </div>
     </>
   );

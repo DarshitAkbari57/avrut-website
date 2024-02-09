@@ -32,11 +32,11 @@ html {
   font-size: 1em;
 }
 
-.card > :not(span) {
+.card> :not(span) {
   transition: 0.3s cubic-bezier(0.6, 0.4, 0, 1);
 }
 
-.card > strong {
+.card>strong {
   display: block;
   font-size: 1.4rem;
   letter-spacing: -0.035em;
@@ -66,7 +66,7 @@ html {
   background: var(--hover-bg);
 }
 
-.card:hover > div,
-.card:hover > strong {
+.card:hover>div,
+.card:hover>strong {
   opacity: 0;
 }
