@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { BsHouse, BsPhone } from "react-icons/bs";
-import { MdOutlineEmail } from "react-icons/md";
+import { MdOutlineEmail, MdOutlineHouse } from "react-icons/md";
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
+import { AiOutlineMail } from "react-icons/ai";
 
 function Getintouch() {
   const validationSchema = Yup.object().shape({
@@ -29,9 +30,9 @@ function Getintouch() {
 
 
   return (
-    <div id="contact" className="container mx-auto p-5 max-w-5xl rounded-2xl border shadow-xl my-5">
+    <div id="contact" className="container mx-auto p-1 md:p-5 max-w-5xl rounded-2xl border shadow-xl my-5">
       <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="bg-transparent p-10 text-black">
+        <div className="bg-transparent p-3 md:p-10 text-black">
           <p className="text-sm leading-7 font-regular capitalize">Contact us</p>
           <h3 className="text-4xl font-extrabold tracking-tight">
             Get In <span className="text-primary">Touch</span>
@@ -39,20 +40,26 @@ function Getintouch() {
           <p className="mt-4 leading-7">
             Please inform us about your project, and we'll get back to you as soon as possible.
           </p>
-          <div className="flex items-center mt-5 gap-4">
-            <BsHouse />
+          <div className="flex items-center mt-5 gap-4 ">
+            <div className="w-5">
+              <BsHouse className="" />
+            </div>
             <span className="text-sm">309, Amby valley arcade, VIP Circle, Uttaran, Surat-394105</span>
           </div>
           <div className="flex items-center mt-5 gap-4">
-            <MdOutlineEmail />
+            <div className="w-5">
+              <AiOutlineMail />
+            </div>
             <span className="text-sm">Email: info@avrut.com</span>
           </div>
           <div className="flex items-center mt-5 gap-4">
-            <BsPhone />
+            <div className="w-5">
+              <BsPhone />
+            </div>
             <span className="text-sm">Phone: +91 97126 97297</span>
           </div>
         </div>
-        <form method="post" className="p-5" onSubmit={formik.handleSubmit}>
+        <form method="post" className="p-1 md:p-5" onSubmit={formik.handleSubmit}>
           <div className="w-full px-3 mb-3">
             <label className="block tracking-wide text-gray-700 text-sm font-bold mb-2" htmlFor="name">
               Name

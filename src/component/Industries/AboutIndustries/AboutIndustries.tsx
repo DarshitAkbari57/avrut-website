@@ -13,14 +13,7 @@ const AboutIndustries = ({ title, content, AboutImage }: any) => {
                   {title}
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">{content}</p>
-                <div className="mt-6">
-                  <a
-                    className="inline-flex rounded bg-primary px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm "
-                    href="/login"
-                  >
-                    Learn More
-                  </a>
-                </div>
+
               </div>
             </div>
           </div>

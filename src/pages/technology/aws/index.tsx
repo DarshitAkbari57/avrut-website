@@ -6,7 +6,7 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import React from "react";
 import ImageTech from "../../../assets/technology/AWS.png";
-import MainBanner from "../../../assets/technology/awsbanner.png";
+import MainBanner from "../../../assets/about/aws1.jpg";
 import Awstech from "../../../assets/about/aws.jpg"
 
 function Aws() {
@@ -158,7 +158,7 @@ function Aws() {
   return (
     <>
       <First
-        title="AWS Architect Company"
+        title="Future-Ready Solutions: Transforming Your Business Landscape with AWS"
         subtitle="Amazon Web Services (AWS) is a comprehensive and widely adopted cloud computing platform provided by Amazon. "
         MainBanner={MainBanner.src}
       />

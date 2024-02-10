@@ -18,7 +18,7 @@ const WhyThisTechnology = ({
       </div>
       <p className="py-2 max-w-3xl m-auto text-center text-lg">{content}</p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-items-center items-center px-10 py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-items-center items-center px-10 py-3">
         <div>
           <img src={ImageTech} alt="" />
         </div>

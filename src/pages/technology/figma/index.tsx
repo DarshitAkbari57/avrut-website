@@ -182,7 +182,7 @@ function Figma() {
   return (
     <>
       <First
-        title="Figma Design company"
+        title="Figma Design"
         subtitle="As trailblazers in the digital landscape, Avrut Solutions is dedicated to crafting exceptional user experiences and stunning visual aesthetics that leave a remarkable footprint. We own a team of skilled designers and developers who smartly & efficiently utilizes Figma's collaborative power to create seamless, customer-centric designs that fit with client’s demand and enables them multiply their business forward.Join us on a journey of innovation and creativity, where Figma acts as our gateway to transforming your visions into reality."
         MainBanner={MainBanner.src}
       />

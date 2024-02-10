@@ -100,18 +100,11 @@ function Footer() {
                   Support
                 </h3>
                 <ul>
-                  <li className="mb-4">
-                    <a
-                      className="text-sm font-medium text-gray-900 hover:text-primary"
-                      href="#"
-                    >
-                      Account
-                    </a>
-                  </li>
+
                   <li className="mb-4">
                     <Link
                       className=" text-sm font-medium hover:text-primary cursor-pointer duration-300"
-                      href="/careers"
+                      href="/career"
                     >
                       Career
                     </Link>

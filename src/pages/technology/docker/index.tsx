@@ -158,7 +158,7 @@ function Docker() {
   return (
     <>
       <First
-        title="Docker Development Company"
+        title="Seamless Integration with Docker: Building Efficient and Resilient Applications"
         subtitle="Avrut solutions is a leading Docker development company catering a wide gamut of business segments from startups to enterprises."
         MainBanner={MainBanner.src}
       />

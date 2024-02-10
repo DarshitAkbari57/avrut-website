@@ -1,5 +1,5 @@
 import React from "react";
-import { BsChevronDown, BsList } from "react-icons/bs";
+import { BsChevronDown, BsList, BsPlus, BsPlusCircle } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
 import { useRouter } from "next/router";
 import Link from "next/link";
@@ -7,20 +7,164 @@ import Link from "next/link";
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [menuActive, setmenuActive] = React.useState("");
+  const [open, setOpen] = React.useState<any>();
   const router = useRouter();
 
   const menuItems = [
     {
       name: "Technologies",
       path1: "/technology",
+      submenu: [{
+        name: "Web Development Technology",
+        "submenu": [
+          {
+            name: "React JS Development",
+            path: "/technology/reactjs"
+          },
+          {
+            name: "Node JS Development",
+            path: "/technology/nodejs"
+          },
+          {
+            name: "Typescript Development",
+            path: "/technology/typescript"
+          },
+          {
+            name: " Angular JS Development",
+            path: "/technology/angular"
+          },
+          {
+            name: "Next JS Development",
+            path: "/technology/nextjs"
+          },
+        ]
+      },
+      {
+        name: "Mobile development technology",
+        "submenu": [
+          {
+            name: "Flutter Development",
+            path: "/technology/flutter"
+          },
+          {
+            name: "React Native Development",
+            path: "/technology/react-native"
+          },
+        ]
+      },
+      {
+        name: "DevOps Development",
+        "submenu": [
+          {
+            name: "Docker",
+            path: "/technology/docker"
+          },
+          {
+            name: "Jenkins",
+            path: "/technology/jenkins"
+          },
+          {
+            name: "Kubernetes",
+            path: "/technology/kubernets"
+          },
+          {
+            name: "AWS",
+            path: "/technology/aws"
+          },
+        ]
+      },
+      {
+        name: "Database Development",
+        "submenu": [
+          {
+            name: "PostgreSQL",
+            path: "/technology/postgresql"
+          },
+          {
+            name: "MySQL",
+            path: "/technology/mysql"
+          },
+          {
+            name: "MongoDB",
+            path: "/technology/mongodb"
+          },
+          {
+            name: "DynamoDB",
+            path: "/technology/aws-dynamodb"
+          },
+        ]
+      },
+      {
+        name: "Design",
+        "submenu": [
+          {
+            name: "Adobe XD",
+            path: "/technology/adobe-xd"
+          },
+          {
+            name: "Figma",
+            path: "/technology/figma"
+          },
+        ]
+      },
+      ]
+
     },
     {
       name: "Services",
       path1: "/services",
+      submenu: [{
+        name: "Digital Product Design",
+        "path": "/services/digital-product-design"
+      },
+      {
+        name: "Software Architecture",
+        "path": "/services/software-architecture"
+      },
+      {
+        name: "Engineering & DevOps",
+        "path": "/services/engineering"
+      },
+      {
+        name: "Mobile App Development",
+        "path": "/services/mobile-app-development"
+      },
+      {
+        name: "Staff Augmentation",
+        "path": "/services/staff-augmentation"
+      },
+
+      ]
     },
     {
       name: "Industries",
       path1: "/industries",
+      submenu: [{
+        name: "Healthcare",
+        "path": "industries/healthcare"
+      },
+      {
+        name: "Education",
+        "path": "/industries/education"
+      },
+      {
+        name: "E-commerce",
+        "path": "/industries/e-commerce"
+      },
+      {
+        name: "Digital Banking",
+        "path": "/industries/digital-banking"
+      },
+      {
+        name: "Entertainment",
+        "path": "/industries/entertainment"
+      },
+      {
+        name: "Fintech",
+        "path": "/services/fintech"
+      },
+
+      ]
     },
     {
       name: "Career",
@@ -36,11 +180,20 @@ function Nav() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleOpen = (index: any) => {
+    if (open === index) {
+      setOpen(null)
+    } else {
+      setOpen(index)
+
+    }
+  }
+
   return (
     <>
       <div className="relative w-full bg-white">
         <div className="mx-auto flex container items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
-          <Link href="/home">
+          <Link href="/">
             <div className="inline-flex items-center space-x-2">
               <img
                 className="w-[130px] h-[80px] object-cover"
@@ -50,7 +203,7 @@ function Nav() {
             </div>
           </Link>
           <div className="hidden lg:flex">
-            <ul className="ml-12 inline-flex space-x-8">
+            <ul className="ml-12 flex space-x-8">
               {menuItems.map((item) => (
                 <>
                   <li
@@ -63,6 +216,7 @@ function Nav() {
                       className="inline-flex items-center text-sm font-semibold text-gray-800 hover:text-primary duration-300"
                     >
                       {item.name}
+
                       {item.path ? (
                         ""
                       ) : (
@@ -80,13 +234,13 @@ function Nav() {
                                 Our Technologies
                               </h1>
                             </div>
-                            <div className="h-full w-full px-16">
-                              <div className="grid grid-cols-3">
+                            <div className="h-full w-full px-5">
+                              <div className="flex justify-between gap-3">
                                 <div className="flex pb-4 flex-col ">
                                   <h1 className="font-semibold">
-                                    Web devlopment technology
+                                    Web Development Technology
                                   </h1>
-                                  <div className="flex gap-4 mt-2">
+                                  <div className=" gap-4 mt-2">
                                     <ul className="">
                                       <li
                                         className="cursor-pointer text-[14px] pb-1  text-gray1 hover:text-primary duration-300"
@@ -94,7 +248,7 @@ function Nav() {
                                           router.push("/technology/reactjs");
                                         }}
                                       >
-                                        • React js
+                                        • React JS Development
                                       </li>
                                       <li
                                         className="cursor-pointer text-[14px] pb-1 text-gray1 hover:hover:text-primary duration-300"
@@ -102,7 +256,7 @@ function Nav() {
                                           router.push("/technology/nodejs")
                                         }
                                       >
-                                        • Node js
+                                        • Node JS Development
                                       </li>
                                       <li
                                         className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
@@ -110,7 +264,7 @@ function Nav() {
                                           router.push("/technology/typescript")
                                         }
                                       >
-                                        • Typescript
+                                        • Typescript Development
                                       </li>
                                     </ul>
                                     <ul>
@@ -120,7 +274,7 @@ function Nav() {
                                           router.push("/technology/angular")
                                         }
                                       >
-                                        • Angular
+                                        • Angular JS Development
                                       </li>
                                       <li
                                         className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
@@ -128,14 +282,14 @@ function Nav() {
                                           router.push("/technology/nextjs")
                                         }
                                       >
-                                        • Next js
+                                        • Next JS Development
                                       </li>
                                     </ul>
                                   </div>
                                 </div>
                                 <div className="flex pb-4 flex-col ">
                                   <h1 className="font-semibold">
-                                    Mobile devlopment technology
+                                    Mobile Development Technology
                                   </h1>
                                   <div className="flex gap-4 mt-2">
                                     <ul>
@@ -145,7 +299,7 @@ function Nav() {
                                           router.push("/technology/flutter")
                                         }
                                       >
-                                        • Flutter
+                                        • Flutter Development
                                       </li>
                                       <li
                                         className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
@@ -155,16 +309,16 @@ function Nav() {
                                           )
                                         }
                                       >
-                                        • React Native
+                                        • React Native Development
                                       </li>
                                     </ul>
                                   </div>
                                 </div>
                                 <div className="flex pb-4 flex-col ">
                                   <h1 className="font-semibold">
-                                    DevOps devlopment
+                                    DevOps Development
                                   </h1>
-                                  <div className="flex gap-4 mt-2">
+                                  <div className=" gap-4 mt-2">
                                     <ul>
                                       <li
                                         className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
@@ -205,9 +359,9 @@ function Nav() {
                                 </div>
                                 <div className="flex pb-4 flex-col ">
                                   <h1 className="font-semibold">
-                                    Database devlopment
+                                    Database Development
                                   </h1>
-                                  <div className="flex gap-4 mt-2">
+                                  <div className=" mt-2">
                                     <ul>
                                       <li
                                         className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
@@ -250,10 +404,10 @@ function Nav() {
                                 </div>
                                 <div className="flex pb-4 flex-col ">
                                   <h1 className="font-semibold">Design</h1>
-                                  <div className="flex gap-4 mt-2">
+                                  <div className=" mt-2">
                                     <ul>
                                       <li
-                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300"
+                                        className="cursor-pointer text-[14px] pb-1 text-gray1 hover:text-primary duration-300 whitespace-nowrap"
                                         onClick={() =>
                                           router.push("/technology/adobe-xd")
                                         }
@@ -369,7 +523,7 @@ function Nav() {
                                   }
                                 >
                                   <h1 className="font-semibold">
-                                    Mobile App Devlpoment
+                                    Mobile App Development
                                   </h1>
                                   <div className="flex gap-4 mt-2">
                                     <ul className="">
@@ -554,6 +708,30 @@ function Nav() {
                                     </ul>
                                   </div>
                                 </div>
+                                <div
+                                  className="flex p-5 flex-col hover:bg-navbg/10 cursor-pointer"
+                                  onClick={() =>
+                                    router.push("/industries/fintech")
+                                  }
+                                >
+                                  <h1 className="font-semibold">
+                                    Fintech
+                                  </h1>
+                                  <div className="flex gap-4 mt-2">
+                                    <ul>
+                                      <li
+                                        className="cursor-pointer text-[14px] pb-2 text-gray1"
+                                        onClick={() =>
+                                          router.push(
+                                            "/industries/fintech"
+                                          )
+                                        }
+                                      >
+                                        A cutting-edge Fintech service that seamlessly merges innovative technology with financial expertise, empowering users to efficiently manage, invest, and transact in the rapidly evolving digital economy.
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -577,8 +755,8 @@ function Nav() {
             <BsList onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
           </div>
           {isMenuOpen && (
-            <div className="absolute inset-x-0 top-0 z-50 origin-top-right transform  transition lg:hidden">
-              <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 h-screen">
+            <div className="fixed inset-x-0 top-0 z-50 origin-top-right transform  transition lg:hidden">
+              <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 h-screen overflow-y-auto">
                 <div className="px-5 pb-6 pt-5">
                   <div className="flex items-center justify-between">
                     <div className="inline-flex items-center space-x-2">
@@ -604,25 +782,61 @@ function Nav() {
                   </div>
                   <div className="mt-6">
                     <nav className="grid gap-y-4">
-                      {menuItems.map((item) => (
-                        <a
-                          href={item?.path || item?.path1}
-                          key={item.name}
-                          className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50 group"
-                        >
-                          <span className="text-base font-medium text-gray-900 hover:text-primary">
-                            {item.name}
-                          </span>
-                        </a>
+                      {menuItems.map((item, index) => (
+                        <>
+                          <div className="flex justify-between items-center">
+                            <div>
+                              <a
+                                href={item?.path || item?.path1}
+                                key={item.name}
+                                className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50 group"
+                              >
+                                <span className="text-base  text-gray-900 hover:text-primary font-semibold">
+                                  {item.name}
+                                </span>
+                              </a>
+                            </div>
+                            {item?.submenu &&
+                              <div>
+                                <button className=" rounded-full  text-xl cursor-pointer" onClick={() => { handleOpen(index) }}><BsPlusCircle /></button>
+                              </div>
+                            }
+                          </div>
+
+                          {open === index &&
+                            <div className="ml-2">
+                              {item?.submenu?.map((e: any) =>
+                              (
+                                <div className="mb-2">
+                                  {e?.submenu ? <>
+                                    <span className="mb-2 font-semibold">{e.name}</span>
+                                    < ul className="ml-2">
+                                      {e?.submenu?.map((item: any) => (
+                                        <li>{item?.name}</li>
+                                      ))}
+
+                                    </ul></> : <>
+                                    {e?.path &&
+                                      <div className="mb-2 font-medium cursor-pointer" onClick={() => { router.push(e?.path); setIsMenuOpen(!isMenuOpen) }}>
+                                        {e?.name}
+                                      </div>}
+                                  </>
+                                  }
+                                </div>
+                              )
+                              )}
+                            </div >
+                          }
+                        </>
                       ))}
-                    </nav>
+                    </nav >
                   </div>
                 </div>
               </div>
             </div>
           )}
         </div>
-      </div>
+      </div >
     </>
   );
 }

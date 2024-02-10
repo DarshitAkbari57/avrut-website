@@ -164,7 +164,7 @@ function dynamoDB() {
   return (
     <>
       <First
-        title="AWS DynamoDB development company"
+        title="Dive into the Power of AWS DynamoDB: Crafting Scalable Data Solutions"
         subtitle="Accelerating enterprise experience by developing apps with dynamic AWS DynamoDB"
         MainBanner={MainBanner.src}
       />

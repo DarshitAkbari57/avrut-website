@@ -113,14 +113,14 @@ function Work() {
                 }`}
               onClick={() => handleTabClick(2)}
             >
-              App Devlopment
+              App Development
             </button>
             <button
               className={`px-8 py-4 rounded-2xl  ${activeTab === 3 ? "bg-primary  text-white" : "bg-gray-300 "
                 }`}
               onClick={() => handleTabClick(3)}
             >
-              Web Devlopment
+              Web Development
             </button>
 
           </div>

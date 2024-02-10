@@ -159,7 +159,7 @@ function MongoDB() {
   return (
     <>
       <First
-        title="MongoDB database design"
+        title="Scalable and Efficient Database Solutions with MongoDB"
         subtitle="Our MongoDB expert team understands your business needs and create appropriate data models tailored to your application."
         MainBanner={MainBanner.src}
       />

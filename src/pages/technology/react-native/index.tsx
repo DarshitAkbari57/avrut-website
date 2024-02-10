@@ -177,7 +177,7 @@ function ReactNative() {
   return (
     <>
       <First
-        title="React Native Development Company"
+        title="React Native Development"
         subtitle="Curating highly functional and visually appealing cross-platform applications with React native"
         MainBanner={MainBanner.src}
       />

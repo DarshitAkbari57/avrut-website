@@ -4,7 +4,7 @@ const IndustriesFeatures = ({ title, card }: any) => {
   return (
     <div>
       <div id="features" className="mx-auto">
-        <p className="text-center text-base font-semibold leading-7 text-primary">
+        <p className="text-center text-xl font-semibold leading-7 text-primary">
           Features
         </p>
         <h2 className="text-center mx-52 font-display text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">

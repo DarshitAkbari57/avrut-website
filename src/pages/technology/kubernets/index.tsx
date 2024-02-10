@@ -152,7 +152,7 @@ function Kubernetes() {
   return (
     <>
       <First
-        title="Kubernetes Development Company"
+        title="Transforming Operations: Maximizing Efficiency with Kubernetes"
         subtitle="Avrut solutions is a leading Kubernetes development company catering a wide gamut of business segments from startups to enterprises."
         MainBanner={MainBanner.src}
       />

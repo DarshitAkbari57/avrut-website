@@ -134,7 +134,7 @@ function Industries() {
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl md:text-5x1 font-bold tracking-tight text-black">
-                  Mobile App Devlopment
+                  Mobile App Development
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">
                   At Avrut solution, we specialize in cutting-edge mobile app development to bring your ideas to life in the palm of your users' hands. Our team of skilled developers combines creativity, innovation, and technical expertise to deliver custom mobile applications tailored to your unique business needs.

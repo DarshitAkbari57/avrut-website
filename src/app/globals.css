@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,67 +7,59 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
 .card {
-  --bg: #f7f7f8;
-  --hover-bg: #ffe5f4;
-  --hover-text: #e50087;
-  max-width: 23ch;
-  text-align: center;
-  background: var(--bg);
-  padding: 1.5em;
-  padding-block: 1.8em;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s cubic-bezier(0.6, 0.4, 0, 1), transform 0.15s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
-}
-
-.card__body {
-  color: #464853;
-  line-height: 1.5em;
-  font-size: 1em;
-}
-
-.card> :not(span) {
-  transition: 0.3s cubic-bezier(0.6, 0.4, 0, 1);
-}
-
-.card>strong {
-  display: block;
-  font-size: 1.4rem;
-  letter-spacing: -0.035em;
-}
-
-.card span {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--hover-text);
-  border-radius: 5px;
-  font-weight: bold;
-  top: 100%;
-  transition: all 0.3s cubic-bezier(0.6, 0.4, 0, 1);
-}
-
-.card:hover span {
-  top: 0;
-  font-size: 1.2em;
+  /* width: 190px; */
+  height: 254px;
+  background: white;
+  ;
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  font-size: 30px;
 }
 
 .card:hover {
-  background: var(--hover-bg);
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  background: #54A8FC;
 }
 
-.card:hover>div,
-.card:hover>strong {
+.first-content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.card:hover .first-content {
+  height: 0px;
   opacity: 0;
+}
+
+.second-content {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  transform: rotate(90deg) scale(-1);
+}
+
+.card:hover .second-content {
+  opacity: 1;
+  height: 100%;
+  transform: rotate(0deg);
 }

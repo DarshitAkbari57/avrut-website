@@ -164,7 +164,7 @@ function Technologies() {
         MainBanner={MainBanner.src}
       />
       <div className="container mx-auto  my-5">
-        {/* web devlopment */}
+        {/* web Development */}
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center ">
           <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3 ">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 lg:max-w-sm m-auto ">
@@ -185,7 +185,7 @@ function Technologies() {
             <div>
               <div className="mt-6">
                 <h2 className="text-5xl font-bold tracking-tight text-black">
-                  Web devlopment
+                  Web Development
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">
                   Web development is the art and science of creating and
@@ -216,7 +216,7 @@ function Technologies() {
           </div>
         </div>
 
-        {/* mobile devlopment */}
+        {/* mobile Development */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
           <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">

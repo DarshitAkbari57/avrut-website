@@ -176,7 +176,7 @@ function Nodejs() {
   return (
     <>
       <First
-        title="My SQL Development Company"
+        title="Maximizing Your Data Potential with MySQL Development"
         subtitle="Avrut Solutions is a leading MySQL development company, backed by a team of skilled developers proficient in optimizing MySQL databases for enhanced performance and seamless user experiences."
         MainBanner={MainBanner.src}
       />

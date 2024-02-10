@@ -30,51 +30,46 @@ function Portfolio() {
         <div className="container mx-auto">
           <div className="flex gap-3 justify-center my-5">
             <button
-              className={`px-4 py-2 mr-2 ${
-                activeTab === 1
+              className={`px-4 py-2 mr-2 ${activeTab === 1
                   ? "bg-primary rounded-xl text-white"
                   : "bg-gray-200 rounded-2xl"
-              }`}
+                }`}
               onClick={() => handleTabClick(1)}
             >
-              App Devlopment
+              App Development
             </button>
             <button
-              className={`px-4 py-2 ${
-                activeTab === 2
+              className={`px-4 py-2 ${activeTab === 2
                   ? "bg-primary rounded-xl text-white"
                   : "bg-gray-200 rounded-2xl"
-              }`}
+                }`}
               onClick={() => handleTabClick(2)}
             >
               App Design
             </button>
             <button
-              className={`px-4 py-2 ${
-                activeTab === 3
+              className={`px-4 py-2 ${activeTab === 3
                   ? "bg-primary rounded-xl text-white"
                   : "bg-gray-200 rounded-2xl"
-              }`}
+                }`}
               onClick={() => handleTabClick(3)}
             >
               Show all
             </button>
             <button
-              className={`px-4 py-2 ${
-                activeTab === 4
+              className={`px-4 py-2 ${activeTab === 4
                   ? "bg-primary rounded-xl text-white"
                   : "bg-gray-200 rounded-2xl"
-              }`}
+                }`}
               onClick={() => handleTabClick(4)}
             >
               Web Design
             </button>
             <button
-              className={`px-4 py-2 ${
-                activeTab === 5
+              className={`px-4 py-2 ${activeTab === 5
                   ? "bg-primary rounded-xl text-white"
                   : "bg-gray-200 rounded-2xl"
-              }`}
+                }`}
               onClick={() => handleTabClick(5)}
             >
               Dashboard

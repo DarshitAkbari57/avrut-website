@@ -18,11 +18,11 @@ function Software() {
     },
     {
       icon: <CiMobile2 />,
-      name: "Web & Mobile App Devlopment",
+      name: "Web & Mobile App Development",
     },
     {
       icon: <TbApi />,
-      name: "Custom API devlopment",
+      name: "Custom API Development",
     },
     {
       icon: <MdOutlineMiscellaneousServices />,

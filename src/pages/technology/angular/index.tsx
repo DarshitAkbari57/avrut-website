@@ -177,7 +177,7 @@ function Angularjs() {
   return (
     <>
       <First
-        title="Angular Development Company"
+        title="Your Premier Angular Development Partner: Empowering Digital Solutions"
         subtitle="Transform the look, feel and performance of your web applications with angular development services"
         MainBanner={MainBanner.src}
       />

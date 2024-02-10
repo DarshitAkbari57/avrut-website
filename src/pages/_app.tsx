@@ -8,6 +8,7 @@ import Head from "next/head";
 import Metadata from "next";
 import metadata from "../metadata.json";
 import { useRouter } from "next/router";
+import { BsWhatsapp } from "react-icons/bs";
 
 type Metadata = {
   [key: string]: {
@@ -43,6 +44,13 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <Getintouch />
       <Footer />
+      <div className="fixed bottom-0 right-0 p-4">
+        <a target="_blank" href="https://wa.me/">
+          <button className="bg-gray-800 text-white rounded-full w-10 h-10 flex items-center justify-center" >
+            <BsWhatsapp className="text-[#27d467]" />
+          </button>
+        </a>
+      </div>
     </>
   );
 }

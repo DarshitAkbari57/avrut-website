@@ -158,7 +158,7 @@ function Jenkins() {
   return (
     <>
       <First
-        title="Jenkins Development Company"
+        title="Efficient CI/CD Pipelines: Navigating Jenkins for Modern Development"
         subtitle="Avrut solutions is a leading Jenkins development company catering a wide gamut of business segments from startups to enterprises."
         MainBanner={MainBanner.src}
       />

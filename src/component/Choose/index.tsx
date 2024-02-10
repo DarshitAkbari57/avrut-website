@@ -78,18 +78,35 @@ function Choose() {
             {cards.map((e, index) => {
               return (
                 <>
-                  <div key={index} className="relative group cursor-pointer group overflow-hidden  text-gray-50 rounded-2xl hover:duration-700 duration-700 h-72">
+                  {/* <div key={index} className="relative group cursor-pointer group overflow-hidden  text-gray-50 rounded-2xl hover:duration-700 duration-700 h-72">
                     <div className="bg-[#202020] text-white h-72 w-full flex justify-center p-10 text-5xl md:text-9xl group-hover:text-3xl group-hover:mt-[-20px] md:group-hover:text-5xl  ease-in-out duration-500">
                       {e?.icon}
                     </div>
                     <div className="absolute  bg-gray-50 -bottom-[100px] h-40 group-hover:h-max w-full p-3 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-700  duration-700 ease-in-out   ">
-                      {/* <span className="text-black font-bold text-xs">{e?.Header}</span> */}
                       <span className="text-gray-800 font-bold text-1xl mb-4">
                         {e?.Header}{" "}
                       </span>
                       <p className="text-neutral-800">{e?.main}</p>
                     </div>
-                  </div >
+                  </div > */}
+                  {/* <span className="text-black font-bold text-xs">{e?.Header}</span> */}
+                  <div className="card">
+                    <div className="first-content ">
+                      <div className="flex flex-col items-center">
+                        <div className="text-6xl">
+                          {e?.icon}
+                        </div>
+                        <span className="text-gray-800 font-bold text-xl mb-4">
+                          {e?.Header}{" "}
+                        </span>
+                      </div>
+                    </div>
+                    <div className="second-content p-2">
+                      <span className="text-base  text-white">{e?.main}</span>
+                    </div>
+
+
+                  </div>
                 </>
               );
             })}

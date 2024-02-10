@@ -6,7 +6,7 @@ const TechnologyServices = ({ title, titleSpan, content, services, Image }: any)
             <div>
                 <p className='text-4xl font-bold text-primary py-2'>{title} <span className='text-black'> {titleSpan}</span></p>
                 <p>{content}</p>
-                <img className='mt-8 rounded-lg w-full h-[400px] object-cover' src={Image} alt="" />
+                <img className={`${services.length > 4 ? " md:h-[800px]" : "h-[400px]"} mt-8 rounded-lg w-full object-cover`} src={Image} alt="" />
             </div>
             <div>
                 {services.map((e: any) => {

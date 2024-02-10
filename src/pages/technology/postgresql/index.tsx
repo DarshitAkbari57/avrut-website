@@ -177,7 +177,7 @@ function Postgresql() {
   return (
     <>
       <First
-        title="PostgreSQL Development Company"
+        title="Driving Innovation through Secure and High-Performance PostgreSQL"
         subtitle="Empowering businesses with efficient data management with PostgreSQL services"
         MainBanner={MainBanner.src}
       />

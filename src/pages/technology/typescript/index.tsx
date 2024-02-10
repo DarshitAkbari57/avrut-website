@@ -157,7 +157,7 @@ function Nodejs() {
   return (
     <>
       <First
-        title="Typescript Development Company"
+        title="Elevate Your Projects with Our TypeScript Development Expertise"
         subtitle="Flexible & scalable applications custom made using typescript to suit your business needs"
         MainBanner={MainBanner.src}
       />
