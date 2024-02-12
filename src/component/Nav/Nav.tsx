@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { BsChevronDown, BsList, BsPlus, BsPlusCircle } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { gsap, Power3 } from "gsap";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -189,6 +190,11 @@ function Nav() {
     }
   }
 
+
+
+
+
+
   return (
     <>
       <div className="relative w-full bg-white">
@@ -235,7 +241,7 @@ function Nav() {
                               </h1>
                             </div>
                             <div className="h-full w-full px-5">
-                              <div className="flex justify-between gap-3">
+                              <div className="flex  justify-center gap-8 2xl:gap-20">
                                 <div className="flex pb-4 flex-col ">
                                   <h1 className="font-semibold">
                                     Web Development Technology

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { AiOutlineBranches } from "react-icons/ai";
 import { CiMobile2, CiSettings } from "react-icons/ci";
 import { TbApi } from "react-icons/tb";
@@ -9,6 +9,10 @@ import {
 } from "react-icons/md";
 import { FaMobileAlt } from "react-icons/fa";
 import { BsAward, BsBrush } from "react-icons/bs";
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import gsap from "gsap";
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Software() {
   const tech = [
@@ -42,11 +46,28 @@ function Software() {
     },
   ];
 
+  useEffect(() => {
+    // Fade-in and slide up effect for the text
+    gsap.from('.text1', {
+      y: 30, // Initial position (translate up)
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power2.out', // Optional easing function
+      scrollTrigger: {
+        trigger: '.text1',
+        start: 'top 90%',
+        end: '+=200',
+        scrub: 1,
+      },
+    });
+  }, []);
+
+
   return (
     <>
       <div className="max-w-4xl m-auto flex justify-center items-center gap-4 py-5 px-3">
         <hr className="w-[100px] h-[4px] bg-primary" />
-        <div className="text-lg lg:text-4xl font-bold max-w-min text-center">
+        <div className="text-lg lg:text-4xl font-bold max-w-min text-center text1">
           Our Core
           <span className="text-primary mx-3">Software Development</span>
           Services

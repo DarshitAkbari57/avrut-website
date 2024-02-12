@@ -1,11 +1,38 @@
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useEffect } from "react";
 import First from "@/component/First/First";
 import MainBanner from "../../assets/technology/services.jpg";
+import gsap from "gsap";
 
 function Industries() {
   const router = useRouter();
+  useEffect(() => {
+    // Animation for the left side
+    gsap.from('.left-animation', {
+      x: '-100%',
+      opacity: 0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: '.left-animation',
+        start: 'top 80%', // Adjust the start position as needed
+        end: '+=300', // Adjust the end position as needed
+        scrub: 1, // Smooth scrubbing effect
+      },
+    });
 
+    // Animation for the right side
+    gsap.from('.right-animation', {
+      x: '100%',
+      opacity: 0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: '.right-animation',
+        start: 'top 80%', // Adjust the start position as needed
+        end: '+=300', // Adjust the end position as needed
+        scrub: 1, // Smooth scrubbing effect
+      },
+    });
+  }, []);
   return (
     <>
       <First
@@ -18,7 +45,7 @@ function Industries() {
         {/*Digital  Product  Design */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center lg:py-8">
-          <div className="mt-12 sm:mt-16 lg:mt-0   lg:order-1">
+          <div className="mt-12 sm:mt-16 lg:mt-0   lg:order-1  lg:left-animation right-animation ">
             <img
               loading="lazy"
               width="647"
@@ -27,7 +54,7 @@ function Industries() {
               src="/images/industries/1.png"
             />
           </div>
-          <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-8 xl:py-10 lg:px-3 order-">
+          <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:right-animation left-animation  lg:py-8 xl:py-10 lg:px-3 order-">
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl md:text-5x1 font-bold tracking-tight text-black">

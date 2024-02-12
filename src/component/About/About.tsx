@@ -1,13 +1,48 @@
 import Link from "next/link";
-import React from "react";
-import "animate.css";
+import React, { useEffect, useRef, useState } from "react";
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
+// Register ScrollTrigger with GSAP
+gsap.registerPlugin(ScrollTrigger);
 
 function About() {
+
+
+  useEffect(() => {
+    // Animation for the left side
+    gsap.from('.left-animation', {
+      x: '-100%',
+      opacity: 0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: '.left-animation',
+        start: 'top 80%', // Adjust the start position as needed
+        end: '+=300', // Adjust the end position as needed
+        scrub: 1, // Smooth scrubbing effect
+      },
+    });
+
+    // Animation for the right side
+    gsap.from('.right-animation', {
+      x: '100%',
+      opacity: 0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: '.right-animation',
+        start: 'top 80%', // Adjust the start position as needed
+        end: '+=300', // Adjust the end position as needed
+        scrub: 1, // Smooth scrubbing effect
+      },
+    });
+  }, []);
+
+
   return (
     <>
-      <div className="container mx-auto ">
+      <div className="container mx-auto overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center    px-4">
-          <div className="animate__animated animate__fadeIn flex flex-col justify-center items-start w-full px-4">
+          <div className=" flex flex-col justify-center items-start w-full px-4 left-animation">
             <div className="text-2xl md:text-4xl font-bold text-center md:text-start py-4 ">
               About <span className="text-primary ">Avrut Solutions</span>
             </div>
@@ -39,7 +74,7 @@ function About() {
               </Link>
             </div>
           </div>
-          <div className="w-full flex ">
+          <div className="w-full flex right-animation">
             <img className="m-auto" src="/images/about1.webp" alt="" />
           </div>
         </div>
