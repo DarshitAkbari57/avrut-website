@@ -1,5 +1,4 @@
 import React from "react";
-import "animate.css";
 import First from "../First/First";
 import MainBanner from "../../../public/images/slider1.webp"
 

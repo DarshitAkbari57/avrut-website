@@ -9,6 +9,8 @@ gsap.registerPlugin(ScrollTrigger);
 function About() {
 
 
+
+
   useEffect(() => {
     // Animation for the left side
     gsap.from('.left-animation', {
@@ -40,7 +42,7 @@ function About() {
 
   return (
     <>
-      <div className="container mx-auto overflow-hidden">
+      <div data-aos="fade-up" className="container  mx-auto overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center    px-4">
           <div className=" flex flex-col justify-center items-start w-full px-4 left-animation">
             <div className="text-2xl md:text-4xl font-bold text-center md:text-start py-4 ">

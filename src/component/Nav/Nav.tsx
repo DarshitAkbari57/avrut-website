@@ -3,7 +3,6 @@ import { BsChevronDown, BsList, BsPlus, BsPlusCircle } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { gsap, Power3 } from "gsap";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);

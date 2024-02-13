@@ -1,49 +1,47 @@
 import React, { useEffect, useRef } from "react";
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react'
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
 gsap.registerPlugin(ScrollTrigger);
+
+
+
 
 
 function First({ title, subtitle, MainBanner }: any) {
 
+
   useEffect(() => {
-    // Animation for the text
-    gsap.from('.text1', {
-      scale: 0.8, // Initial scale (smaller than 1 for a zoom-in effect)
-      opacity: 0,
-      duration: 1,
+    // Animation for the left side
+    gsap.to('.text1', {
+      ease: "power3.in",
+      y: -60,
+      opacity: 1,
+      duration: 2.5,
       scrollTrigger: {
         trigger: '.text1',
-        start: 'top 90%',
-        end: '+=500',
-        scrub: 1,
-      },
-    });
-    // Animation for the right side
-    gsap.from('.right-animation', {
-      x: '100%',
-      opacity: 0,
-      duration: 1,
-      scrollTrigger: {
-        trigger: '.right-animation',
         start: 'top 80%', // Adjust the start position as needed
         end: '+=300', // Adjust the end position as needed
         scrub: 1, // Smooth scrubbing effect
       },
     });
-  }, []);
 
+    gsap.to("text2", {
+      opacity: 0,
+      y: 100,
+      skewX: 10,
+      stagger: {
+        amount: 0.4
+      }
+
+    })
+
+  }, []);
 
   return (
     <>
       <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen md:h-screen text-white overflow-hidden">
         <div className="absolute inset-0">
-          {/* <img
-              src="https://miro.medium.com/v2/resize:fit:1358/1*LpBTv_cXZ6MG3Gddb0f_Kg.png"
-              alt="Background Image"
-              className="object-cover object-center w-full h-full"
-            /> */}
           <img
             src={MainBanner}
             alt="Background Image"
@@ -53,14 +51,13 @@ function First({ title, subtitle, MainBanner }: any) {
         </div>
 
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-center  px-5 md:max-w-4xl m-auto mt-2">
-          <h1 className="text-3xl px-3 md:text-5xl font-bold leading-tight mb-5 text1">
+          <h1 className="text-3xl px-3 md:text-5xl font-bold leading-tight mb-5 text1 ">
             {title}
           </h1>
-          <p className="text-lg text-gray-300 mb-6 text-wrap w-4/5">
+          <p className="text-lg text-gray-300 mb-6 text-wrap w-4/5 text2">
             {subtitle}
           </p>
           <a
-
             href="#contact"
             className="bg-white text-primary py-2 mt-2 px-6 rounded text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
           >

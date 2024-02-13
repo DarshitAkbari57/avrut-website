@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import gsap from "gsap";
+import React, { useEffect, useRef, useState } from "react";
 
 function Technology() {
   const [index, setIndex] = useState(1);
@@ -108,11 +109,25 @@ function Technology() {
   ];
 
   const data = mobile?.find((e) => e?.id === index);
+  const containerRef = useRef(null)
+
+  useEffect(() => {
+    const container = containerRef.current;
+
+    if (index === data?.id && container) {
+      gsap.from(container, {
+        x: '100%', // Initial position from the right
+        opacity: 0,
+        duration: 1,
+        ease: 'power3.inOut',
+      });
+    }
+  }, [index, data?.id]);
 
   return (
     <>
       <div className="bg-purple my-10 py-10">
-        <div className=" m-auto flex justify-center items-center gap-4 mt-10 px-3 ">
+        <div className=" m-auto flex justify-center items-center gap-4 mt-10 px-3  ">
           <hr className="w-[100px] h-[4px] bg-primary" />
           <div className="text-2xl md:text-4xl font-bold  text-center">
             Our <span className="text-primary">Technology</span>
@@ -137,7 +152,7 @@ function Technology() {
                     {e?.id + ". " + e?.name}
                   </button>
                   {index === e?.id && (
-                    <div className="w-full flex md:hidden  bg-purple  flex-col mt-5   items-center ">
+                    <div ref={containerRef} className="w-full flex md:hidden  bg-purple  flex-col mt-5   items-center ease-in transform transition-transform">
                       <>
                         <h1 className="text-black font-medium text-xl px-3">
                           {data?.description}

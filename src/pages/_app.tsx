@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <Getintouch />
       <Footer />
-      <div className="fixed bottom-0 right-0 p-4">
+      <div className="fixed bottom-0 right-0 p-4 whatsapp">
         <a target="_blank" href="https://wa.me/">
           <button className="bg-gray-800 text-white rounded-full w-10 h-10 flex items-center justify-center" >
             <BsWhatsapp className="text-[#27d467]" />
