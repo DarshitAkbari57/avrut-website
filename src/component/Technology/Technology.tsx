@@ -1,5 +1,10 @@
-import gsap from "gsap";
 import React, { useEffect, useRef, useState } from "react";
+import gsap from "gsap";
+// import SplitText from "gsap/dist/SplitText";
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+// gsap.registerPlugin(SplitText)
+gsap.registerPlugin(ScrollTrigger);
 
 function Technology() {
   const [index, setIndex] = useState(1);
@@ -111,26 +116,19 @@ function Technology() {
   const data = mobile?.find((e) => e?.id === index);
   const containerRef = useRef(null)
 
-  useEffect(() => {
-    const container = containerRef.current;
 
-    if (index === data?.id && container) {
-      gsap.from(container, {
-        x: '100%', // Initial position from the right
-        opacity: 0,
-        duration: 1,
-        ease: 'power3.inOut',
-      });
-    }
-  }, [index, data?.id]);
+  const textRef = useRef(null);
+  gsap.timeline()
+
+
 
   return (
     <>
-      <div className="bg-purple my-10 py-10">
+      <div className="bg-purple my-10 py-10 ">
         <div className=" m-auto flex justify-center items-center gap-4 mt-10 px-3  ">
           <hr className="w-[100px] h-[4px] bg-primary" />
-          <div className="text-2xl md:text-4xl font-bold  text-center">
-            Our <span className="text-primary">Technology</span>
+          <div className="text-2xl md:text-5xl font-bold  text-center ">
+            Our <span className="text-transparent   text_stroke">Technology</span>
           </div>
           <hr className="w-[100px] h-[4px] bg-primary" />
         </div>

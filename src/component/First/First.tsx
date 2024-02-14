@@ -11,31 +11,43 @@ gsap.registerPlugin(ScrollTrigger);
 function First({ title, subtitle, MainBanner }: any) {
 
 
+  const timeline = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".text2",
+      start: "50% 50%",
+      end: "20%",
+      markers: false,
+      scrub: 1,
+    }
+  })
+
+  useEffect(() => {
+    gsap.to(".purple", {
+      rotation: 360,
+      duration: 2,
+      repeat: -1
+
+      ,
+      repeatDelay: 2,
+      ease: 'bounce.in'
+    });
+  }, [])
+
+
   useEffect(() => {
     // Animation for the left side
     gsap.to('.text1', {
-      ease: "power3.in",
-      y: -60,
+      ease: "back.out",
       opacity: 1,
       duration: 2.5,
       scrollTrigger: {
         trigger: '.text1',
-        start: 'top 80%', // Adjust the start position as needed
-        end: '+=300', // Adjust the end position as needed
-        scrub: 1, // Smooth scrubbing effect
+        start: '10% 20%', // Adjust the start position as needed
+        end: '10% 20%', // Adjust the end position as needed
+        scrub: true, // Smooth scrubbing effect
+        markers: false
       },
     });
-
-    gsap.to("text2", {
-      opacity: 0,
-      y: 100,
-      skewX: 10,
-      stagger: {
-        amount: 0.4
-      }
-
-    })
-
   }, []);
 
   return (
@@ -57,9 +69,10 @@ function First({ title, subtitle, MainBanner }: any) {
           <p className="text-lg text-gray-300 mb-6 text-wrap w-4/5 text2">
             {subtitle}
           </p>
+
           <a
             href="#contact"
-            className="bg-white text-primary py-2 mt-2 px-6 rounded text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
+            className="bg-white purple text-primary py-2 mt-2 px-6 rounded text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
           >
             Book now
           </a>

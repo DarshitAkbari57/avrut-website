@@ -46,7 +46,7 @@ function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center    px-4">
           <div className=" flex flex-col justify-center items-start w-full px-4 left-animation">
             <div className="text-2xl md:text-4xl font-bold text-center md:text-start py-4 ">
-              About <span className="text-primary ">Avrut Solutions</span>
+              About <span className="text-transparent text_stroke ">Avrut Solutions</span>
             </div>
             <p className="py-2 text-center md:text-start">
               Avrut Solutions is an Indian-based custom software development

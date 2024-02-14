@@ -43,21 +43,21 @@ function Software() {
 
 
   useEffect(() => {
-    gsap.set('.main', { perspective: 700 });
 
     gsap.fromTo(".card2",
       { rotationY: 10, rotationX: -80, ease: "power2.out" },
       {
         scrollTrigger: {
           trigger: ".card2",
-          scrub: 1,
-          start: "top bottom",
-          end: "bottom top",
-          markers: true,
+          scrub: true,
+          start: "-40% 20%",
+          end: "-20% 20%",
+          markers: false,
         },
         rotationY: 0,
         rotationX: 0,
-        duration: 1
+        duration: 1.3,
+        delay: 9
       });
   }, [])
 
@@ -68,7 +68,7 @@ function Software() {
         <hr className="w-[100px] h-[4px] bg-primary" />
         <div className="text-lg lg:text-4xl font-bold max-w-min text-center text1 ">
           Our Core
-          <span className="text-primary mx-3">Software Development</span>
+          <span className="text-transparent text_stroke tracking-wide mx-3">Software Development</span>
           Services
         </div>
         <hr className="w-[100px] h-[4px] bg-primary" />

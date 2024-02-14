@@ -1,12 +1,40 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import ScrollTrigger from 'gsap/dist/ScrollTrigger'
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+
+
+
+if (typeof window !== 'undefined') {
+    gsap.registerPlugin(ScrollTrigger, useGSAP);
+}
 
 const TechnologyServices = ({ title, titleSpan, content, services, Image }: any) => {
 
+    const main = useRef<HTMLElement | any>();
 
+    useGSAP(
+        () => {
+            const boxes = gsap.utils.toArray('.box');
+            boxes.forEach((box: any) => {
+                gsap.to(box, {
+                    x: 50,
+                    ease: "bounce.in",
+                    scrollTrigger: {
+                        trigger: box,
+                        start: 'bottom bottom',
+                        end: 'top 20%',
+                        scrub: true,
+                        // markers: true,
+                    },
+                });
+            });
+        },
+        { scope: main }
+    );
 
     return (
-        <div><div className='grid grid-cols-1 md:grid-cols-2 gap-6 py-20 bg-purple px-5 md:px-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 py-20 bg-purple px-5 md:px-20 ' ref={main}>
             <div>
                 <p className='text-4xl font-bold text-primary py-2'>{title} <span className='text-black'> {titleSpan}</span></p>
                 <p>{content}</p>
@@ -16,7 +44,7 @@ const TechnologyServices = ({ title, titleSpan, content, services, Image }: any)
                 {services.map((e: any) => {
                     return (
                         <>
-                            <div className='card1 border rounded-2xl border-primary flex p-4 gap-3 bg-white mb-5 hover:scale-105 duration-300 hover:shadow-md hover:shadow-primary'>
+                            <div className='card1 border box rounded-2xl border-primary flex p-4 gap-3 bg-white mb-5 hover:scale-105 duration-300 hover:shadow-md hover:shadow-primary'>
                                 <div className='text-2xl text-primary font-bold'>0{e.numbers}.</div>
                                 <div>
                                     <h1 className='text-xl font-semibold'>{e.main}</h1>
@@ -28,7 +56,7 @@ const TechnologyServices = ({ title, titleSpan, content, services, Image }: any)
                 })}
 
             </div>
-        </div></div>
+        </div>
     )
 }
 
