@@ -166,7 +166,7 @@ function Technologies() {
       <div className="container mx-auto  my-5">
         {/* web Development */}
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center ">
-          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3 ">
+          <div data-aos="zoom-in-left" className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3 ">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 lg:max-w-sm m-auto ">
               {web.map((e) => {
                 return (
@@ -181,7 +181,7 @@ function Technologies() {
               })}
             </div>
           </div>
-          <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 order-">
+          <div data-aos="zoom-in-right" className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 order-">
             <div>
               <div className="mt-6">
                 <h2 className="text-5xl font-bold tracking-tight text-black">
@@ -219,7 +219,7 @@ function Technologies() {
         {/* mobile Development */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
+          <div data-aos="zoom-in-right" className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
               {mobile?.map((e) => {
                 return (
@@ -234,7 +234,7 @@ function Technologies() {
               })}
             </div>
           </div>
-          <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 lg:order-2">
+          <div data-aos="zoom-in-left" className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 lg:order-2">
             <div>
               <div className="mt-6">
                 <h2 className="text-5xl font-bold tracking-tight text-black">
@@ -269,7 +269,7 @@ function Technologies() {
         {/*Backend */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3">
+          <div data-aos="zoom-in-left" className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
               {Backend.map((e) => {
                 return (
@@ -284,7 +284,7 @@ function Technologies() {
               })}
             </div>
           </div>
-          <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 order-">
+          <div data-aos="zoom-in-right" className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 order-">
             <div>
               <div className="mt-6">
                 <h2 className="text-5xl font-bold tracking-tight text-black">
@@ -319,7 +319,7 @@ function Technologies() {
         {/*Front-end */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
+          <div data-aos="zoom-in-right" className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
               {frontend.map((e) => {
                 return (
@@ -335,7 +335,7 @@ function Technologies() {
               })}
             </div>
           </div>
-          <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 lg:order-2">
+          <div data-aos="zoom-in-left" className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 lg:order-2">
             <div>
               <div className="mt-6">
                 <h2 className="text-5xl font-bold tracking-tight text-black">
@@ -366,7 +366,7 @@ function Technologies() {
         {/* devops */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3">
+          <div data-aos="zoom-in-left" className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
               {Devops.map((e) => {
                 return (
@@ -381,7 +381,7 @@ function Technologies() {
               })}
             </div>
           </div>
-          <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 order-">
+          <div data-aos="zoom-in-right" className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 order-">
             <div>
               <div className="mt-6">
                 <h2 className="text-5xl font-bold tracking-tight text-black">
@@ -411,7 +411,7 @@ function Technologies() {
         {/* Database */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
+          <div data-aos="zoom-in-right" className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 lg:order-1 py-3 my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto ">
               {Database.map((e) => {
                 return (
@@ -427,7 +427,7 @@ function Technologies() {
               })}
             </div>
           </div>
-          <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 lg:order-2">
+          <div data-aos="zoom-in-left" className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 lg:order-2">
             <div>
               <div className="mt-6">
                 <h2 className="text-5xl font-bold tracking-tight text-black">
@@ -464,7 +464,7 @@ function Technologies() {
         {/*Design */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center">
-          <div className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3  my-3">
+          <div data-aos="zoom-in-left" className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3  my-3">
             <div className="  grid grid-cols-3 lg:grid-cols-2 gap-4 max-w-sm m-auto">
               {Design.map((e) => {
                 return (
@@ -479,7 +479,7 @@ function Technologies() {
               })}
             </div>
           </div>
-          <div className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 order-">
+          <div data-aos="zoom-in-right" className="mx-auto max-w-xl  lg:mx-0 lg:max-w-none lg:py-4 xl:py-8 lg:px-3 order-">
             <div>
               <div className="mt-6">
                 <h2 className="text-5xl font-bold tracking-tight text-black">

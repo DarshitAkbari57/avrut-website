@@ -30,10 +30,10 @@ function Getintouch() {
 
 
   return (
-    <div id="contact" className="container mx-auto p-1 md:p-5 max-w-5xl rounded-2xl border shadow-xl my-5">
+    <div data-aos="fade-up" id="contact" className="container mx-auto p-1 md:p-5 max-w-5xl rounded-2xl border shadow-xl my-5">
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="bg-transparent p-3 md:p-10 text-black">
-          <p className="text-sm leading-7 font-regular capitalize">Contact us</p>
+          <p className="text-sm leading-7 font-regular capitalize ">Contact us</p>
           <h3 className="text-4xl font-extrabold tracking-tight">
             Get In <span className="text-primary">Touch</span>
           </h3>

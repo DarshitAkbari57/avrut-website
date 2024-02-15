@@ -147,12 +147,12 @@ function Career() {
       />
 
       <div className="bg-purple">
-        <div className="text-xl lg:text-6xl text-center font-bold whitespace-normal px-10 py-3 lg:py-10">
+        <div data-aos="zoom-in-up" className="text-xl lg:text-6xl text-center font-bold whitespace-normal px-10 py-3 lg:py-10">
           We Are <span className="text-primary mx-1">Software Development</span>{" "}
           Company
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2  gap-5 px-4 md:px-10 items-center">
-          <div className="px-4 md:px-20">
+          <div data-aos="fade-right" className="px-4 md:px-20">
             <ul className="list-disc  ">
               {Culture.map((e) => {
                 return (
@@ -166,7 +166,7 @@ function Career() {
               })}
             </ul>
           </div>
-          <div className="py-6 md:py-0 w-full">
+          <div data-aos="fade-left" className="py-6 md:py-0 w-full">
             <img className="w-full" src="/images/culture.png" alt="" />
           </div>
         </div>

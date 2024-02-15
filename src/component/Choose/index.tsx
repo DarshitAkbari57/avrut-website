@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaUserGroup } from "react-icons/fa6";
 import { GrUserExpert } from "react-icons/gr";
 import { MdOutlineSpatialTracking } from "react-icons/md";
@@ -8,6 +8,7 @@ import { LiaIndustrySolid } from "react-icons/lia";
 import { TbDeviceMobileCode } from "react-icons/tb";
 import { AiOutlineUserSwitch } from "react-icons/ai";
 import { GrCycle } from "react-icons/gr";
+import Aos from "aos";
 
 function Choose() {
   const cards = [
@@ -53,6 +54,9 @@ function Choose() {
     },
   ];
 
+
+
+
   return (
     <>
       <div
@@ -61,7 +65,7 @@ function Choose() {
           backgroundImage: `url("https://www.braincuber.com/_next/static/media/why-choose-us-bg.2b08a4f6.webp")`,
         }}
       >
-        <div className="container mx-auto text-center lg:px-56">
+        <div data-aos="fade-up" className="container mx-auto text-center lg:px-56">
           <h1 className="text-center text-white pt-10 text-4xl font-semibold">
             Why Choose Us
           </h1>
@@ -90,7 +94,7 @@ function Choose() {
                     </div>
                   </div > */}
                   {/* <span className="text-black font-bold text-xs">{e?.Header}</span> */}
-                  <div className="card">
+                  <div data-aos="zoom-in" className="card">
                     <div className="first-content ">
                       <div className="flex flex-col items-center">
                         <div className="text-6xl">
@@ -104,8 +108,6 @@ function Choose() {
                     <div className="second-content p-2">
                       <span className="text-base  text-white">{e?.main}</span>
                     </div>
-
-
                   </div>
                 </>
               );

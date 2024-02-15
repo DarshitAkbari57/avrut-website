@@ -6,7 +6,7 @@ const AboutIndustries = ({ title, content, AboutImage }: any) => {
     <div>
       <div className="container mx-auto  my-5">
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8  items-center">
-          <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+          <div data-aos="fade-right" className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
             <div>
               <div className="mt-6">
                 <h2 className="text-5xl font-bold tracking-tight text-black">
@@ -17,7 +17,7 @@ const AboutIndustries = ({ title, content, AboutImage }: any) => {
               </div>
             </div>
           </div>
-          <div className="mt-12 sm:mt-16 lg:mt-0">
+          <div data-aos="fade-left" className="mt-12 sm:mt-16 lg:mt-0">
             <Image
               alt=""
               loading="lazy"

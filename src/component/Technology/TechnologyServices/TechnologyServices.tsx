@@ -13,34 +13,36 @@ const TechnologyServices = ({ title, titleSpan, content, services, Image }: any)
 
     const main = useRef<HTMLElement | any>();
 
-    useGSAP(
-        () => {
-            const boxes = gsap.utils.toArray('.box');
-            boxes.forEach((box: any) => {
-                gsap.to(box, {
-                    x: 50,
-                    ease: "bounce.in",
-                    scrollTrigger: {
-                        trigger: box,
-                        start: 'bottom bottom',
-                        end: 'top 20%',
-                        scrub: true,
-                        // markers: true,
-                    },
-                });
-            });
-        },
-        { scope: main }
-    );
+    // useGSAP(
+    //     () => {
+    //         const boxes = gsap.utils.toArray('.box');
+    //         boxes.forEach((box: any) => {
+    //             gsap.to(box, {
+    //                 x: 50,
+    //                 ease: "bounce.in",
+    //                 scrollTrigger: {
+    //                     trigger: box,
+    //                     start: 'bottom bottom',
+    //                     end: 'top 20%',
+    //                     scrub: true,
+    //                     // markers: true,
+    //                 },
+
+    //                 duration: 12000
+    //             });
+    //         });
+    //     },
+    //     { scope: main }
+    // );
 
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6 py-20 bg-purple px-5 md:px-20 ' ref={main}>
-            <div>
+            <div data-aos="fade-right">
                 <p className='text-4xl font-bold text-primary py-2'>{title} <span className='text-black'> {titleSpan}</span></p>
                 <p>{content}</p>
                 <img className={`${services.length > 4 ? " md:h-[800px]" : "h-[400px]"} mt-8 rounded-lg w-full object-cover`} src={Image} alt="" />
             </div>
-            <div>
+            <div data-aos="fade-left">
                 {services.map((e: any) => {
                     return (
                         <>

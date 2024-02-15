@@ -9,6 +9,8 @@ import Metadata from "next";
 import metadata from "../metadata.json";
 import { useRouter } from "next/router";
 import { BsWhatsapp } from "react-icons/bs";
+import { useEffect } from "react";
+import AOS from 'aos'
 
 type Metadata = {
   [key: string]: {
@@ -22,6 +24,13 @@ function MyApp({ Component, pageProps }: AppProps) {
   // Global configurations or logic can be added here
 
   const router = useRouter();
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1200
+    });
+  }, []);
+
   const currentPage = router.pathname.substring(1);
 
   // Set metadata based on the current page or use default metadata
@@ -33,6 +42,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   };
 
   return (
+
+
+
     <>
       <Head>
         <title>{pageMetadata.title}</title>

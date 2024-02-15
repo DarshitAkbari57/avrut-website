@@ -42,24 +42,23 @@ function Software() {
   ];
 
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    gsap.fromTo(".card2",
-      { rotationY: 10, rotationX: -80, ease: "power2.out" },
-      {
-        scrollTrigger: {
-          trigger: ".card2",
-          scrub: true,
-          start: "-40% 20%",
-          end: "-20% 20%",
-          markers: false,
-        },
-        rotationY: 0,
-        rotationX: 0,
-        duration: 1.3,
-        delay: 9
-      });
-  }, [])
+  //   gsap.fromTo(".card2",
+  //     { rotationY: 10, rotationX: -80, ease: "power2.out", duration: 1 },
+  //     {
+  //       scrollTrigger: {
+  //         trigger: ".card2",
+  //         scrub: true,
+  //         start: "-40% 50%",
+  //         end: "-20% 60%",
+  //         markers: false,
+  //       },
+  //       rotationY: 0,
+  //       rotationX: 0,
+  //       duration: 4,
+  //     });
+  // }, [])
 
 
   return (
@@ -82,7 +81,7 @@ function Software() {
         {tech.map((e) => {
           return (
             <>
-              <div className="main w-full">
+              <div data-aos="flip-down" className="main w-full">
                 <div className="card2 bg-gray-200 card2 w-full h-[300px] flex justify-center items-center font-semibold rounded-xl text-xl  flex-col hover:scale-105  hover:p-1 hover:shadow-sm hover:shadow-primary hover: border-primary hover:border duration-200">
                   <div className="my-3 text-4xl md:text-6xl text-primary">
                     {e?.icon}

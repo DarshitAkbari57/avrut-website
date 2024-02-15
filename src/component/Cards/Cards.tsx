@@ -27,29 +27,32 @@ function Cards() {
 
 
 
-    useEffect(() => {
-        gsap.to('.cards', {
-            ease: "power3.out",
-            duration: 2,
-            scrollTrigger: {
-                trigger: '.cards',
-                start: 'top 80%', // Adjust the start position as needed
-                end: '+=300', // Adjust the end position as needed
-                scrub: 1, // Smooth scrubbing effect
-            },
-            repeat: -1
-        });
+    // useEffect(() => {
+    //     gsap.to('.cards', {
+    //         scrollTrigger: {
+    //             trigger: '.cards',
+    //             markers: true,
+    //             start: "-20% 60%",
+    //             end: "80% 0%",
+    //             // scrub: true,
+    //             toggleActions: "restart pause reverse pause"
+    //         },
+    //         x: 20,
+    //         rotation: 360,
+    //         duration: 1,
+    //         ease: "none"
+    //     });
 
-    })
+    // })
 
     return (
         <>
 
             <section className="text-gray-700 body-font">
                 <div className="container md:px-5 py-10 md:py-20 mx-auto">
-                    <div className="flex flex-wrap text-center">
+                    <div className="flex flex-wrap text-center ">
                         {card.map((e, index) => (
-                            <div key={index} className="p-4 md:w-1/4 sm:w-1/2 w-full cards">
+                            <div data-aos="zoom-in" data-aos-offset="50%" key={index} className="p-4 md:w-1/4 sm:w-1/2 w-full cards">
                                 <div className="group px-4 rounded-lg transform transition duration-500 hover:scale-110 flex gap-4 flex-col md:flex-row justify-center items-center">
                                     <div className='w-max flex justify-center text-4xl mb-3 p-8 border border-primary text-primary rounded-full bg-purple shadow-xl '>
                                         {e?.icon}

@@ -760,14 +760,14 @@ function Nav() {
             <BsList onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
           </div>
           {isMenuOpen && (
-            <div className="fixed inset-x-0 top-0 z-50 origin-top-right transform  transition lg:hidden">
+            <div data-aos="fade-right" className="fixed inset-x-0 top-0 z-50 origin-top-right transform  transition lg:hidden">
               <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 h-screen overflow-y-auto">
                 <div className="px-5 pb-6 pt-5">
                   <div className="flex items-center justify-between">
                     <div className="inline-flex items-center space-x-2">
                       <img
-                        className="h-10 w-10"
-                        src="images/assets/logo1.png"
+                        className="h-8 w-8"
+                        src="/images/assets/logo1.png"
                         alt=""
                       />
                     </div>
@@ -803,7 +803,7 @@ function Nav() {
                             </div>
                             {item?.submenu &&
                               <div>
-                                <button className=" rounded-full  text-xl cursor-pointer" onClick={() => { handleOpen(index) }}><BsPlusCircle /></button>
+                                <button className=" rounded-full  text-xl cursor-pointer text-primary" onClick={() => { handleOpen(index) }}><BsPlusCircle /></button>
                               </div>
                             }
                           </div>
@@ -814,7 +814,7 @@ function Nav() {
                               (
                                 <div className="mb-2">
                                   {e?.submenu ? <>
-                                    <span className="mb-2 font-semibold">{e.name}</span>
+                                    <span className="mb-2 font-semibold text-red-400">{e.name}</span>
                                     < ul className="ml-2">
                                       {e?.submenu?.map((item: any) => (
                                         <li>{item?.name}</li>
