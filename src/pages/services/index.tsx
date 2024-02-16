@@ -41,7 +41,7 @@ function Industries() {
         MainBanner={MainBanner.src}
       />
 
-      <div className="container mx-auto  my-5">
+      <div className="container mx-auto  my-5 overflow-x-hidden">
         {/*Digital  Product  Design */}
 
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center lg:py-8">

@@ -151,7 +151,7 @@ function Career() {
           We Are <span className="text-primary mx-1">Software Development</span>{" "}
           Company
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2  gap-5 px-4 md:px-10 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2  gap-5 px-4 md:px-10 items-center overflow-x-hidden">
           <div data-aos="fade-right" className="px-4 md:px-20">
             <ul className="list-disc  ">
               {Culture.map((e) => {

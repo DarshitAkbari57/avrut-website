@@ -163,7 +163,7 @@ function Technologies() {
         subtitle="Avrut Solutions specializes in robust end-to-end delivery of custom technology solutions for enterprises, start-ups, and small businesses. We build your product using the latest technological advancements and breakthroughs. Whether desktop, mobile, or cross-platform software suite, we'll help you develop a comprehensive solution that perfectly serves your unique needs."
         MainBanner={MainBanner.src}
       />
-      <div className="container mx-auto  my-5">
+      <div className="container mx-auto overflow-x-hidden  my-5">
         {/* web Development */}
         <div className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 px-3 items-center ">
           <div data-aos="zoom-in-left" className="bg-blue-50 md:bg-gradient-to-l from-white to-indigo-100 order-1 py-3 my-3 ">
@@ -327,7 +327,6 @@ function Technologies() {
                     <Link href={e?.path}>
                       <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex flex-col  justify-center items-center">
                         <img src={e.image} alt="" />
-                        {/* <div className='my-2 font-medium'>{e?.technologies}</div> */}
                       </div>
                     </Link>
                   </>
@@ -419,7 +418,6 @@ function Technologies() {
                     <Link href={e?.path}>
                       <div className="bg-white w-[80px] h-[80px] md:w-[150px] md:h-[150px] rounded-xl p-4 m-auto flex flex-col  justify-center items-center">
                         <img src={e.image} alt="" />
-                        {/* <div className='my-2 font-medium'>{e?.technologies}</div> */}
                       </div>
                     </Link>
                   </>
@@ -507,7 +505,6 @@ function Technologies() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto  my-5"></div>
     </>
   );
 }

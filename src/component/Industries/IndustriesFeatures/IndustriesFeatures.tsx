@@ -3,11 +3,11 @@ import React from "react";
 const IndustriesFeatures = ({ title, card }: any) => {
   return (
     <div>
-      <div id="features" className="mx-auto">
+      <div id="features" className="mx-auto overflow-x-hidden">
         <p data-aos="zoom-in-down" className="text-center text-xl font-semibold leading-7 text-primary">
           Features
         </p>
-        <h2 data-aos="zoom-in-up" className="text-center mx-52 font-display text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+        <h2 data-aos="zoom-in-up" className="text-center xl:mx-52 font-display text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
           {title}
         </h2>
         <section className="text-gray-700 body-font">

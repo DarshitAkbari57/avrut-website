@@ -36,13 +36,16 @@ const TechnologyServices = ({ title, titleSpan, content, services, Image }: any)
     // );
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 py-20 bg-purple px-5 md:px-20 ' ref={main}>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 py-5 md:py-10 lg:py-20 bg-purple px-5 lg
+        
+        
+        :px-20 overflow-x-hidden' ref={main}>
             <div data-aos="fade-right">
-                <p className='text-4xl font-bold text-primary py-2'>{title} <span className='text-black'> {titleSpan}</span></p>
+                <p className='text-2xl md:text-4xl font-bold text-primary py-2'>{title} <span className='text-black'> {titleSpan}</span></p>
                 <p>{content}</p>
                 <img className={`${services.length > 4 ? " md:h-[800px]" : "h-[400px]"} mt-8 rounded-lg w-full object-cover`} src={Image} alt="" />
             </div>
-            <div data-aos="fade-left">
+            <div className='' data-aos="fade-left">
                 {services.map((e: any) => {
                     return (
                         <>

@@ -810,16 +810,15 @@ function Nav() {
 
                           {open === index &&
                             <div className="ml-2">
-                              {item?.submenu?.map((e: any) =>
-                              (
-                                <div className="mb-2">
+                              {item?.submenu?.map((e: any) => {
+                                console.log('e :>>', e)
+                                return < div className="mb-2" >
                                   {e?.submenu ? <>
-                                    <span className="mb-2 font-semibold text-red-400">{e.name}</span>
+                                    <span className="mb-2 font-semibold ">{e.name}</span>
                                     < ul className="ml-2">
-                                      {e?.submenu?.map((item: any) => (
-                                        <li>{item?.name}</li>
+                                      {e?.submenu?.map((i: any) => (
+                                        <li onClick={() => { router.push(i.path) }}>{i?.name}</li>
                                       ))}
-
                                     </ul></> : <>
                                     {e?.path &&
                                       <div className="mb-2 font-medium cursor-pointer" onClick={() => { router.push(e?.path); setIsMenuOpen(!isMenuOpen) }}>
@@ -828,7 +827,7 @@ function Nav() {
                                   </>
                                   }
                                 </div>
-                              )
+                              }
                               )}
                             </div >
                           }

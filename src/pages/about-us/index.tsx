@@ -42,36 +42,7 @@ function index() {
         small-scale businesses, succeed."
         MainBanner={MainBanner.src}
       />
-      {/* <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-max md:h-screen text-white overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080"
-            alt="Background Image"
-            className="object-cover object-center w-full h-full"
-          />
-          <div className="absolute inset-0 bg-black opacity-50"></div>
-        </div>
 
-        <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-5 md:max-w-4xl m-auto mt-2">
-          <a
-            href="#"
-            className="bg-white text-primary py-2 px-6 rounded-xl text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg my-2"
-          >
-            Book now
-          </a>
-          <h1 className="text-5xl font-bold leading-tight mb-4">
-            Making a Difference through Technology - One Solution at a Time
-          </h1>
-          <p className="text-lg text-gray-300 mb-8">
-            At Avrut Solutions, we help our clients solve complex business
-            problems and build themselves for the times ahead. Our tech teams
-            develop a full range of scalable technology architecture solutions
-            built upon a relationship of trust. The sole mission of our company
-            is to help our customers, whether global brands, mid-sized or
-            small-scale businesses, succeed.
-          </p>
-        </div>
-      </div> */}
 
       <section className="container mx-auto py-4 lg:py-10 mt-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-0 px-3 md:px-20">
@@ -158,7 +129,7 @@ function index() {
           <h1 className="text-xl md:text-4xl text-primary text-center py-4 font-bold">
             What We Believe in
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 border-primary">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 border-primary px-3">
             {belive.map((e) => {
               return (
                 <>

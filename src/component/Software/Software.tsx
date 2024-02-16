@@ -65,9 +65,9 @@ function Software() {
     <>
       <div className="max-w-4xl m-auto flex justify-center items-center gap-4 py-5 px-3">
         <hr className="w-[100px] h-[4px] bg-primary" />
-        <div className="text-lg lg:text-4xl font-bold max-w-min text-center text1 ">
+        <div className="text-xl lg:text-4xl font-bold max-w-min text-center text1 ">
           Our Core
-          <span className="text-transparent text_stroke tracking-wide mx-3">Software Development</span>
+          <span className="text-transparent text_stroke tracking-widest md:tracking-wider mx-3">Software Development</span>
           Services
         </div>
         <hr className="w-[100px] h-[4px] bg-primary" />

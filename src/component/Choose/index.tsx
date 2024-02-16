@@ -60,7 +60,7 @@ function Choose() {
   return (
     <>
       <div
-        className="max-h-max w-full bg-black p-10"
+        className="max-h-max w-full bg-black p-5 md:p-10"
         style={{
           backgroundImage: `url("https://www.braincuber.com/_next/static/media/why-choose-us-bg.2b08a4f6.webp")`,
         }}
