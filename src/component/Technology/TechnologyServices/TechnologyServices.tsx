@@ -43,7 +43,7 @@ const TechnologyServices = ({ title, titleSpan, content, services, Image }: any)
             <div data-aos="fade-right">
                 <p className='text-2xl md:text-4xl font-bold text-primary py-2'>{title} <span className='text-black'> {titleSpan}</span></p>
                 <p>{content}</p>
-                <img className={`${services.length > 4 ? " md:h-[800px]" : "h-[400px]"} mt-8 rounded-lg w-full object-cover`} src={Image} alt="" />
+                <img className={`${services.length > 4 ? " md:h-[600px]" : "h-[400px]"} mt-8 rounded-lg w-full object-cover`} src={Image} alt="" />
             </div>
             <div className='' data-aos="fade-left">
                 {services.map((e: any) => {

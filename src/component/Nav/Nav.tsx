@@ -170,6 +170,10 @@ function Nav() {
       name: "Career",
       path: "/career",
     },
+    {
+      name: "Portfolio",
+      path: "/portfolio",
+    },
     // {
     //   name: "Contact",
     //   path: "/contact",

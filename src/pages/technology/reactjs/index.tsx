@@ -7,7 +7,7 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/react.png";
 import MainBanner from "../../../assets/technology/reactbanner.png";
-import Reacttech from "../../../assets/about/Reacttech.jpg";
+import Reacttech from "../../../assets/technology/react.jpg";
 
 function Reactjs() {
   const services = [
