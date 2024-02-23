@@ -27,29 +27,12 @@ function Cards() {
 
 
 
-    // useEffect(() => {
-    //     gsap.to('.cards', {
-    //         scrollTrigger: {
-    //             trigger: '.cards',
-    //             markers: true,
-    //             start: "-20% 60%",
-    //             end: "80% 0%",
-    //             // scrub: true,
-    //             toggleActions: "restart pause reverse pause"
-    //         },
-    //         x: 20,
-    //         rotation: 360,
-    //         duration: 1,
-    //         ease: "none"
-    //     });
-
-    // })
 
     return (
         <>
 
             <section className="text-gray-700 body-font">
-                <div className="container 2xl:px-10 md:px-5 py-10 md:py-20 mx-auto">
+                <div className="container max-w-7xl 2xl:px-10 md:px-5 py-10 md:py-20 mx-auto">
                     <div className="flex flex-wrap text-center ">
                         {card.map((e, index) => (
                             <div data-aos="zoom-in" data-aos-offset="50%" key={index} className="p-4 lg:w-1/4 md:w-1/2 w-full cards">
