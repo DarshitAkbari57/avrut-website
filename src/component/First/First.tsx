@@ -1,24 +1,10 @@
-import React, { useEffect, useRef } from "react";
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import AOS from "aos"
+import React from "react";
 import 'aos/dist/aos.css';
 
-
-gsap.registerPlugin(ScrollTrigger);
-
-
-
-
-
 function First({ title, subtitle, MainBanner }: any) {
-
-
-
-
   return (
     <>
-      <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 py-4 md:py-2  h-max md:h-screen text-white overflow-hidden">
+      <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 py-4 md:py-2 h-max md:h-screen text-white overflow-hidden">
         <div className="absolute inset-0">
           <img
             data-aos="flip-left"

@@ -1,13 +1,7 @@
 import React, { useState } from "react";
-import education from "../images/asset 30.gif";
-import logistic from "../images/asset 31.gif";
-import Game from "../images/asset 32.gif";
-import Ecom from "../images/asset 33.gif";
-import Mplace from "../images/asset 34.gif";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
-import { Swiper, SwiperSlide } from "swiper/react";
 import dmatade from '../../assets/portfolio/dematade.png'
 import acheti from '../../assets/portfolio/acheti.png'
 import alphadog from '../../assets/portfolio/alphaDog.png'
@@ -93,7 +87,7 @@ function Work() {
     <>
       <div className="bg-purple justify-items-center p-5 border-2">
         <h1 className="mt-4 pt-5 mb-2 text-center capitalize text-4xl">
-          Browse Our Digital Product Design Portfolio
+          Browse Our Digital Product Design Portfolio djdjjd
         </h1>
 
         <hr className="w-1/5 mx-auto  border-2 my-5 border-primary rounded" />

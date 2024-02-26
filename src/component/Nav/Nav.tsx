@@ -821,7 +821,7 @@ function Nav() {
                                     <span className="mb-2 font-semibold ">{e.name}</span>
                                     < ul className="ml-2">
                                       {e?.submenu?.map((i: any) => (
-                                        <li onClick={() => { router.push(i.path) }}>{i?.name}</li>
+                                        <li onClick={() => { router.push(i.path); setIsMenuOpen(!isMenuOpen) }}>{i?.name}</li>
                                       ))}
                                     </ul></> : <>
                                     {e?.path &&

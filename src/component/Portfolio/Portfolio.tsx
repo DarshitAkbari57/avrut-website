@@ -7,6 +7,74 @@ import Mplace from "../images/asset 34.gif";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
+import dmatade from '../../assets/portfolio/dematade.png'
+import acheti from '../../assets/portfolio/acheti.png'
+import alphadog from '../../assets/portfolio/alphaDog.png'
+import glamsqad from '../../assets/portfolio/glamsquad.png'
+import proprtize from '../../assets/portfolio/propertize.png'
+import lybrate from '../../assets/portfolio/lybrate.png'
+import fanguru from '../../assets/portfolio/fanguru.png'
+import fashionphile from '../../assets/portfolio/fashionphile.png'
+
+const all = [
+  {
+    image: acheti.src
+  },
+  {
+    image: proprtize.src
+  },
+  {
+    image: dmatade.src
+  },
+  {
+    image: glamsqad.src
+  },
+  {
+    image: alphadog.src
+  },
+  {
+    image: lybrate.src
+  },
+  {
+    image: fanguru.src
+  },
+  {
+    image: fashionphile.src
+  }
+]
+
+const appdev = [
+  {
+    image: acheti.src
+  },
+  {
+    image: proprtize.src
+  },
+
+]
+
+const webdev = [
+  {
+    image: dmatade.src
+  },
+
+  {
+    image: glamsqad.src
+  },
+  {
+    image: alphadog.src
+  },
+  {
+    image: lybrate.src
+  },
+  {
+    image: fanguru.src
+  },
+  {
+    image: fashionphile.src
+  }
+]
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useRouter } from "next/router";
 
@@ -28,51 +96,33 @@ function Portfolio() {
         <hr className="w-1/5 mx-auto border-2 my-5" />
 
         <div className="container mx-auto">
-          <div className="flex gap-3 justify-center my-5">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center my-5">
             <button
               className={`px-4 py-2 mr-2 ${activeTab === 1
-                  ? "bg-primary rounded-xl text-white"
-                  : "bg-gray-200 rounded-2xl"
+                ? "bg-primary rounded-xl text-white"
+                : "bg-gray-200 rounded-2xl"
                 }`}
               onClick={() => handleTabClick(1)}
             >
-              App Development
+              All
             </button>
             <button
               className={`px-4 py-2 ${activeTab === 2
-                  ? "bg-primary rounded-xl text-white"
-                  : "bg-gray-200 rounded-2xl"
+                ? "bg-primary rounded-xl text-white"
+                : "bg-gray-200 rounded-2xl"
                 }`}
               onClick={() => handleTabClick(2)}
             >
-              App Design
+              App Devlopment
             </button>
             <button
               className={`px-4 py-2 ${activeTab === 3
-                  ? "bg-primary rounded-xl text-white"
-                  : "bg-gray-200 rounded-2xl"
+                ? "bg-primary rounded-xl text-white"
+                : "bg-gray-200 rounded-2xl"
                 }`}
               onClick={() => handleTabClick(3)}
             >
-              Show all
-            </button>
-            <button
-              className={`px-4 py-2 ${activeTab === 4
-                  ? "bg-primary rounded-xl text-white"
-                  : "bg-gray-200 rounded-2xl"
-                }`}
-              onClick={() => handleTabClick(4)}
-            >
-              Web Design
-            </button>
-            <button
-              className={`px-4 py-2 ${activeTab === 5
-                  ? "bg-primary rounded-xl text-white"
-                  : "bg-gray-200 rounded-2xl"
-                }`}
-              onClick={() => handleTabClick(5)}
-            >
-              Dashboard
+              Web Devlopment
             </button>
           </div>
 
@@ -80,7 +130,6 @@ function Portfolio() {
           <Swiper
             className="my-8"
             spaceBetween={0}
-            slidesPerView={3}
             loop={true}
             autoplay={{
               delay: 1200,
@@ -90,15 +139,15 @@ function Portfolio() {
             onSwiper={(swiper) => console.log(swiper)}
             breakpoints={{
               0: {
-                slidesPerView: 1,
+                slidesPerView: 1.1,
                 spaceBetween: 10,
               },
               480: {
-                slidesPerView: 2,
+                slidesPerView: 1.1,
                 spaceBetween: 10,
               },
               768: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 15,
               },
               1024: {
@@ -110,70 +159,77 @@ function Portfolio() {
                 spaceBetween: 30,
               },
             }}
+            navigation={{
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            }}
           >
             {activeTab === 1 && (
               <>
-                <SwiperSlide>
-                  <div className="rounded-lg h-[250px]  shadow-md">
-                    <img
-                      className="object-cover h-full w-full rounded-2xl"
-                      src="https://avrut.com/static/media/dematade.8b7b4793fac9b2305f79.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
+                {all.map((e: any) => {
+                  return (
+                    <>
+                      <SwiperSlide>
+                        <div >
+                          <div className="rounded-lg h-[300px] shadow-md">
+                            <img
+                              className="object-fill h-full w-full rounded-2xl"
+                              src={e.image}
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </SwiperSlide >
+                    </>
+                  )
+                })}
               </>
             )}
             {activeTab === 2 && (
               <>
-                <SwiperSlide>
-                  <div className=" h-[250px]  shadow-md">
-                    <img
-                      className="h-full w-full object-cover rounded-2xl"
-                      src="https://www.braincuber.com/_next/static/media/ourwork_imag8.36a0c688.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
+                {appdev.map((e: any) => {
+                  return (
+                    <>
+                      <SwiperSlide>
+                        <div >
+                          <div className="rounded-lg h-[300px] shadow-md">
+                            <img
+                              className="object-fill h-full w-full rounded-2xl"
+                              src={e.image}
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </SwiperSlide >
+                    </>
+                  )
+                })}
               </>
             )}
             {activeTab === 3 && (
               <>
-                <SwiperSlide>
-                  <div className="mx-5 mt-5   bg-white rounded-lg p-5 shadow-md">
-                    <img
-                      src="https://avrut.com/static/media/dematade.8b7b4793fac9b2305f79.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="mx-5 mt-5   bg-white rounded-lg p-5 shadow-md">
-                    <img
-                      src="https://avrut.com/static/media/dematade.8b7b4793fac9b2305f79.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="mx-5 mt-5   bg-white rounded-lg p-5 shadow-md">
-                    <img
-                      src="https://avrut.com/static/media/dematade.8b7b4793fac9b2305f79.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="mx-5 mt-5   bg-white rounded-lg p-5 shadow-md">
-                    <img
-                      src="https://avrut.com/static/media/dematade.8b7b4793fac9b2305f79.png"
-                      alt=""
-                    />
-                  </div>
-                </SwiperSlide>
+                {webdev.map((e: any) => {
+                  console.log('e', e)
+                  return (
+                    <>
+                      <SwiperSlide>
+                        <div >
+                          <div className="rounded-lg h-[300px] shadow-md">
+                            <img
+                              className="object-fill h-full w-full rounded-2xl"
+                              src={e.image}
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </SwiperSlide >
+                    </>
+                  )
+                })}
               </>
             )}
           </Swiper>
+
         </div>
 
         <div className="text-center">

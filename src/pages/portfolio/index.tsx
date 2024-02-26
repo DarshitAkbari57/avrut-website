@@ -12,7 +12,8 @@ function Ourwork() {
         subtitle="When we say that Avrut Solutions is a leading custom software development solution provider in the India, there’s a reason behind it - Our work. Check out our portfolio where you will come across some of the mind-blowing projects we have been a part of."
         MainBanner={MainBanner.src}
       />
-      <Work />
+      {/* <Work /> */}
+      <Portfolio />
     </>
   );
 }
