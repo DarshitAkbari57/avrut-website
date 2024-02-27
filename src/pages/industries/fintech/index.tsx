@@ -1,9 +1,5 @@
 import Faq from "@/component/FAQ";
 import React from "react";
-import { MdHealthAndSafety } from "react-icons/md";
-import { ImPower } from "react-icons/im";
-import { CiCloudOn } from "react-icons/ci";
-import { TbUsersGroup } from "react-icons/tb";
 import First from "@/component/First/First";
 import AboutIndustries from "@/component/Industries/AboutIndustries/AboutIndustries";
 import IndustriesFeatures from "@/component/Industries/IndustriesFeatures/IndustriesFeatures";

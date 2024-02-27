@@ -1,10 +1,6 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
 import React from "react";
 import First from "@/component/First/First";
 import Faq from "@/component/FAQ";
-import Portfolio from "@/component/Portfolio/Portfolio";
-import Architecture from "@/component/Services/Architecture/Architecture";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/appdev.jpg";

@@ -21,9 +21,6 @@ function Home() {
       <Software />
       <Technology />
       <Choose />
-      {/* <Faq accordionItems={accordionItems} /> */}
-
-      {/* <Getintouch /> */}
     </>
   );
 }

@@ -1,6 +1,5 @@
 import Faq from "@/component/FAQ";
 import First from "@/component/First/First";
-import ChooseTechnology from "@/component/Technology/ChooseTechnology/ChooseTechnology";
 import Process from "@/component/Technology/Process/Process";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";

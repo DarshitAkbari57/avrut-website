@@ -209,7 +209,6 @@ function Portfolio() {
             {activeTab === 3 && (
               <>
                 {webdev.map((e: any) => {
-                  console.log('e', e)
                   return (
                     <>
                       <SwiperSlide>
@@ -232,14 +231,14 @@ function Portfolio() {
 
         </div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <button
             onClick={() => router.push("/portfolio")}
             className="p-3 py-2 px-10 font-normal mt-5 border-2 rounded-xl  text-white bg-primary "
           >
             View all
           </button>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -104,12 +104,6 @@ function StaffAugmentation() {
         subtitle="Staff augmentation is a business strategy where an organization hires external professionals, often through a third-party service provider."
         MainBanner={MainBanner.src}
       />
-
-      {/* <Architecture
-        title="What About Staff Augmentation"
-        subtitle="Staff augmentation offers flexibility, enabling companies to scale their teams up or down based on project requirements. This agility is particularly beneficial for short-term or dynamic projects."
-      /> */}
-
       <TechnologyServices
         title="Staff Augmentation"
         titleSpan=""
@@ -117,9 +111,6 @@ function StaffAugmentation() {
         services={services}
         Image={staff.src}
       />
-
-      {/* <Portfolio /> */}
-
       <WhyThisTechnology
         why="Why"
         title="Staff Augmentation ?"
@@ -127,7 +118,6 @@ function StaffAugmentation() {
         technologies={whyTechnoloy}
         ImageTech={ImageTech.src}
       />
-
       <Faq accordionItems={accordionItems} />
     </>
   );

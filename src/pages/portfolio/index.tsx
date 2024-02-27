@@ -1,6 +1,5 @@
 import First from "@/component/First/First";
 import Portfolio from "@/component/Portfolio/Portfolio";
-import Work from "@/component/Work/Work";
 import React from "react";
 import MainBanner from "../../assets/technology/contact.jpg";
 

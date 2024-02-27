@@ -1,6 +1,5 @@
 import Faq from "@/component/FAQ";
 import Portfolio from "@/component/Portfolio/Portfolio";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 

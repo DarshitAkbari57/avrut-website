@@ -6,33 +6,6 @@ import gsap from "gsap";
 
 function Industries() {
   const router = useRouter();
-  useEffect(() => {
-    // Animation for the left side
-    gsap.from('.left-animation', {
-      x: '-100%',
-      opacity: 0,
-      duration: 1,
-      scrollTrigger: {
-        trigger: '.left-animation',
-        start: 'top 80%', // Adjust the start position as needed
-        end: '+=300', // Adjust the end position as needed
-        scrub: 1, // Smooth scrubbing effect
-      },
-    });
-
-    // Animation for the right side
-    gsap.from('.right-animation', {
-      x: '100%',
-      opacity: 0,
-      duration: 1,
-      scrollTrigger: {
-        trigger: '.right-animation',
-        start: 'top 80%', // Adjust the start position as needed
-        end: '+=300', // Adjust the end position as needed
-        scrub: 1, // Smooth scrubbing effect
-      },
-    });
-  }, []);
   return (
     <>
       <First
