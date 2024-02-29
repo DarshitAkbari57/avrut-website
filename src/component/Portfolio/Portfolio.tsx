@@ -151,11 +151,11 @@ function Portfolio() {
                 spaceBetween: 15,
               },
               1024: {
-                slidesPerView: 4,
+                slidesPerView: 4.2,
                 spaceBetween: 15,
               },
               1280: {
-                slidesPerView: 4,
+                slidesPerView: 4.2,
                 spaceBetween: 30,
               },
             }}

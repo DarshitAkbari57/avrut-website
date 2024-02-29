@@ -5,10 +5,12 @@ import AboutIndustries from "@/component/Industries/AboutIndustries/AboutIndustr
 import IndustriesFeatures from "@/component/Industries/IndustriesFeatures/IndustriesFeatures";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import { BsBoundingBox } from "react-icons/bs";
-import { FaDesktop, FaGamepad, FaTwitter } from "react-icons/fa6";
+import { FaDesktop, FaGamepad, FaMoneyCheckDollar, FaTwitter } from "react-icons/fa6";
 import MainBanner from "../../../assets/technology/finbanner.jpg";
 import AboutImage from "../../../assets/technology/fintech.svg";
 import Etech from "../../../assets/about/fintech.jpg"
+import { FaMobileAlt } from "react-icons/fa";
+import { MdPayment } from "react-icons/md";
 
 
 function Fintech() {
@@ -42,27 +44,24 @@ function Fintech() {
 
   const card = [
     {
-      title: "Audit Ready Cloud Environment",
-      content: "Regulations such as PCI DSS, and SOC 2 have many stringent requirements which can become complicated for small and mid-sized businesses. We work with external auditors to make your cloud environment audit ready from day one.",
-      icon: <BsBoundingBox />,
+      title: " Mobile Wallet Solutions",
+      content: "We develop e-Wallets that revolutionize the finance industry by providing unique experiences and a wide range of mobile payment solutions",
+      icon: <FaMobileAlt />,
     },
     {
-      title: "Cybersecurity",
-      content:
-        "Security must be baked into the DevOps process and—importantly—must be a shared responsibility. We take responsibility for securing your cloud environment and review your status and plans on a regular basis.",
-      icon: <FaDesktop />,
+      title: "Banking Software Solutions",
+      content: "With expertise in banking, our company helps to build scalable and compliant web, mobile, and back-end solutions for challenger banks and neobanks.",
+      icon: < FaDesktop />,
     },
     {
-      title: "AWS Well-Architected Framework Review",
-      content:
-        "Achieve compliance and establish trust with a Well-Architected Framework Review. Identify how and where you can make efficiency upgrades and transform your current infrastructure to a well-architected one with a detailed roadmap.",
-      icon: <FaGamepad />,
+      title: "Payment Solutions",
+      content: "We deliver business finance solutions and implement complex workflows for payments.",
+      icon: <MdPayment />,
     },
     {
-      title: "Grow with AWS Control Tower",
-      content:
-        "Ensure manageable growth in a multi-account environment with AWS Control Tower. Configure and govern a new AWS environment, automate policy management, and incorporate multiple levels of security such as IAM and resource provisioning with Avrut, an AWS Control Tower Partner",
-      icon: <FaTwitter />,
+      title: "Wealth Management ",
+      content: "With an advanced software infrastructure in place, we build custom products in an efficient way significantly reducing go-to-market time for wealth management and private banking products. ",
+      icon: <FaMoneyCheckDollar />,
     },
   ];
 
