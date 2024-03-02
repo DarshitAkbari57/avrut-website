@@ -174,6 +174,10 @@ function Nav() {
       name: "Portfolio",
       path: "/portfolio",
     },
+    {
+      name: "About Us",
+      path: "/about-us",
+    },
     // {
     //   name: "Contact",
     //   path: "/contact",
@@ -213,14 +217,15 @@ function Nav() {
           </Link>
           <div className="hidden lg:flex">
             <ul className="ml-12 flex space-x-8">
-              {menuItems.map((item) => (
+              {menuItems.map((item: any) => (
                 <>
                   <li
                     className={item?.path ? "py-4" : "py-4 group"}
                     key={item.name}
                   >
                     <a
-                      href={item?.path || item?.path1}
+                      // href={item?.path || item?.path1}
+                      onClick={() => router.push(item?.path || item?.path1)}
                       onMouseOver={() => setmenuActive(item.name)}
                       className="inline-flex items-center text-sm font-semibold text-gray-800 hover:text-primary duration-300"
                     >
