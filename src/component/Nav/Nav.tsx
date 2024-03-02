@@ -216,7 +216,7 @@ function Nav() {
             </div>
           </Link>
           <div className="hidden lg:flex">
-            <ul className="ml-12 flex space-x-8">
+            <ul className="ml-12 flex space-x-8 cursor-pointer">
               {menuItems.map((item: any) => (
                 <>
                   <li
