@@ -66,7 +66,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <Head>
         <title>{pageMetadata.title}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" type="image/png" sizes="32x32" />
         <meta name="description" content={pageMetadata.description} />
         <meta name="keywords" content={pageMetadata.keywords.join(",")} />
       </Head>
