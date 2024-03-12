@@ -4,6 +4,7 @@ import { MdOutlineEmail, MdOutlineHouse } from "react-icons/md";
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { AiOutlineMail } from "react-icons/ai";
+import toast from 'react-hot-toast';
 
 function Getintouch() {
   const validationSchema = Yup.object().shape({
@@ -22,12 +23,33 @@ function Getintouch() {
       message: '',
     },
     validationSchema: validationSchema,
-    onSubmit: (values) => {
-      // Handle form submission logic here
-      console.log(values);
+    onSubmit: async (values) => {
+      const obj = {
+        name: values?.name,
+        email: values?.email,
+        mobile: values?.mobile,
+        message: values?.message
+      }
+      const options = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(obj)
+      };
+      const data = await fetch("https://us-central1-avrut-web.cloudfunctions.net/contact", options).then(async (response) => {
+        const res = await response.json();
+        if (response.status === 200) {
+          toast.success(res?.message);
+          formik.resetForm()
+        } else {
+          toast.error("Error Sending Message");
+
+        }
+      })
+
     },
   });
-
 
   return (
     <div data-aos="fade-up" id="contact" className="container mx-auto p-1 md:p-5 max-w-5xl rounded-2xl border shadow-xl my-5">

@@ -11,6 +11,7 @@ import { useRouter } from "next/router";
 import { BsWhatsapp } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import AOS from 'aos'
+import { Toaster } from 'react-hot-toast';
 
 type Metadata = {
   [key: string]: {
@@ -63,7 +64,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
 
     <>
-
+      <Toaster />
       <Head>
         <title>{pageMetadata.title}</title>
         <link rel="icon" href="/images/favicon.ico" type="image/png" sizes="32x32" />
