@@ -4,7 +4,7 @@ import Process from "@/component/Technology/Process/Process";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import React from "react";
-import ImageTech from "../../../assets/technology/AWS.png";
+import ImageTech from "../../../assets/technology/aws.png";
 import MainBanner from "../../../assets/about/aws1.jpg";
 import Awstech from "../../../assets/about/aws.jpg"
 
