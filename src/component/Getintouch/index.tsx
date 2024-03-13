@@ -60,7 +60,7 @@ function Getintouch() {
             Get In <span className="text-primary">Touch</span>
           </h3>
           <p className="mt-4 leading-7">
-            Please inform us about your project, and we'll get back to you as soon as possible.
+            Please inform us about your project, and we&apos;ll get back to you as soon as possible.
           </p>
           <div className="flex items-center mt-5 gap-4 ">
             <div className="w-5">

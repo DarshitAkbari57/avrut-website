@@ -819,14 +819,14 @@ function Nav() {
 
                           {open === index &&
                             <div className="ml-2">
-                              {item?.submenu?.map((e: any) => {
+                              {item?.submenu?.map((e: any, index:number) => {
                                 console.log('e :>>', e)
-                                return < div className="mb-2" >
+                                return <div className="mb-2" key={index}>
                                   {e?.submenu ? <>
                                     <span className="mb-2 font-semibold ">{e.name}</span>
                                     < ul className="ml-2">
-                                      {e?.submenu?.map((i: any) => (
-                                        <li onClick={() => { router.push(i.path); setIsMenuOpen(!isMenuOpen) }}>{i?.name}</li>
+                                      {e?.submenu?.map((i: any, index:number) => (
+                                        <li key={index} onClick={() => { router.push(i.path); setIsMenuOpen(!isMenuOpen) }}>{i?.name}</li>
                                       ))}
                                     </ul></> : <>
                                     {e?.path &&

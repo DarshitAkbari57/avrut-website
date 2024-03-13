@@ -34,7 +34,7 @@ function Industries() {
                   Digital Product Design
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">
-                  Digital product design is an iterative design process used to solve a functional problem with a formal solution.[1] A digital product designer identifies an existing problem, offers the best possible solution, and launches it to a market that demonstrates demand for the particular solution.[2] The field is considered a subset of product design. Some digital products have both digital and physical components (such as Nike+ and Fitbit), but the term is mainly used for products produced through software engineering. Since digital product design have become mainstream in the creative industry, a digital product designer oftentimes is simply referred to as a "product designer" in job posts.
+                  Digital product design is an iterative design process used to solve a functional problem with a formal solution.[1] A digital product designer identifies an existing problem, offers the best possible solution, and launches it to a market that demonstrates demand for the particular solution.[2] The field is considered a subset of product design. Some digital products have both digital and physical components (such as Nike+ and Fitbit), but the term is mainly used for products produced through software engineering. Since digital product design have become mainstream in the creative industry, a digital product designer oftentimes is simply referred to as a &quot;product designer&quot; in job posts.
                 </p>
                 <div className="mt-6">
                   <button
@@ -137,7 +137,7 @@ function Industries() {
                   Mobile App Development
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">
-                  At Avrut solution, we specialize in cutting-edge mobile app development to bring your ideas to life in the palm of your users' hands. Our team of skilled developers combines creativity, innovation, and technical expertise to deliver custom mobile applications tailored to your unique business needs.
+                  At Avrut solution, we specialize in cutting-edge mobile app development to bring your ideas to life in the palm of your users&apos; hands. Our team of skilled developers combines creativity, innovation, and technical expertise to deliver custom mobile applications tailored to your unique business needs.
                 </p>
                 <div className="mt-6">
                   <button
@@ -171,7 +171,7 @@ function Industries() {
                   Staff Augmentation
                 </h2>
                 <p className="mt-4 text-lg text-[#1e1e1e]">
-                  At Avrut solutions, we understand that maintaining a highly skilled and flexible workforce is crucial for meeting the demands of today's dynamic business landscape. Our staff augmentation services empower your organization by providing top-tier professionals to seamlessly integrate with your existing team, ensuring continuity, scalability, and success in your projects.
+                  At Avrut solutions, we understand that maintaining a highly skilled and flexible workforce is crucial for meeting the demands of today&apos;s dynamic business landscape. Our staff augmentation services empower your organization by providing top-tier professionals to seamlessly integrate with your existing team, ensuring continuity, scalability, and success in your projects.
                 </p>
                 <div className="mt-6">
                   <button

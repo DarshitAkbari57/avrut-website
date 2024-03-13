@@ -232,7 +232,7 @@ function Digitalproductdesign() {
             </h1>
 
             <p className="text-sm md:text-base text-black mb-4">
-              Software architecture reveals the system's structure and how the
+              Software architecture reveals the system&apos;s structure and how the
               components are connected and interact. The architecture design
               software procedure involves utilizing technical and operative
               conditions to develop high-performance, proven-tested, and
