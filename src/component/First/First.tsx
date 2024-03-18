@@ -7,7 +7,7 @@ function First({ title, subtitle, MainBanner }: any) {
       <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 py-4 md:py-2 h-max md:h-screen text-white overflow-hidden">
         <div className="absolute inset-0">
           <img
-            data-aos="flip-left"
+            data-aos="zoom-in"
             src={MainBanner}
             alt="Background Image"
             className="object-cover object-center w-full h-full"
