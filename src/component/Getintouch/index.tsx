@@ -23,6 +23,7 @@ function Getintouch() {
       message: '',
     },
     validationSchema: validationSchema,
+    validateOnBlur: false,
     onSubmit: async (values) => {
       const obj = {
         name: values?.name,
