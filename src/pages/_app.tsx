@@ -54,15 +54,13 @@ function MyApp({ Component, pageProps }: AppProps) {
   const pageMetadata = (metadata as Metadata)[currentPage] || {
     title: "Avrut Solutions", // Default title
     description:
-      "The official Next.js Course Dashboard, built with App Router.", // Default description
-    keywords: ["Next.js", "React"], // Default keywords
+      "Avrut Solutions offers Customized Software Development Solutions. Hire dedicated developers. IT outsourced services. Enterprise solutions. Digital transformation.", // Default description
+    keywords: ["Avrut Solutions"], // Default keywords
   };
 
 
 
   return (
-
-
     <>
       <Toaster />
       <Head>
