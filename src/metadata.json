@@ -39,7 +39,7 @@
       "Industries"
     ]
   },
-  "careers": {
+  "career": {
     "title": "Career - Avrut Solutions | Software Development Company",
     "description": "Join Avrut Solutions and be part of a dynamic team shaping the future of software development. Explore exciting career opportunities with us.",
     "keywords": [
@@ -118,6 +118,15 @@
       "TypeScript"
     ]
   },
+  "technology/nextjs": {
+    "title": "Nextjs Development Services | Avrut Solutions",
+    "description": "Discover Avrut Solutions' Nextjs development services, delivering robust and maintainable applications with the enhanced tooling and structure.",
+    "keywords": [
+      "Next.js",
+      "React",
+      "Home"
+    ]
+  },
   "technology/postgresql": {
     "title": "PostgreSQL Development Services | Avrut Solutions",
     "description": "Unlock the potential of relational databases with Avrut Solutions' PostgreSQL development services, ensuring secure and scalable solutions tailored to your business needs.",
@@ -188,6 +197,16 @@
       "AdobeXD"
     ]
   },
+  "technology/figma": {
+    "title": "Figma Design Services | Avrut Solutions",
+    "description": "Experience innovative design solutions with Avrut Solutions' Figma design services, where our talented designers craft visually stunning and collaborative user interfaces to elevate your brand.",
+    "keywords": [
+      "Next.js",
+      "React",
+      "Home",
+      "Figma"
+    ]
+},
   "technology/docker": {
     "title": "Docker Services | Avrut Solutions",
     "description": "Streamline your application deployment with Avrut Solutions' Docker services, enabling efficient and consistent development and deployment workflows with containerization.",
@@ -196,6 +215,16 @@
       "React",
       "Home",
       "Docker"
+    ]
+  },
+  "technology/jenkins": {
+    "title": "Jenkins Integration | Avrut Solutions",
+    "description": "Discover how Avrut Solutions enables seamless Jenkins integration, empowering your CI/CD pipelines with scalable and efficient container orchestration.",
+    "keywords": [
+      "Jenkins",
+      "CI/CD",
+      "Continuous Integration",
+      "Continuous Delivery"
     ]
   },
   "technology/kubernets": {
@@ -317,5 +346,16 @@
       "Home",
       "Entertainment"
     ]
-  }
+  },
+  "industries/fintech": {
+    "title": "Fintech Solutions | Avrut Solutions",
+    "description": "Discover innovative financial technology solutions with Avrut Solutions' fintech services, where we leverage cutting-edge technologies to revolutionize banking, payments, investments, and more.",
+    "keywords": [
+      "Fintech",
+      "Finance",
+      "Banking",
+      "Payments",
+      "Investments"
+    ]
+}
 }
