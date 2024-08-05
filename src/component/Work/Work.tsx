@@ -8,7 +8,6 @@ import alphadog from '../../assets/portfolio/alphaDog.png'
 import glamsqad from '../../assets/portfolio/glamsquad.png'
 import proprtize from '../../assets/portfolio/propertize.png'
 import lybrate from '../../assets/portfolio/lybrate.png'
-import fanguru from '../../assets/portfolio/fanguru.png'
 import fashionphile from '../../assets/portfolio/fashionphile.png'
 
 
@@ -72,9 +71,6 @@ function Work() {
     },
     {
       image: lybrate.src
-    },
-    {
-      image: fanguru.src
     },
     {
       image: fashionphile.src
