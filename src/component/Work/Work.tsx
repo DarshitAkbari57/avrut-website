@@ -45,9 +45,6 @@ function Work() {
       image: lybrate.src
     },
     {
-      image: fanguru.src
-    },
-    {
       image: fashionphile.src
     }
   ]
