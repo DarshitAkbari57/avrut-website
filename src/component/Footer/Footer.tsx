@@ -25,25 +25,16 @@ function Footer() {
                 </div>
                 <div>
                   <p className="mb-4  text-base font-medium">
-                    We are creative Peoples, passionate for designing well
-                    crafted,simple and functional web and mobile apps.
+                    We are creative individuals passionate about designing
+                    well-crafted, simple, and functional web and mobile apps.
                   </p>
                   <div className="flex gap-3 mb-4">
-                    <a className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white duration-300">
-                      <FaFacebookF />
-                    </a>
                     <a
                       href="https://in.linkedin.com/company/avrut-solutions"
                       target="_blank"
                       className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white duration-300"
                     >
                       <FaLinkedinIn />
-                    </a>
-                    <a className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white duration-300">
-                      <FaInstagram />
-                    </a>
-                    <a className="border border-1 rounded-full border-primary p-2 cursor-pointer hover:bg-primary hover:text-white duration-300">
-                      <FaXTwitter />
                     </a>
                   </div>
                   <p className="text-sm text-gray-600">
@@ -100,7 +91,6 @@ function Footer() {
                   Support
                 </h3>
                 <ul>
-
                   <li className="mb-4">
                     <Link
                       className=" text-sm font-medium hover:text-primary cursor-pointer duration-300"

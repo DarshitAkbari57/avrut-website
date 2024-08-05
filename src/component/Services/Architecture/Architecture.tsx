@@ -12,12 +12,12 @@ const Architecture = ({ title, subtitle }: any) => {
             <p className="text-sm md:text-base text-black mb-4">{subtitle}</p>
             <a
               href="#"
-              className="bg-transparent hover:bg-primary text-primary hover:text-white duration-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-primary hover:border-transparent"
+              className="bg-transparent hover:bg-primary text-primary hover:text-white duration-300 rounded shadow hover:shadow-lg py-2 px-4 border border-primary hover:border-transparent"
             >
               Explore Now
             </a>
           </div>
-          <div className="">
+          <div>
             <img
               src="https://www.braincuber.com/_next/static/media/about-software-architecture.bf3e2a0b.webp"
               alt=""

@@ -1,13 +1,12 @@
+import React from "react";
 import Faq from "@/component/FAQ";
 import First from "@/component/First/First";
 import Process from "@/component/Technology/Process/Process";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
-import React from "react";
-import ImageTech from "../../../assets/technology/docker.jpg";
 import MainBanner from "../../../assets/technology/kubernetsbanner.png";
-import Kubernates from "../../../assets/about/kubernetes.jpg"
-
+import Kubernates from "../../../assets/about/kubernetes.jpg";
+import ImageTech from "../../../assets/technology/Kubernets.png";
 
 function Kubernetes() {
   const services = [

@@ -6,47 +6,45 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisTechnology";
 import ImageTech from "../../../assets/technology/flutter.png";
 import MainBanner from "../../../assets/technology/flutterbanner.png";
-import Fluttertech from "../../../assets/about/flutter.jpg"
-
-
+import Fluttertech from "../../../assets/about/flutter.jpg";
 
 function Flutter() {
   const services = [
     {
       numbers: "1",
-      main: "Flutter development",
+      main: "Expert Flutter Development",
       content:
-        "Transform your app ideas into reality with our expert Flutter development services, delivering cross-platform applications that combine stunning design, smooth performance, and seamless user experiences.",
+        "Bring your app ideas to life with our Flutter development expertise, creating cross-platform applications that blend exceptional design with smooth performance and seamless user experiences.",
     },
     {
       numbers: "2",
-      main: "Custom Flutter solutions",
+      main: "Tailored Flutter Solutions",
       content:
-        "Experience tailor-made solutions for your unique needs with our custom Flutter development service, where we craft innovative and high-quality applications that set your business apart.",
+        "Get custom-built solutions that cater specifically to your business needs with our Flutter development services, delivering innovative and high-quality applications that distinguish your brand.",
     },
     {
       numbers: "3",
-      main: "Maintenance & support",
+      main: "Ongoing Maintenance & Support",
       content:
-        "Our comprehensive maintenance and support for Flutter development service ensures your applications remain up-to-date, secure, and seamlessly operational, providing you with peace of mind and continuous user satisfaction.",
+        "Ensure your Flutter applications are always up-to-date and performing at their best with our thorough maintenance and support services, providing you with continuous peace of mind and user satisfaction.",
     },
     {
       numbers: "4",
-      main: "Flutter upgrade",
+      main: "Flutter Version Upgrades",
       content:
-        "Stay at the forefront of technology with our Flutter upgrade service, as we swiftly migrate your applications to the latest versions, unlocking new features and optimizing performance for a cutting-edge user experience.",
+        "Keep your applications cutting-edge with our Flutter upgrade service, smoothly transitioning your apps to the latest versions to take advantage of new features and enhanced performance.",
     },
     {
       numbers: "5",
-      main: "Native & advanced Flutter",
+      main: "Advanced & Native Flutter Solutions",
       content:
-        "Combining the power of native development with advanced Flutter capabilities, our services deliver high-performance and feature-rich applications that cater to diverse business needs, ensuring a competitive edge in the mobile landscape.",
+        "Leverage the power of native development combined with advanced Flutter features to create high-performance, feature-rich applications tailored to meet diverse business requirements and maintain a competitive edge.",
     },
     {
       numbers: "6",
-      main: "Flutter design service",
+      main: "Innovative Flutter Design Services",
       content:
-        "Transforming ideas into delightful realities, our Flutter design service offers innovative and user-centric app interfaces, maximizing engagement and leaving a lasting impression on your audience.",
+        "Transform your ideas into engaging realities with our Flutter design services, crafting user-centric app interfaces that maximize engagement and leave a memorable impact on your audience.",
     },
   ];
 
@@ -92,57 +90,57 @@ function Flutter() {
   const process = [
     {
       no: "01",
-      main: "Requirement gathering",
+      main: "Gathering Requirements",
       content:
-        "At the requirement gathering stage in our Flutter development process, we conduct in-depth consultations with clients to comprehend their needs and objectives, laying the foundation for a well-defined and successful app development strategy.",
+        "We start by conducting detailed consultations to understand your needs and goals, setting the stage for a well-defined app development plan and strategy.",
     },
     {
       no: "02",
-      main: "Proposal & engagement",
+      main: "Proposal & Engagement",
       content:
-        "The proposal and engagement stage in our Flutter development process involves understanding client requirements, proposing tailored solutions, and establishing a collaborative partnership to ensure a successful and satisfying development journey.",
+        "We present a tailored proposal based on your requirements, establishing a clear scope, timeline, and collaborative approach to ensure a successful development journey.",
     },
     {
       no: "03",
-      main: "Designs, wireframes & mockups",
+      main: "Designs, Wireframes & Mockups",
       content:
-        "At the design wireframe and mockups stage in our Flutter development process, we meticulously craft the app's visual blueprint, ensuring a seamless and captivating user experience before moving on to development.",
+        "Our design phase involves creating detailed wireframes and mockups to visualize the app’s layout and user interactions, ensuring a seamless and engaging user experience before development begins.",
     },
     {
       no: "04",
-      main: "Prototype demo",
+      main: "Prototype Demonstration",
       content:
-        "At the design wireframe and mockups stage in our Flutter development process, we meticulously craft the app's visual blueprint, ensuring a seamless and captivating user experience before moving on to development.",
+        "We build and present an interactive prototype to showcase key functionalities, gather stakeholder feedback, and refine the app design to align with your vision.",
     },
     {
       no: "05",
-      main: "Changes requests",
+      main: "Handling Change Requests",
       content:
-        "At the changes requests stage in our Flutter development process, we prioritize client satisfaction, efficiently incorporating feedback and modifications to ensure the final product meets and exceeds expectations.",
+        "We efficiently incorporate client feedback and requested changes, making necessary adjustments to meet your expectations and enhance the final product.",
     },
     {
       no: "06",
-      main: "Development",
+      main: "Development Phase",
       content:
-        "The development stage in our Flutter development process involves our expert team utilizing the power of Flutter framework to create robust and feature-rich mobile applications that align perfectly with your business objectives.",
+        "Our developers leverage the Flutter framework to build robust, feature-rich applications that meet your business objectives, following industry best practices for quality and performance.",
     },
     {
       no: "07",
-      main: "Deployment",
+      main: "Deployment Process",
       content:
-        "During the deployment stage of the Flutter development process, we meticulously handle the release and distribution of your applications across various platforms, ensuring a smooth and hassle-free launch for a wider audience reach.",
+        "We manage the deployment of your application across various platforms, ensuring a smooth launch and broad reach to your target audience without any issues.",
     },
     {
       no: "08",
-      main: "Support & maintenance",
+      main: "Support & Maintenance",
       content:
-        "At this stage, our team provides prompt and comprehensive assistance, offering timely updates, bug fixes, and technical support to ensure the continuous performance and longevity of your Flutter applications",
+        "We offer ongoing support and maintenance, providing timely updates, bug fixes, and technical assistance to keep your Flutter applications running smoothly and efficiently.",
     },
     {
       no: "09",
-      main: "SEO",
+      main: "Search Engine Optimization (SEO)",
       content:
-        "Incorporating SEO best practices during the Flutter development process, we ensure your mobile applications are search engine optimized, helping you maximize visibility, organic traffic, and online presence.",
+        "We implement SEO best practices to enhance the visibility and ranking of your mobile application, maximizing organic traffic and improving online presence.",
     },
   ];
 

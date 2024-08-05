@@ -7,8 +7,7 @@ import TechnologyServices from "@/component/Technology/TechnologyServices/Techno
 import { FaChartLine, FaCreditCard, FaLock, FaMobileAlt } from "react-icons/fa";
 import MainBanner from "../../../assets/technology/bankbanner.jpeg";
 import AboutImage from "../../../assets/technology/digital2.jpg";
-import banking from "../../../assets/about/digitalbanking.jpg"
-
+import banking from "../../../assets/about/digitalbanking.jpg";
 
 function DigitalBanking() {
   const services = [
@@ -94,7 +93,7 @@ function DigitalBanking() {
   return (
     <>
       <First
-        title="Powering Financial Institutions Across The Globe With Industry-Leading Digital Banking Platforms And Integrated Solutions."
+        title="Empowering Financial Institutions Worldwide with Cutting-Edge Digital Banking Platforms and Integrated Solutions"
         MainBanner={MainBanner.src}
       />
 

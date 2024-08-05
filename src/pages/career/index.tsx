@@ -3,7 +3,7 @@ import First from "@/component/First/First";
 import React from "react";
 import MainBanner from "../../assets/technology/careerbanner.png";
 import TechnologyServices from "@/component/Technology/TechnologyServices/TechnologyServices";
-import Careertech from "../../assets/about/career.webp"
+import Careertech from "../../assets/about/career.webp";
 
 function Career() {
   const Culture = [
@@ -48,30 +48,24 @@ function Career() {
     },
     {
       numbers: "2",
-      main: "Regular Outings",
-      content:
-        "Outings like picnic, movie day, sports day and more are organized for mental and physical balance.",
-    },
-    {
-      numbers: "3",
       main: "Bonus & Compensations",
       content:
         "Timely appraisals, bonus and compensations are made based on performance.",
     },
     {
-      numbers: "4",
+      numbers: "3",
       main: "Periodic Upskilling Sessions",
       content:
         "We believe in constant learning and provide training sessions regularly to employees for their growth and development.",
     },
     {
-      numbers: "5",
+      numbers: "4",
       main: "Competitive & Supportive Environment",
       content:
         "The atmosphere at Avrut Solutions challenges and nurtures you at the same time with a supportive team.",
     },
     {
-      numbers: "6",
+      numbers: "5",
       main: "Flexible Working Hours",
       content:
         "Flexible work timing increases productivity and does not include stress for the team members.",
@@ -147,7 +141,10 @@ function Career() {
       />
 
       <div className="bg-purple">
-        <div data-aos="zoom-in-up" className="text-xl lg:text-6xl text-center font-bold whitespace-normal px-10 py-3 lg:py-10">
+        <div
+          data-aos="zoom-in-up"
+          className="text-xl lg:text-6xl text-center font-bold whitespace-normal px-10 py-3 lg:py-10"
+        >
           We Are <span className="text-primary mx-1">Software Development</span>{" "}
           Company
         </div>

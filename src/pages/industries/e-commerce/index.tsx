@@ -12,8 +12,7 @@ import {
 } from "react-icons/fa";
 import MainBanner from "../../../assets/technology/ecombanner.jpg";
 import AboutImage from "../../../assets/technology/ecom.jpg";
-import Ecom from "../../../assets/about/ecom.jpg"
-
+import Ecom from "../../../assets/about/ecom.jpg";
 
 function ECommerce() {
   const services = [
@@ -21,43 +20,43 @@ function ECommerce() {
       numbers: "1",
       main: "E-Commerce Platforms",
       content:
-        "We can help develop robust e-commerce platforms that enable businesses to create and manage online stores, facilitating smooth product listings, secure payment processing, and efficient order management.",
+        "We specialize in developing robust e-commerce platforms that empower businesses to create and manage online stores. Our solutions facilitate smooth product listings, secure payment processing, and efficient order management.",
     },
     {
       numbers: "2",
-      main: "Shopping Cart Enabled Solutions",
+      main: "Shopping Cart Solutions",
       content:
-        "We also develop shopping cart and checkout systems to websites as it serves as an added benefit to convert viewers into buyers, avails a user-friendly buying experience, reducing cart abandonment and increasing conversion rates.",
+        "We design and integrate shopping cart and checkout systems that enhance the online buying experience, convert viewers into buyers, reduce cart abandonment, and increase conversion rates.",
     },
     {
       numbers: "3",
       main: "Inventory Management Software",
       content:
-        "Keeping a track of inventory is vital for businesses in terms of demand & supply. We design & develop inventory management solutions that help businesses efficiently track and manage their product inventory, ensuring optimal stock levels and preventing stockouts.",
+        "We develop comprehensive inventory management solutions that help businesses track and manage their product inventory efficiently, ensuring optimal stock levels and preventing stockouts.",
     },
     {
       numbers: "4",
       main: "Payment Gateways",
       content:
-        "Our qualified team of developers smartly integrates secure payment gateways into e-commerce platforms, allowing businesses to accept various payment methods securely, building trust with customers.",
+        "Our team expertly integrates secure payment gateways into e-commerce platforms, enabling businesses to accept a variety of payment methods securely and build customer trust.",
     },
     {
       numbers: "5",
-      main: "Analytics And Reporting Tools",
+      main: "Analytics and Reporting Tools",
       content:
-        "We also help businesses with data analytics and reporting tools that offer valuable insights into customer behaviour, sales performance, and marketing effectiveness, helping businesses make smarter decisions.",
+        "We provide data analytics and reporting tools that deliver valuable insights into customer behavior, sales performance, and marketing effectiveness, aiding businesses in making informed decisions.",
     },
     {
       numbers: "6",
       main: "Mobile Commerce Apps",
       content:
-        "Our company develops mobile commerce applications that enables customers with convenient and on-the-go shopping experiences.",
+        "We develop mobile commerce applications that offer customers a convenient and seamless shopping experience on the go.",
     },
     {
       numbers: "7",
       main: "Fraud Prevention",
       content:
-        "For safe & secure transactions, we implement fraud detection and prevention mechanisms, safeguarding e-commerce businesses and customers from fraudulent activities.",
+        "To ensure secure transactions, we implement advanced fraud detection and prevention mechanisms, protecting e-commerce businesses and their customers from fraudulent activities.",
     },
   ];
 
@@ -108,7 +107,7 @@ function ECommerce() {
   return (
     <>
       <First
-        title="Creating Innovative Customer Experiences for Your Digital Commerce Store"
+        title="Crafting Innovative Customer Experiences for Your Digital Commerce Store"
         MainBanner={MainBanner.src}
       />
 

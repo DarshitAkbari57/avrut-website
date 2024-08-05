@@ -7,38 +7,37 @@ import ImageTech from "../../../assets/technology/digital3.jpg";
 import MainBanner from "../../../assets/technology/digitalbanner.jpg";
 import dp from "../../../assets/about/digital.jpg";
 
-
 function Digitalproductdesign() {
   const services = [
     {
       numbers: "1",
-      main: "In-depth user research",
+      main: "Comprehensive User Research",
       content:
-        "Deep user research and analysis are the foundation of a robust digital product design. Our designers strive to acquire real insights about your users, so they understand what they truly want. They conduct user interviews, customer journey maps to become familiar with your customers wants, needs, and goals.",
+        "Thorough user research and analysis are essential for creating effective digital product designs. Our designers focus on gaining genuine insights into user preferences by conducting interviews, mapping customer journeys, and understanding their needs and goals.",
     },
     {
       numbers: "2",
-      main: "Outlining the problem",
+      main: "Defining User Challenges",
       content:
-        "The next step in creating user-friendly digital product design software is defining the problem. In this stage, our designers analyze the findings gained previously to comprehend the challenges of your users. Defining the problem makes them crystal clear on your customers' issues so that they can frame it in a user-centric way. After translating the challenge into words, it’s time to brainstorm possible solutions.",
+        "The next phase involves clearly defining the problems based on the research findings. Our designers analyze these insights to understand user challenges better, which helps in framing the issues from a user-centric perspective. This stage includes brainstorming potential solutions to address these challenges.",
     },
     {
       numbers: "3",
-      main: "Product ideation",
+      main: "Idea Generation and Prioritization",
       content:
-        "This is the step where the designers start working on the most feasible solutions. During this phase, we effectively gather, prioritize, and implement ideas to deliver the best product or service. Fresh ideas are at the core of innovation and advancement. We perform product ideation through generation, selection, and actual implementation. The designers use various ideation techniques that challenge their beliefs and allow them to explore more options.",
+        "During this phase, designers work on the most promising solutions. We collect, prioritize, and implement ideas to create the best possible product or service. This process involves generating, selecting, and executing ideas using various techniques to foster innovation and explore diverse options.",
     },
     {
       numbers: "4",
-      main: "Product prototyping",
+      main: "Rapid Prototyping",
       content:
-        "Intense brainstorming results in a rapid prototyping process. It helps us understand the user experience, facilitate market research, and identify potential flaws. Not only that, but it also sparks various invention ideas. This scaled-down version of the product puts every solution to the test, assimilates user feedback, and refines the product before the final launch. At this point, our product design services company assesses whether a good idea will actually work in the real world.",
+        "Prototyping involves creating scaled-down versions of the product to test user experience, gather market feedback, and identify potential issues. This iterative process helps refine the product based on user feedback and assess the viability of ideas before the final launch.",
     },
     {
       numbers: "5",
-      main: "Product testing",
+      main: "Thorough Product Testing",
       content:
-        "Testing is an integral part of creating a quality product that lasts. In simple words, it verifies that software does what it is supposed to do. From preventing bugs to minimizing development costs and boosting performance, testing is indispensable. However, it’s not always right to think of it as the last phase because its results often lead our designers to a prior stage after getting insights to redefine the problem statement. This stage also ignites new ideas, all of which go to making a product that delights your users.",
+        "Testing is crucial for ensuring that the product functions as intended. It involves identifying and fixing bugs, minimizing development costs, and enhancing performance. Testing often leads to revisiting earlier stages to refine the problem statement and spark new ideas, ensuring the final product meets user expectations and quality standards.",
     },
   ];
 
@@ -62,36 +61,36 @@ function Digitalproductdesign() {
     },
   ];
 
-  const whyTechnoloy = [
+  const whyTechnology = [
     {
       numbers: "1",
-      main: "Vast experience",
+      main: "Extensive Expertise",
       content:
-        "As a leading product design services company, we have experienced designers who ensure your product is a market success. We intensely focus on providing design services for the health, education, and finance domains. Our rich experience gives us a great understanding of your requirements, and we deliver nothing but the best.",
+        "As a leading product design service provider, our experienced designers ensure your product achieves market success. We specialize in designing for the health, education, and finance sectors, bringing valuable insights and delivering top-quality results tailored to your needs.",
     },
     {
       numbers: "2",
-      main: "A modernized and agile design process",
+      main: "Modern and Agile Design Process",
       content:
-        "Braincuber Technologies has optimized design processes in place. By leveraging a unique combination of cutting-edge software and drawing from our development library, our streamlined design process is efficient and logical. Thus, we can always deliver high-caliber results to each one of our clients.",
+        "At Avrut Solutions, we employ an optimized and agile design process. By combining advanced software tools with our development library, we ensure a streamlined and efficient design workflow, consistently delivering high-quality outcomes for our clients.",
     },
     {
       numbers: "3",
-      main: "Custom widgets",
+      main: "Custom Widgets",
       content:
-        "By utilizing modular code organization, NPM packages, templating engines, and custom middleware, developers can create and use custom widgets in React.js applications. These widgets promote code reusability, enhance development efficiency, and enable the creation of scalable and customizable applications.",
+        "We leverage modular code organization, NPM packages, templating engines, and custom middleware to create and utilize custom widgets in React.js applications. These widgets enhance code reusability, improve development efficiency, and allow for the creation of scalable and adaptable applications.",
     },
     {
       numbers: "4",
-      main: "Competitive prices",
+      main: "Affordable Pricing",
       content:
-        "Our prices are very rational and precisely align with your project. We offer the best-in-class technologies for product design and development to maximize your sales and brand value at highly competitive prices. Your price will fully match the quality of the solutions you get",
+        "Our pricing is competitive and aligns with your project requirements. We provide top-notch design and development technologies to enhance your sales and brand value, ensuring that the cost of our solutions reflects their quality.",
     },
     {
       numbers: "5",
-      main: "Strategic solutions",
+      main: "Strategic Approach",
       content:
-        "Before designing any product, we understand who you are and why you do what you do. This is crucial to understand the project properly, which, in turn, makes us draft highly strategic solutions.",
+        "Before initiating any design project, we take the time to understand your business and objectives. This deep understanding enables us to craft strategic solutions that are aligned with your goals and drive success.",
     },
   ];
 
@@ -117,7 +116,7 @@ function Digitalproductdesign() {
         why="Why We are a Top Choice for"
         title="Digital Product Design"
         content="Avrut Solutions consists of a team of transparent, solution-oriented experts. We follow a data-driven and consumer-focused approach to unleash innovation that resolves real human problems."
-        technologies={whyTechnoloy}
+        technologies={whyTechnology}
         ImageTech={ImageTech.src}
       />
 

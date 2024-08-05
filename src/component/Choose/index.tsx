@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { FaUserGroup } from "react-icons/fa6";
+import React from "react";
 import { GrUserExpert } from "react-icons/gr";
 import { MdOutlineSpatialTracking } from "react-icons/md";
 import { AiOutlineSolution } from "react-icons/ai";
@@ -8,7 +7,6 @@ import { LiaIndustrySolid } from "react-icons/lia";
 import { TbDeviceMobileCode } from "react-icons/tb";
 import { AiOutlineUserSwitch } from "react-icons/ai";
 import { GrCycle } from "react-icons/gr";
-import Aos from "aos";
 
 function Choose() {
   const cards = [
@@ -54,18 +52,13 @@ function Choose() {
     },
   ];
 
-
-
-
   return (
     <>
-      <div
-        className="max-h-max w-full bg-black p-5 md:p-10"
-        style={{
-          backgroundImage: `url("https://www.braincuber.com/_next/static/media/why-choose-us-bg.2b08a4f6.webp")`,
-        }}
-      >
-        <div data-aos="fade-up" className="container mx-auto text-center lg:px-56">
+      <div className="max-h-max w-full bg-black p-5 md:p-10">
+        <div
+          data-aos="fade-up"
+          className="container mx-auto text-center lg:px-56"
+        >
           <h1 className="text-center text-white pt-10 text-4xl font-semibold">
             Why Choose Us
           </h1>
@@ -79,27 +72,13 @@ function Choose() {
         </div>
         <div className="container mx-auto text-center lg:px-28">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
-            {cards.map((e, index) => {
+            {cards.map((e) => {
               return (
                 <>
-                  {/* <div key={index} className="relative group cursor-pointer group overflow-hidden  text-gray-50 rounded-2xl hover:duration-700 duration-700 h-72">
-                    <div className="bg-[#202020] text-white h-72 w-full flex justify-center p-10 text-5xl md:text-9xl group-hover:text-3xl group-hover:mt-[-20px] md:group-hover:text-5xl  ease-in-out duration-500">
-                      {e?.icon}
-                    </div>
-                    <div className="absolute  bg-gray-50 -bottom-[100px] h-40 group-hover:h-max w-full p-3 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-700  duration-700 ease-in-out   ">
-                      <span className="text-gray-800 font-bold text-1xl mb-4">
-                        {e?.Header}{" "}
-                      </span>
-                      <p className="text-neutral-800">{e?.main}</p>
-                    </div>
-                  </div > */}
-                  {/* <span className="text-black font-bold text-xs">{e?.Header}</span> */}
                   <div data-aos="zoom-in" className="card">
                     <div className="first-content ">
                       <div className="flex flex-col items-center">
-                        <div className="text-6xl">
-                          {e?.icon}
-                        </div>
+                        <div className="text-6xl">{e?.icon}</div>
                         <span className="text-gray-800 font-bold text-xl mb-4">
                           {e?.Header}{" "}
                         </span>
@@ -114,7 +93,7 @@ function Choose() {
             })}
           </div>
         </div>
-      </div >
+      </div>
     </>
   );
 }

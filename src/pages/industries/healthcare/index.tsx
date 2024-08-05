@@ -14,38 +14,37 @@ import MainBanner from "../../../assets/technology/healthbanner.jpg";
 import AboutImage from "../../../assets/technology/healthcare.jpg";
 import health from "../../../assets/about/health.webp";
 
-
 function Healthcare() {
   const services = [
     {
       numbers: "1",
-      main: "Electronic Health Record (EHR) Systems",
+      main: "Digital Health Record Systems",
       content:
-        "Our qualified developers can curate EHR systems that allows healthcare providers to store, manage, and access patient medical records digitally, improving data accuracy and facilitating efficient healthcare delivery.",
+        "We build tailored digital health record systems that streamline the storage, management, and access of patient records. This enhances data precision and supports efficient healthcare operations.",
     },
     {
       numbers: "2",
-      main: "Telemedicine Applications",
+      main: "Virtual Care Platforms",
       content:
-        "Our expert team can help to create telemedicine platforms that enable remote consultations and virtual visits, expanding healthcare access to remote areas and providing convenient medical services to patients.",
+        "Our team develops virtual care solutions that facilitate remote consultations and online appointments, improving healthcare access for patients in underserved regions and offering greater convenience.",
     },
     {
       numbers: "3",
-      main: "Health Monitoring Apps",
+      main: "Health Tracking Applications",
       content:
-        "Our bunch of app specialists can design health monitoring applications and wearable devices that can help track vital signs and health metrics, empowering patients to proactively manage their health and share data with healthcare professionals for better care management.",
+        "We create health tracking apps and wearable technologies that monitor vital signs and health indicators. These tools enable patients to actively manage their health and share critical data with healthcare providers for enhanced care.",
     },
     {
       numbers: "4",
-      main: "Medical Billing And Claims Software",
+      main: "Billing and Claims Management Software",
       content:
-        "Our team aces in developing advanced medical imaging and diagnostic solutions that help healthcare professionals in tracking accurate and timely diagnoses, leading to better treatment planning and patient outcomes.",
+        "We design sophisticated billing and claims management software to ensure precise and timely processing of medical claims, optimizing financial operations for healthcare organizations.",
     },
     {
       numbers: "5",
-      main: "AI-Driven Data Analytics",
+      main: "AI-Enhanced Data Insights",
       content:
-        "Our company designs special data analytics tools that help healthcare institutions analyze vast amounts of patient data, allowing healthcare professionals to identify trends, conduct research, and make data-driven decisions to improve care delivery.",
+        "We develop advanced analytics tools powered by AI to help healthcare institutions interpret large volumes of patient data. This capability supports trend analysis, research, and informed decision-making to improve patient care.",
     },
   ];
 

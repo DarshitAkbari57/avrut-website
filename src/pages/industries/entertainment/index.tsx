@@ -8,52 +8,51 @@ import { BsBoundingBox } from "react-icons/bs";
 import { FaDesktop, FaGamepad, FaTwitter } from "react-icons/fa6";
 import MainBanner from "../../../assets/technology/entertainmentbanner.jpeg";
 import AboutImage from "../../../assets/technology/entertainment.jpeg";
-import Etech from "../../../assets/about/entertainment.jpg"
-
+import Etech from "../../../assets/about/entertainment.jpg";
 
 function Entertainment() {
   const services = [
     {
       numbers: "1",
-      main: "Content Distribution Platforms",
+      main: "Digital Entertainment Platforms",
       content:
-        "Our developers are expert in creating digital platforms for streaming and distributing various forms of entertainment content, such as movies, TV shows, music, and digital publications. These platforms can support on-demand access and real-time streaming, ensuring content reaches a global audience.",
+        "We specialize in developing digital platforms for streaming and distributing various types of entertainment content, including movies, TV shows, music, and digital publications. These platforms support on-demand access and real-time streaming, ensuring global reach.",
     },
     {
       numbers: "2",
-      main: "Gaming Development",
+      main: "Interactive Gaming Solutions",
       content:
-        "Our developers Ninjas are known to design and develop interactive and immersive gaming experiences for various platforms, including PCs, consoles, mobile devices, and virtual reality (VR) headsets. We help create games that engage users and keep them coming back for more.",
+        "Our team excels in creating interactive and immersive gaming experiences for a range of platforms, including PCs, consoles, mobile devices, and virtual reality (VR) headsets. We craft engaging games that captivate users and encourage ongoing participation.",
     },
     {
       numbers: "3",
-      main: "Augmented Reality (AR) & Virtual Reality (VR)",
+      main: "AR & VR Experiences",
       content:
-        "We have a wide experience in AR and our team can help develop AR and VR applications that offer unique and innovative entertainment experiences. From interactive marketing campaigns to virtual tours and experiences, AR and VR technologies can add an extra layer of engagement.",
+        "With extensive experience in AR and VR, we develop applications that deliver unique and innovative entertainment experiences. Whether for interactive marketing campaigns, virtual tours, or immersive experiences, AR and VR technologies enhance engagement.",
     },
     {
       numbers: "4",
-      main: "Social Media And Content Sharing",
+      main: "Social Media Integration",
       content:
-        "We are not behind in creating a buzz or helping creating a buzz on social media. Our team also lead in creating social media platforms or integrate social media features into entertainment apps to facilitate content sharing, user interactions, and community building. This enhances brand visibility and fosters user engagement.",
+        "We excel in integrating social media features into entertainment apps or creating platforms that facilitate content sharing, user interactions, and community building. This boosts brand visibility and enhances user engagement.",
     },
     {
       numbers: "5",
-      main: "Content Recommendation & Personalization",
+      main: "Personalized Content Recommendations",
       content:
-        "Our team of experts uses appropriate algorithms and machine learning to analyze user behaviour and preferences, providing personalized content recommendations.",
+        "Our experts leverage algorithms and machine learning to analyze user behavior and preferences, providing tailored content recommendations to enhance the user experience.",
     },
     {
       numbers: "6",
-      main: "Analytics And Data Insights",
+      main: "Data Analytics and Insights",
       content:
-        "Our company can help in building data analytics tools to provide valuable insights into user behaviour, content performance, and market trends. These insights can guide decision-making and content optimization strategies.",
+        "We build data analytics tools that offer valuable insights into user behavior, content performance, and market trends. These insights support informed decision-making and content optimization strategies.",
     },
     {
       numbers: "7",
-      main: "Live Streaming",
+      main: "Real-Time Streaming Solutions",
       content:
-        "Our team of professionals develop live streaming solutions for broadcasting events, shows, and performances in real-time. Live streaming capabilities help extend the reach of entertainment content to a broader spectrum of audience.",
+        "We develop live streaming solutions for broadcasting events, shows, and performances in real-time, helping to extend the reach of entertainment content to a wider audience.",
     },
   ];
 
@@ -107,7 +106,7 @@ function Entertainment() {
   return (
     <>
       <First
-        title="Reimagining Business Models To Address Media And Entertainment Industry Audience Demands."
+        title="Transforming Business Models to Meet the Evolving Demands of the Media and Entertainment Industry"
         MainBanner={MainBanner.src}
       />
 

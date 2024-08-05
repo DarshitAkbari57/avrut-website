@@ -8,7 +8,6 @@ import ImageTech from "../../../assets/technology/typescript.png";
 import MainBanner from "../../../assets/technology/tsbanner.png";
 import ts from "../../../assets/about/ts.jpg";
 
-
 function Nodejs() {
   const services = [
     {
@@ -141,7 +140,7 @@ function Nodejs() {
     },
     {
       title:
-        "04.  Why choose Braincuber technologies for TypeScript development project?",
+        "04.  Why choose Avrut Solutions for TypeScript development project?",
       content:
         "We have highly skilled developers with relevant experience and access to all the resources they need. We also have a dedicated QA team to deliver solutions that are free from bugs and errors.",
     },

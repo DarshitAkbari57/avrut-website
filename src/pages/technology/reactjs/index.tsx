@@ -12,39 +12,39 @@ function Reactjs() {
   const services = [
     {
       numbers: "1",
-      main: "Custom ReactJS Development Services",
+      main: "Tailored ReactJS Development Solutions",
       content:
-        "We avail robust & dynamic services to clients thereby giving them a competitive edge in respective industry. Our experienced team of developers is well versed in customizing your current application and integrating it with any third-party framework.",
+        "We provide robust and dynamic services to clients, giving them a competitive edge in their respective industries. Our experienced team of developers is skilled in customizing your current application and integrating it with any third-party framework.",
     },
     {
       numbers: "2",
-      main: "ReactJS Migration",
+      main: "Seamless ReactJS Migration",
       content:
-        "We help businesses to migrate seamlessly to JavaScript framework with the help of our ReactJS Development services based on the current setup and requirements. Our team is thorough with the norms of migrating to a new UI framework and can easily define and execute reliable processes to help businesses with a smooth migration.",
+        "We assist businesses in migrating smoothly to the JavaScript framework with our ReactJS Development services, tailored to your current setup and requirements. Our team is well-versed in the standards of migrating to a new UI framework, ensuring reliable processes for a smooth transition.",
     },
     {
       numbers: "3",
-      main: "ReactJS Web App Development",
+      main: "High-Performance ReactJS Web App Development",
       content:
-        "We avail businesses with SEO-friendly and high-performing web apps using reactjs. We ensure the security of the developed applications with an end-to-end encryption. Our team engages in conducting ReactJS code audits to deliver high-quality web applications.",
+        "We deliver SEO-friendly and high-performing web applications using ReactJS. We ensure the security of developed applications with end-to-end encryption, and our team conducts ReactJS code audits to guarantee high-quality web apps.",
     },
     {
       numbers: "4",
-      main: "Cross domain React JS Development",
+      main: "Industry-Specific ReactJS Development",
       content:
-        "Our experienced team of ReactJS developers provides reactjs services to a gamut of industries such as eCommerce, finance, communication, healthcare, retail, education, etc.",
+        "Our skilled ReactJS developers provide services across various industries, including eCommerce, finance, communication, healthcare, retail, education, and more.",
     },
     {
       numbers: "5",
-      main: "React JS Integration",
+      main: "Comprehensive ReactJS Integration",
       content:
-        "We help clients in integrating existing applications and systems to upscale their businesses. We as a offer integration for specified features that save time and energy in rewriting the remaining application code.",
+        "We help clients integrate existing applications and systems to enhance their business operations. Our integration services focus on specific features, saving time and effort in rewriting application code.",
     },
     {
       numbers: "6",
-      main: "ReactJS QA and Testing",
+      main: "Expert ReactJS QA and Testing",
       content:
-        "We ace in QA & Testing as well. Our experts make use of advanced development methods along with appropriate tools for delivering visually appealing UI on time without any security breach.",
+        "We excel in QA and testing, utilizing advanced development methods and appropriate tools to deliver visually appealing UI on time, ensuring security is not compromised.",
     },
   ];
 

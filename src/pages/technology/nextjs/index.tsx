@@ -6,8 +6,7 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/next.png";
 import MainBanner from "../../../assets/technology/nextbanner.png";
-import Next from "../../../assets/about/next.jpg"
-
+import Next from "../../../assets/about/next.jpg";
 
 function Nodejs() {
   const services = [
@@ -176,7 +175,7 @@ function Nodejs() {
   return (
     <>
       <First
-        title="Next-Level Node.js Development Services for Your Business"
+        title="Next-Level Next.js Development Services for Your Business"
         subtitle="Collaborate with us for High performing - SEO friendly websites built with Next.js"
         MainBanner={MainBanner.src}
       />

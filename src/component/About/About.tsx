@@ -1,57 +1,55 @@
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 // Register ScrollTrigger with GSAP
 gsap.registerPlugin(ScrollTrigger);
 
 function About() {
-
-
-
-
   useEffect(() => {
     // Animation for the left side
-    gsap.from('.left-animation', {
-      x: '-100%',
+    gsap.from(".left-animation", {
+      x: "-100%",
       opacity: 0,
       duration: 1,
       scrollTrigger: {
-        trigger: '.left-animation',
-        start: 'top 80%', // Adjust the start position as needed
-        end: '+=300', // Adjust the end position as needed
+        trigger: ".left-animation",
+        start: "top 80%", // Adjust the start position as needed
+        end: "+=300", // Adjust the end position as needed
         scrub: 1, // Smooth scrubbing effect
       },
     });
 
     // Animation for the right side
-    gsap.from('.right-animation', {
-      x: '100%',
+    gsap.from(".right-animation", {
+      x: "100%",
       opacity: 0,
       duration: 1,
       scrollTrigger: {
-        trigger: '.right-animation',
-        start: 'top 80%', // Adjust the start position as needed
-        end: '+=300', // Adjust the end position as needed
+        trigger: ".right-animation",
+        start: "top 80%", // Adjust the start position as needed
+        end: "+=300", // Adjust the end position as needed
         scrub: 1, // Smooth scrubbing effect
       },
     });
   }, []);
-
 
   return (
     <>
       <div data-aos="fade-up" className="container  mx-auto overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center   px-4">
           <div className=" flex flex-col justify-center items-start w-full px-4 left-animation">
-            <div className="text-2xl md:text-4xl font-bold text-center md:text-start py-4 w-full ">
-              About <span className="text-transparent text_stroke tracking-wider">Avrut Solutions</span>
+            <div className="text-2xl md:text-4xl font-bold text-center md:text-start py-4 w-full">
+              About{" "}
+              <span className="text-transparent text_stroke tracking-wider">
+                Avrut Solutions
+              </span>
             </div>
             <p className="py-2 text-center md:text-start">
               Avrut Solutions is an Indian-based custom software development
               company specializing in mobile and web app development. With over
-              250+ projects offered to companies across the globe, we have the
+              40+ projects offered to companies across the globe, we have the
               expertise needed to develop, test, and deploy tailored software
               solutions.
             </p>

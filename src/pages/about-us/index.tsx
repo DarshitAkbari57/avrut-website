@@ -6,27 +6,27 @@ function index() {
   const belive = [
     {
       id: "1",
-      main: "Emphasis on the voice of the customer",
+      main: "Customer-Centric Approach",
       content:
-        "Instead of a software-based approach, Avrut Solutions considers its customers as its main focus. For us, your needs, requirements, and problems are central. We work for our customers, and with our customers so they always feel fulfilled and satisfied. All our solutions focus on solving your pain points to help you get past various bottlenecks hindering your growth.",
+        "At Avrut Solutions, our primary focus is on our customers rather than just the software. We collaborate closely with you to ensure your needs, requirements, and challenges are fully addressed. Our solutions are designed to tackle your pain points and remove obstacles to your growth. We believe in a partnership approach, deeply understanding your business to provide personalized solutions aligned with your strategic goals.",
     },
     {
       id: "2",
       main: "Continuous growth",
       content:
-        "All compelling benefits are obtained by the pursuit of growth. It is critical for the long-term continuity of a business. We aim high and are always learning to understand every new development in the world of technology. Here, employee learning and practice are given utmost priority so they can build top-class solutions for every client.",
+        "At Avrut Solutions, we believe that the pursuit of growth is essential for long-term business continuity. We set ambitious goals and continuously learn to stay abreast of the latest developments in technology. Employee learning and practice are prioritized, enabling our team to build top-class solutions for every client. Our commitment to growth ensures that we consistently deliver innovative and effective solutions, driving success for both our clients and our company.",
     },
     {
       id: "3",
-      main: "Clear communication",
+      main: "Transparent Collaboration",
       content:
-        "ffective communication and collaboration lead to transparency and accuracy. To ensure our clients' success, we bring our technical expertise and high level of engagement to every project. Our development team collaborates with our partners regardless of their continent or time zone. Be it an internal collaboration or a client project, we foster team spirit. All of our experts put on a partner hat and provides optimal support... Read More",
+        "Effective communication and collaboration foster transparency and accuracy, crucial for our clients' success. At Avrut Solutions, we bring our technical expertise and high level of engagement to every project. Our development team collaborates seamlessly with partners across all continents and time zones, ensuring consistent team spirit. Whether it's internal collaboration or a client project, our experts approach every task as partners, providing optimal support to achieve the best results.",
     },
     {
       id: "4",
-      main: "Fair play",
+      main: "Collaborative Integrity",
       content:
-        "Effective communication and collaboration lead to transparency and accuracy. To ensure our clients' success, we bring our technical expertise and high level of engagement to every project. Our development team collaborates with our partners regardless of their continent or time zone. Be it an internal collaboration or a client project, we foster team spirit. All of our experts put on a partner hat and provides optimal support... Read More",
+        "At Avrut Solutions, we believe that transparency and accuracy are achieved through effective communication and collaboration. To ensure our clients' success, we apply our technical expertise and high level of engagement to every project. Our development team works seamlessly with partners across continents and time zones, promoting a strong team spirit. Whether collaborating internally or with clients, our experts adopt a partner mindset, delivering optimal support and fostering a fair and inclusive working environment.",
     },
   ];
 
@@ -43,7 +43,6 @@ function index() {
         MainBanner={MainBanner.src}
       />
 
-
       <section className="container mx-auto py-4 lg:py-10 mt-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-0 px-3 md:px-20">
           <div className="order-1 lg:order-2 flex flex-col w-full  justify-center items-start px-2 md:p-8">
@@ -52,22 +51,20 @@ function index() {
             </h1>
 
             <p className="text-sm md:text-base text-black mb-4">
-              Avrut Solutions is a family of tech pioneers with in-depth
-              knowledge and experience in transforming business ideas into
-              reality. We deliver the most feasible custom software solutions to
-              enterprises worldwide. Our experts don’t just initiate your
-              project, we put ourselves into your shoes and analyze every inch
-              of your business landscape to build the most meaningful digital
-              product. The agile teams of developers immerse themselves fully in
-              your project and work in tandem with your strategic goals.
+              At Avrut Solutions, we are a team of innovative tech professionals
+              dedicated to bringing business ideas to life. We specialize in
+              providing custom software solutions to enterprises around the
+              world. Our experts take a deep dive into your project, thoroughly
+              understanding your business needs to develop impactful digital
+              products. Our agile development teams work hand-in-hand with your
+              strategic objectives to ensure effective collaboration.
               <br />
               <br />
-              Security, reliability, user-friendliness, and scalability define
-              our custom solutions and services. Our consultants work with
-              diverse businesses. Avrut Solutions offers world-class services,
-              relying on an exceptionally talented pool of engineers. Our
-              pursuit for excellence enables us to deliver rapid and fool-proof
-              solutions every single time.
+              Our solutions prioritize security, reliability, user-friendliness,
+              and scalability. We serve a wide variety of businesses, delivering
+              exceptional services with the support of our highly skilled
+              engineers. Our relentless pursuit of excellence ensures that we
+              consistently provide fast and reliable solutions.
             </p>
             <a
               href="#"
@@ -78,7 +75,7 @@ function index() {
           </div>
           <div className="order-2 lg:order-1">
             <img
-              src="https://braincuber.com/wp-content/uploads/2024/02/Mask-group-3.webp"
+              src="https://images.pexels.com/photos/273209/pexels-photo-273209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
               className=""
             />
@@ -93,20 +90,19 @@ function index() {
               What We Do
             </h1>
             <p className="text-sm md:text-base text-black mb-4">
-              Avrut Solutions is a top IT company that helps businesses identify
-              and solve critical challenges with the best technology practices,
-              such as cloud engineering, DevOps, and software architecture
-              services. As one of the leading software development firms, we
-              execute highly technical projects within scope, on time, and in a
-              cost-effective way.
+              Avrut Solutions is a premier IT company dedicated to helping
+              businesses tackle critical challenges using top-tier technology
+              practices, including cloud engineering, DevOps, and software
+              architecture services. As a leading software development firm, we
+              deliver highly technical projects on time, within scope, and
+              cost-effectively.
               <br />
               <br />
-              Our IT experts work on various projects ranging from basic
+              Our IT specialists handle a wide range of projects, from basic
               information systems and web applications to complex enterprise
-              architectures, desktops, and web apps. A love for challenges runs
-              in our bones. To this end, every tech expert here works zealously
-              to design cost-optimized services and solutions that help
-              businesses succeed
+              architectures, desktops, and web apps. Driven by a passion for
+              challenges, our tech experts work diligently to design
+              cost-optimized services and solutions that drive business success.
             </p>
             <a
               href="#"
@@ -117,8 +113,8 @@ function index() {
           </div>
           <div className="order-1 lg:order-2">
             <img
-              src="https://braincuber.com/wp-content/uploads/2024/02/Mask-group-5.webp"
               alt=""
+              src="https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?auto=compress&cs=tinysrgb&w=600"
             />
           </div>
         </div>
@@ -148,40 +144,6 @@ function index() {
           </div>
         </div>
       </div>
-
-      {/* <div className="grid lg:grid-cols-3 gap-5 container mx-auto justify-items-center items-center py-5 px-3 md:px-10 ">
-        <div className="w-full">
-          <img
-            className="mb-4 object-cover w-full"
-            src="https://www.braincuber.com/_next/static/media/exploring1.46730b60.png"
-            alt=""
-          />
-          <img
-            className="object-cover w-full"
-            src="https://www.braincuber.com/_next/static/media/exploring2.5d3b6314.png"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="rounded-2xl h-full w-full object-cover"
-            src="https://www.braincuber.com/_next/static/media/exploring3.69308383.png"
-            alt=""
-          />
-        </div>
-        <div className="w-full">
-          <img
-            className="mb-4 object-cover w-full"
-            src="https://www.braincuber.com/_next/static/media/exploring4.c27eb024.png"
-            alt=""
-          />
-          <img
-            className="object-cover w-full"
-            src="https://www.braincuber.com/_next/static/media/exploring5.2c3820f9.png"
-            alt=""
-          />
-        </div>
-      </div> */}
     </>
   );
 }

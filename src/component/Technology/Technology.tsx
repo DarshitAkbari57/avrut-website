@@ -1,7 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import gsap from "gsap";
 // import SplitText from "gsap/dist/SplitText";
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 
 // gsap.registerPlugin(SplitText)
 gsap.registerPlugin(ScrollTrigger);
@@ -30,7 +31,6 @@ function Technology() {
           name: "React",
           images: "/images/reactjs.svg",
           path: "/technology/reactjs",
-
         },
         {
           name: "Node.js",
@@ -52,10 +52,12 @@ function Technology() {
         {
           name: "React Native",
           images: "/images/reactjs.svg",
+          path: "/technology/react-native",
         },
         {
           name: "Flutter",
           images: "/images/flutter.svg",
+          path: "/technology/flutter",
         },
       ],
     },
@@ -68,6 +70,7 @@ function Technology() {
         {
           name: "Nodejs",
           images: "/images/technology/node-js.svg",
+          path: "/technology/nodejs",
         },
         {
           name: "Php",
@@ -92,6 +95,7 @@ function Technology() {
         {
           name: "Figma",
           images: "/images/technology/figma.png",
+          path: "/technology/figma",
         },
       ],
     },
@@ -113,22 +117,18 @@ function Technology() {
     },
   ];
 
+  const containerRef = useRef(null);
   const data = mobile?.find((e) => e?.id === index);
-  const containerRef = useRef(null)
-
-
-  const textRef = useRef(null);
-  gsap.timeline()
-
-
+  gsap.timeline();
 
   return (
     <>
-      <div className="bg-purple my-10 py-10 overflow-hidden ">
-        <div className=" m-auto flex justify-center items-center gap-4 mt-10 px-3  ">
+      <div className="bg-purple my-10 py-10 overflow-hidden">
+        <div className="m-auto flex justify-center items-center gap-4 mt-10 px-3">
           <hr className="w-[100px] h-[4px] bg-primary" />
           <div className="text-2xl md:text-5xl font-bold  text-center ">
-            Our <span className="text-transparent   text_stroke">Technology</span>
+            Our{" "}
+            <span className="text-transparent   text_stroke">Technology</span>
           </div>
           <hr className="w-[100px] h-[4px] bg-primary" />
         </div>
@@ -145,13 +145,18 @@ function Technology() {
                   <button
                     data-aos="fade-right"
                     onClick={() => setIndex(e?.id)}
-                    className={`${e?.id === data?.id && "bg-primary text-white"
-                      } py-4  text-black hover:bg-primary duration-300 hover:font-bold font-semibold  text-start hover:text-white px-5 shadow  mt-2 rounded-xl border`}
+                    className={`${
+                      e?.id === data?.id && "bg-primary text-white"
+                    } py-4  text-black hover:bg-primary duration-300 hover:font-bold font-semibold  text-start hover:text-white px-5 shadow  mt-2 rounded-xl border`}
                   >
                     {e?.id + ". " + e?.name}
                   </button>
                   {index === e?.id && (
-                    <div data-aos="fade-left" ref={containerRef} className="w-full flex md:hidden  bg-purple  flex-col mt-5   items-center ease-in transform transition-transform">
+                    <div
+                      data-aos="fade-left"
+                      ref={containerRef}
+                      className="w-full flex md:hidden  bg-purple  flex-col mt-5   items-center ease-in transform transition-transform"
+                    >
                       <>
                         <h1 className="text-black font-medium text-xl px-3">
                           {data?.description}
@@ -160,10 +165,18 @@ function Technology() {
                           {data?.technologys.map((e) => {
                             return (
                               <>
-                                <div className="bg-white w-[100px] h-[100px] md:w-[170px] md:h-[170px] p-7 md:p-14 flex flex-col justify-center rounded-2xl">
-                                  <img className="" src={e.images} alt="" />
-                                  {/* <div className='text-center font-semibold'>{e.name}</div> */}
-                                </div>
+                                {e?.path ? (
+                                  <Link
+                                    href={e?.path}
+                                    className="bg-white w-[100px] h-[100px] md:w-[170px] md:h-[170px] p-7 md:p-14 flex flex-col justify-center rounded-2xl"
+                                  >
+                                    <img src={e.images} alt="" />
+                                  </Link>
+                                ) : (
+                                  <div className="bg-white w-[100px] h-[100px] md:w-[170px] md:h-[170px] p-7 md:p-14 flex flex-col justify-center rounded-2xl">
+                                    <img src={e.images} alt="" />
+                                  </div>
+                                )}
                               </>
                             );
                           })}
@@ -175,7 +188,10 @@ function Technology() {
               );
             })}
           </div>
-          <div data-aos="fade-left" className="w-full hidden md:flex lg:w-[60%] bg-purple  flex-col   items-center ">
+          <div
+            data-aos="fade-left"
+            className="w-full hidden md:flex lg:w-[60%] bg-purple  flex-col   items-center "
+          >
             <>
               <h1 className="text-black font-medium text-md px-20">
                 {data?.description}
@@ -184,12 +200,24 @@ function Technology() {
                 {data?.technologys.map((e) => {
                   return (
                     <>
-                      <div className="bg-white w-[170px] h-[170px] p-14 flex flex-col justify-center rounded-2xl">
-                        <img className="" src={e.images} alt="" />
-                        <div className="text-center font-semibold">
-                          {e.name}
+                      {e?.path ? (
+                        <Link
+                          href={e?.path}
+                          className="bg-white w-[170px] h-[170px] p-14 flex flex-col justify-center rounded-2xl"
+                        >
+                          <img className="" src={e.images} alt="" />
+                          <div className="text-center font-semibold">
+                            {e.name}
+                          </div>
+                        </Link>
+                      ) : (
+                        <div className="bg-white w-[170px] h-[170px] p-14 flex flex-col justify-center rounded-2xl">
+                          <img className="" src={e.images} alt="" />
+                          <div className="text-center font-semibold">
+                            {e.name}
+                          </div>
                         </div>
-                      </div>
+                      )}
                     </>
                   );
                 })}

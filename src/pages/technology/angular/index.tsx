@@ -6,45 +6,45 @@ import WhyThisTechnology from "@/component/Technology/WhyThisTechnology/WhyThisT
 import React from "react";
 import ImageTech from "../../../assets/technology/anguler.png";
 import MainBanner from "../../../assets/technology/angularbanner.jpg";
-import Anguler from "../../../assets/about/anguler.jpg"
+import Anguler from "../../../assets/about/anguler.jpg";
 
 function Angularjs() {
   const services = [
     {
       numbers: "1",
-      main: "Angular development",
+      main: "Expert Angular Development",
       content:
-        "Avrut Solutions offers expert Angular development services by crafting cutting-edge web applications that deliver seamless user experiences and superior performance.",
+        "At Avrut Solutions, we specialize in Angular development, creating sophisticated web applications that provide exceptional user experiences and outstanding performance across all platforms.",
     },
     {
       numbers: "2",
-      main: "Custom Angular solutions",
+      main: "Tailored Angular Solutions",
       content:
-        "Our company utilizes the power of Angular framework to curate bespoke web applications that precisely meet our clients' specific needs, ensuring a tailored and optimized user experience.",
+        "We leverage the Angular framework to develop custom web applications designed to meet your unique requirements, delivering a personalized and optimized user experience tailored to your business needs.",
     },
     {
       numbers: "3",
-      main: "Maintenance & support",
+      main: "Ongoing Maintenance & Support",
       content:
-        "With a dedicated team of Angular experts, we avail ongoing support, regular monitoring, and timely maintenance, thereby ensuring the longevity and optimal performance of our clients' Angular applications.",
+        "Our team of Angular professionals offers comprehensive support, including regular monitoring and maintenance services, to ensure the continued efficiency and reliability of your Angular applications.",
     },
     {
       numbers: "4",
-      main: "Angular upgrade",
+      main: "Angular Framework Upgrades",
       content:
-        "Our team provides smooth transition from older versions to the latest Angular framework, enhancing performance, security, and leveraging new features for improved functionality.",
+        "We facilitate seamless upgrades from older Angular versions to the latest releases, enhancing your application’s performance, security, and functionality with the newest features available in the framework.",
     },
     {
       numbers: "5",
-      main: "Native & advanced Angular",
+      main: "Advanced Angular Solutions",
       content:
-        "With our expertise in Angular techniques, we deliver native angular and advanced solutions incorporating its unique features such as real-time updates, offline functionality, and integration with third-party APIs for unparalleled functionality and versatility.",
+        "Our expertise in Angular extends to advanced techniques, delivering solutions with real-time updates, offline capabilities, and seamless integration with third-party APIs, providing unmatched functionality and flexibility.",
     },
     {
       numbers: "6",
-      main: "Angular design service",
+      main: "Custom Angular Design Services",
       content:
-        "Our team crafts visually pleasing and functional Angular applications that fits our clients' brand identity, driving enhanced user experiences and fostering brand loyalty.",
+        "We design and build Angular applications that are not only visually appealing but also align with your brand identity, enhancing user engagement and fostering brand loyalty through intuitive and stylish interfaces.",
     },
   ];
 
@@ -90,57 +90,57 @@ function Angularjs() {
   const process = [
     {
       no: "01",
-      main: "Requirement gathering",
+      main: "Requirements Analysis",
       content:
-        "This stage involves conducting meetings, interviews, and workshops to collect detailed specifications, user stories, use cases, and any other relevant information.",
+        "We begin by conducting meetings, interviews, and workshops to gather comprehensive specifications, user stories, and use cases, ensuring we understand all relevant information for the project.",
     },
     {
       no: "02",
-      main: "Proposal & engagement",
+      main: "Proposal & Agreement",
       content:
-        "After requirement gathering, our team presents a detailed project scope, timeline, and cost estimates to the client, establishing clear expectations and terms for collaboration.",
+        "Following the requirements analysis, we present a detailed project proposal including scope, timeline, and cost estimates, setting clear expectations and terms for collaboration with the client.",
     },
     {
       no: "03",
-      main: "Designs, wireframes & mockups",
+      main: "Designs, Wireframes & Mockups",
       content:
-        "In this stage of Angular development, our UI/UX team crafts visual representations of the application's layout, navigation, and user interactions, maintaining a shared understanding between stakeholders and developers",
+        "Our UI/UX team creates visual layouts, navigation structures, and user interaction mockups, fostering a shared understanding among stakeholders and developers for the Angular application.",
     },
     {
       no: "04",
-      main: "Prototype demo",
+      main: "Interactive Prototype",
       content:
-        "We present an interactive prototype of the application at this stage, allowing stakeholders to see key functionalities and provide valuable feedback for further refinement.",
+        "We deliver an interactive prototype demonstrating key functionalities of the application, allowing stakeholders to review and provide feedback for further refinement.",
     },
     {
       no: "05",
-      main: "Changes requests",
+      main: "Change Requests",
       content:
-        "Our development team carefully evaluates changes requests if any, and implement approved changes efficiently to deliver a customized Angular application that meets the client's expectations.",
+        "We assess and implement approved change requests carefully, ensuring that any modifications align with the client’s expectations and contribute to delivering a tailored Angular application.",
     },
     {
       no: "06",
-      main: "Development",
+      main: "Development Phase",
       content:
-        "Our dedicated team of developers employs industry best practices and coding standards to develop robust and scalable Angular applications",
+        "Our team follows industry best practices and coding standards to build robust and scalable Angular applications, ensuring high performance and reliability.",
     },
     {
       no: "07",
       main: "Deployment",
       content:
-        "In the Deployment stage of Angular development, the application is prepared and configured for production, utilizing various tools and strategies to ensure smooth deployment on the intended platform.",
+        "In the deployment phase, we prepare and configure the Angular application for production, using various tools and strategies to ensure a smooth launch on the intended platform.",
     },
     {
       no: "08",
-      main: "Support & maintenance",
+      main: "Support & Maintenance",
       content:
-        "Our development team provides ongoing assistance, monitoring, and troubleshooting to address any issues or updates that may arise post-deployment.",
+        "We provide ongoing support, monitoring, and troubleshooting to address any issues or updates that arise after deployment, ensuring the continued performance and stability of the application.",
     },
     {
       no: "09",
-      main: "SEO",
+      main: "Search Engine Optimization (SEO)",
       content:
-        "In this stage, our team implements best practices to optimize the Angular application for search engines, enhancing its visibility and discoverability in organic search results.",
+        "Our team implements SEO best practices to enhance the Angular application’s visibility and ranking in search engine results, improving its discoverability and reach.",
     },
   ];
 
